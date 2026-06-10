@@ -8,9 +8,9 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## Summary
 
-- Quote-backed edge sources: 494
-- Checked: 42
-- Unchecked: 452
+- Quote-backed edge sources: 483
+- Checked: 72
+- Unchecked: 411
 
 <!-- edge-quote-verification-checklist:v1 -->
 
@@ -458,250 +458,184 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## data/edges/model-supply-chain.json
 
-- [ ] <!-- edge-quote-verification key="75cbfc0f0659469a" quote_sha256="2e1df2ce4808dbc792847ccf3bc4c466af9c19458e532e68bfdf0b96b6c79626" --> `edge:gpt-j-6b-developed-by-eleutherai` / `edge-source:gpt-j-hf`
+- [x] <!-- edge-quote-verification key="75cbfc0f0659469a" quote_sha256="be85d08d5515c5fb7ef4a80568f02616068655b75e2ee59c0e8ee664a0f0d205" --> `edge:gpt-j-6b-developed-by-eleutherai` / `edge-source:gpt-j-hf`
   - Edge: `model:gpt-j-6b --developed_by--> organization:eleutherai`
-  - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md
-  - Quote: "&ast; Evaluation numbers reported by their respective authors. All other numbers are provided by running lm-evaluation-harness either with released weights or with API access. Due to subtle implementation differences as well as different zero shot task framing, these might not be directly comparable. See this blog post for more details."
+  - Source URL: https://huggingface.co/api/models/EleutherAI/gpt-j-6b
+  - Quote: ""author":"EleutherAI""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="3d2818bd1f3b6258" quote_sha256="01fb4dbf54b92db77a3696819bbcb2b7be96bf7b8872afc25f0d206808e27378" --> `edge:gpt-j-6b-hosted-by-hugging-face-hub` / `edge-source:gpt-j-hf`
+- [x] <!-- edge-quote-verification key="3d2818bd1f3b6258" quote_sha256="d439dfaa96f6849c3cda91fb3c09b45d57bbe75d35a2d56d85a690c7124893a3" --> `edge:gpt-j-6b-hosted-by-hugging-face-hub` / `edge-source:gpt-j-hf`
   - Edge: `model:gpt-j-6b --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md
-  - Quote: "howpublished = {\url{https://github.com/kingoflolz/mesh-transformer-jax}},"
+  - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b
+  - Quote: "<title>EleutherAI/gpt-j-6b · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="7895dc8d928770a8" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:gpt-j-6b-licensed-as-apache-2.0` / `edge-source:gpt-j-hf-license`
+- [x] <!-- edge-quote-verification key="7895dc8d928770a8" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:gpt-j-6b-licensed-as-apache-2.0` / `edge-source:gpt-j-hf-license`
   - Edge: `model:gpt-j-6b --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="b72d83c97e346b7a" quote_sha256="21d3cbf0265e8e8ffe47b05de3eb48eea09fc8fe19858d98f17f76450227cb62" --> `edge:gpt-j-6b-trained-on-the-pile` / `edge-source:gpt-j-model-card`
+- [x] <!-- edge-quote-verification key="b72d83c97e346b7a" quote_sha256="8bc7e4828a8a73c2de6349ab963a98557b4b7795e3cc6634413a645e772b383a" --> `edge:gpt-j-6b-trained-on-the-pile` / `edge-source:gpt-j-model-card`
   - Edge: `model:gpt-j-6b --trained_on--> dataset:the-pile`
   - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md
-  - Quote: "GPT-J 6B was trained on the Pile, a large-scale curated dataset created by EleutherAI."
+  - Quote: "GPT-J 6B was trained on [the Pile](https://pile.eleuther.ai), a large-scale curated dataset created by [EleutherAI](https://www.eleuther.ai)."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="72ba7e62388b3b08" quote_sha256="c04b5692cb4c9fef7fbf3b843f825631dc7d3ce86e13d3b64b64737c8327444d" --> `edge:gpt-j-6b-trained-with-transformers` / `edge-source:gpt-j-model-card`
-  - Edge: `model:gpt-j-6b --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md
-  - Quote: "- Stella Biderman, Eric Hallahan, Kurumuz, and Finetune for converting the model to be compatible with the `transformers` package."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="7e5cf47fb7696a2e" quote_sha256="fa7cd929ba700e25f01188a72362c15991ac5d470ea31947ca6f09a7ad952a7b" --> `edge:mistral-7b-instruct-v0.3-developed-by-mistral-ai` / `edge-source:mistral-hf-org`
+- [x] <!-- edge-quote-verification key="7e5cf47fb7696a2e" quote_sha256="1b551062927dc44ed2eb284cf08bbfd2cc3b0f78e35585d04fc578107ee42fc1" --> `edge:mistral-7b-instruct-v0.3-developed-by-mistral-ai` / `edge-source:mistral-hf-org`
   - Edge: `model:mistral-7b-instruct-v0.3 --developed_by--> organization:mistral-ai`
-  - Source URL: https://huggingface.co/mistralai
-  - Quote: "mistralai/Mistral-Medium-3.5-128B"
+  - Source URL: https://huggingface.co/api/models/mistralai/Mistral-7B-Instruct-v0.3
+  - Quote: ""author":"mistralai""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="deb2d2b35906991d" quote_sha256="83edd4a5d4cecf0f66a2f5c5c9bcafe695809e9f058783afe5602cc637881ff7" --> `edge:mistral-7b-instruct-v0.3-hosted-by-hugging-face-hub` / `edge-source:mistral-hf`
+- [x] <!-- edge-quote-verification key="deb2d2b35906991d" quote_sha256="922c2caa19ca37f71f34b3605aca12f43013a598ac307450d116cb4fb2fb2611" --> `edge:mistral-7b-instruct-v0.3-hosted-by-hugging-face-hub` / `edge-source:mistral-hf`
   - Edge: `model:mistral-7b-instruct-v0.3 --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md
-  - Quote: "If you want to use Hugging Face `transformers` to generate text, you can do something like this."
+  - Source URL: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3
+  - Quote: "<title>mistralai/Mistral-7B-Instruct-v0.3 · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="a2041b2d5ffd02a0" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:mistral-7b-instruct-v0.3-licensed-as-apache-2.0` / `edge-source:mistral-hf-license`
+- [x] <!-- edge-quote-verification key="a2041b2d5ffd02a0" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:mistral-7b-instruct-v0.3-licensed-as-apache-2.0` / `edge-source:mistral-hf-license`
   - Edge: `model:mistral-7b-instruct-v0.3 --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="72b11971422f86ef" quote_sha256="83571b65cafa51af648ddbe71358d27ea9337d49f608fcb9020d154d18891a14" --> `edge:mistral-7b-instruct-v0.3-trained-with-transformers` / `edge-source:mistral-model-card`
-  - Edge: `model:mistral-7b-instruct-v0.3 --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md
-  - Quote: "It is recommended to use `mistralai/Mistral-7B-Instruct-v0.3` with mistral-inference. For HF transformers code snippets, please keep scrolling."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="dab766273be51113" quote_sha256="3a3f32da377b6d042a1ed6315fb5ac8a6179a3c778bfce3dcc5d4c803a4d2a11" --> `edge:nomic-embed-text-v1.5-developed-by-nomic-ai` / `edge-source:nomic-embed-hf`
+- [x] <!-- edge-quote-verification key="dab766273be51113" quote_sha256="45b0ac7307148b2609be0cab96dd98bc74b0b6f8e17ed1fd2f0278e0f58d8806" --> `edge:nomic-embed-text-v1.5-developed-by-nomic-ai` / `edge-source:nomic-embed-hf`
   - Edge: `model:nomic-embed-text-v1.5 --developed_by--> organization:nomic-ai`
-  - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
-  - Quote: "model='nomic-embed-text-v1.5',"
+  - Source URL: https://huggingface.co/api/models/nomic-ai/nomic-embed-text-v1.5
+  - Quote: ""author":"nomic-ai""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="ae8b46f5db2b8005" quote_sha256="bf578c509fc7005807ff1c38e5776e7771dbcc37a5d0937d575254992744eeb6" --> `edge:nomic-embed-text-v1.5-evaluated-on-mteb` / `edge-source:nomic-embed-model-card`
+- [x] <!-- edge-quote-verification key="ae8b46f5db2b8005" quote_sha256="0c520a1dcdeb536169cd571a9bb7d4f3a4894956349a5b1f9130f2d46737fd81" --> `edge:nomic-embed-text-v1.5-evaluated-on-mteb` / `edge-source:nomic-embed-model-card`
   - Edge: `model:nomic-embed-text-v1.5 --evaluated_on--> benchmark:mteb`
   - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
-  - Quote: "name: MTEB STSBenchmark"
+  - Quote: "- task: type: STS dataset: type: mteb/stsbenchmark-sts name: MTEB STSBenchmark config: default split: test revision: b0fddb56ed78048fa8b90373c8a3cfc37b684831 metrics: - type: cos_sim_pearson value: 84.22876368947644"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="e35ddac79ca147ea" quote_sha256="1dd23dcd97e908b125f7d761f5f827670d9623bd62f27398d980a528a38b08f2" --> `edge:nomic-embed-text-v1.5-hosted-by-hugging-face-hub` / `edge-source:nomic-embed-hf`
+- [x] <!-- edge-quote-verification key="e35ddac79ca147ea" quote_sha256="38eb76b2c5ea68106a94a6d7f58d1164f4888131d8622adcc29d8decf5fd1945" --> `edge:nomic-embed-text-v1.5-hosted-by-hugging-face-hub` / `edge-source:nomic-embed-hf`
   - Edge: `model:nomic-embed-text-v1.5 --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
-  - Quote: "import { pipeline, layer_norm } from '@huggingface/transformers';"
+  - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5
+  - Quote: "<title>nomic-ai/nomic-embed-text-v1.5 · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="08ff23b0025534a9" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:nomic-embed-text-v1.5-licensed-as-apache-2.0` / `edge-source:nomic-embed-hf-license`
+- [x] <!-- edge-quote-verification key="08ff23b0025534a9" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:nomic-embed-text-v1.5-licensed-as-apache-2.0` / `edge-source:nomic-embed-hf-license`
   - Edge: `model:nomic-embed-text-v1.5 --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="356de88ba330e882" quote_sha256="7d4bedc11eba45de89404bb6fc7572ed5d843d600c0014ac02132b3e5647668a" --> `edge:nomic-embed-text-v1.5-trained-on-nomic-embed-training-data` / `edge-source:nomic-embed-model-card`
+- [x] <!-- edge-quote-verification key="356de88ba330e882" quote_sha256="c87a1d70fc4ae089d8e61643fe99dca55bef42a61bae1f6050c33a1d57e6e194" --> `edge:nomic-embed-text-v1.5-trained-on-nomic-embed-training-data` / `edge-source:nomic-embed-model-card`
   - Edge: `model:nomic-embed-text-v1.5 --trained_on--> dataset:nomic-embed-training-data`
   - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
-  - Quote: "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model, the first unsupervised contrastive stage trains on a dataset generated from weakly related text pairs, such as question-answer pairs from forums like StackExchange and Quora, title-body pairs from Amazon reviews, and summarizations from news articles."
+  - Quote: "We train our embedder using a multi-stage training pipeline. Starting from a long-context [BERT model](https://huggingface.co/nomic-ai/nomic-bert-2048), the first unsupervised contrastive stage trains on a dataset generated from weakly related text pairs, such as question-answer pairs from forums like StackExchange and Quora, title-body pairs from Amazon reviews, and summarizations from news articles."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2e77d87918e78b66" quote_sha256="1e5d5e3532a578d546a7a787b153d47586f9bd851015e5d2fe2080a618157765" --> `edge:nomic-embed-text-v1.5-trained-with-transformers` / `edge-source:nomic-embed-model-card`
-  - Edge: `model:nomic-embed-text-v1.5 --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md
-  - Quote: "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model,"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="bbc39a60db11598f" quote_sha256="44432543e5e2c828419dca7983b7349071f3b85ec2f4dd18230b7c87d4b6c95c" --> `edge:qwen2.5-7b-instruct-evaluated-on-mmlu` / `edge-source:qwen2.5-model-card`
-  - Edge: `model:qwen2.5-7b-instruct --evaluated_on--> benchmark:mmlu`
-  - Source URL: https://qwenlm.github.io/blog/qwen2.5/
-  - Quote: "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="8d76f3ca20e46611" quote_sha256="bd81cdc625911929fe2f700c0090e10d8304c6ea8671e2940eecbff12edba724" --> `edge:qwen2.5-7b-instruct-hosted-by-hugging-face-hub` / `edge-source:qwen2.5-hf`
+- [x] <!-- edge-quote-verification key="8d76f3ca20e46611" quote_sha256="83d4e5f76f2b52e3386dddac99ea4d16a366abe37b4623cd3670dadfc2246f07" --> `edge:qwen2.5-7b-instruct-hosted-by-hugging-face-hub` / `edge-source:qwen2.5-hf`
   - Edge: `model:qwen2.5-7b-instruct --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md
-  - Quote: "The code of Qwen2.5 has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
+  - Source URL: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct
+  - Quote: "<title>Qwen/Qwen2.5-7B-Instruct · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="226aa28c5729f3e0" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:qwen2.5-7b-instruct-licensed-as-apache-2.0` / `edge-source:qwen2.5-hf-license`
+- [x] <!-- edge-quote-verification key="226aa28c5729f3e0" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:qwen2.5-7b-instruct-licensed-as-apache-2.0` / `edge-source:qwen2.5-hf-license`
   - Edge: `model:qwen2.5-7b-instruct --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="98f713ce391934cd" quote_sha256="d33660fa8b19423cd6a641638eb6ad6f1ec494ecec90c5509fbd8431d22149af" --> `edge:qwen2.5-7b-instruct-trained-on-qwen2.5-training-corpus` / `edge-source:qwen2.5-model-card`
+- [x] <!-- edge-quote-verification key="98f713ce391934cd" quote_sha256="449ea1b31cdf74a428df1fb8be63353b1beac6730c3c1bcde38cf9890c275877" --> `edge:qwen2.5-7b-instruct-trained-on-qwen2.5-training-corpus` / `edge-source:qwen2.5-model-card`
   - Edge: `model:qwen2.5-7b-instruct --trained_on--> dataset:qwen2.5-training-corpus`
   - Source URL: https://qwenlm.github.io/blog/qwen2.5/
-  - Quote: "In terms of Qwen2.5 , the language models, all models are pretrained on our latest large-scale dataset, encompassing up to 18 trillion tokens."
+  - Quote: "In terms of <strong>Qwen2.5</strong>, the language models, all models are pretrained on our latest large-scale dataset, encompassing up to <strong>18 trillion</strong> tokens."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="b92784f88d96636f" quote_sha256="2a91ad5a09a13ba7ff6a6e166636f4ead8f1bc94255e86970bbbad23ca97bcbb" --> `edge:qwen2.5-7b-instruct-trained-with-transformers` / `edge-source:qwen2.5-model-card`
-  - Edge: `model:qwen2.5-7b-instruct --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md
-  - Quote: "library_name: transformers"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="54a1ea187fc87e31" quote_sha256="2f20ae75f4832765df7b7f9957cf8bd5a90b8bb0a336497de91d92724fe9eb91" --> `edge:qwen2.5-coder-7b-instruct-derived-from-qwen2.5-7b-instruct` / `edge-source:qwen2.5-coder-model-card`
-  - Edge: `model:qwen2.5-coder-7b-instruct --derived_from--> model:qwen2.5-7b-instruct`
-  - Source URL: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md
-  - Quote: "# Qwen2.5-Coder-7B-Instruct"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="edd6f4df863a3a78" quote_sha256="44432543e5e2c828419dca7983b7349071f3b85ec2f4dd18230b7c87d4b6c95c" --> `edge:qwen2.5-coder-7b-instruct-evaluated-on-humaneval` / `edge-source:qwen2.5-coder-model-card`
-  - Edge: `model:qwen2.5-coder-7b-instruct --evaluated_on--> benchmark:humaneval`
-  - Source URL: https://qwenlm.github.io/blog/qwen2.5/
-  - Quote: "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="a80395d99a4af193" quote_sha256="1968744a3eedc90a0fd1a6da2b9094c8fa4581269b71237747ac2d1e1071fdd4" --> `edge:qwen2.5-coder-7b-instruct-hosted-by-hugging-face-hub` / `edge-source:qwen2.5-coder-hf`
+- [x] <!-- edge-quote-verification key="a80395d99a4af193" quote_sha256="a9e39ec0fff6bafcbe1854750ee18319c2b76bd6c3e5a1c4217a39386b3a198c" --> `edge:qwen2.5-coder-7b-instruct-hosted-by-hugging-face-hub` / `edge-source:qwen2.5-coder-hf`
   - Edge: `model:qwen2.5-coder-7b-instruct --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md
-  - Quote: "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
+  - Source URL: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct
+  - Quote: "<title>Qwen/Qwen2.5-Coder-7B-Instruct · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="965c4d2249fbeb06" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:qwen2.5-coder-7b-instruct-licensed-as-apache-2.0` / `edge-source:qwen2.5-coder-hf-license`
+- [x] <!-- edge-quote-verification key="965c4d2249fbeb06" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:qwen2.5-coder-7b-instruct-licensed-as-apache-2.0` / `edge-source:qwen2.5-coder-hf-license`
   - Edge: `model:qwen2.5-coder-7b-instruct --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="85c91cc20bf14dad" quote_sha256="1968744a3eedc90a0fd1a6da2b9094c8fa4581269b71237747ac2d1e1071fdd4" --> `edge:qwen2.5-coder-7b-instruct-trained-with-transformers` / `edge-source:qwen2.5-coder-model-card`
-  - Edge: `model:qwen2.5-coder-7b-instruct --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md
-  - Quote: "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="2143b474bc8cfe3c" quote_sha256="7095acf750299ea31e206cc96a4098ed28a4174a7bae345875a570290e4b36f7" --> `edge:stable-diffusion-xl-base-1.0-developed-by-stability-ai` / `edge-source:sdxl-hf`
+- [x] <!-- edge-quote-verification key="2143b474bc8cfe3c" quote_sha256="c895f32f4267c8ad7c503790096e97d779c56a025bbfadd13f2a76b31a0e8009" --> `edge:stable-diffusion-xl-base-1.0-developed-by-stability-ai` / `edge-source:sdxl-hf`
   - Edge: `model:stable-diffusion-xl-base-1.0 --developed_by--> organization:stability-ai`
-  - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md
-  - Quote: "SDXL consists of an ensemble of experts pipeline for latent diffusion: In a first step, the base model is used to generate (noisy) latents, which are then further processed with a refinement model (available here: https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/) specialized for the final denoising steps. Note that the base model can be used as a standalone module."
+  - Source URL: https://huggingface.co/api/models/stabilityai/stable-diffusion-xl-base-1.0
+  - Quote: ""author":"stabilityai""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2ee59fef56e03e89" quote_sha256="41ecf30829d135387ebee0bfb37ca9cd882cf9408027530c15e34bea0ea016f7" --> `edge:stable-diffusion-xl-base-1.0-hosted-by-hugging-face-hub` / `edge-source:sdxl-hf`
+- [x] <!-- edge-quote-verification key="2ee59fef56e03e89" quote_sha256="82344177b44ec79f14de0d1263acdc50f0c99c9dc5fd92a2eabc60e850089927" --> `edge:stable-diffusion-xl-base-1.0-hosted-by-hugging-face-hub` / `edge-source:sdxl-hf`
   - Edge: `model:stable-diffusion-xl-base-1.0 --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md
-  - Quote: "- **Repository:** https://github.com/Stability-AI/generative-models - **Demo:** https://clipdrop.co/stable-diffusion"
+  - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+  - Quote: "<title>stabilityai/stable-diffusion-xl-base-1.0 · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="5c4f99a038b3e394" quote_sha256="4988bc2ef0aac5336f618af1c802af5661550dbb2de85237f824a77209535dc2" --> `edge:stable-diffusion-xl-base-1.0-licensed-as-openrail-plus-plus` / `edge-source:sdxl-hf-license`
+- [x] <!-- edge-quote-verification key="5c4f99a038b3e394" quote_sha256="4988bc2ef0aac5336f618af1c802af5661550dbb2de85237f824a77209535dc2" --> `edge:stable-diffusion-xl-base-1.0-licensed-as-openrail-plus-plus` / `edge-source:sdxl-hf-license`
   - Edge: `model:stable-diffusion-xl-base-1.0 --licensed_as--> license:openrail-plus-plus`
   - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md
   - Quote: "license: openrail++"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="828b3dd337e0d3a0" quote_sha256="ade9c635e883f0f770bf594e3c27f3d218417fe670d25ca089167dbb3044eb88" --> `edge:stable-diffusion-xl-base-1.0-trained-with-diffusers` / `edge-source:sdxl-model-card`
-  - Edge: `model:stable-diffusion-xl-base-1.0 --trained_with--> software:diffusers`
-  - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md
-  - Quote: "- from diffusers import StableDiffusionXLPipeline"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="229a9b9801254912" quote_sha256="1576fffb06ec7e5be7972a0de0dfa2a37530873f191492ceaed8e7b547ed90be" --> `edge:starcoder2-3b-developed-by-bigcode` / `edge-source:starcoder2-hf`
+- [x] <!-- edge-quote-verification key="229a9b9801254912" quote_sha256="01a8efc9d8e61715538fa624c2a9ea2097a775e613abeec7e8ddcd8e15a0fedf" --> `edge:starcoder2-3b-developed-by-bigcode` / `edge-source:starcoder2-hf`
   - Edge: `model:starcoder2-3b --developed_by--> organization:bigcode`
-  - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "checkpoint = "bigcode/starcoder2-3b""
+  - Source URL: https://huggingface.co/api/models/bigcode/starcoder2-3b
+  - Quote: ""author":"bigcode""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2b32e481a52a69a7" quote_sha256="43f35a7792400c96d36ddbc98ccca67af803f071b5570f82bfb811994abe920c" --> `edge:starcoder2-3b-evaluated-on-humaneval` / `edge-source:starcoder2-model-card`
+- [x] <!-- edge-quote-verification key="2b32e481a52a69a7" quote_sha256="e851222b6643df79ca127f5829c6453ac0042a5cc96b91f4c2d073c1014e0f12" --> `edge:starcoder2-3b-evaluated-on-humaneval` / `edge-source:starcoder2-model-card`
   - Edge: `model:starcoder2-3b --evaluated_on--> benchmark:humaneval`
   - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "name: HumanEval"
+  - Quote: "- task: type: text-generation dataset: name: HumanEval type: humaneval metrics: - type: pass@1 value: 31.7"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="006c61aa00062be2" quote_sha256="26f7c966aad68a0f3fba8f7b92f9fb3b09596469ebc465bfeec72f5023cb69c9" --> `edge:starcoder2-3b-hosted-by-hugging-face-hub` / `edge-source:starcoder2-hf`
+- [x] <!-- edge-quote-verification key="006c61aa00062be2" quote_sha256="e7d10df86104edd8a44061e9b7abb0178594f124fc8a6fb1240c00d4632d5134" --> `edge:starcoder2-3b-hosted-by-hugging-face-hub` / `edge-source:starcoder2-hf`
   - Edge: `model:starcoder2-3b --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "pip install git+https://github.com/huggingface/transformers.git"
+  - Source URL: https://huggingface.co/bigcode/starcoder2-3b
+  - Quote: "<title>bigcode/starcoder2-3b · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="e9190bc37cb6b1b0" quote_sha256="7d7511edbfd5552097fb53401fd313b03b56448cb93bf9f985aee6ca3f93a8a4" --> `edge:starcoder2-3b-licensed-as-bigcode-openrail-m` / `edge-source:starcoder2-hf-license`
+- [x] <!-- edge-quote-verification key="e9190bc37cb6b1b0" quote_sha256="4cab494d692549a70fd861b3f2e677c95c7a4f8aa7e36cbb423fbc8d3d02e1ff" --> `edge:starcoder2-3b-licensed-as-bigcode-openrail-m` / `edge-source:starcoder2-hf-license`
   - Edge: `model:starcoder2-3b --licensed_as--> license:bigcode-openrail-m`
   - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "The model is licensed under the BigCode OpenRAIL-M v1 license agreement. You can find the full agreement here."
+  - Quote: "The model is licensed under the BigCode OpenRAIL-M v1 license agreement. You can find the full agreement [here](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement)."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="8cfeb80a46da9751" quote_sha256="25d8f8c644a23a79384d29c2ef5ce55d03aaeb59e810278b08b9d4b56b8008c4" --> `edge:starcoder2-3b-trained-on-the-stack-v2` / `edge-source:starcoder2-model-card`
+- [x] <!-- edge-quote-verification key="8cfeb80a46da9751" quote_sha256="48e43a3626905ec105b3fd6a519c6772e7549626ea615a01d348a298ad880d7d" --> `edge:starcoder2-3b-trained-on-the-stack-v2` / `edge-source:starcoder2-model-card`
   - Edge: `model:starcoder2-3b --trained_on--> dataset:the-stack-v2`
   - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "StarCoder2-3B model is a 3B parameter model trained on 17 programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 3+ trillion tokens."
+  - Quote: "StarCoder2-3B model is a 3B parameter model trained on 17 programming languages from [The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2-train), with opt-out requests excluded."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="a822354e5a121186" quote_sha256="2a91ad5a09a13ba7ff6a6e166636f4ead8f1bc94255e86970bbbad23ca97bcbb" --> `edge:starcoder2-3b-trained-with-transformers` / `edge-source:starcoder2-model-card`
-  - Edge: `model:starcoder2-3b --trained_with--> software:transformers`
-  - Source URL: https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md
-  - Quote: "library_name: transformers"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="621289682eea1bfc" quote_sha256="7b7caca226d8560cbf9dd5f39082f5c6ac804ed1cc01a3016bb9cd1855be976d" --> `edge:whisper-large-v3-developed-by-openai` / `edge-source:whisper-hf`
+- [x] <!-- edge-quote-verification key="621289682eea1bfc" quote_sha256="d267b29ce44a9ad368a9525b74c28f1accad4685128d2190a9d0c2ff1901009e" --> `edge:whisper-large-v3-developed-by-openai` / `edge-source:whisper-hf`
   - Edge: `model:whisper-large-v3 --developed_by--> organization:openai`
-  - Source URL: https://huggingface.co/openai/whisper-large-v3/raw/main/README.md
-  - Quote: "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper Robust Speech Recognition via Large-Scale Weak Supervision by Alec Radford et al. from OpenAI. Trained on >5M hours of labeled data, Whisper demonstrates a strong ability to generalise to many datasets and domains in a zero-shot setting."
+  - Source URL: https://huggingface.co/api/models/openai/whisper-large-v3
+  - Quote: ""author":"openai""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="eee11e88e5ce1edb" quote_sha256="ef1e74eebfcefc09130a0d6e46f97b4a1ab6038e72ef091c72db5d8bec525aa7" --> `edge:whisper-large-v3-evaluated-on-librispeech-asr` / `edge-source:whisper-model-card`
-  - Edge: `model:whisper-large-v3 --evaluated_on--> benchmark:librispeech-asr`
-  - Source URL: https://huggingface.co/openai/whisper-large-v3/raw/main/README.md
-  - Quote: "The models are primarily trained and evaluated on ASR and speech translation to English tasks. They show strong ASR results in ~10 languages. They may exhibit additional capabilities, particularly if fine-tuned on certain tasks like voice activity detection, speaker classification, or speaker diarization but have not been robustly evaluated in these areas. We strongly recommend that users perform robust evaluations of the models in a particular context and domain before deploying them."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="d0adb746e066b724" quote_sha256="83b901ecfc028dd85835617bf3a2bf481618e8e761c6cf4631d75ad067d732fc" --> `edge:whisper-large-v3-hosted-by-hugging-face-hub` / `edge-source:whisper-hf`
+- [x] <!-- edge-quote-verification key="d0adb746e066b724" quote_sha256="82439793a4f724a5f0b86f767a9a810abc4ca49bc752827f3045b00ef5c10198" --> `edge:whisper-large-v3-hosted-by-hugging-face-hub` / `edge-source:whisper-hf`
   - Edge: `model:whisper-large-v3 --hosted_by--> infrastructure:hugging-face-hub`
-  - Source URL: https://huggingface.co/openai/whisper-large-v3/raw/main/README.md
-  - Quote: "Whisper large-v3 is supported in Hugging Face 🤗 Transformers. To run the model, first install the Transformers library. For this example, we'll also install 🤗 Datasets to load toy audio dataset from the Hugging Face Hub, and 🤗 Accelerate to reduce the model loading time:"
+  - Source URL: https://huggingface.co/openai/whisper-large-v3
+  - Quote: "<title>openai/whisper-large-v3 · Hugging Face</title>"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="91ef6713c9e606a9" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:whisper-large-v3-licensed-as-apache-2.0` / `edge-source:whisper-hf-license`
+- [x] <!-- edge-quote-verification key="91ef6713c9e606a9" quote_sha256="f3cae36c4cdc3eb2e8a8d88ad4f1462364f750a68b490ba70821491d55f8de9e" --> `edge:whisper-large-v3-licensed-as-apache-2.0` / `edge-source:whisper-hf-license`
   - Edge: `model:whisper-large-v3 --licensed_as--> license:apache-2.0`
   - Source URL: https://huggingface.co/openai/whisper-large-v3/raw/main/README.md
   - Quote: "license: apache-2.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="99291ef95a931033" quote_sha256="90179eb974d6619c76abe833b15465387f2092494a0c36e8638b42ce37c86d36" --> `edge:whisper-large-v3-trained-on-whisper-web-audio` / `edge-source:whisper-repo`
+- [x] <!-- edge-quote-verification key="99291ef95a931033" quote_sha256="cfbf9af9218907b93b34163435287417d8a3e9c2593aa59e48dcedbe730bac78" --> `edge:whisper-large-v3-trained-on-whisper-web-audio` / `edge-source:whisper-repo`
   - Edge: `model:whisper-large-v3 --trained_on--> dataset:whisper-web-audio`
-  - Source URL: https://raw.githubusercontent.com/openai/whisper/main/README.md
-  - Quote: "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification."
+  - Source URL: https://huggingface.co/openai/whisper-large-v3/raw/main/README.md
+  - Quote: "The large-v3 checkpoint is trained on 1 million hours of weakly labeled audio and 4 million hours of pseudo-labeled audio collected using Whisper large-v2."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="cf17197a4a8f15ce" quote_sha256="c5d6ece091e799d2a28c639cc164d443575d90e94c8c18c9916fa64552263ddf" --> `edge:whisper-large-v3-trained-with-pytorch` / `edge-source:whisper-repo`
+- [x] <!-- edge-quote-verification key="cf17197a4a8f15ce" quote_sha256="95d48c8021fa9ad2af8133c1ec8f07ecd167f09374e19479e94a56da1d15b2a9" --> `edge:whisper-large-v3-trained-with-pytorch` / `edge-source:whisper-repo`
   - Edge: `model:whisper-large-v3 --trained_with--> software:pytorch`
   - Source URL: https://raw.githubusercontent.com/openai/whisper/main/README.md
-  - Quote: "We used Python 3.9.9 and PyTorch 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends on a few Python packages, most notably OpenAI's tiktoken for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:"
+  - Quote: "We used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions."
   - Manual verification: quote directly supports the edge relationship.
 
 

@@ -16,7 +16,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "In terms of Qwen2.5 , the language models, all models are pretrained on our latest large-scale dataset, encompassing up to 18 trillion tokens."
+        "quote": "In terms of <strong>Qwen2.5</strong>, the language models, all models are pretrained on our latest large-scale dataset, encompassing up to <strong>18 trillion</strong> tokens."
       }
     ]
   },
@@ -37,7 +37,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "library_name: transformers"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:qwen2.5-7b-instruct trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -58,7 +58,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship model:qwen2.5-7b-instruct evaluated_on benchmark:mmlu; this source record remains source-needed."
       }
     ]
   },
@@ -94,13 +94,13 @@
       {
         "id": "edge-source:qwen2.5-hf",
         "type": "huggingface_model_card",
-        "title": "Qwen2.5-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md",
+        "title": "Qwen/Qwen2.5-7B-Instruct Hugging Face model page",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "The code of Qwen2.5 has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
+        "quote": "<title>Qwen/Qwen2.5-7B-Instruct · Hugging Face</title>"
       }
     ]
   },
@@ -142,7 +142,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "# Qwen2.5-Coder-7B-Instruct"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship model:qwen2.5-coder-7b-instruct derived_from model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -184,7 +184,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:qwen2.5-coder-7b-instruct trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -205,7 +205,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship model:qwen2.5-coder-7b-instruct evaluated_on benchmark:humaneval; this source record remains source-needed."
       }
     ]
   },
@@ -241,13 +241,13 @@
       {
         "id": "edge-source:qwen2.5-coder-hf",
         "type": "huggingface_model_card",
-        "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
+        "title": "Qwen/Qwen2.5-Coder-7B-Instruct Hugging Face model page",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
+        "quote": "<title>Qwen/Qwen2.5-Coder-7B-Instruct · Hugging Face</title>"
       }
     ]
   },
@@ -310,7 +310,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "It is recommended to use `mistralai/Mistral-7B-Instruct-v0.3` with mistral-inference. For HF transformers code snippets, please keep scrolling."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:mistral-7b-instruct-v0.3 trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -345,14 +345,14 @@
     "sources": [
       {
         "id": "edge-source:mistral-hf-org",
-        "type": "huggingface_model_card",
-        "title": "Mistral AI Hugging Face organization",
-        "url": "https://huggingface.co/mistralai",
+        "type": "api_response",
+        "title": "mistralai/Mistral-7B-Instruct-v0.3 Hugging Face API response",
+        "url": "https://huggingface.co/api/models/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "collectionMethod": "static_document",
+        "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "mistralai/Mistral-Medium-3.5-128B"
+        "quote": "\"author\":\"mistralai\""
       }
     ]
   },
@@ -367,13 +367,13 @@
       {
         "id": "edge-source:mistral-hf",
         "type": "huggingface_model_card",
-        "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
+        "title": "mistralai/Mistral-7B-Instruct-v0.3 Hugging Face model page",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "If you want to use Hugging Face `transformers` to generate text, you can do something like this."
+        "quote": "<title>mistralai/Mistral-7B-Instruct-v0.3 · Hugging Face</title>"
       }
     ]
   },
@@ -436,7 +436,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- from diffusers import StableDiffusionXLPipeline"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:stable-diffusion-xl-base-1.0 trained_with software:diffusers; this source record remains source-needed."
       }
     ]
   },
@@ -471,14 +471,14 @@
     "sources": [
       {
         "id": "edge-source:sdxl-hf",
-        "type": "huggingface_model_card",
-        "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
+        "type": "api_response",
+        "title": "stabilityai/stable-diffusion-xl-base-1.0 Hugging Face API response",
+        "url": "https://huggingface.co/api/models/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "SDXL consists of an ensemble of experts pipeline for latent diffusion: In a first step, the base model is used to generate (noisy) latents, which are then further processed with a refinement model (available here: https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/) specialized for the final denoising steps. Note that the base model can be used as a standalone module."
+        "quote": "\"author\":\"stabilityai\""
       }
     ]
   },
@@ -493,13 +493,13 @@
       {
         "id": "edge-source:sdxl-hf",
         "type": "huggingface_model_card",
-        "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
+        "title": "stabilityai/stable-diffusion-xl-base-1.0 Hugging Face model page",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- **Repository:** https://github.com/Stability-AI/generative-models - **Demo:** https://clipdrop.co/stable-diffusion"
+        "quote": "<title>stabilityai/stable-diffusion-xl-base-1.0 · Hugging Face</title>"
       }
     ]
   },
@@ -534,14 +534,14 @@
     "sources": [
       {
         "id": "edge-source:whisper-repo",
-        "type": "github_repo",
-        "title": "OpenAI Whisper repository",
-        "url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
-        "publisher": "GitHub",
+        "type": "huggingface_model_card",
+        "title": "Whisper large-v3 model card",
+        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
+        "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification."
+        "quote": "The large-v3 checkpoint is trained on 1 million hours of weakly labeled audio and 4 million hours of pseudo-labeled audio collected using Whisper large-v2."
       }
     ]
   },
@@ -562,7 +562,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "We used Python 3.9.9 and PyTorch 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends on a few Python packages, most notably OpenAI's tiktoken for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:"
+        "quote": "We used Python 3.9.9 and [PyTorch](https://pytorch.org/) 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions."
       }
     ]
   },
@@ -583,7 +583,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "The models are primarily trained and evaluated on ASR and speech translation to English tasks. They show strong ASR results in ~10 languages. They may exhibit additional capabilities, particularly if fine-tuned on certain tasks like voice activity detection, speaker classification, or speaker diarization but have not been robustly evaluated in these areas. We strongly recommend that users perform robust evaluations of the models in a particular context and domain before deploying them."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:whisper-large-v3 evaluated_on benchmark:librispeech-asr; this source record remains source-needed."
       }
     ]
   },
@@ -597,14 +597,14 @@
     "sources": [
       {
         "id": "edge-source:whisper-hf",
-        "type": "huggingface_model_card",
-        "title": "Whisper large-v3 Hugging Face metadata",
-        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
+        "type": "api_response",
+        "title": "openai/whisper-large-v3 Hugging Face API response",
+        "url": "https://huggingface.co/api/models/openai/whisper-large-v3",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper Robust Speech Recognition via Large-Scale Weak Supervision by Alec Radford et al. from OpenAI. Trained on >5M hours of labeled data, Whisper demonstrates a strong ability to generalise to many datasets and domains in a zero-shot setting."
+        "quote": "\"author\":\"openai\""
       }
     ]
   },
@@ -619,13 +619,13 @@
       {
         "id": "edge-source:whisper-hf",
         "type": "huggingface_model_card",
-        "title": "Whisper large-v3 Hugging Face metadata",
-        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
+        "title": "openai/whisper-large-v3 Hugging Face model page",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Whisper large-v3 is supported in Hugging Face 🤗 Transformers. To run the model, first install the Transformers library. For this example, we'll also install 🤗 Datasets to load toy audio dataset from the Hugging Face Hub, and 🤗 Accelerate to reduce the model loading time:"
+        "quote": "<title>openai/whisper-large-v3 · Hugging Face</title>"
       }
     ]
   },
@@ -667,7 +667,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model, the first unsupervised contrastive stage trains on a dataset generated from weakly related text pairs, such as question-answer pairs from forums like StackExchange and Quora, title-body pairs from Amazon reviews, and summarizations from news articles."
+        "quote": "We train our embedder using a multi-stage training pipeline. Starting from a long-context [BERT model](https://huggingface.co/nomic-ai/nomic-bert-2048),\nthe first unsupervised contrastive stage trains on a dataset generated from weakly related text pairs, such as question-answer pairs from forums like StackExchange and Quora, title-body pairs from Amazon reviews, and summarizations from news articles."
       }
     ]
   },
@@ -688,7 +688,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model,"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:nomic-embed-text-v1.5 trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -709,7 +709,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "name: MTEB STSBenchmark"
+        "quote": "- task:\n      type: STS\n    dataset:\n      type: mteb/stsbenchmark-sts\n      name: MTEB STSBenchmark\n      config: default\n      split: test\n      revision: b0fddb56ed78048fa8b90373c8a3cfc37b684831\n    metrics:\n    - type: cos_sim_pearson\n      value: 84.22876368947644"
       }
     ]
   },
@@ -723,14 +723,14 @@
     "sources": [
       {
         "id": "edge-source:nomic-embed-hf",
-        "type": "huggingface_model_card",
-        "title": "Nomic Embed Text v1.5 Hugging Face metadata",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
+        "type": "api_response",
+        "title": "nomic-ai/nomic-embed-text-v1.5 Hugging Face API response",
+        "url": "https://huggingface.co/api/models/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "model='nomic-embed-text-v1.5',"
+        "quote": "\"author\":\"nomic-ai\""
       }
     ]
   },
@@ -745,13 +745,13 @@
       {
         "id": "edge-source:nomic-embed-hf",
         "type": "huggingface_model_card",
-        "title": "Nomic Embed Text v1.5 Hugging Face metadata",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
+        "title": "nomic-ai/nomic-embed-text-v1.5 Hugging Face model page",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "import { pipeline, layer_norm } from '@huggingface/transformers';"
+        "quote": "<title>nomic-ai/nomic-embed-text-v1.5 · Hugging Face</title>"
       }
     ]
   },
@@ -793,7 +793,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "GPT-J 6B was trained on the Pile, a large-scale curated dataset created by EleutherAI."
+        "quote": "GPT-J 6B was trained on [the Pile](https://pile.eleuther.ai), a large-scale curated dataset created by [EleutherAI](https://www.eleuther.ai)."
       }
     ]
   },
@@ -814,7 +814,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- Stella Biderman, Eric Hallahan, Kurumuz, and Finetune for converting the model to be compatible with the `transformers` package."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:gpt-j-6b trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -849,14 +849,14 @@
     "sources": [
       {
         "id": "edge-source:gpt-j-hf",
-        "type": "huggingface_model_card",
-        "title": "GPT-J-6B Hugging Face metadata",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
+        "type": "api_response",
+        "title": "EleutherAI/gpt-j-6b Hugging Face API response",
+        "url": "https://huggingface.co/api/models/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "&ast; Evaluation numbers reported by their respective authors. All other numbers are provided by running lm-evaluation-harness either with released weights or with API access. Due to subtle implementation differences as well as different zero shot task framing, these might not be directly comparable. See this blog post for more details."
+        "quote": "\"author\":\"EleutherAI\""
       }
     ]
   },
@@ -871,13 +871,13 @@
       {
         "id": "edge-source:gpt-j-hf",
         "type": "huggingface_model_card",
-        "title": "GPT-J-6B Hugging Face metadata",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
+        "title": "EleutherAI/gpt-j-6b Hugging Face model page",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "howpublished = {\\url{https://github.com/kingoflolz/mesh-transformer-jax}},"
+        "quote": "<title>EleutherAI/gpt-j-6b · Hugging Face</title>"
       }
     ]
   },
@@ -919,7 +919,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "StarCoder2-3B model is a 3B parameter model trained on 17 programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 3+ trillion tokens."
+        "quote": "StarCoder2-3B model is a 3B parameter model trained on 17 programming languages from [The Stack v2](https://huggingface.co/datasets/bigcode/the-stack-v2-train), with opt-out requests excluded."
       }
     ]
   },
@@ -940,7 +940,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "library_name: transformers"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:starcoder2-3b trained_with software:transformers; this source record remains source-needed."
       }
     ]
   },
@@ -961,7 +961,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "name: HumanEval"
+        "quote": "- task:\n      type: text-generation\n    dataset:\n      name: HumanEval\n      type: humaneval\n    metrics:\n    - type: pass@1\n      value: 31.7"
       }
     ]
   },
@@ -975,14 +975,14 @@
     "sources": [
       {
         "id": "edge-source:starcoder2-hf",
-        "type": "huggingface_model_card",
-        "title": "StarCoder2-3B Hugging Face metadata",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
+        "type": "api_response",
+        "title": "bigcode/starcoder2-3b Hugging Face API response",
+        "url": "https://huggingface.co/api/models/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "checkpoint = \"bigcode/starcoder2-3b\""
+        "quote": "\"author\":\"bigcode\""
       }
     ]
   },
@@ -997,13 +997,13 @@
       {
         "id": "edge-source:starcoder2-hf",
         "type": "huggingface_model_card",
-        "title": "StarCoder2-3B Hugging Face metadata",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
+        "title": "bigcode/starcoder2-3b Hugging Face model page",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "collectionMethod": "huggingface_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "pip install git+https://github.com/huggingface/transformers.git"
+        "quote": "<title>bigcode/starcoder2-3b · Hugging Face</title>"
       }
     ]
   },
@@ -1024,7 +1024,7 @@
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "The model is licensed under the BigCode OpenRAIL-M v1 license agreement. You can find the full agreement here."
+        "quote": "The model is licensed under the BigCode OpenRAIL-M v1 license agreement. You can find the full agreement [here](https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement)."
       }
     ]
   }
