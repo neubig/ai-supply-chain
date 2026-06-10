@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T03:35:10.219Z",
+  "generatedAt": "2026-06-10T10:55:54.150Z",
   "criteria": [
     "Every node should have at least one source record and an update policy.",
     "Application nodes should link to supported models or software and to license/developer evidence where available.",

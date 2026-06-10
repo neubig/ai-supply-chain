@@ -62,7 +62,17 @@ function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 }).format(value);
 }
 
-export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: string[] }) {
+export function StackRanking({
+  stacks,
+  tasks,
+  fixedTask,
+  title = "Downstream stack ranking"
+}: {
+  stacks: RankedStack[];
+  tasks: string[];
+  fixedTask?: string;
+  title?: string;
+}) {
   const [task, setTask] = useState("all");
   const [maxNonOpen, setMaxNonOpen] = useState("any");
   const [sortKey, setSortKey] = useState<SortKey>("preferenceScore");
@@ -78,6 +88,7 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
   });
 
   const filtered = useMemo(() => {
+    const activeTask = fixedTask ?? task;
     const limit = maxNonOpen === "any" ? Number.POSITIVE_INFINITY : Number(maxNonOpen);
     const totalWeight = Object.values(weights).reduce((sum, value) => sum + value, 0) || 1;
     return stacks
@@ -94,7 +105,7 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
             stack.sandboxScore * weights.sandboxScore) /
           totalWeight
       }))
-      .filter((stack) => task === "all" || stack.tasks.includes(task))
+      .filter((stack) => activeTask === "all" || stack.tasks.includes(activeTask))
       .filter((stack) => stack.nonOpenComponents <= limit)
       .sort((a, b) => {
         if (sortKey === "nonOpenComponents") {
@@ -102,7 +113,7 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
         }
         return b[sortKey] - a[sortKey] || b.preferenceScore - a.preferenceScore;
       });
-  }, [maxNonOpen, sortKey, stacks, task, weights]);
+  }, [fixedTask, maxNonOpen, sortKey, stacks, task, weights]);
 
   const paretoCount = filtered.filter((stack) => stack.paretoOptimal).length;
 
@@ -110,23 +121,25 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
     <section className="rankingPanel" aria-label="Ranked downstream stacks">
       <div className="rankingHeader">
         <div>
-          <h2>Downstream stack ranking</h2>
+          <h2>{title}</h2>
           <p>
             {formatNumber(filtered.length)} options, {formatNumber(paretoCount)} Pareto optimal
           </p>
         </div>
-        <div className="controls">
-          <label>
-            Task
-            <select value={task} onChange={(event) => setTask(event.target.value)}>
-              <option value="all">All tasks</option>
-              {tasks.map((taskName) => (
-                <option key={taskName} value={taskName}>
-                  {taskName}
-                </option>
-              ))}
-            </select>
-          </label>
+        <div className={`controls ${fixedTask ? "compactControls" : ""}`}>
+          {fixedTask ? null : (
+            <label>
+              Task
+              <select value={task} onChange={(event) => setTask(event.target.value)}>
+                <option value="all">All tasks</option>
+                {tasks.map((taskName) => (
+                  <option key={taskName} value={taskName}>
+                    {taskName}
+                  </option>
+                ))}
+              </select>
+            </label>
+          )}
           <label>
             Non-open budget
             <select value={maxNonOpen} onChange={(event) => setMaxNonOpen(event.target.value)}>
@@ -212,6 +225,11 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
                 </td>
               </tr>
             ))}
+            {filtered.length === 0 ? (
+              <tr>
+                <td colSpan={12}>No stacks match the selected criteria.</td>
+              </tr>
+            ) : null}
           </tbody>
         </table>
       </div>

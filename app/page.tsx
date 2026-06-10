@@ -1,9 +1,13 @@
+import Link from "next/link";
+
 import { loadGraph, summarizeGraph } from "../src/lib/graph";
 import { loadLayerCoverage } from "../src/lib/layers";
 import { buildRankedStacks } from "../src/lib/ranking";
+import { getCategoryNavigation, getComponentNavigation, getComponentTechnologyLayers, getConsumerCategories } from "../src/lib/site-navigation";
 import { edgeKinds, nodeKinds, openSourceClasses } from "../src/schema";
-import { StackRanking } from "./components/StackRanking";
+import { SiteNavigation } from "./components/SiteNavigation";
 import { SupplyChainGraph } from "./components/SupplyChainGraph";
+import { TopStackCards } from "./components/TopStackCards";
 
 export const dynamic = "force-static";
 
@@ -16,7 +20,11 @@ export default function Home() {
   const layerCoverage = loadLayerCoverage();
   const summary = summarizeGraph(graph);
   const stacks = buildRankedStacks(graph);
-  const tasks = [...new Set(stacks.flatMap((stack) => stack.tasks))].sort();
+  const categories = getConsumerCategories(stacks);
+  const componentLayers = getComponentTechnologyLayers(graph, layerCoverage);
+  const categoryNavigation = getCategoryNavigation(stacks);
+  const componentNavigation = getComponentNavigation(graph, layerCoverage);
+  const topStacks = categories.map((category) => category.topStack);
   const topAdoption = graph.nodes
     .flatMap((node) =>
       node.metrics
@@ -53,9 +61,11 @@ export default function Home() {
         </div>
       </section>
 
-      <SupplyChainGraph nodes={graph.nodes} edges={graph.edges} stacks={stacks} />
+      <SiteNavigation categories={categoryNavigation} components={componentNavigation} />
 
-      <StackRanking stacks={stacks} tasks={tasks} />
+      <TopStackCards categories={categories} />
+
+      <SupplyChainGraph nodes={graph.nodes} edges={graph.edges} stacks={topStacks} />
 
       <section className="graphBand" aria-label="Full supply-chain graph snapshot">
         <img src="/ai-supply-chain.svg" alt="AI supply-chain graph" />
@@ -64,12 +74,14 @@ export default function Home() {
       <section className="layerCoverage" aria-label="Top alternatives by stack layer">
         <div className="sectionTitle">
           <h2>Top alternatives by layer</h2>
-          <p>{layerCoverage.layers.length} validated layer lists, 10 alternatives each</p>
+          <p>{componentLayers.length} component layers, 10 alternatives each</p>
         </div>
         <div className="layerGrid">
-          {layerCoverage.layers.map((layer) => (
+          {componentLayers.map((layer) => (
             <article key={layer.id} className="layerCard">
-              <h3>{layer.name}</h3>
+              <h3>
+                <Link href={`/components/${layer.id}`}>{layer.name}</Link>
+              </h3>
               <ol>
                 {layer.entries.map((entry) => (
                   <li key={entry.nodeId}>
