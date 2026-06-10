@@ -356,7 +356,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "The site builds candidate downstream stacks from `application --supports--> model` edges, then follows reachable software, dataset, benchmark, infrastructure, hardware, sandboxing, and license dependencies. It scores each option by:"
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:example-chat-app supports model:example-chat-model; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -376,7 +376,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:example-chat-app depends_on software:example-runtime; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -416,7 +416,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, hardware accelerators, RAG/vector/data infrastructure, agent sandboxing, and evaluation tools/benchmarks."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model trained_with software:example-runtime; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -436,7 +436,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "- `benchmark`: task scores such as MMLU, HumanEval, MTEB, WER, or image-generation benchmarks."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model evaluated_on benchmark:example-benchmark; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -456,7 +456,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:example-chat-app developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -476,7 +476,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model hosted_by infrastructure:example-hub; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -496,7 +496,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -516,7 +516,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "- `src/schema.ts`: Zod schema and inferred TypeScript types. - `src/lib/`: graph loading, stack ranking, and visualization logic. - `app/`: Next.js app deployable on Vercel. - `data/nodes/`: JSON node records separated by node kind. - `data/edges/`: JSON edge records separated by relationship family. - `examples/`: Minimal examples for each schema object and edge category. - `schema/`: Generated JSON Schema for the complete graph. - `visualizations/`: Generated graph artifacts. - `docs/risk-analysis.md`: Risk dimensions, source frameworks, and answerable questions."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model derived_from model:example-base-model; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -536,7 +536,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for benchmark:example-benchmark uses_data dataset:example-pretraining-data; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -556,7 +556,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "- `examples/`: Minimal examples for each schema object and edge category."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:example-runtime implements software:example-api; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -576,7 +576,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:example-chat-app licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -596,7 +596,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-chat-model developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -616,7 +616,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-base-model developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -636,7 +636,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-base-model hosted_by infrastructure:example-hub; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -656,7 +656,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-base-model licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -696,7 +696,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, hardware accelerators, RAG/vector/data infrastructure, agent sandboxing, and evaluation tools/benchmarks."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-base-model trained_with software:example-runtime; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -716,7 +716,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "- `benchmark`: task scores such as MMLU, HumanEval, MTEB, WER, or image-generation benchmarks."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for model:example-base-model evaluated_on benchmark:example-benchmark; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -736,7 +736,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for dataset:example-pretraining-data developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -756,7 +756,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for dataset:example-pretraining-data hosted_by infrastructure:example-hub; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -776,7 +776,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for dataset:example-pretraining-data licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -796,7 +796,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:example-runtime developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -816,7 +816,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:example-runtime licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -836,7 +836,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:example-api developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -856,7 +856,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:example-api licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -876,7 +876,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for benchmark:example-benchmark developed_by organization:example-org; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -896,7 +896,7 @@
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
           "confidence": "low",
-          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
+          "note": "Manual verification found that the linked source does not provide edge-specific evidence for benchmark:example-benchmark licensed_as license:example-license; this relationship is source-needed until a direct quote is collected."
         }
       ]
     }
