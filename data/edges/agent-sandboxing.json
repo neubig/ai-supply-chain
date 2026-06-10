@@ -11,12 +11,12 @@
         "id": "edge-source:openhands-runtime",
         "type": "github_repo",
         "title": "OpenHands GitHub repository",
-        "url": "https://github.com/OpenHands/OpenHands",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The core `openhands` and `agent-server` Docker images are fully MIT-licensed as well."
       }
     ],
     "metrics": [
@@ -47,23 +47,23 @@
         "id": "edge-source:openhands-docker",
         "type": "github_repo",
         "title": "OpenHands GitHub repository",
-        "url": "https://github.com/OpenHands/OpenHands",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The core `openhands` and `agent-server` Docker images are fully MIT-licensed as well."
       },
       {
         "id": "edge-source:moby",
         "type": "github_repo",
         "title": "Moby GitHub repository",
-        "url": "https://github.com/moby/moby",
+        "url": "https://raw.githubusercontent.com/moby/moby/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The Moby project is not intended as a location for support or feature requests for Docker products, but as a place for contributors to work on open source code, fix bugs, and make the code more useful. The releases are supported by the maintainers, community and users, on a best efforts basis only. For customers who want enterprise or commercial support, Docker Desktop and Mirantis Container Runtime are the appropriate products for these use cases."
       }
     ],
     "metrics": [
@@ -93,23 +93,23 @@
         "id": "edge-source:continue-repo",
         "type": "github_repo",
         "title": "Continue GitHub repository",
-        "url": "https://github.com/continuedev/continue",
+        "url": "https://raw.githubusercontent.com/continuedev/continue/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Apache 2.0 © 2023-2026 Continue Dev, Inc."
       },
       {
         "id": "edge-source:devcontainers-spec",
         "type": "github_repo",
         "title": "Dev Containers specification",
-        "url": "https://github.com/devcontainers/spec",
+        "url": "https://raw.githubusercontent.com/devcontainers/spec/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Beyond repeatable setup, these same development containers provide consistency to avoid environment specific problems across developers and centralized build and test automation services. You can use the open-source CLI reference implementation either directly or integrated into product experiences to use the structured metadata to deliver these benefits. It currently supports integrating with Docker Compose and a simplified, un-orchestrated single container option – so that they can be used as coding environments or for continuous integration and testing."
       }
     ],
     "metrics": [
@@ -139,23 +139,23 @@
         "id": "edge-source:librechat-repo",
         "type": "github_repo",
         "title": "LibreChat GitHub repository",
-        "url": "https://github.com/danny-avila/LibreChat",
+        "url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- 🔧 **Code Interpreter API**: - Secure, Sandboxed Execution in Python, Node.js (JS/TS), Go, C/C++, Java, PHP, Rust, and Fortran - Seamless File Handling: Upload, process, and download files directly - No Privacy Concerns: Fully isolated and secure execution"
       },
       {
         "id": "edge-source:docker-moby-librechat",
         "type": "github_repo",
         "title": "Moby GitHub repository",
-        "url": "https://github.com/moby/moby",
+        "url": "https://raw.githubusercontent.com/moby/moby/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
       }
     ],
     "metrics": [
@@ -185,23 +185,23 @@
         "id": "edge-source:open-webui-docker",
         "type": "github_repo",
         "title": "Open WebUI GitHub repository",
-        "url": "https://github.com/open-webui/open-webui",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "If you're experiencing connection issues, it’s often due to the WebUI docker container not being able to reach the Ollama server at 127.0.0.1:11434 (host.docker.internal:11434) inside the container . Use the `--network=host` flag in your docker command to resolve this. Note that the port changes from 3000 to 8080, resulting in the link: `http://localhost:8080`."
       },
       {
         "id": "edge-source:docker-moby-open-webui",
         "type": "github_repo",
         "title": "Moby GitHub repository",
-        "url": "https://github.com/moby/moby",
+        "url": "https://raw.githubusercontent.com/moby/moby/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
       }
     ],
     "metrics": [
@@ -231,23 +231,23 @@
         "id": "edge-source:anythingllm-docker",
         "type": "github_repo",
         "title": "AnythingLLM GitHub repository",
-        "url": "https://github.com/Mintplex-Labs/anything-llm",
-        "note": "Repository source used for containerized deployment context; no exact quote is captured in this seed ingest.",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "or set up a production AnythingLLM instance without Docker →"
       },
       {
         "id": "edge-source:docker-moby-anythingllm",
         "type": "github_repo",
         "title": "Moby GitHub repository",
-        "url": "https://github.com/moby/moby",
-        "note": "GitHub API/repository metadata source used for Docker/Moby sandbox metadata; no exact quote is captured in this seed ingest.",
+        "url": "https://raw.githubusercontent.com/moby/moby/master/README.md",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
       }
     ],
     "metrics": [
@@ -282,18 +282,18 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for software:e2b-infra sandboxed_by software:firecracker; this relationship is source-needed until a direct quote is collected."
       },
       {
         "id": "edge-source:firecracker",
         "type": "github_repo",
         "title": "Firecracker GitHub repository",
-        "url": "https://github.com/firecracker-microvm/firecracker",
+        "url": "https://raw.githubusercontent.com/firecracker-microvm/firecracker/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers."
       }
     ],
     "metrics": [
@@ -323,12 +323,12 @@
         "id": "edge-source:daytona-repo",
         "type": "github_repo",
         "title": "Daytona GitHub repository",
-        "url": "https://github.com/daytonaio/daytona",
+        "url": "https://raw.githubusercontent.com/daytonaio/daytona/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "pip install daytona"
       }
     ]
   },
@@ -344,12 +344,12 @@
         "id": "edge-source:daytona-docker",
         "type": "github_repo",
         "title": "Daytona GitHub repository",
-        "url": "https://github.com/daytonaio/daytona",
+        "url": "https://raw.githubusercontent.com/daytonaio/daytona/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Daytona is a secure and elastic infrastructure runtime for AI-generated code execution and agent workflows. Our open-source platform provides sandboxes, full composable computers with complete isolation, a dedicated kernel, filesystem, network stack, and allocated vCPU, RAM, and disk."
       }
     ],
     "metrics": [
@@ -379,12 +379,12 @@
         "id": "edge-source:kata-containers",
         "type": "github_repo",
         "title": "Kata Containers GitHub repository",
-        "url": "https://github.com/kata-containers/kata-containers",
+        "url": "https://raw.githubusercontent.com/kata-containers/kata-containers/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Kata Containers uses a single configuration file which contains a number of sections for various parts of the Kata Containers system including the runtime, the agent and the hypervisor."
       }
     ]
   },
@@ -400,12 +400,12 @@
         "id": "edge-source:kubernetes-gvisor",
         "type": "github_repo",
         "title": "gVisor GitHub repository",
-        "url": "https://github.com/google/gvisor",
+        "url": "https://raw.githubusercontent.com/google/gvisor/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "gVisor includes an [Open Container Initiative (OCI)][oci] runtime called `runsc` that makes it easy to work with existing container tooling. The `runsc` runtime integrates with Docker and Kubernetes, making it simple to run sandboxed containers."
       }
     ]
   },
@@ -421,12 +421,12 @@
         "id": "edge-source:dagger-repo",
         "type": "github_repo",
         "title": "Dagger GitHub repository",
-        "url": "https://github.com/dagger/dagger",
+        "url": "https://raw.githubusercontent.com/dagger/dagger/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "**Local-first**. Once you automate a task with Dagger, it will reliably run on any supported system: your laptop, AI sandbox, CI server, or dedicated cloud infrastructure. The only dependency is a container runtime like Docker."
       }
     ]
   },
@@ -442,12 +442,12 @@
         "id": "edge-source:kserve-repo",
         "type": "github_repo",
         "title": "KServe GitHub repository",
-        "url": "https://github.com/kserve/kserve",
+        "url": "https://raw.githubusercontent.com/kserve/kserve/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Standard Kubernetes Installation**: Compared to Serverless Installation, this is a more **lightweight** installation. However, this option does not support canary deployment and request based autoscaling with scale-to-zero."
       }
     ]
   }

@@ -21,11 +21,11 @@
         "type": "official_website",
         "title": "NVIDIA B200 official documentation",
         "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "NVIDIA",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "NVIDIA DGX B200 is an unified AI platform for develop-to-deploy pipelines for businesses of any size at any stage in their AI journey."
       }
     ],
     "metrics": [
@@ -109,11 +109,11 @@
         "type": "official_website",
         "title": "NVIDIA H200 official documentation",
         "url": "https://www.nvidia.com/en-us/data-center/h200/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "NVIDIA",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The NVIDIA H200 GPU supercharges generative AI and HPC workloads with game-changing performance and memory capabilities."
       }
     ],
     "metrics": [
@@ -197,11 +197,11 @@
         "type": "official_website",
         "title": "NVIDIA H100 official documentation",
         "url": "https://www.nvidia.com/en-us/data-center/h100/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "NVIDIA",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "NVIDIA H100 GPU securely accelerates workloads from Enterprise to Exascale HPC and Trillion Parameter AI."
       }
     ],
     "metrics": [
@@ -285,11 +285,11 @@
         "type": "official_website",
         "title": "NVIDIA GeForce RTX 5090 official documentation",
         "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "NVIDIA",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The most powerful GeForce GPU ever made, bringing game-changing capabilities to gamers and creators, powered by the NVIDIA Blackwell architecture."
       }
     ],
     "metrics": [
@@ -373,11 +373,11 @@
         "type": "official_website",
         "title": "AMD Instinct MI325X official documentation",
         "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "AMD",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "AMD Instinct™ MI325X GPU accelerators set new AI performance standards, delivering incredible performance and efficiency for training and inference."
       }
     ],
     "metrics": [
@@ -460,11 +460,11 @@
         "type": "official_website",
         "title": "AMD Instinct MI300X official documentation",
         "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "AMD",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "AMD Instinct™ MI300X accelerators are designed to deliver leadership performance for Generative AI workloads and HPC applications."
       }
     ],
     "metrics": [
@@ -546,11 +546,11 @@
         "type": "official_website",
         "title": "Intel Gaudi 3 official documentation",
         "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "Intel",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Intel® Gaudi® AI accelerators and Intel® Gaudi® software are designed to bring a new level of compute advantages and choice to data center training and inference."
       }
     ],
     "metrics": [
@@ -633,11 +633,11 @@
         "type": "official_website",
         "title": "Google Cloud TPU v6e Trillium official documentation",
         "url": "https://docs.cloud.google.com/tpu/docs/v6e",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "Google Cloud",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "TPU v6e | Google Cloud Documentation"
       }
     ],
     "metrics": [
@@ -721,11 +721,11 @@
         "type": "official_website",
         "title": "AWS Trainium3 official documentation",
         "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "AWS",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Learn about AWS Trainium an ML accelerator presented by AWS."
       }
     ],
     "metrics": [
@@ -807,11 +807,11 @@
         "type": "official_website",
         "title": "Apple M5 Max official documentation",
         "url": "https://www.apple.com/macbook-pro/specs/",
-        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
         "publisher": "Apple",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "See all the technical specifications for the 14- and 16-inch MacBook Pro with the M5, M5 Pro, and M5 Max chips."
       }
     ],
     "metrics": [

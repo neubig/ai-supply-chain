@@ -11,12 +11,12 @@
         "id": "edge-source:qwen2.5-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "url": "https://qwenlm.github.io/blog/qwen2.5/",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "In terms of Qwen2.5 , the language models, all models are pretrained on our latest large-scale dataset, encompassing up to 18 trillion tokens."
       }
     ]
   },
@@ -32,12 +32,12 @@
         "id": "edge-source:qwen2.5-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "library_name: transformers"
       }
     ]
   },
@@ -53,12 +53,12 @@
         "id": "edge-source:qwen2.5-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "url": "https://qwenlm.github.io/blog/qwen2.5/",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
       }
     ]
   },
@@ -79,7 +79,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:qwen2.5-7b-instruct developed_by organization:alibaba-qwen; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -95,12 +95,12 @@
         "id": "edge-source:qwen2.5-hf",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The code of Qwen2.5 has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
       }
     ]
   },
@@ -116,12 +116,12 @@
         "id": "edge-source:qwen2.5-hf-license",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-7B-Instruct Hugging Face metadata",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -137,12 +137,12 @@
         "id": "edge-source:qwen2.5-coder-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "# Qwen2.5-Coder-7B-Instruct"
       }
     ]
   },
@@ -158,12 +158,12 @@
         "id": "edge-source:qwen2.5-coder-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:qwen2.5-coder-7b-instruct trained_on dataset:qwen2.5-training-corpus; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -179,12 +179,12 @@
         "id": "edge-source:qwen2.5-coder-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
       }
     ]
   },
@@ -200,12 +200,12 @@
         "id": "edge-source:qwen2.5-coder-model-card",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct model card",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://qwenlm.github.io/blog/qwen2.5/",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Compared to Qwen2, Qwen2.5 has acquired significantly more knowledge (MMLU: 85+) and has greatly improved capabilities in coding (HumanEval 85+) and mathematics (MATH 80+)."
       }
     ]
   },
@@ -226,7 +226,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:qwen2.5-coder-7b-instruct developed_by organization:alibaba-qwen; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -242,12 +242,12 @@
         "id": "edge-source:qwen2.5-coder-hf",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The code of Qwen2.5-Coder has been in the latest Hugging face `transformers` and we advise you to use the latest version of `transformers`."
       }
     ]
   },
@@ -263,12 +263,12 @@
         "id": "edge-source:qwen2.5-coder-hf-license",
         "type": "huggingface_model_card",
         "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
-        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -284,12 +284,12 @@
         "id": "edge-source:mistral-model-card",
         "type": "huggingface_model_card",
         "title": "Mistral-7B-Instruct-v0.3 model card",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:mistral-7b-instruct-v0.3 trained_on dataset:mistral-training-corpus; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -305,12 +305,12 @@
         "id": "edge-source:mistral-model-card",
         "type": "huggingface_model_card",
         "title": "Mistral-7B-Instruct-v0.3 model card",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "It is recommended to use `mistralai/Mistral-7B-Instruct-v0.3` with mistral-inference. For HF transformers code snippets, please keep scrolling."
       }
     ]
   },
@@ -326,12 +326,12 @@
         "id": "edge-source:mistral-model-card",
         "type": "huggingface_model_card",
         "title": "Mistral-7B-Instruct-v0.3 model card",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:mistral-7b-instruct-v0.3 evaluated_on benchmark:mmlu; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -352,7 +352,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Org profile for Mistral AI_ on Hugging Face, the AI community building the future."
       }
     ]
   },
@@ -368,12 +368,12 @@
         "id": "edge-source:mistral-hf",
         "type": "huggingface_model_card",
         "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "If you want to use Hugging Face `transformers` to generate text, you can do something like this."
       }
     ]
   },
@@ -389,12 +389,12 @@
         "id": "edge-source:mistral-hf-license",
         "type": "huggingface_model_card",
         "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
-        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -410,12 +410,12 @@
         "id": "edge-source:sdxl-model-card",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 model card",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:stable-diffusion-xl-base-1.0 trained_on dataset:laion-5b; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -431,12 +431,12 @@
         "id": "edge-source:sdxl-model-card",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 model card",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- from diffusers import StableDiffusionXLPipeline"
       }
     ]
   },
@@ -457,7 +457,7 @@
         "collectionMethod": "static_document",
         "confidence": "low",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:stable-diffusion-xl-base-1.0 evaluated_on benchmark:text-to-image-quality; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -473,12 +473,12 @@
         "id": "edge-source:sdxl-hf",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Developed by:** Stability AI"
       }
     ]
   },
@@ -494,12 +494,12 @@
         "id": "edge-source:sdxl-hf",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Repository:** https://github.com/Stability-AI/generative-models - **Demo:** https://clipdrop.co/stable-diffusion"
       }
     ]
   },
@@ -515,12 +515,12 @@
         "id": "edge-source:sdxl-hf-license",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: openrail++"
       }
     ]
   },
@@ -536,12 +536,12 @@
         "id": "edge-source:whisper-repo",
         "type": "github_repo",
         "title": "OpenAI Whisper repository",
-        "url": "https://github.com/openai/whisper",
+        "url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multitasking model that can perform multilingual speech recognition, speech translation, and language identification."
       }
     ]
   },
@@ -557,12 +557,12 @@
         "id": "edge-source:whisper-repo",
         "type": "github_repo",
         "title": "OpenAI Whisper repository",
-        "url": "https://github.com/openai/whisper",
+        "url": "https://raw.githubusercontent.com/openai/whisper/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "We used Python 3.9.9 and PyTorch 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends on a few Python packages, most notably OpenAI's tiktoken for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:"
       }
     ]
   },
@@ -578,12 +578,12 @@
         "id": "edge-source:whisper-model-card",
         "type": "huggingface_model_card",
         "title": "Whisper large-v3 model card",
-        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The models are primarily trained and evaluated on ASR and speech translation to English tasks. They show strong ASR results in ~10 languages. They may exhibit additional capabilities, particularly if fine-tuned on certain tasks like voice activity detection, speaker classification, or speaker diarization but have not been robustly evaluated in these areas. We strongly recommend that users perform robust evaluations of the models in a particular context and domain before deploying them."
       }
     ]
   },
@@ -599,12 +599,12 @@
         "id": "edge-source:whisper-hf",
         "type": "huggingface_model_card",
         "title": "Whisper large-v3 Hugging Face metadata",
-        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Whisper is a state-of-the-art model for automatic speech recognition (ASR) and speech translation, proposed in the paper Robust Speech Recognition via Large-Scale Weak Supervision by Alec Radford et al. from OpenAI. Trained on >5M hours of labeled data, Whisper demonstrates a strong ability to generalise to many datasets and domains in a zero-shot setting."
       }
     ]
   },
@@ -620,12 +620,12 @@
         "id": "edge-source:whisper-hf",
         "type": "huggingface_model_card",
         "title": "Whisper large-v3 Hugging Face metadata",
-        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Whisper large-v3 is supported in Hugging Face 🤗 Transformers. To run the model, first install the Transformers library. For this example, we'll also install 🤗 Datasets to load toy audio dataset from the Hugging Face Hub, and 🤗 Accelerate to reduce the model loading time:"
       }
     ]
   },
@@ -641,12 +641,12 @@
         "id": "edge-source:whisper-hf-license",
         "type": "huggingface_model_card",
         "title": "Whisper large-v3 Hugging Face metadata",
-        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "url": "https://huggingface.co/openai/whisper-large-v3/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -662,12 +662,12 @@
         "id": "edge-source:nomic-embed-model-card",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 model card",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model, the first unsupervised contrastive stage trains on a dataset generated from weakly related text pairs, such as question-answer pairs from forums like StackExchange and Quora, title-body pairs from Amazon reviews, and summarizations from news articles."
       }
     ]
   },
@@ -683,12 +683,12 @@
         "id": "edge-source:nomic-embed-model-card",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 model card",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "We train our embedder using a multi-stage training pipeline. Starting from a long-context BERT model,"
       }
     ]
   },
@@ -704,12 +704,12 @@
         "id": "edge-source:nomic-embed-model-card",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 model card",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "name: MTEB STSBenchmark"
       }
     ]
   },
@@ -725,12 +725,12 @@
         "id": "edge-source:nomic-embed-hf",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "model='nomic-embed-text-v1.5',"
       }
     ]
   },
@@ -746,12 +746,12 @@
         "id": "edge-source:nomic-embed-hf",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "import { pipeline, layer_norm } from '@huggingface/transformers';"
       }
     ]
   },
@@ -767,12 +767,12 @@
         "id": "edge-source:nomic-embed-hf-license",
         "type": "huggingface_model_card",
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
-        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -788,12 +788,12 @@
         "id": "edge-source:gpt-j-model-card",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B model card",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "GPT-J 6B was trained on the Pile, a large-scale curated dataset created by EleutherAI."
       }
     ]
   },
@@ -809,12 +809,12 @@
         "id": "edge-source:gpt-j-model-card",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B model card",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Stella Biderman, Eric Hallahan, Kurumuz, and Finetune for converting the model to be compatible with the `transformers` package."
       }
     ]
   },
@@ -830,12 +830,12 @@
         "id": "edge-source:gpt-j-model-card",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B model card",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "low",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:gpt-j-6b evaluated_on benchmark:lambada; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -851,12 +851,12 @@
         "id": "edge-source:gpt-j-hf",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B Hugging Face metadata",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "&ast; Evaluation numbers reported by their respective authors. All other numbers are provided by running lm-evaluation-harness either with released weights or with API access. Due to subtle implementation differences as well as different zero shot task framing, these might not be directly comparable. See this blog post for more details."
       }
     ]
   },
@@ -872,12 +872,12 @@
         "id": "edge-source:gpt-j-hf",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B Hugging Face metadata",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "howpublished = {\\url{https://github.com/kingoflolz/mesh-transformer-jax}},"
       }
     ]
   },
@@ -893,12 +893,12 @@
         "id": "edge-source:gpt-j-hf-license",
         "type": "huggingface_model_card",
         "title": "GPT-J-6B Hugging Face metadata",
-        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "license: apache-2.0"
       }
     ]
   },
@@ -914,12 +914,12 @@
         "id": "edge-source:starcoder2-model-card",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B model card",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "StarCoder2-3B model is a 3B parameter model trained on 17 programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 3+ trillion tokens."
       }
     ]
   },
@@ -935,12 +935,12 @@
         "id": "edge-source:starcoder2-model-card",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B model card",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "library_name: transformers"
       }
     ]
   },
@@ -956,12 +956,12 @@
         "id": "edge-source:starcoder2-model-card",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B model card",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "name: HumanEval"
       }
     ]
   },
@@ -977,12 +977,12 @@
         "id": "edge-source:starcoder2-hf",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B Hugging Face metadata",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "checkpoint = \"bigcode/starcoder2-3b\""
       }
     ]
   },
@@ -998,12 +998,12 @@
         "id": "edge-source:starcoder2-hf",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B Hugging Face metadata",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "pip install git+https://github.com/huggingface/transformers.git"
       }
     ]
   },
@@ -1019,12 +1019,12 @@
         "id": "edge-source:starcoder2-hf-license",
         "type": "huggingface_model_card",
         "title": "StarCoder2-3B Hugging Face metadata",
-        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The model is licensed under the BigCode OpenRAIL-M v1 license agreement. You can find the full agreement here."
       }
     ]
   }

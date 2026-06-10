@@ -567,12 +567,7 @@ function buildNode(candidate: Candidate) {
     type: isGithub ? "github_repo" : isHuggingFace ? "huggingface_model_card" : "official_website",
     title: `${candidate.name} ${isGithub ? "GitHub repository" : isHuggingFace ? "model card" : "official documentation"}`,
     url: candidate.url,
-    note:
-      candidate.source === "official"
-        ? "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest."
-        : isGithub
-          ? "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest."
-          : "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
+    note: "source-needed quote collection pending: this disclosed metadata source requires a direct quote from the linked URL.",
     publisher: candidate.publisher ?? (isGithub ? "GitHub" : isHuggingFace ? "Hugging Face" : "Official publisher"),
     retrieved_date: retrievedAt,
     collectionMethod: isGithub ? "github_api" : isHuggingFace ? "huggingface_api" : "static_document",

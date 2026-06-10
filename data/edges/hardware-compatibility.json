@@ -11,12 +11,12 @@
         "id": "edge-source:gpt4all-hardware",
         "type": "github_repo",
         "title": "GPT4All GitHub repository",
-        "url": "https://github.com/nomic-ai/gpt4all",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Offline build support for running old versions of the GPT4All Local LLM Chat Client."
       }
     ]
   },
@@ -32,12 +32,12 @@
         "id": "edge-source:jan-hardware",
         "type": "github_repo",
         "title": "Jan GitHub repository",
-        "url": "https://github.com/janhq/jan",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
       }
     ]
   },
@@ -53,12 +53,12 @@
         "id": "edge-source:stable-diffusion-webui-repo",
         "type": "github_repo",
         "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
       },
       {
         "id": "edge-source:rtx-5090-spec",
@@ -69,7 +69,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "observe(imageTarget); } }; })(); GeForce RTX 5090 Graphics Cards | NVIDIA body."
       }
     ]
   },
@@ -85,12 +85,12 @@
         "id": "edge-source:llama.cpp-gpu-docs",
         "type": "github_repo",
         "title": "llama.cpp GitHub repository",
-        "url": "https://github.com/ggml-org/llama.cpp",
+        "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Custom CUDA kernels for running LLMs on NVIDIA GPUs (support for AMD GPUs via HIP and Moore Threads GPUs via MUSA)"
       }
     ]
   },
@@ -106,12 +106,12 @@
         "id": "edge-source:llama.cpp-metal",
         "type": "github_repo",
         "title": "llama.cpp GitHub repository",
-        "url": "https://github.com/ggml-org/llama.cpp",
+        "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- LLMKube - Kubernetes operator for llama.cpp with multi-GPU and Apple Silicon Metal"
       },
       {
         "id": "edge-source:apple-m5-max-spec",
@@ -122,7 +122,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
       }
     ]
   },
@@ -138,12 +138,12 @@
         "id": "edge-source:ollama-hardware",
         "type": "github_repo",
         "title": "Ollama GitHub repository",
-        "url": "https://github.com/ollama/ollama",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
       }
     ]
   },
@@ -159,12 +159,12 @@
         "id": "edge-source:ollama-apple-silicon",
         "type": "github_repo",
         "title": "Ollama GitHub repository",
-        "url": "https://github.com/ollama/ollama",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
       },
       {
         "id": "edge-source:apple-m5-max-ollama",
@@ -175,7 +175,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
       }
     ]
   },
@@ -191,12 +191,12 @@
         "id": "edge-source:pytorch-cuda-docs",
         "type": "official_docs",
         "title": "PyTorch CUDA documentation",
-        "url": "https://pytorch.org/docs/stable/cuda.html",
+        "url": "https://pytorch.org/docs/2.12/cuda.html",
         "publisher": "PyTorch",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Return a bool indicating if the current CUDA/ROCm device supports dtype tf32."
       },
       {
         "id": "edge-source:nvidia-h100",
@@ -207,7 +207,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Resources Resources Resource Hub Resources to build and optimize AI-ready data centers and factories Data Center GPU Line Card Guide to selecting data center GPUs and networking for AI workloads Data Center GPUs Resource Center Documentation and guides for NVIDIA data center GPU products MLPerf Benchmarks MLPerf training and inference results for the NVIDIA AI platform NVIDIA-Certified Systems Accelerated partner sys"
       }
     ]
   },
@@ -223,12 +223,12 @@
         "id": "edge-source:pytorch-rocm-docs",
         "type": "official_docs",
         "title": "PyTorch ROCm documentation",
-        "url": "https://pytorch.org/docs/stable/notes/hip.html",
+        "url": "https://pytorch.org/docs/2.12/notes/hip.html",
         "publisher": "PyTorch",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "HIP is used when converting existing CUDA applications like PyTorch to portable C++ and for new projects that require portability between AMD and NVIDIA."
       },
       {
         "id": "edge-source:amd-mi300x",
@@ -239,7 +239,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
       }
     ]
   },
@@ -255,23 +255,23 @@
         "id": "edge-source:pytorch-xla-docs",
         "type": "official_docs",
         "title": "PyTorch/XLA documentation",
-        "url": "https://pytorch.org/xla/",
+        "url": "https://pytorch.org/xla/release/r2.8/index.html",
         "publisher": "PyTorch/XLA",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Cost Efficient TPU hardware and the XLA compiler are optimized for cost-efficient training and inference."
       },
       {
         "id": "edge-source:tpu-v6e",
         "type": "official_docs",
         "title": "Cloud TPU v6e",
-        "url": "https://docs.cloud.google.com/tpu/docs/v6e",
+        "url": "https://docs.cloud.google.com/tpu/docs/v6e?hl=en",
         "publisher": "Google Cloud",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Run training and inference using TPU v6e"
       }
     ]
   },
@@ -292,7 +292,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AI Accelerator - AWS Trainium - AWS {\"pageLanguage\":\"en\",\"supportedLanguages\":[\"ar\",\"cn\",\"de\",\"en\",\"es\",\"fr\",\"id\",\"it\",\"jp\",\"ko\",\"pt\",\"ru\",\"th\",\"tr\",\"tw\",\"vi\"],\"offerOrigin\":\"https://s0."
       }
     ]
   },
@@ -309,11 +309,11 @@
         "type": "official_website",
         "title": "Intel Gaudi AI Accelerator Products",
         "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
-        "note": "Official Intel Gaudi product page used for the Gaudi 3 accelerator profile; no exact quote is captured in this seed ingest.",
         "publisher": "Intel",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Intel® Gaudi® AI accelerators and Intel® Gaudi® software are designed to bring a new level of compute advantages and choice to data center training and inference."
       }
     ]
   },
@@ -329,12 +329,12 @@
         "id": "edge-source:vllm-hardware",
         "type": "github_repo",
         "title": "vLLM GitHub repository",
-        "url": "https://github.com/vllm-project/vllm",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
       }
     ]
   },
@@ -350,12 +350,12 @@
         "id": "edge-source:vllm-h200",
         "type": "github_repo",
         "title": "vLLM GitHub repository",
-        "url": "https://github.com/vllm-project/vllm",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
       },
       {
         "id": "edge-source:nvidia-h200",
@@ -366,7 +366,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The NVIDIA H200 GPU supercharges generative AI and HPC workloads with game-changing performance and memory capabilities."
       }
     ]
   },
@@ -382,12 +382,12 @@
         "id": "edge-source:vllm-rocm",
         "type": "github_repo",
         "title": "vLLM GitHub repository",
-        "url": "https://github.com/vllm-project/vllm",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
       },
       {
         "id": "edge-source:amd-mi325x",
@@ -398,7 +398,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
       }
     ]
   },
@@ -414,12 +414,12 @@
         "id": "edge-source:triton-server",
         "type": "github_repo",
         "title": "Triton Inference Server GitHub repository",
-        "url": "https://github.com/triton-inference-server/server",
+        "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "devices on NVIDIA GPUs, x86 and ARM CPU, or AWS Inferentia. Triton Inference"
       },
       {
         "id": "edge-source:nvidia-b200",
@@ -430,7 +430,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Equipped with eight NVIDIA Blackwell GPUs interconnected with fifth-generation NVIDIA® NVLink™ , NVIDIA DGX B200 delivers 3X the training performance and 15X the inference performance of previous-generation systems."
       }
     ]
   },
@@ -446,12 +446,12 @@
         "id": "edge-source:deepspeed-repo",
         "type": "github_repo",
         "title": "DeepSpeed GitHub repository",
-        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "url": "https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "14. Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, Yuxiong He. (2022) DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale. arXiv:2207.00032 and SC 2022. [[paper]](https://arxiv.org/abs/2207.00032) [[slides]](docs/assets/files/sc22-ds-inference.pdf) [[blog]](https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-large-scale-model-inference-and-training-via-system-optimizations-and-compression/)"
       }
     ]
   },
@@ -467,12 +467,12 @@
         "id": "edge-source:megatron-lm",
         "type": "github_repo",
         "title": "Megatron-LM GitHub repository",
-        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "url": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "For the latest performance benchmarking results, refer to NVIDIA Megatron Bridge Performance Summary."
       }
     ]
   },
@@ -488,12 +488,12 @@
         "id": "edge-source:unsloth-repo",
         "type": "github_repo",
         "title": "Unsloth GitHub repository",
-        "url": "https://github.com/unslothai/unsloth",
+        "url": "https://raw.githubusercontent.com/unslothai/unsloth/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "* **CPU:** Supported for Chat and Data Recipes currently * **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more * **macOS:** Training, MLX and GGUF inference are ALL supported. * **AMD:** Chat + Data works. Train with Unsloth Core. Studio support is out soon. * **Multi-GPU:** Available now, with a major upgrade on the way"
       }
     ]
   },
@@ -509,12 +509,12 @@
         "id": "edge-source:sdxl-card",
         "type": "huggingface_model_card",
         "title": "Stable Diffusion XL Base 1.0 model card",
-        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "If you are limited by GPU VRAM, you can enable *cpu offloading* by calling `pipe.enable_model_cpu_offload` instead of `.to(\"cuda\")`:"
       }
     ]
   },
@@ -535,7 +535,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for model:llama-3.1-8b-instruct requires infrastructure:consumer-device; this relationship is source-needed until a direct quote is collected."
       }
     ]
   }

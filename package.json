@@ -13,9 +13,13 @@
     "visualize": "tsx scripts/visualize.ts",
     "research:layers": "tsx scripts/generate-layer-research.ts",
     "normalize:sources": "tsx scripts/normalize-sources.ts",
+    "collect:quotes": "tsx scripts/collect-source-quotes.ts",
+    "collect:edge-quotes": "tsx scripts/collect-edge-quotes.ts",
     "generate:required": "tsx scripts/generate-required-coverage.ts",
+    "validate:sources": "tsx scripts/validate-source-provenance.ts",
+    "validate:edge-quotes": "tsx scripts/validate-edge-source-quotes.ts",
     "report:completeness": "tsx scripts/completeness-report.ts",
-    "check": "npm run research:layers && npm run normalize:sources && npm run generate:required && npm run validate && npm run report:completeness && npm run export:schema && npm run export:graph && npm run visualize && npm run build"
+    "check": "npm run research:layers && npm run normalize:sources && npm run generate:required && npm run collect:quotes && npm run collect:edge-quotes && npm run validate:sources && npm run validate:edge-quotes && npm run validate && npm run report:completeness && npm run export:schema && npm run export:graph && npm run visualize && npm run build"
   },
   "dependencies": {
     "next": "^15.3.4",

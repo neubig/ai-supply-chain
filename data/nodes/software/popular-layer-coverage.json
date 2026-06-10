@@ -28,11 +28,11 @@
         "type": "github_repo",
         "title": "LocalAI GitHub repository",
         "url": "https://github.com/mudler/LocalAI",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. - mudler/LocalAI"
       }
     ],
     "metrics": [
@@ -141,11 +141,11 @@
         "type": "github_repo",
         "title": "Ray GitHub repository",
         "url": "https://github.com/ray-project/ray",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. - ray-project/ray"
       }
     ],
     "metrics": [
@@ -254,11 +254,11 @@
         "type": "github_repo",
         "title": "SGLang GitHub repository",
         "url": "https://github.com/sgl-project/sglang",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "SGLang is a high-performance serving framework for large language models and multimodal models. - sgl-project/sglang"
       }
     ],
     "metrics": [
@@ -367,11 +367,11 @@
         "type": "github_repo",
         "title": "Text Generation Inference GitHub repository",
         "url": "https://github.com/huggingface/text-generation-inference",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Large Language Model Text Generation Inference. Contribute to huggingface/text-generation-inference development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -480,11 +480,11 @@
         "type": "github_repo",
         "title": "Triton Inference Server GitHub repository",
         "url": "https://github.com/triton-inference-server/server",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. - GitHub - triton-inference-server/server: The Triton Inference Server provides an optimized cloud and edge inferencing solution."
       }
     ],
     "metrics": [
@@ -593,11 +593,11 @@
         "type": "github_repo",
         "title": "KServe GitHub repository",
         "url": "https://github.com/kserve/kserve",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes - kserve/kserve"
       }
     ],
     "metrics": [
@@ -706,11 +706,11 @@
         "type": "github_repo",
         "title": "Unsloth GitHub repository",
         "url": "https://github.com/unslothai/unsloth",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Unsloth Studio is a web UI for training and running open models like Gemma 4, Qwen3.6, DeepSeek, gpt-oss locally. - unslothai/unsloth"
       }
     ],
     "metrics": [
@@ -819,11 +819,11 @@
         "type": "github_repo",
         "title": "DeepSpeed GitHub repository",
         "url": "https://github.com/deepspeedai/DeepSpeed",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. - deepspeedai/DeepSpeed"
       }
     ],
     "metrics": [
@@ -932,11 +932,11 @@
         "type": "github_repo",
         "title": "PyTorch Lightning GitHub repository",
         "url": "https://github.com/Lightning-AI/pytorch-lightning",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. - Lightning-AI/pytorch-lightning"
       }
     ],
     "metrics": [
@@ -1045,11 +1045,11 @@
         "type": "github_repo",
         "title": "PEFT GitHub repository",
         "url": "https://github.com/huggingface/peft",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. - huggingface/peft"
       }
     ],
     "metrics": [
@@ -1158,11 +1158,11 @@
         "type": "github_repo",
         "title": "TRL GitHub repository",
         "url": "https://github.com/huggingface/trl",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Train transformer language models with reinforcement learning. - huggingface/trl"
       }
     ],
     "metrics": [
@@ -1271,11 +1271,11 @@
         "type": "github_repo",
         "title": "Megatron-LM GitHub repository",
         "url": "https://github.com/NVIDIA/Megatron-LM",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Ongoing research training transformer models at scale - NVIDIA/Megatron-LM"
       }
     ],
     "metrics": [
@@ -1384,11 +1384,11 @@
         "type": "github_repo",
         "title": "Axolotl GitHub repository",
         "url": "https://github.com/axolotl-ai-cloud/axolotl",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Go ahead and axolotl questions. Contribute to axolotl-ai-cloud/axolotl development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -1498,11 +1498,11 @@
         "type": "github_repo",
         "title": "LangChain GitHub repository",
         "url": "https://github.com/langchain-ai/langchain",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The agent engineering platform. Contribute to langchain-ai/langchain development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -1611,11 +1611,11 @@
         "type": "github_repo",
         "title": "LlamaIndex GitHub repository",
         "url": "https://github.com/run-llama/llama_index",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "LlamaIndex is the leading document agent and OCR platform - run-llama/llama_index"
       }
     ],
     "metrics": [
@@ -1724,11 +1724,11 @@
         "type": "github_repo",
         "title": "Milvus GitHub repository",
         "url": "https://github.com/milvus-io/milvus",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search - milvus-io/milvus"
       }
     ],
     "metrics": [
@@ -1837,11 +1837,11 @@
         "type": "github_repo",
         "title": "FAISS GitHub repository",
         "url": "https://github.com/facebookresearch/faiss",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "A library for efficient similarity search and clustering of dense vectors. - facebookresearch/faiss"
       }
     ],
     "metrics": [
@@ -1950,11 +1950,11 @@
         "type": "github_repo",
         "title": "Qdrant GitHub repository",
         "url": "https://github.com/qdrant/qdrant",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/ - qdrant/qdrant"
       }
     ],
     "metrics": [
@@ -2063,11 +2063,11 @@
         "type": "github_repo",
         "title": "Chroma GitHub repository",
         "url": "https://github.com/chroma-core/chroma",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Search infrastructure for AI. Contribute to chroma-core/chroma development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -2176,11 +2176,11 @@
         "type": "github_repo",
         "title": "Haystack GitHub repository",
         "url": "https://github.com/deepset-ai/haystack",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems. - deepset-ai/haystack"
       }
     ],
     "metrics": [
@@ -2289,11 +2289,11 @@
         "type": "github_repo",
         "title": "pgvector GitHub repository",
         "url": "https://github.com/pgvector/pgvector",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Open-source vector similarity search for Postgres. Contribute to pgvector/pgvector development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -2402,11 +2402,11 @@
         "type": "github_repo",
         "title": "Weaviate GitHub repository",
         "url": "https://github.com/weaviate/weaviate",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Weaviate is an open-source vector database that stores both objects and vectors, allowing for the combination of vector search with structured filtering with the fault tolerance and scalability of a cloud-native database​. - weaviate/weaviate"
       }
     ],
     "metrics": [
@@ -2515,11 +2515,11 @@
         "type": "github_repo",
         "title": "LanceDB GitHub repository",
         "url": "https://github.com/lancedb/lancedb",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less. - lancedb/lancedb"
       }
     ],
     "metrics": [
@@ -2629,11 +2629,11 @@
         "type": "github_repo",
         "title": "Kubernetes GitHub repository",
         "url": "https://github.com/kubernetes/kubernetes",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Production-Grade Container Scheduling and Management - kubernetes/kubernetes"
       }
     ],
     "metrics": [
@@ -2752,11 +2752,11 @@
         "type": "github_repo",
         "title": "OpenHands Runtime GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "🙌 OpenHands: AI-Driven Development. Contribute to OpenHands/OpenHands development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -2875,11 +2875,11 @@
         "type": "github_repo",
         "title": "Daytona GitHub repository",
         "url": "https://github.com/daytonaio/daytona",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code - daytonaio/daytona"
       }
     ],
     "metrics": [
@@ -2998,11 +2998,11 @@
         "type": "github_repo",
         "title": "Docker/Moby GitHub repository",
         "url": "https://github.com/moby/moby",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems - moby/moby"
       }
     ],
     "metrics": [
@@ -3121,11 +3121,11 @@
         "type": "github_repo",
         "title": "Firecracker GitHub repository",
         "url": "https://github.com/firecracker-microvm/firecracker",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Secure and fast microVMs for serverless computing. - firecracker-microvm/firecracker"
       }
     ],
     "metrics": [
@@ -3244,11 +3244,11 @@
         "type": "github_repo",
         "title": "gVisor GitHub repository",
         "url": "https://github.com/google/gvisor",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Application Kernel for Containers. Contribute to google/gvisor development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -3368,11 +3368,11 @@
         "type": "github_repo",
         "title": "Dagger GitHub repository",
         "url": "https://github.com/dagger/dagger",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Automation engine to build, test and ship any codebase. Runs locally, in CI, or directly in the cloud - dagger/dagger"
       }
     ],
     "metrics": [
@@ -3492,11 +3492,11 @@
         "type": "github_repo",
         "title": "Kata Containers GitHub repository",
         "url": "https://github.com/kata-containers/kata-containers",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/ - kata-containers/kata-containers"
       }
     ],
     "metrics": [
@@ -3615,11 +3615,11 @@
         "type": "github_repo",
         "title": "Dev Containers GitHub repository",
         "url": "https://github.com/devcontainers/spec",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Development Containers: Use a container as a full-featured development environment. - devcontainers/spec"
       }
     ],
     "metrics": [
@@ -3738,11 +3738,11 @@
         "type": "github_repo",
         "title": "E2B Infra GitHub repository",
         "url": "https://github.com/e2b-dev/infra",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Infrastructure that's powering E2B Cloud. Contribute to e2b-dev/infra development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -3860,11 +3860,11 @@
         "type": "github_repo",
         "title": "OpenAI Evals GitHub repository",
         "url": "https://github.com/openai/evals",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Evals is a framework for evaluating LLMs and LLM systems, and an open-source registry of benchmarks. - openai/evals"
       }
     ],
     "metrics": [
@@ -3973,11 +3973,11 @@
         "type": "github_repo",
         "title": "DeepEval GitHub repository",
         "url": "https://github.com/confident-ai/deepeval",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "The LLM Evaluation Framework. Contribute to confident-ai/deepeval development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -4087,11 +4087,11 @@
         "type": "github_repo",
         "title": "Ragas GitHub repository",
         "url": "https://github.com/vibrantlabsai/ragas",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Supercharge Your LLM Application Evaluations 🚀. Contribute to vibrantlabsai/ragas development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -4200,11 +4200,11 @@
         "type": "github_repo",
         "title": "LM Evaluation Harness GitHub repository",
         "url": "https://github.com/EleutherAI/lm-evaluation-harness",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "A framework for few-shot evaluation of language models. - EleutherAI/lm-evaluation-harness"
       }
     ],
     "metrics": [
@@ -4313,11 +4313,11 @@
         "type": "github_repo",
         "title": "Prompt flow GitHub repository",
         "url": "https://github.com/microsoft/promptflow",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring. - microsoft/promptflow"
       }
     ],
     "metrics": [
@@ -4426,11 +4426,11 @@
         "type": "github_repo",
         "title": "OpenCompass GitHub repository",
         "url": "https://github.com/open-compass/opencompass",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets. - open-compass/opencompass"
       }
     ],
     "metrics": [
@@ -4539,11 +4539,11 @@
         "type": "github_repo",
         "title": "HELM GitHub repository",
         "url": "https://github.com/stanford-crfm/helm",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Holistic Evaluation of Language Models (HELM) is an open source Python framework created by the Center for Research on Foundation Models (CRFM) at Stanford for holistic, reproducible and transparent evaluation of foundation models, including large language models (LLMs) and multimodal models. - stanford-crfm/helm"
       }
     ],
     "metrics": [
@@ -4652,11 +4652,11 @@
         "type": "github_repo",
         "title": "Lighteval GitHub repository",
         "url": "https://github.com/huggingface/lighteval",
-        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends - huggingface/lighteval"
       }
     ],
     "metrics": [

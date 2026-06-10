@@ -19,7 +19,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Ollama has 3 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -49,7 +49,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AI inference at the edge. ggml has 20 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -79,7 +79,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "On a mission to build the best AI user interface. Open WebUI has 24 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -109,7 +109,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AI applications that are useful. Mintplex Labs has 38 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -140,7 +140,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Accelerating the design and construction of the built world. Nomic is the AI agent platform for AEC firms, grounded in your drawings, specs, and project data."
       }
     ],
     "updatePolicy": {
@@ -170,7 +170,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Source-controlled AI checks on every pull request. Standards as checks, enforced by AI, decided by humans."
       }
     ],
     "updatePolicy": {
@@ -200,7 +200,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Comfy Org has 68 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -230,7 +230,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AUTOMATIC1111 has 45 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -260,7 +260,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "OpenHands has 43 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -290,7 +290,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Jan is an open-source alternative to ChatGPT. Run open-source AI models locally or connect to cloud models like GPT, Claude and others."
       }
     ],
     "updatePolicy": {
@@ -321,7 +321,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Agent teammates that grow with you. LobeHub has 49 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -352,7 +352,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "danny-avila has 41 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -382,7 +382,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Org profile for Qwen on Hugging Face, the AI community building the future."
       }
     ],
     "updatePolicy": {
@@ -412,7 +412,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The most powerful AI platform for enterprises. Customize, fine-tune, and deploy AI assistants, autonomous agents, and multimodal AI with open models."
       }
     ],
     "updatePolicy": {
@@ -442,7 +442,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Stability AI is the enterprise-ready creative partner for teams and creators, delivering professional-grade generative AI tools and solutions for content production at scale."
       }
     ],
     "updatePolicy": {
@@ -472,7 +472,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://openai.com/"
       }
     ],
     "updatePolicy": {
@@ -503,7 +503,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "EleutherAI"
       }
     ],
     "updatePolicy": {
@@ -534,7 +534,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "BigCode is an open scientific collaboration working on the responsible development and use of large language models for code"
       }
     ],
     "updatePolicy": {
@@ -565,7 +565,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
       }
     ],
     "updatePolicy": {
@@ -595,7 +595,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "LAION, Large-scale Artificial Intelligence Open Network, is a non-profit organization making machine learning resources available to the general public."
       }
     ],
     "updatePolicy": {
@@ -625,7 +625,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Learn how the PyTorch Foundation supports collaboration and growth in the deep learning ecosystem."
       }
     ],
     "updatePolicy": {

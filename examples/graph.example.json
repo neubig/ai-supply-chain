@@ -34,7 +34,7 @@
           "collectionMethod": "static_document",
           "confidence": "high",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/app"
         }
       ],
       "metrics": [
@@ -78,7 +78,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/model"
         }
       ],
       "metrics": [
@@ -124,7 +124,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/base-model"
         }
       ],
       "updatePolicy": {
@@ -154,7 +154,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/dataset"
         }
       ],
       "updatePolicy": {
@@ -184,7 +184,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/runtime"
         }
       ],
       "updatePolicy": {
@@ -214,7 +214,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/api"
         }
       ],
       "updatePolicy": {
@@ -244,7 +244,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/benchmark"
         }
       ],
       "updatePolicy": {
@@ -271,7 +271,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/org"
         }
       ],
       "updatePolicy": {
@@ -298,7 +298,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/license"
         }
       ],
       "updatePolicy": {
@@ -328,7 +328,7 @@
           "collectionMethod": "static_document",
           "confidence": "medium",
           "retrieved_date": "2026-06-09",
-          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+          "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://example.com/hub"
         }
       ],
       "updatePolicy": {
@@ -351,12 +351,12 @@
           "id": "manual:edge-example-app-supports-model",
           "type": "manual_entry",
           "title": "edge:example-app-supports-model seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "The site builds candidate downstream stacks from `application --supports--> model` edges, then follows reachable software, dataset, benchmark, infrastructure, hardware, sandboxing, and license dependencies. It scores each option by:"
         }
       ]
     },
@@ -371,12 +371,12 @@
           "id": "manual:edge-example-app-depends-on-runtime",
           "type": "manual_entry",
           "title": "edge:example-app-depends-on-runtime seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -392,11 +392,11 @@
           "type": "manual_entry",
           "title": "edge:example-model-trained-on-data seed edge source placeholder",
           "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "note": "The linked source does not provide edge-specific evidence for model:example-chat-model trained_on dataset:example-pretraining-data; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -411,12 +411,12 @@
           "id": "manual:edge-example-model-trained-with-runtime",
           "type": "manual_entry",
           "title": "edge:example-model-trained-with-runtime seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, hardware accelerators, RAG/vector/data infrastructure, agent sandboxing, and evaluation tools/benchmarks."
         }
       ]
     },
@@ -431,12 +431,12 @@
           "id": "manual:edge-example-model-evaluated-on-benchmark",
           "type": "manual_entry",
           "title": "edge:example-model-evaluated-on-benchmark seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "- `benchmark`: task scores such as MMLU, HumanEval, MTEB, WER, or image-generation benchmarks."
         }
       ]
     },
@@ -451,12 +451,12 @@
           "id": "manual:edge-example-app-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-app-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -471,12 +471,12 @@
           "id": "manual:edge-example-model-hosted-by-hub",
           "type": "manual_entry",
           "title": "edge:example-model-hosted-by-hub seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
         }
       ]
     },
@@ -491,12 +491,12 @@
           "id": "manual:edge-example-model-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-model-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -511,12 +511,12 @@
           "id": "manual:edge-example-model-derived-from-base-model",
           "type": "manual_entry",
           "title": "edge:example-model-derived-from-base-model seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "- `src/schema.ts`: Zod schema and inferred TypeScript types. - `src/lib/`: graph loading, stack ranking, and visualization logic. - `app/`: Next.js app deployable on Vercel. - `data/nodes/`: JSON node records separated by node kind. - `data/edges/`: JSON edge records separated by relationship family. - `examples/`: Minimal examples for each schema object and edge category. - `schema/`: Generated JSON Schema for the complete graph. - `visualizations/`: Generated graph artifacts. - `docs/risk-analysis.md`: Risk dimensions, source frameworks, and answerable questions."
         }
       ]
     },
@@ -531,12 +531,12 @@
           "id": "manual:edge-example-benchmark-uses-data",
           "type": "manual_entry",
           "title": "edge:example-benchmark-uses-data seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -551,12 +551,12 @@
           "id": "manual:edge-example-runtime-implements-api",
           "type": "manual_entry",
           "title": "edge:example-runtime-implements-api seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "- `examples/`: Minimal examples for each schema object and edge category."
         }
       ]
     },
@@ -571,12 +571,12 @@
           "id": "manual:edge-example-app-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-app-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -591,12 +591,12 @@
           "id": "manual:edge-example-model-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-model-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -611,12 +611,12 @@
           "id": "manual:edge-example-base-model-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-base-model-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -631,12 +631,12 @@
           "id": "manual:edge-example-base-model-hosted-by-hub",
           "type": "manual_entry",
           "title": "edge:example-base-model-hosted-by-hub seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
         }
       ]
     },
@@ -651,12 +651,12 @@
           "id": "manual:edge-example-base-model-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-base-model-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -672,11 +672,11 @@
           "type": "manual_entry",
           "title": "edge:example-base-model-trained-on-data seed edge source placeholder",
           "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "note": "The linked source does not provide edge-specific evidence for model:example-base-model trained_on dataset:example-pretraining-data; this relationship is source-needed until a direct quote is collected."
         }
       ]
     },
@@ -691,12 +691,12 @@
           "id": "manual:edge-example-base-model-trained-with-runtime",
           "type": "manual_entry",
           "title": "edge:example-base-model-trained-with-runtime seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, hardware accelerators, RAG/vector/data infrastructure, agent sandboxing, and evaluation tools/benchmarks."
         }
       ]
     },
@@ -711,12 +711,12 @@
           "id": "manual:edge-example-base-model-evaluated-on-benchmark",
           "type": "manual_entry",
           "title": "edge:example-base-model-evaluated-on-benchmark seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "- `benchmark`: task scores such as MMLU, HumanEval, MTEB, WER, or image-generation benchmarks."
         }
       ]
     },
@@ -731,12 +731,12 @@
           "id": "manual:edge-example-dataset-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-dataset-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -751,12 +751,12 @@
           "id": "manual:edge-example-dataset-hosted-by-hub",
           "type": "manual_entry",
           "title": "edge:example-dataset-hosted-by-hub seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "1. Official APIs such as GitHub and Hugging Face. 2. Official repository files, model cards, dataset cards, benchmark pages, and papers. 3. Package registries or release metadata. 4. Manual review or web search only when deterministic sources are not available."
         }
       ]
     },
@@ -771,12 +771,12 @@
           "id": "manual:edge-example-dataset-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-dataset-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -791,12 +791,12 @@
           "id": "manual:edge-example-runtime-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-runtime-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -811,12 +811,12 @@
           "id": "manual:edge-example-runtime-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-runtime-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -831,12 +831,12 @@
           "id": "manual:edge-example-api-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-api-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -851,12 +851,12 @@
           "id": "manual:edge-example-api-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-api-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -871,12 +871,12 @@
           "id": "manual:edge-example-benchmark-developed-by-org",
           "type": "manual_entry",
           "title": "edge:example-benchmark-developed-by-org seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     },
@@ -891,12 +891,12 @@
           "id": "manual:edge-example-benchmark-licensed-as-license",
           "type": "manual_entry",
           "title": "edge:example-benchmark-licensed-as-license seed edge source placeholder",
-          "url": "https://github.com/neubig/ai-supply-chain",
-          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "url": "https://raw.githubusercontent.com/neubig/ai-supply-chain/main/README.md",
           "publisher": "AI supply-chain maintainers",
           "retrieved_date": "2026-06-10",
           "collectionMethod": "manual_review",
-          "confidence": "low"
+          "confidence": "low",
+          "quote": "This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`."
         }
       ]
     }

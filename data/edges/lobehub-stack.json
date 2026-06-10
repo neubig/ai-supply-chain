@@ -11,12 +11,12 @@
         "id": "edge-source:lobehub-repo",
         "type": "github_repo",
         "title": "LobeHub GitHub repository",
-        "url": "https://github.com/lobehub/lobehub",
+        "url": "https://raw.githubusercontent.com/lobehub/lobehub/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
       }
     ]
   },
@@ -32,23 +32,23 @@
         "id": "edge-source:lobehub-litellm",
         "type": "github_repo",
         "title": "LobeHub GitHub repository",
-        "url": "https://github.com/lobehub/lobehub",
+        "url": "https://raw.githubusercontent.com/lobehub/lobehub/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "low",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
       },
       {
         "id": "edge-source:litellm-repo",
         "type": "github_repo",
         "title": "LiteLLM GitHub repository",
-        "url": "https://github.com/BerriAI/litellm",
+        "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "**Jump to LiteLLM Proxy (LLM Gateway) Docs** **Jump to Supported LLM Providers**"
       }
     ]
   },
@@ -64,23 +64,23 @@
         "id": "edge-source:lobehub-docker",
         "type": "github_repo",
         "title": "LobeHub GitHub repository",
-        "url": "https://github.com/lobehub/lobehub",
+        "url": "https://raw.githubusercontent.com/lobehub/lobehub/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "[docs-docker]: https://lobehub.com/docs/self-hosting/server-database/docker-compose"
       },
       {
         "id": "edge-source:docker-moby-lobehub",
         "type": "github_repo",
         "title": "Moby GitHub repository",
-        "url": "https://github.com/moby/moby",
+        "url": "https://raw.githubusercontent.com/moby/moby/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
       }
     ],
     "metrics": [
@@ -110,12 +110,12 @@
         "id": "edge-source:lobehub-license",
         "type": "github_license",
         "title": "LobeHub GitHub license metadata",
-        "url": "https://github.com/lobehub/lobehub",
+        "url": "https://raw.githubusercontent.com/lobehub/lobehub/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "low",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "This project is LobeHub Community License licensed."
       }
     ]
   },
@@ -136,7 +136,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Repos Packages Version Release Date Downloads 🍭 LobeUI @lobehub/ui 🥨 LobeIcons @lobehub/icons 📊 LobeCharts @lobehub/charts ✒️ LobeEditor @lobehub/editor 🎤 LobeTTS @lobehub/tts 📐 LobeLint @lobehub/lint 🤝 Contributing We foster trust and welcome all forms of open-source collaboration and creative contributions to jointly advance the innovation of personalized AI tools, feel free to check out our GitHub Issues and"
       }
     ]
   }

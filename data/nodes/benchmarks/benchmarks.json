@@ -24,7 +24,7 @@
         "collectionMethod": "paper_metadata",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Abstract page for arXiv paper 2009.03300: Measuring Massive Multitask Language Understanding"
       }
     ],
     "updatePolicy": {
@@ -59,7 +59,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Code for the paper \"Evaluating Large Language Models Trained on Code\" - openai/human-eval"
       }
     ],
     "updatePolicy": {
@@ -95,7 +95,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "MTEB: Massive Text Embedding Benchmark. Contribute to embeddings-benchmark/mteb development by creating an account on GitHub."
       }
     ],
     "updatePolicy": {
@@ -129,7 +129,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Open Speech and Language Resources."
       }
     ],
     "updatePolicy": {
@@ -198,7 +198,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "SWE-bench Leaderboards"
       }
     ],
     "updatePolicy": {
@@ -231,7 +231,7 @@
         "collectionMethod": "paper_metadata",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Abstract page for arXiv paper 1606.06031: The LAMBADA dataset: Word prediction requiring a broad discourse context"
       }
     ],
     "updatePolicy": {

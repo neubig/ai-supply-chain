@@ -47,11 +47,6 @@ function normalizeObject(value: { [key: string]: Json }): boolean {
       delete value.notes;
       changed = true;
     }
-    if (typeof value.note !== "string" && typeof value.quote !== "string") {
-      value.note =
-        "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade.";
-      changed = true;
-    }
     if (typeof value.published_date !== "string" && typeof value.retrieved_date !== "string") {
       value.retrieved_date = "2026-06-10";
       changed = true;

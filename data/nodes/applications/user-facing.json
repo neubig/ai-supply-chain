@@ -38,7 +38,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...) - open-webui/open-webui"
       },
       {
         "id": "github-license:open-webui/open-webui",
@@ -49,7 +49,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...) - open-webui/LICENSE at main · open-webui/open-webui"
       }
     ],
     "metrics": [
@@ -149,7 +149,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience - GitHub - Mintplex-Labs/anything-llm: Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience"
       }
     ],
     "metrics": [
@@ -237,7 +237,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use. - nomic-ai/gpt4all"
       }
     ],
     "metrics": [
@@ -326,7 +326,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "⏩ Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI - continuedev/continue"
       }
     ],
     "metrics": [
@@ -401,7 +401,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. - Comfy-Org/ComfyUI"
       }
     ],
     "metrics": [
@@ -476,7 +476,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Stable Diffusion web UI. Contribute to AUTOMATIC1111/stable-diffusion-webui development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -554,7 +554,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "🙌 OpenHands: AI-Driven Development. Contribute to OpenHands/OpenHands development by creating an account on GitHub."
       },
       {
         "id": "github-license:openhands/openhands",
@@ -565,7 +565,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "🙌 OpenHands: AI-Driven Development. Contribute to OpenHands/OpenHands development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -642,7 +642,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. - janhq/jan"
       },
       {
         "id": "github-license:janhq/jan",
@@ -653,7 +653,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. - jan/LICENSE at main · janhq/jan"
       }
     ],
     "metrics": [

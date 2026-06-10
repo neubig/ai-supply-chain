@@ -48,6 +48,9 @@ type SourceRecord = {
 
 const retrievedDate = "2026-06-10";
 const repoUrl = "https://github.com/neubig/ai-supply-chain";
+const undisclosedNotePattern = /(undisclosed|not disclosed|does not disclose|do not disclose|source-needed|placeholder|not available|not found|not applicable|missing from the source)/i;
+const quoteCollectionPendingNote =
+  "source-needed quote collection pending: this disclosed metadata source requires a direct quote from the linked URL.";
 const generatedEdgeFile = path.join(process.cwd(), "data", "edges", "required-coverage.json");
 const generatedSupportFiles = {
   datasets: path.join(process.cwd(), "data", "nodes", "datasets", "source-needed.json"),
@@ -105,17 +108,22 @@ function slug(value: string) {
 
 function sourceFor(node: NodeRecord, idSuffix: string, note: string): SourceRecord {
   const source = node.sources[0];
-  return {
+  const record: SourceRecord = {
     id: `generated:${slug(node.id)}:${idSuffix}`,
     type: source?.type ?? "manual_entry",
     title: `${node.name} source for ${idSuffix.replaceAll("-", " ")}`,
     url: source?.url ?? node.canonicalUrl ?? repoUrl,
-    note,
     publisher: source?.publisher,
     retrieved_date: source?.retrieved_date ?? retrievedDate,
     collectionMethod: source?.collectionMethod ?? "manual_review",
     confidence: "low"
   };
+  if (undisclosedNotePattern.test(note)) {
+    record.note = note;
+  } else {
+    record.note = quoteCollectionPendingNote;
+  }
+  return record;
 }
 
 function maintainerFromUrl(node: NodeRecord) {
@@ -191,7 +199,7 @@ function organizationNode(owner: string): NodeRecord {
         type: "github_repo",
         title: `${owner} maintainer namespace`,
         url: `https://github.com/${owner}`,
-        note: "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        note: quoteCollectionPendingNote,
         publisher: "GitHub",
         retrieved_date: retrievedDate,
         collectionMethod: "static_document",

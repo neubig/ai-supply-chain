@@ -35,7 +35,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models. - ollama/ollama"
       }
     ],
     "metrics": [
@@ -106,7 +106,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "LLM inference in C/C++. Contribute to ggml-org/llama.cpp development by creating an account on GitHub."
       }
     ],
     "metrics": [
@@ -178,7 +178,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Tensors and Dynamic neural networks in Python with strong GPU acceleration - pytorch/pytorch"
       },
       {
         "id": "github-license:pytorch/pytorch",
@@ -189,7 +189,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Tensors and Dynamic neural networks in Python with strong GPU acceleration - pytorch/LICENSE at main · pytorch/pytorch"
       }
     ],
     "metrics": [
@@ -262,7 +262,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. - GitHub - huggingface/transformers: 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training."
       }
     ],
     "metrics": [
@@ -334,7 +334,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. - huggingface/diffusers"
       }
     ],
     "metrics": [
@@ -405,7 +405,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "A high-throughput and memory-efficient inference and serving engine for LLMs - vllm-project/vllm"
       }
     ],
     "metrics": [
@@ -477,7 +477,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM] - BerriAI/litellm"
       },
       {
         "id": "github-license:berriai/litellm",
@@ -488,7 +488,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM] - litellm/LICENSE at litellm_internal_staging · BerriAI/litellm"
       }
     ],
     "metrics": [
@@ -560,7 +560,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! - gradio-app/gradio"
       }
     ],
     "metrics": [
@@ -621,7 +621,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "API Overview | OpenAI API Reference"
       }
     ],
     "metrics": [],

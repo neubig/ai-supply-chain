@@ -21,7 +21,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Apache License 2.0 | Software Package Data Exchange (SPDX)"
       }
     ],
     "metrics": [
@@ -64,7 +64,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "MIT License | Software Package Data Exchange (SPDX)"
       }
     ],
     "metrics": [
@@ -107,7 +107,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "GNU General Public License v3.0 only | Software Package Data Exchange (SPDX)"
       }
     ],
     "metrics": [
@@ -150,7 +150,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "GNU Affero General Public License v3.0 only | Software Package Data Exchange (SPDX)"
       }
     ],
     "metrics": [
@@ -193,7 +193,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "BSD 3-Clause \"New\" or \"Revised\" License | Software Package Data Exchange (SPDX)"
       }
     ],
     "metrics": [
@@ -235,7 +235,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Creative Commons Attribution 4.0 International | Software Package Data Exchange (SPDX)"
       }
     ],
     "updatePolicy": {
@@ -266,7 +266,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Responsible AI Licenses (RAIL) empower developers to restrict the use of their AI technology in order to prevent irresponsible and harmful applications. We provide both source code licenses as well as end-user licenses that developers/providers can include with AI software to restrict its irresponsible use."
       }
     ],
     "updatePolicy": {
@@ -297,7 +297,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://huggingface.co/spaces/bigcode/license"
       }
     ],
     "updatePolicy": {
@@ -328,7 +328,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...) - open-webui/LICENSE at main · open-webui/open-webui"
       }
     ],
     "updatePolicy": {
@@ -359,7 +359,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "🙌 OpenHands: AI-Driven Development. Contribute to OpenHands/OpenHands development by creating an account on GitHub."
       }
     ],
     "updatePolicy": {
@@ -390,7 +390,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "SPDX License List | Software Package Data Exchange (SPDX)"
       }
     ],
     "updatePolicy": {

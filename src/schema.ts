@@ -118,6 +118,7 @@ const nodeIdSchema = z.string().regex(/^[a-z]+:[a-z0-9][a-z0-9_.-]*$/);
 const edgeIdSchema = z.string().regex(/^edge:[a-z0-9][a-z0-9_.:-]*$/);
 const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 const urlSchema = z.string().url().regex(/^https?:\/\//);
+const undisclosedNotePattern = /(undisclosed|not disclosed|does not disclose|do not disclose|source-needed|placeholder|not available|not found|not applicable|missing from the source)/i;
 
 export const SourceRecordSchema = z
   .object({
@@ -140,6 +141,13 @@ export const SourceRecordSchema = z
         code: z.ZodIssueCode.custom,
         path: ["note"],
         message: "source records must include either quote or note"
+      });
+    }
+    if (!source.quote && source.note && !undisclosedNotePattern.test(source.note)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["note"],
+        message: "note-only source records are allowed only for undisclosed/source-needed facts; disclosed facts require quote"
       });
     }
     if (!source.published_date && !source.retrieved_date) {

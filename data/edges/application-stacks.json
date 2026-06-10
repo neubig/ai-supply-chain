@@ -11,12 +11,12 @@
         "id": "edge-source:open-webui-readme",
         "type": "github_repo",
         "title": "Open WebUI repository metadata",
-        "url": "https://github.com/open-webui/open-webui",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "**Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**."
       }
     ]
   },
@@ -32,12 +32,12 @@
         "id": "edge-source:open-webui-readme",
         "type": "github_repo",
         "title": "Open WebUI repository metadata",
-        "url": "https://github.com/open-webui/open-webui",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "**Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**."
       }
     ]
   },
@@ -53,12 +53,12 @@
         "id": "edge-source:open-webui-repo-description",
         "type": "github_repo",
         "title": "Open WebUI GitHub repository description",
-        "url": "https://github.com/open-webui/open-webui",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "**Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**."
       }
     ]
   },
@@ -74,12 +74,12 @@
         "id": "edge-source:open-webui-license",
         "type": "github_license",
         "title": "Open WebUI LICENSE",
-        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/open-webui/open-webui/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Open WebUI License"
       }
     ]
   },
@@ -100,7 +100,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Created by Tim J."
       }
     ]
   },
@@ -116,12 +116,12 @@
         "id": "edge-source:anythingllm-repo",
         "type": "github_repo",
         "title": "AnythingLLM GitHub repository",
-        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AnythingLLM is the all-in-one AI application that lets you build a private, fully-featured ChatGPT—without compromises. Connect your favorite local or cloud LLM, ingest your documents, and start chatting in minutes. Out of the box you get built-in agents, multi-user support, vector databases, and document pipelines — no extra configuration required."
       }
     ]
   },
@@ -137,12 +137,12 @@
         "id": "edge-source:anythingllm-repo",
         "type": "github_repo",
         "title": "AnythingLLM GitHub repository",
-        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- If using an external tool, LLM, Embedding models, or Vector databases, you will still see outbound connections to the respective service provider. - `cdn.anythingllm.com` for pulling models from our mirror CDN. This is not tracked by telemetry and is actually useful for those in VPN restricted regions. - `github/githubusercontent.com` There are some various flat files that are downloaded from these domains for context window caching."
       }
     ]
   },
@@ -158,12 +158,12 @@
         "id": "edge-source:anythingllm-repo",
         "type": "github_repo",
         "title": "AnythingLLM GitHub repository",
-        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property."
       }
     ]
   },
@@ -179,12 +179,12 @@
         "id": "edge-source:anythingllm-license",
         "type": "github_license",
         "title": "AnythingLLM LICENSE",
-        "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The MIT License"
       }
     ]
   },
@@ -200,12 +200,12 @@
         "id": "edge-source:anythingllm-github",
         "type": "github_repo",
         "title": "AnythingLLM GitHub repository",
-        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "AnythingLLM by Mintplex Labs Inc contains a telemetry feature that collects anonymous usage information."
       }
     ]
   },
@@ -221,12 +221,12 @@
         "id": "edge-source:gpt4all-repo",
         "type": "github_repo",
         "title": "GPT4All GitHub repository",
-        "url": "https://github.com/nomic-ai/gpt4all",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The Windows ARM build supports Qualcomm Snapdragon and Microsoft SQ1/SQ2 processors."
       }
     ]
   },
@@ -242,12 +242,12 @@
         "id": "edge-source:gpt4all-repo",
         "type": "github_repo",
         "title": "GPT4All GitHub repository",
-        "url": "https://github.com/nomic-ai/gpt4all",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Offline build support for running old versions of the GPT4All Local LLM Chat Client."
       }
     ]
   },
@@ -263,12 +263,12 @@
         "id": "edge-source:gpt4all-repo",
         "type": "github_repo",
         "title": "GPT4All GitHub repository",
-        "url": "https://github.com/nomic-ai/gpt4all",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "`gpt4all` gives you access to LLMs with our Python client around `llama.cpp` implementations."
       }
     ]
   },
@@ -284,12 +284,12 @@
         "id": "edge-source:gpt4all-license",
         "type": "github_license",
         "title": "GPT4All LICENSE",
-        "url": "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/LICENSE.txt",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
       }
     ]
   },
@@ -305,12 +305,12 @@
         "id": "edge-source:gpt4all-github",
         "type": "github_repo",
         "title": "GPT4All GitHub repository",
-        "url": "https://github.com/nomic-ai/gpt4all",
+        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Flathub (community maintained)"
       }
     ]
   },
@@ -331,7 +331,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:continue supports model:qwen2.5-coder-7b-instruct; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -352,7 +352,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:continue supports model:starcoder2-3b; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -373,7 +373,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:continue supports software:ollama; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -394,7 +394,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:continue implements software:openai-compatible-api; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -410,12 +410,12 @@
         "id": "edge-source:continue-license",
         "type": "github_license",
         "title": "Continue LICENSE",
-        "url": "https://github.com/continuedev/continue/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/continuedev/continue/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -436,7 +436,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Continue • Quality control for your software factory. | Continue"
       }
     ]
   },
@@ -452,12 +452,12 @@
         "id": "edge-source:comfyui-repo",
         "type": "github_repo",
         "title": "ComfyUI GitHub repository",
-        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- ComfyUI natively supports the latest open-source state of the art models."
       }
     ]
   },
@@ -473,12 +473,12 @@
         "id": "edge-source:comfyui-repo",
         "type": "github_repo",
         "title": "ComfyUI GitHub repository",
-        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "As of August 15, 2024, we have transitioned to a new frontend, which is now hosted in a separate repository: ComfyUI Frontend. The compiled JS files (from TS/Vue) are published to pypi and installed as a dependency in ComfyUI."
       }
     ]
   },
@@ -494,12 +494,12 @@
         "id": "edge-source:comfyui-license",
         "type": "github_license",
         "title": "ComfyUI LICENSE",
-        "url": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
+        "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such."
       }
     ]
   },
@@ -515,12 +515,12 @@
         "id": "edge-source:comfyui-github",
         "type": "github_repo",
         "title": "ComfyUI GitHub repository",
-        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "1. Launch ComfyUI by running `python main.py`"
       }
     ]
   },
@@ -536,12 +536,12 @@
         "id": "edge-source:sd-webui-repo",
         "type": "github_repo",
         "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Segmind Stable Diffusion support"
       }
     ]
   },
@@ -557,12 +557,12 @@
         "id": "edge-source:sd-webui-repo",
         "type": "github_repo",
         "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
       }
     ]
   },
@@ -578,12 +578,12 @@
         "id": "edge-source:sd-webui-license",
         "type": "github_license",
         "title": "Stable Diffusion web UI LICENSE",
-        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/LICENSE.txt",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The GNU General Public License permits making a modified version and"
       }
     ]
   },
@@ -599,12 +599,12 @@
         "id": "edge-source:sd-webui-github",
         "type": "github_repo",
         "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
       }
     ]
   },
@@ -620,12 +620,12 @@
         "id": "edge-source:openhands-repo",
         "type": "github_repo",
         "title": "OpenHands GitHub repository",
-        "url": "https://github.com/OpenHands/OpenHands",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "OpenHands Cloud comes with source-available features and integrations: - Integrations with Slack, Jira, and Linear - Multi-user support - RBAC and permissions - Collaboration features (e.g., conversation sharing)"
       }
     ]
   },
@@ -646,7 +646,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:openhands depends_on software:litellm; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -662,12 +662,12 @@
         "id": "edge-source:openhands-repo",
         "type": "github_repo",
         "title": "OpenHands GitHub repository",
-        "url": "https://github.com/OpenHands/OpenHands",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for application:openhands evaluated_on benchmark:swe-bench; this relationship is source-needed until a direct quote is collected."
       }
     ],
     "metrics": [
@@ -700,12 +700,12 @@
         "id": "edge-source:openhands-license",
         "type": "github_license",
         "title": "OpenHands LICENSE",
-        "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Portions of this software are licensed as follows: * All content that resides under the enterprise/ directory is licensed under the license defined in \"enterprise/LICENSE\". * Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below."
       }
     ]
   },
@@ -721,12 +721,12 @@
         "id": "edge-source:openhands-github",
         "type": "github_repo",
         "title": "OpenHands GitHub repository",
-        "url": "https://github.com/OpenHands/OpenHands",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "### OpenHands CLI"
       }
     ]
   },
@@ -742,12 +742,12 @@
         "id": "edge-source:jan-repo",
         "type": "github_repo",
         "title": "Jan GitHub repository",
-        "url": "https://github.com/janhq/jan",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
       }
     ]
   },
@@ -763,12 +763,12 @@
         "id": "edge-source:jan-repo",
         "type": "github_repo",
         "title": "Jan GitHub repository",
-        "url": "https://github.com/janhq/jan",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
       }
     ]
   },
@@ -784,12 +784,12 @@
         "id": "edge-source:jan-repo",
         "type": "github_repo",
         "title": "Jan GitHub repository",
-        "url": "https://github.com/janhq/jan",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "This handles everything: installs dependencies, builds core components, and launches the app."
       }
     ]
   },
@@ -805,12 +805,12 @@
         "id": "edge-source:jan-repo-description",
         "type": "github_repo",
         "title": "Jan GitHub repository description",
-        "url": "https://github.com/janhq/jan",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "git clone https://github.com/janhq/jan"
       }
     ]
   },
@@ -826,12 +826,12 @@
         "id": "edge-source:jan-license",
         "type": "github_license",
         "title": "Jan LICENSE",
-        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -847,12 +847,12 @@
         "id": "edge-source:jan-license",
         "type": "github_license",
         "title": "Jan LICENSE",
-        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/janhq/jan/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "This product includes software developed by Menlo Research (https://menlo.ai)."
       }
     ]
   }

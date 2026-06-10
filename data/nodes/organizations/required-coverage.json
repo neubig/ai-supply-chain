@@ -53,11 +53,11 @@
         "type": "github_repo",
         "title": "Alibaba-NLP maintainer namespace",
         "url": "https://github.com/Alibaba-NLP",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Our team at Tongyi Lab is dedicated to pioneer advancements in AI search technologies. - Tongyi Lab, Alibaba Group"
       }
     ],
     "updatePolicy": {
@@ -87,11 +87,11 @@
         "type": "github_repo",
         "title": "allenai maintainer namespace",
         "url": "https://github.com/allenai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Ai2 has 582 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -121,11 +121,11 @@
         "type": "github_repo",
         "title": "axolotl-ai-cloud maintainer namespace",
         "url": "https://github.com/axolotl-ai-cloud",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Axolotl AI has 22 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -155,11 +155,11 @@
         "type": "github_repo",
         "title": "BAAI maintainer namespace",
         "url": "https://github.com/BAAI",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "GitHub is where baai builds software."
       }
     ],
     "updatePolicy": {
@@ -189,11 +189,11 @@
         "type": "github_repo",
         "title": "BerriAI maintainer namespace",
         "url": "https://github.com/BerriAI",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "The fastest way to take your LLM app to production - Berri AI"
       }
     ],
     "updatePolicy": {
@@ -223,11 +223,11 @@
         "type": "github_repo",
         "title": "black-forest-labs maintainer namespace",
         "url": "https://github.com/black-forest-labs",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "black-forest-labs has 8 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -257,11 +257,11 @@
         "type": "github_repo",
         "title": "chroma-core maintainer namespace",
         "url": "https://github.com/chroma-core",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Chroma has 29 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -291,11 +291,11 @@
         "type": "github_repo",
         "title": "codellama maintainer namespace",
         "url": "https://github.com/codellama",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "codellama has one repository available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -325,11 +325,11 @@
         "type": "github_repo",
         "title": "confident-ai maintainer namespace",
         "url": "https://github.com/confident-ai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Confident AI has 6 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -359,11 +359,11 @@
         "type": "github_repo",
         "title": "coqui maintainer namespace",
         "url": "https://github.com/coqui",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "coqui has 2 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -393,11 +393,11 @@
         "type": "github_repo",
         "title": "dagger maintainer namespace",
         "url": "https://github.com/dagger",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "The agent-ready test platform. Test any codebase end-to-end, repeatably and at scale. Runs locally, in your CI server, or directly in the cloud. - dagger"
       }
     ],
     "updatePolicy": {
@@ -427,11 +427,11 @@
         "type": "github_repo",
         "title": "daytonaio maintainer namespace",
         "url": "https://github.com/daytonaio",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code. - Daytona"
       }
     ],
     "updatePolicy": {
@@ -461,11 +461,11 @@
         "type": "github_repo",
         "title": "deepseek-ai maintainer namespace",
         "url": "https://github.com/deepseek-ai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "DeepSeek has 34 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -495,11 +495,11 @@
         "type": "github_repo",
         "title": "deepset-ai maintainer namespace",
         "url": "https://github.com/deepset-ai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Building enterprise search systems powered by latest NLP & open-source. - deepset"
       }
     ],
     "updatePolicy": {
@@ -529,11 +529,11 @@
         "type": "github_repo",
         "title": "deepspeedai maintainer namespace",
         "url": "https://github.com/deepspeedai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "deepspeedai has 6 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -563,11 +563,11 @@
         "type": "github_repo",
         "title": "devcontainers maintainer namespace",
         "url": "https://github.com/devcontainers",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Official organization for the Development Containers Specification and dev container resources. - devcontainers"
       }
     ],
     "updatePolicy": {
@@ -597,7 +597,7 @@
         "type": "github_repo",
         "title": "distil-whisper maintainer namespace",
         "url": "https://github.com/distil-whisper",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://github.com/distil-whisper",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
@@ -631,11 +631,11 @@
         "type": "github_repo",
         "title": "e2b-dev maintainer namespace",
         "url": "https://github.com/e2b-dev",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Open-source, secure environment with real-world tools for enterprise-grade agents. - E2B | Cloud for AI Agents"
       }
     ],
     "updatePolicy": {
@@ -665,11 +665,11 @@
         "type": "github_repo",
         "title": "embeddings-benchmark maintainer namespace",
         "url": "https://github.com/embeddings-benchmark",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Massive Text Embedding Benchmark has 8 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -699,11 +699,11 @@
         "type": "github_repo",
         "title": "facebook maintainer namespace",
         "url": "https://github.com/facebook",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "We are working to build community through open source technology. NB: members must have two-factor auth. - Meta"
       }
     ],
     "updatePolicy": {
@@ -733,11 +733,11 @@
         "type": "github_repo",
         "title": "facebookresearch maintainer namespace",
         "url": "https://github.com/facebookresearch",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Meta Research has 1410 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -767,11 +767,11 @@
         "type": "github_repo",
         "title": "firecracker-microvm maintainer namespace",
         "url": "https://github.com/firecracker-microvm",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "firecracker-microvm has 13 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -801,11 +801,11 @@
         "type": "github_repo",
         "title": "google maintainer namespace",
         "url": "https://github.com/google",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Google ❤️ Open Source. Google has 2879 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -835,11 +835,11 @@
         "type": "github_repo",
         "title": "huggingface maintainer namespace",
         "url": "https://github.com/huggingface",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "The AI community building the future. Hugging Face has 438 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -869,11 +869,11 @@
         "type": "github_repo",
         "title": "ibm-granite maintainer namespace",
         "url": "https://github.com/ibm-granite",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "IBM Granite has 26 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -903,11 +903,11 @@
         "type": "github_repo",
         "title": "intfloat maintainer namespace",
         "url": "https://github.com/intfloat",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "intfloat has 19 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -937,11 +937,11 @@
         "type": "github_repo",
         "title": "ise-uiuc maintainer namespace",
         "url": "https://github.com/ise-uiuc",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "iSE-UIUC has 18 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -971,7 +971,7 @@
         "type": "github_repo",
         "title": "jinaai maintainer namespace",
         "url": "https://github.com/jinaai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://github.com/jinaai",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
@@ -1005,7 +1005,7 @@
         "type": "github_repo",
         "title": "kandinsky-community maintainer namespace",
         "url": "https://github.com/kandinsky-community",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://github.com/kandinsky-community",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
@@ -1039,11 +1039,11 @@
         "type": "github_repo",
         "title": "kata-containers maintainer namespace",
         "url": "https://github.com/kata-containers",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "The speed of containers, the security of VMs. Kata Containers has 32 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1073,11 +1073,11 @@
         "type": "github_repo",
         "title": "kserve maintainer namespace",
         "url": "https://github.com/kserve",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes - KServe"
       }
     ],
     "updatePolicy": {
@@ -1107,11 +1107,11 @@
         "type": "github_repo",
         "title": "kubernetes maintainer namespace",
         "url": "https://github.com/kubernetes",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Production-Grade Container Scheduling and Management - Kubernetes"
       }
     ],
     "updatePolicy": {
@@ -1141,11 +1141,11 @@
         "type": "github_repo",
         "title": "lancedb maintainer namespace",
         "url": "https://github.com/lancedb",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "LanceDB has 48 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1175,11 +1175,11 @@
         "type": "github_repo",
         "title": "langchain-ai maintainer namespace",
         "url": "https://github.com/langchain-ai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "LangChain has 241 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1209,11 +1209,11 @@
         "type": "github_repo",
         "title": "Lightning-AI maintainer namespace",
         "url": "https://github.com/Lightning-AI",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Turn ideas into AI, Lightning fast. Creators of PyTorch Lightning, Lightning AI Studio, TorchMetrics, Fabric, Lit-GPT, Lit-LLaMA - ⚡️ Lightning AI"
       }
     ],
     "updatePolicy": {
@@ -1243,11 +1243,11 @@
         "type": "github_repo",
         "title": "Lykon maintainer namespace",
         "url": "https://github.com/Lykon",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "GitHub is where Lykon builds software."
       }
     ],
     "updatePolicy": {
@@ -1277,11 +1277,11 @@
         "type": "github_repo",
         "title": "meta-llama maintainer namespace",
         "url": "https://github.com/meta-llama",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Meta Llama has 12 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1311,11 +1311,11 @@
         "type": "github_repo",
         "title": "microsoft maintainer namespace",
         "url": "https://github.com/microsoft",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Open source projects and samples from Microsoft. Microsoft has 8025 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1345,11 +1345,11 @@
         "type": "github_repo",
         "title": "milvus-io maintainer namespace",
         "url": "https://github.com/milvus-io",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "The open source vector database designed for AI applications - The Milvus Project"
       }
     ],
     "updatePolicy": {
@@ -1379,11 +1379,11 @@
         "type": "github_repo",
         "title": "mistralai maintainer namespace",
         "url": "https://github.com/mistralai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Mistral AI. Mistral AI has 25 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1413,11 +1413,11 @@
         "type": "github_repo",
         "title": "mixedbread-ai maintainer namespace",
         "url": "https://github.com/mixedbread-ai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "AI Research & Development. Mixedbread has 44 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1447,11 +1447,11 @@
         "type": "github_repo",
         "title": "moby maintainer namespace",
         "url": "https://github.com/moby",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "An open framework to assemble specialized container systems without reinventing the wheel. - Moby"
       }
     ],
     "updatePolicy": {
@@ -1481,11 +1481,11 @@
         "type": "github_repo",
         "title": "mudler maintainer namespace",
         "url": "https://github.com/mudler",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "ex-SUSE/Rancher, ex-gentoo, ex-Sabayon, @mocaccinoOS - mudler"
       }
     ],
     "updatePolicy": {
@@ -1515,11 +1515,11 @@
         "type": "github_repo",
         "title": "nvidia maintainer namespace",
         "url": "https://github.com/nvidia",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "NVIDIA Corporation has 745 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1549,11 +1549,11 @@
         "type": "github_repo",
         "title": "open-compass maintainer namespace",
         "url": "https://github.com/open-compass",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "OpenCompass has 50 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1583,11 +1583,11 @@
         "type": "github_repo",
         "title": "pgvector maintainer namespace",
         "url": "https://github.com/pgvector",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Open-source vector similarity search for Postgres. pgvector has 39 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1617,11 +1617,11 @@
         "type": "github_repo",
         "title": "PixArt-alpha maintainer namespace",
         "url": "https://github.com/PixArt-alpha",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "PixArt has 5 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1651,11 +1651,11 @@
         "type": "github_repo",
         "title": "playgroundai maintainer namespace",
         "url": "https://github.com/playgroundai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "GitHub is where Playground AI builds software."
       }
     ],
     "updatePolicy": {
@@ -1685,11 +1685,11 @@
         "type": "github_repo",
         "title": "qdrant maintainer namespace",
         "url": "https://github.com/qdrant",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Creating advanced vector search technology. Qdrant has 131 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1719,11 +1719,11 @@
         "type": "github_repo",
         "title": "Qwen maintainer namespace",
         "url": "https://github.com/Qwen",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "qwen has 5 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1753,11 +1753,11 @@
         "type": "github_repo",
         "title": "ray-project maintainer namespace",
         "url": "https://github.com/ray-project",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "ray-project has 126 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1787,11 +1787,11 @@
         "type": "github_repo",
         "title": "run-llama maintainer namespace",
         "url": "https://github.com/run-llama",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "LlamaIndex has 127 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1821,11 +1821,11 @@
         "type": "github_repo",
         "title": "Salesforce maintainer namespace",
         "url": "https://github.com/Salesforce",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Noteworthy Open Source projects made available by Salesforce. Available under Open Source or Creative Commons licensing. No warranty or support implied - Salesforce"
       }
     ],
     "updatePolicy": {
@@ -1855,7 +1855,7 @@
         "type": "github_repo",
         "title": "sentence-transformers maintainer namespace",
         "url": "https://github.com/sentence-transformers",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://github.com/sentence-transformers",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
@@ -1889,11 +1889,11 @@
         "type": "github_repo",
         "title": "sgl-project maintainer namespace",
         "url": "https://github.com/sgl-project",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "sgl-project has 26 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1923,11 +1923,11 @@
         "type": "github_repo",
         "title": "spaces maintainer namespace",
         "url": "https://github.com/spaces",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "spaces has 2 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1957,11 +1957,11 @@
         "type": "github_repo",
         "title": "stabilityai maintainer namespace",
         "url": "https://github.com/stabilityai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "GitHub is where stabilityai builds software."
       }
     ],
     "updatePolicy": {
@@ -1991,7 +1991,7 @@
         "type": "github_repo",
         "title": "stable-diffusion-v1-5 maintainer namespace",
         "url": "https://github.com/stable-diffusion-v1-5",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://github.com/stable-diffusion-v1-5",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
@@ -2025,11 +2025,11 @@
         "type": "github_repo",
         "title": "stanford-crfm maintainer namespace",
         "url": "https://github.com/stanford-crfm",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Stanford Center for Research on Foundation Models has 20 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2059,11 +2059,11 @@
         "type": "github_repo",
         "title": "suno maintainer namespace",
         "url": "https://github.com/suno",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "GitHub is where - builds software."
       }
     ],
     "updatePolicy": {
@@ -2093,11 +2093,11 @@
         "type": "github_repo",
         "title": "Tencent-Hunyuan maintainer namespace",
         "url": "https://github.com/Tencent-Hunyuan",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Tencent-Hunyuan has 67 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2127,11 +2127,11 @@
         "type": "github_repo",
         "title": "tiiuae maintainer namespace",
         "url": "https://github.com/tiiuae",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "TII is a new institute for research and development of disruptive technological innovations to benefit science, society, the economy and the environment. - Technology Innovation Institute"
       }
     ],
     "updatePolicy": {
@@ -2161,11 +2161,11 @@
         "type": "github_repo",
         "title": "triton-inference-server maintainer namespace",
         "url": "https://github.com/triton-inference-server",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Triton Inference Server has 36 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2195,11 +2195,11 @@
         "type": "github_repo",
         "title": "unslothai maintainer namespace",
         "url": "https://github.com/unslothai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Run and train AI models locally. 🦥. Unsloth AI has 9 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2229,11 +2229,11 @@
         "type": "github_repo",
         "title": "vibrantlabsai maintainer namespace",
         "url": "https://github.com/vibrantlabsai",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Vibrant Labs has 17 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2263,11 +2263,11 @@
         "type": "github_repo",
         "title": "vllm-project maintainer namespace",
         "url": "https://github.com/vllm-project",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "vLLM has 41 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -2297,11 +2297,11 @@
         "type": "github_repo",
         "title": "weaviate maintainer namespace",
         "url": "https://github.com/weaviate",
-        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
         "publisher": "GitHub",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "quote": "Weaviate creates database software like the Weaviate vector search engine - Weaviate"
       }
     ],
     "updatePolicy": {

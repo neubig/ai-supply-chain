@@ -11,12 +11,12 @@
         "id": "edge-source:ollama-repo",
         "type": "github_repo",
         "title": "Ollama GitHub repository",
-        "url": "https://github.com/ollama/ollama",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "See the API documentation for all endpoints."
       }
     ]
   },
@@ -32,12 +32,12 @@
         "id": "edge-source:ollama-repo",
         "type": "github_repo",
         "title": "Ollama GitHub repository",
-        "url": "https://github.com/ollama/ollama",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "pip install ollama"
       }
     ]
   },
@@ -53,12 +53,12 @@
         "id": "edge-source:ollama-github",
         "type": "github_repo",
         "title": "Ollama GitHub repository",
-        "url": "https://github.com/ollama/ollama",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- Ollama for Ruby - Ruby LLM library"
       }
     ]
   },
@@ -74,12 +74,12 @@
         "id": "edge-source:ollama-license",
         "type": "github_license",
         "title": "Ollama LICENSE",
-        "url": "https://github.com/ollama/ollama/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "MIT License"
       }
     ]
   },
@@ -95,12 +95,12 @@
         "id": "edge-source:llama.cpp-license",
         "type": "github_license",
         "title": "llama.cpp LICENSE",
-        "url": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+        "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "MIT License"
       }
     ]
   },
@@ -116,12 +116,12 @@
         "id": "edge-source:llama.cpp-github",
         "type": "github_repo",
         "title": "llama.cpp GitHub repository",
-        "url": "https://github.com/ggml-org/llama.cpp",
+        "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "![Release](https://github.com/ggml-org/llama.cpp/releases)"
       }
     ]
   },
@@ -137,12 +137,12 @@
         "id": "edge-source:pytorch-license",
         "type": "github_license",
         "title": "PyTorch LICENSE",
-        "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "committed."
       }
     ]
   },
@@ -163,7 +163,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "The technical governance structure for the PyTorch open source project is defined by the PyTorch maintainers and is available on our PyTorch Technical Governance page ."
       }
     ]
   },
@@ -184,7 +184,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "transformers is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, …), inference engines (vLLM, SGLang, TGI, …), and adjacent modeling libraries (llama."
       }
     ]
   },
@@ -200,12 +200,12 @@
         "id": "edge-source:transformers-github",
         "type": "github_repo",
         "title": "Transformers GitHub repository",
-        "url": "https://github.com/huggingface/transformers",
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- We provide examples for each architecture to reproduce the results published by its original authors."
       }
     ]
   },
@@ -221,12 +221,12 @@
         "id": "edge-source:transformers-license",
         "type": "github_license",
         "title": "Transformers LICENSE",
-        "url": "https://github.com/huggingface/transformers/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -247,7 +247,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "If memory is not an issue, Diffusers supports torch."
       }
     ]
   },
@@ -263,12 +263,12 @@
         "id": "edge-source:diffusers-github",
         "type": "github_repo",
         "title": "Diffusers GitHub repository",
-        "url": "https://github.com/huggingface/diffusers",
+        "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "With `conda` (maintained by the community):"
       }
     ]
   },
@@ -284,12 +284,12 @@
         "id": "edge-source:diffusers-license",
         "type": "github_license",
         "title": "Diffusers LICENSE",
-        "url": "https://github.com/huggingface/diffusers/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -305,12 +305,12 @@
         "id": "edge-source:vllm-repo",
         "type": "github_repo",
         "title": "vLLM GitHub repository",
-        "url": "https://github.com/vllm-project/vllm",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "uv pip install vllm"
       }
     ]
   },
@@ -326,12 +326,12 @@
         "id": "edge-source:vllm-repo",
         "type": "github_repo",
         "title": "vLLM GitHub repository",
-        "url": "https://github.com/vllm-project/vllm",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "- OpenAI-compatible API server, plus Anthropic Messages API and gRPC support"
       }
     ]
   },
@@ -347,12 +347,12 @@
         "id": "edge-source:vllm-license",
         "type": "github_license",
         "title": "vLLM LICENSE",
-        "url": "https://github.com/vllm-project/vllm/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -368,12 +368,12 @@
         "id": "edge-source:litellm-repo-description",
         "type": "github_repo",
         "title": "LiteLLM GitHub repository description",
-        "url": "https://github.com/BerriAI/litellm",
+        "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Direct Python library integration in your codebase, Router with retry/fallback logic across multiple deployments (e.g. Azure/OpenAI) - Router , application-level load balancing and cost tracking, exception handling with OpenAI-compatible errors, observability callbacks (Lunary, MLflow, Langfuse, etc.)"
       }
     ]
   },
@@ -389,12 +389,12 @@
         "id": "edge-source:litellm-license",
         "type": "github_license",
         "title": "LiteLLM LICENSE",
-        "url": "https://github.com/BerriAI/litellm/blob/litellm_internal_staging/LICENSE",
+        "url": "https://raw.githubusercontent.com/BerriAI/litellm/litellm_internal_staging/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "* All content that resides under the \"enterprise/\" directory of this repository, if that directory exists, is licensed under the license defined in \"enterprise/LICENSE\". * Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below. --- MIT License"
       }
     ]
   },
@@ -410,12 +410,12 @@
         "id": "edge-source:gradio-github",
         "type": "github_repo",
         "title": "Gradio GitHub repository",
-        "url": "https://github.com/gradio-app/gradio",
+        "url": "https://raw.githubusercontent.com/gradio-app/gradio/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "* Hugging Face Spaces: the most popular place to host Gradio applications — for free!"
       }
     ]
   },
@@ -431,12 +431,12 @@
         "id": "edge-source:gradio-license",
         "type": "github_license",
         "title": "Gradio LICENSE",
-        "url": "https://github.com/gradio-app/gradio/blob/main/LICENSE",
+        "url": "https://raw.githubusercontent.com/gradio-app/gradio/main/LICENSE",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "Licensed under the Apache License, Version 2.0 (the \"License\");"
       }
     ]
   },
@@ -457,7 +457,7 @@
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "EleutherAI/pythia-160m"
       }
     ]
   },
@@ -478,7 +478,7 @@
         "collectionMethod": "huggingface_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for dataset:the-pile hosted_by infrastructure:hugging-face-hub; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -499,7 +499,7 @@
         "collectionMethod": "huggingface_api",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for dataset:the-pile licensed_as license:other-composite; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -520,7 +520,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for dataset:the-stack-v2 developed_by organization:bigcode; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -541,7 +541,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for dataset:the-stack-v2 hosted_by infrastructure:hugging-face-hub; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -562,7 +562,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "note": "The linked source does not provide edge-specific evidence for dataset:the-stack-v2 licensed_as license:other-composite; this relationship is source-needed until a direct quote is collected."
       }
     ]
   },
@@ -583,7 +583,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "We are in touch with Andreas Fürst, one of the original CLOOB authors, and learned from him that their team is currently (at the time of writing) training a CLOOB ViT-B/32 with LAION-400M with optimized hyperparameters and very promising results so far (53% zero-shot accuracy on Imagenet after 7 epochs)."
       }
     ]
   },
@@ -604,7 +604,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "License We distribute the metadata dataset (the parquet files) under the Creative Common CC-BY 4.0 license, which poses no particular restriction."
       }
     ]
   },
@@ -625,7 +625,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "License: CC BY 4.0"
       }
     ]
   },
@@ -646,7 +646,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "LibriSpeech ASR corpus"
       }
     ]
   },
@@ -667,7 +667,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+        "quote": "SWE-bench Verified is a human-filtered subset of 500 instances; use the Agent dropdown to compare LMs with mini-SWE-agent or view all agents [ Post ]."
       }
     ]
   }
