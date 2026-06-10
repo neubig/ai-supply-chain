@@ -227,11 +227,11 @@ h2 {
   margin: 0 0 4px;
   font-size: 16px;
   line-height: 1.25;
-  text-transform: capitalize;
 }
 
 .cardHeader p,
 .componentIntro p,
+.categoryDescription,
 .componentPreview {
   margin: 0;
   color: var(--muted);
@@ -302,6 +302,10 @@ h2 {
 
 .componentPreview {
   min-height: 34px;
+}
+
+.categoryDescription {
+  min-height: 50px;
 }
 
 .buttonLink {

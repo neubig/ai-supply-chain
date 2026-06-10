@@ -1,0 +1,129 @@
+[
+  {
+    "id": "license:openai-terms-of-use",
+    "kind": "license",
+    "name": "OpenAI Terms of Use",
+    "description": "Commercial service terms governing individual use of ChatGPT and related OpenAI services.",
+    "canonicalUrl": "https://openai.com/policies/terms-of-use/",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-service-terms",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:openai-terms-of-use",
+        "type": "official_website",
+        "title": "OpenAI Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use/",
+        "quote": "Terms of use at OpenAI",
+        "published_date": "2026-01-01",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from OpenAI's public Terms of Use and track effective dates."
+    }
+  },
+  {
+    "id": "license:anthropic-commercial-terms",
+    "kind": "license",
+    "name": "Anthropic Commercial Terms of Service",
+    "description": "Commercial terms governing customer access to Anthropic services.",
+    "canonicalUrl": "https://www.anthropic.com/legal/commercial-terms",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-service-terms",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:anthropic-commercial-terms",
+        "type": "official_website",
+        "title": "Anthropic Commercial Terms of Service",
+        "url": "https://www.anthropic.com/legal/commercial-terms",
+        "quote": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Anthropic's public commercial terms and track effective dates when disclosed."
+    }
+  },
+  {
+    "id": "license:github-copilot-product-terms",
+    "kind": "license",
+    "name": "GitHub Copilot Product Terms",
+    "description": "Product-specific commercial terms governing GitHub Copilot business and enterprise use.",
+    "canonicalUrl": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-service-terms",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:github-copilot-product-terms",
+        "type": "official_docs",
+        "title": "GitHub Terms for Additional Products and Features",
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "quote": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub&#x27;s products.",
+        "published_date": "2026-04-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from GitHub's public additional product terms and track effective dates."
+    }
+  },
+  {
+    "id": "license:midjourney-terms-of-service",
+    "kind": "license",
+    "name": "Midjourney Terms of Service",
+    "description": "Commercial service terms governing access to Midjourney services and generated assets.",
+    "canonicalUrl": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-service-terms",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:midjourney-terms-of-service",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Version Effective Date: May 27, 2026Thank you for using the Midjourney platform. These Terms of Service (“Terms”) govern the relationship...",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Midjourney's public Terms of Service and track effective dates."
+    }
+  }
+]

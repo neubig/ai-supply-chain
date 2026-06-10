@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { loadGraph } from "../../../src/lib/graph";
 import { loadLayerCoverage } from "../../../src/lib/layers";
 import { buildRankedStacks } from "../../../src/lib/ranking";
-import { formatTitle, getCategoryNavigation, getComponentNavigation, getConsumerCategories } from "../../../src/lib/site-navigation";
+import { getCategoryNavigation, getComponentNavigation, getConsumerCategories } from "../../../src/lib/site-navigation";
 import { SiteNavigation } from "../../components/SiteNavigation";
 import { StackRanking } from "../../components/StackRanking";
 import { SupplyChainGraph } from "../../components/SupplyChainGraph";
@@ -51,7 +51,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       <section className="topbar" aria-label="Category summary">
         <div>
           <p className="eyebrow">Consumer application category</p>
-          <h1>{formatTitle(category.name)} AI supply chains</h1>
+          <h1>{category.name} AI supply chains</h1>
         </div>
         <div className="summaryGrid">
           <div>
@@ -78,6 +78,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       <section className="recommendationBand" aria-label="Top recommendation">
         <div>
           <h2>Top-ranked stack</h2>
+          <p>{category.description}</p>
           <p>
             {category.topStack.applicationName} with {category.topStack.modelName}
           </p>
@@ -107,8 +108,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       <StackRanking
         stacks={category.stacks}
         tasks={[category.name]}
-        fixedTask={category.name}
-        title={`${formatTitle(category.name)} stack options`}
+        hideTaskFilter
+        title={`${category.name} stack options`}
       />
     </main>
   );

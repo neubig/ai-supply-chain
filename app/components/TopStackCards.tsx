@@ -6,17 +6,13 @@ function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 }).format(value);
 }
 
-function formatName(value: string) {
-  return value.replaceAll("-", " ");
-}
-
 export function TopStackCards({ categories }: { categories: ConsumerCategory[] }) {
   return (
     <section className="topStacks" aria-label="Top-ranked stack by consumer application category">
       <div className="sectionTitle">
         <div>
           <h2>Top stack by consumer category</h2>
-          <p>One highest-ranked supply chain per application task, with full alternatives available by category.</p>
+          <p>One highest-ranked supply chain per consumer category, with full alternatives available by category.</p>
         </div>
         <p>{formatNumber(categories.length)} categories</p>
       </div>
@@ -28,7 +24,7 @@ export function TopStackCards({ categories }: { categories: ConsumerCategory[] }
             <article key={category.slug} className="topStackCard">
               <div className="cardHeader">
                 <div>
-                  <h3>{formatName(category.name)}</h3>
+                  <h3>{category.name}</h3>
                   <p>
                     {category.stackCount} ranked options, {category.applicationCount} apps, {category.modelCount} models
                   </p>
@@ -40,6 +36,8 @@ export function TopStackCards({ categories }: { categories: ConsumerCategory[] }
                 <strong>{stack.applicationName}</strong>
                 <span>{stack.modelName}</span>
               </div>
+
+              <p className="categoryDescription">{category.description}</p>
 
               <div className="scoreStrip" aria-label="Stack scores">
                 <div>

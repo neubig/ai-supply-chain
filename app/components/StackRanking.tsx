@@ -66,11 +66,13 @@ export function StackRanking({
   stacks,
   tasks,
   fixedTask,
+  hideTaskFilter = false,
   title = "Downstream stack ranking"
 }: {
   stacks: RankedStack[];
   tasks: string[];
   fixedTask?: string;
+  hideTaskFilter?: boolean;
   title?: string;
 }) {
   const [task, setTask] = useState("all");
@@ -126,8 +128,8 @@ export function StackRanking({
             {formatNumber(filtered.length)} options, {formatNumber(paretoCount)} Pareto optimal
           </p>
         </div>
-        <div className={`controls ${fixedTask ? "compactControls" : ""}`}>
-          {fixedTask ? null : (
+        <div className={`controls ${fixedTask || hideTaskFilter ? "compactControls" : ""}`}>
+          {fixedTask || hideTaskFilter ? null : (
             <label>
               Task
               <select value={task} onChange={(event) => setTask(event.target.value)}>
@@ -205,7 +207,7 @@ export function StackRanking({
                 <td>
                   <strong>{stack.applicationName}</strong>
                   <span>{stack.modelName}</span>
-                  <em>{stack.tasks.slice(0, 4).join(", ")}</em>
+                  <em>{(stack.applicationTasks.length > 0 ? stack.applicationTasks : stack.tasks).slice(0, 4).join(", ")}</em>
                 </td>
                 <td>{formatNumber(stack.preferenceScore)}</td>
                 <td>{formatNumber(stack.overallScore)}</td>

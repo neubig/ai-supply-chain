@@ -54,6 +54,8 @@ export type RankedStack = {
   applicationName: string;
   modelId: string;
   modelName: string;
+  applicationTasks: string[];
+  modelTasks: string[];
   tasks: string[];
   componentIds: string[];
   benchmarkIds: string[];
@@ -372,7 +374,9 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
       provenanceScore * 0.08 +
       concentrationScore * 0.05 +
       sandboxScore * 0.06;
-    const tasks = [...new Set([...candidate.application.tasks, ...candidate.model.tasks])].sort();
+    const applicationTasks = [...candidate.application.tasks].sort();
+    const modelTasks = [...candidate.model.tasks].sort();
+    const tasks = [...new Set([...applicationTasks, ...modelTasks])].sort();
 
     return {
       id: `${candidate.application.id}--${candidate.model.id}`,
@@ -380,6 +384,8 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
       applicationName: candidate.application.name,
       modelId: candidate.model.id,
       modelName: candidate.model.name,
+      applicationTasks,
+      modelTasks,
       tasks,
       componentIds: [...candidate.componentIds].sort(),
       benchmarkIds: [...candidate.benchmarkIds].sort(),

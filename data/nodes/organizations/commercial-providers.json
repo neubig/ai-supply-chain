@@ -1,0 +1,130 @@
+[
+  {
+    "id": "organization:anthropic",
+    "kind": "organization",
+    "name": "Anthropic",
+    "description": "Commercial AI company developing Claude models and Claude Code.",
+    "canonicalUrl": "https://www.anthropic.com/",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-provider",
+      "model-developer",
+      "application-developer"
+    ],
+    "sources": [
+      {
+        "id": "official:anthropic-claude-models",
+        "type": "official_docs",
+        "title": "Claude models overview",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+        "quote": "Claude is a family of state-of-the-art large language models developed by Anthropic. This guide introduces the available models and compares their performance.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Anthropic product and model documentation."
+    }
+  },
+  {
+    "id": "organization:perplexity",
+    "kind": "organization",
+    "name": "Perplexity",
+    "description": "Commercial AI company providing answer-engine, research, and API products.",
+    "canonicalUrl": "https://www.perplexity.ai/",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-provider",
+      "application-developer",
+      "search"
+    ],
+    "sources": [
+      {
+        "id": "official:perplexity-hub",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "Accurate answers, deeper research, fewer hallucinations, backed by citations",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Perplexity product and API documentation."
+    }
+  },
+  {
+    "id": "organization:github",
+    "kind": "organization",
+    "name": "GitHub",
+    "description": "Commercial developer platform provider that offers GitHub Copilot.",
+    "canonicalUrl": "https://github.com/",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-provider",
+      "developer-platform",
+      "application-developer"
+    ],
+    "sources": [
+      {
+        "id": "official:github-copilot-overview",
+        "type": "official_docs",
+        "title": "What is GitHub Copilot?",
+        "url": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot",
+        "quote": "Learn what Copilot is and what you can do with it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from GitHub Copilot documentation."
+    }
+  },
+  {
+    "id": "organization:midjourney",
+    "kind": "organization",
+    "name": "Midjourney",
+    "description": "Commercial image generation platform provider.",
+    "canonicalUrl": "https://www.midjourney.com/",
+    "openness": "proprietary",
+    "tags": [
+      "commercial-provider",
+      "application-developer",
+      "image-generation"
+    ],
+    "sources": [
+      {
+        "id": "official:midjourney-getting-started",
+        "type": "official_docs",
+        "title": "Midjourney Getting Started Guide",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+        "quote": "After pressing Enter or the send button if you're using a mobile device, Midjourney creates a set of four images.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Midjourney product documentation."
+    }
+  }
+]

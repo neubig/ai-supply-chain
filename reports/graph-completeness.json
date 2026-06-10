@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T10:55:54.150Z",
+  "generatedAt": "2026-06-10T11:25:06.628Z",
   "criteria": [
     "Every node should have at least one source record and an update policy.",
     "Application nodes should link to supported models or software and to license/developer evidence where available.",
@@ -11,16 +11,16 @@
     "Each top-10 layer entry should resolve to a graph node with source and refresh metadata."
   ],
   "summary": {
-    "nodes": 244,
-    "edges": 560,
+    "nodes": 262,
+    "edges": 608,
     "nodeCounts": {
-      "application": 10,
-      "model": 49,
+      "application": 15,
+      "model": 54,
       "dataset": 11,
       "software": 52,
       "benchmark": 8,
-      "organization": 88,
-      "license": 12,
+      "organization": 92,
+      "license": 16,
       "infrastructure": 14
     },
     "findings": {

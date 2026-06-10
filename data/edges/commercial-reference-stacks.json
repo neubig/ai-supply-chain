@@ -1,0 +1,1019 @@
+[
+  {
+    "id": "edge:chatgpt-supports-openai-models",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:openai-models",
+    "description": "ChatGPT is represented as a commercial OpenAI product backed by OpenAI's closed model family.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openai-chatgpt-models",
+        "type": "official_docs",
+        "title": "How ChatGPT and our foundation models are developed",
+        "url": "https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed",
+        "quote": "OpenAI’s foundation models, including the models that power ChatGPT, are developed using three primary sources of information: (1) information that is publicly available on the internet, (2) information that we partner with third parties to access, and (3) information that our users, human trainers, and researchers provide or generate.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:chatgpt-developed-by-openai",
+    "kind": "developed_by",
+    "source": "application:chatgpt",
+    "target": "organization:openai",
+    "description": "ChatGPT is provided by OpenAI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openai-chatgpt-terms",
+        "type": "official_website",
+        "title": "OpenAI Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use/",
+        "quote": "These Terms of Use apply to your use of ChatGPT, DALL·E, and OpenAI’s other services for individuals, along with any associated software applications and websites (all together, “Services”).",
+        "published_date": "2026-01-01",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:chatgpt-licensed-as-openai-terms",
+    "kind": "licensed_as",
+    "source": "application:chatgpt",
+    "target": "license:openai-terms-of-use",
+    "description": "ChatGPT individual use is governed by OpenAI Terms of Use.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openai-chatgpt-terms",
+        "type": "official_website",
+        "title": "OpenAI Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use/",
+        "quote": "These Terms form an agreement between you and OpenAI OpCo, LLC, a Delaware company, and they include our Service Terms and important provisions for resolving disputes through arbitration.",
+        "published_date": "2026-01-01",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:chatgpt-sandboxed-by-source-needed-operational-dependency",
+    "kind": "sandboxed_by",
+    "source": "application:chatgpt",
+    "target": "software:source-needed-operational-dependency",
+    "description": "ChatGPT sandboxing or execution-isolation details are represented as source-needed until concrete public evidence is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:chatgpt-sandbox-source-needed",
+        "type": "manual_entry",
+        "title": "ChatGPT sandboxing source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for application:chatgpt sandboxed_by software:source-needed-operational-dependency; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:claude-code-supports-anthropic-claude-family",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:anthropic-claude-family",
+    "description": "Claude Code is represented as a commercial coding agent built around Anthropic's Claude family.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:claude-code-model-config",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://code.claude.com/docs/en/model-config.md",
+        "quote": "For the `model` setting in Claude Code, you can configure either: A model alias A model name Anthropic API: A full model name",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:claude-code-developed-by-anthropic",
+    "kind": "developed_by",
+    "source": "application:claude-code",
+    "target": "organization:anthropic",
+    "description": "Claude Code is an Anthropic product.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:claude-code-overview",
+        "type": "official_docs",
+        "title": "Claude Code documentation index",
+        "url": "https://code.claude.com/docs/llms.txt",
+        "quote": "Official documentation for Claude Code, Anthropic's agentic coding tool available in the terminal, IDE, desktop app, and browser.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:claude-code-licensed-as-anthropic-commercial-terms",
+    "kind": "licensed_as",
+    "source": "application:claude-code",
+    "target": "license:anthropic-commercial-terms",
+    "description": "Claude Code commercial access is represented under Anthropic commercial service terms.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-commercial-terms",
+        "type": "official_website",
+        "title": "Anthropic Commercial Terms of Service",
+        "url": "https://www.anthropic.com/legal/commercial-terms",
+        "quote": "These Commercial Terms of Service (“ Terms ”) are an agreement between Anthropic and you or the organization, company, or other entity that you represent (“ Customer ”).",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:claude-code-sandboxed-by-source-needed-operational-dependency",
+    "kind": "sandboxed_by",
+    "source": "application:claude-code",
+    "target": "software:source-needed-operational-dependency",
+    "description": "Claude Code sandboxing or command-isolation posture is represented as source-needed until concrete public evidence is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:claude-code-sandbox-source-needed",
+        "type": "manual_entry",
+        "title": "Claude Code sandboxing source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for application:claude-code sandboxed_by software:source-needed-operational-dependency; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-supports-perplexity-model-orchestration",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:perplexity-model-orchestration",
+    "description": "Perplexity is represented as a commercial answer engine backed by a routed frontier-model stack.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-hub",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "Perplexity is an AI answer engine that researches the open web in real time and returns concise, cited answers. Underneath, it routes queries across multiple frontier models so each question is handled by the model best suited for it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-developed-by-perplexity",
+    "kind": "developed_by",
+    "source": "application:perplexity",
+    "target": "organization:perplexity",
+    "description": "Perplexity is represented as a product from Perplexity.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-hub",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "Perplexity is an AI answer engine that researches the open web in real time and returns concise, cited answers.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-licensed-as-source-needed-license",
+    "kind": "licensed_as",
+    "source": "application:perplexity",
+    "target": "license:source-needed-license",
+    "description": "Perplexity product terms are represented as source-needed until a deterministic terms source is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-terms-source-needed",
+        "type": "manual_entry",
+        "title": "Perplexity terms source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for application:perplexity licensed_as license:source-needed-license; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-supports-github-copilot-model-set",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:github-copilot-model-set",
+    "description": "GitHub Copilot supports a set of AI models for chat and inline suggestions.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-model-comparison",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison.md",
+        "quote": "GitHub Copilot supports multiple AI models with different capabilities. The model you choose affects the quality and relevance of responses by Copilot Chat and Copilot inline suggestions.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-developed-by-github",
+    "kind": "developed_by",
+    "source": "application:github-copilot",
+    "target": "organization:github",
+    "description": "GitHub Copilot is a GitHub product.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-overview",
+        "type": "official_docs",
+        "title": "What is GitHub Copilot?",
+        "url": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot.md",
+        "quote": "GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-licensed-as-github-copilot-product-terms",
+    "kind": "licensed_as",
+    "source": "application:github-copilot",
+    "target": "license:github-copilot-product-terms",
+    "description": "GitHub Copilot use is governed by GitHub Copilot product terms for business and enterprise license holders.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-product-terms",
+        "type": "official_docs",
+        "title": "GitHub Terms for Additional Products and Features",
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "quote": "For GitHub Copilot Business and Copilot Enterprise license holders, your use of GitHub Copilot is governed by the GitHub Copilot Product Specific Terms .",
+        "published_date": "2026-04-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-sandboxed-by-source-needed-operational-dependency",
+    "kind": "sandboxed_by",
+    "source": "application:github-copilot",
+    "target": "software:source-needed-operational-dependency",
+    "description": "GitHub Copilot sandboxing or execution-isolation details are represented as source-needed until concrete public evidence is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-sandbox-source-needed",
+        "type": "manual_entry",
+        "title": "GitHub Copilot sandboxing source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for application:github-copilot sandboxed_by software:source-needed-operational-dependency; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-supports-midjourney-image-model",
+    "kind": "supports",
+    "source": "application:midjourney",
+    "target": "model:midjourney-image-model",
+    "description": "Midjourney is represented as a commercial image generation application backed by the Midjourney image model stack.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-getting-started",
+        "type": "official_docs",
+        "title": "Midjourney Getting Started Guide",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+        "quote": "After pressing Enter or the send button if you're using a mobile device, Midjourney creates a set of four images.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-developed-by-midjourney",
+    "kind": "developed_by",
+    "source": "application:midjourney",
+    "target": "organization:midjourney",
+    "description": "Midjourney is provided by Midjourney, Inc.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-terms",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Thank you for using the Midjourney platform. These Terms of Service (“Terms”) govern the relationship between Midjourney, Inc. (“Midjourney”,”we”,”our”) and the entity or person (“Customer, “You”, “Your”) using or accessing our services, applications, or platform through our website available at midjourney.com (the “Site”), through any of our Discord servers, or by any other means (together, the “Services”).",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-licensed-as-midjourney-terms",
+    "kind": "licensed_as",
+    "source": "application:midjourney",
+    "target": "license:midjourney-terms-of-service",
+    "description": "Midjourney use is governed by Midjourney Terms of Service.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-terms",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Midjourney’s Image Editor tool (“Editor”) and the Video Model (\"Video\") are provided as part of the Services and are subject to the terms and conditions outlined in this Agreement.",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-developed-by-openai",
+    "kind": "developed_by",
+    "source": "model:openai-models",
+    "target": "organization:openai",
+    "description": "OpenAI models are developed by OpenAI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openai-models-openai-platform",
+        "type": "official_docs",
+        "title": "OpenAI models",
+        "url": "https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-language-models-are-developed",
+        "quote": "OpenAI’s foundation models, including the models that power ChatGPT, are developed using three primary sources of information: (1) information that is publicly available on the internet, (2) information that we partner with third parties to access, and (3) information that our users, human trainers, and researchers provide or generate.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-hosted-by-openai",
+    "kind": "hosted_by",
+    "source": "model:openai-models",
+    "target": "organization:openai",
+    "description": "OpenAI models are hosted behind OpenAI services.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openai-models-openai-platform",
+        "type": "official_docs",
+        "title": "OpenAI models",
+        "url": "https://platform.openai.com/docs/models",
+        "quote": "All latest OpenAI models support text and image input, text output, multilingual capabilities, and vision. Models are available via the Responses API and our Client SDKs.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-licensed-as-openai-terms",
+    "kind": "licensed_as",
+    "source": "model:openai-models",
+    "target": "license:openai-terms-of-use",
+    "description": "OpenAI model access is represented under OpenAI Terms of Use.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openai-terms",
+        "type": "official_website",
+        "title": "OpenAI Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use/",
+        "quote": "These Terms of Use apply to your use of ChatGPT, DALL·E, and OpenAI’s other services for individuals, along with any associated software applications and websites (all together, “Services”).",
+        "published_date": "2026-01-01",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-trained-on-source-needed-training-data",
+    "kind": "trained_on",
+    "source": "model:openai-models",
+    "target": "dataset:source-needed-training-data",
+    "description": "OpenAI model training data is not represented by a concrete disclosed dataset in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:openai-training-data-source-needed",
+        "type": "manual_entry",
+        "title": "OpenAI model training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:openai-models trained_on dataset:source-needed-training-data; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-trained-with-source-needed-training-framework",
+    "kind": "trained_with",
+    "source": "model:openai-models",
+    "target": "software:source-needed-training-framework",
+    "description": "OpenAI model training software is not represented by a concrete disclosed framework in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:openai-training-framework-source-needed",
+        "type": "manual_entry",
+        "title": "OpenAI model training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:openai-models trained_with software:source-needed-training-framework; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:openai-models-evaluated-on-source-needed-evaluation",
+    "kind": "evaluated_on",
+    "source": "model:openai-models",
+    "target": "benchmark:source-needed-evaluation",
+    "description": "OpenAI model evaluation coverage is source-needed until concrete benchmark data is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:openai-evaluation-source-needed",
+        "type": "manual_entry",
+        "title": "OpenAI model evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:openai-models evaluated_on benchmark:source-needed-evaluation; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-developed-by-anthropic",
+    "kind": "developed_by",
+    "source": "model:anthropic-claude-family",
+    "target": "organization:anthropic",
+    "description": "Claude is developed by Anthropic.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-claude-models",
+        "type": "official_docs",
+        "title": "Claude models overview",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+        "quote": "Claude is a family of state-of-the-art large language models developed by Anthropic.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-hosted-by-anthropic",
+    "kind": "hosted_by",
+    "source": "model:anthropic-claude-family",
+    "target": "organization:anthropic",
+    "description": "Claude is available through Anthropic services.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-claude-models",
+        "type": "official_docs",
+        "title": "Claude models overview",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview.md",
+        "quote": "All current Claude models support text and image input, text output, multilingual capabilities, and vision. Models are available through the Claude API, Claude Platform on AWS, Amazon Bedrock, Vertex AI, and Microsoft Foundry.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-licensed-as-anthropic-commercial-terms",
+    "kind": "licensed_as",
+    "source": "model:anthropic-claude-family",
+    "target": "license:anthropic-commercial-terms",
+    "description": "Claude model access is represented under Anthropic commercial service terms.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-commercial-terms",
+        "type": "official_website",
+        "title": "Anthropic Commercial Terms of Service",
+        "url": "https://www.anthropic.com/legal/commercial-terms",
+        "quote": "These Commercial Terms of Service (“ Terms ”) are an agreement between Anthropic and you or the organization, company, or other entity that you represent (“ Customer ”).",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-trained-on-source-needed-training-data",
+    "kind": "trained_on",
+    "source": "model:anthropic-claude-family",
+    "target": "dataset:source-needed-training-data",
+    "description": "Claude training data is not represented by a concrete disclosed dataset in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-training-data-source-needed",
+        "type": "manual_entry",
+        "title": "Claude training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:anthropic-claude-family trained_on dataset:source-needed-training-data; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-trained-with-source-needed-training-framework",
+    "kind": "trained_with",
+    "source": "model:anthropic-claude-family",
+    "target": "software:source-needed-training-framework",
+    "description": "Claude training software is not represented by a concrete disclosed framework in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-training-framework-source-needed",
+        "type": "manual_entry",
+        "title": "Claude training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:anthropic-claude-family trained_with software:source-needed-training-framework; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:anthropic-claude-family-evaluated-on-source-needed-evaluation",
+    "kind": "evaluated_on",
+    "source": "model:anthropic-claude-family",
+    "target": "benchmark:source-needed-evaluation",
+    "description": "Claude evaluation coverage is source-needed until concrete benchmark data is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:anthropic-evaluation-source-needed",
+        "type": "manual_entry",
+        "title": "Claude evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:anthropic-claude-family evaluated_on benchmark:source-needed-evaluation; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-developed-by-perplexity",
+    "kind": "developed_by",
+    "source": "model:perplexity-model-orchestration",
+    "target": "organization:perplexity",
+    "description": "Perplexity model orchestration is represented from Perplexity product documentation.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-model-orchestration",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "Perplexity is an AI answer engine that researches the open web in real time and returns concise, cited answers. Underneath, it routes queries across multiple frontier models so each question is handled by the model best suited for it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-hosted-by-perplexity",
+    "kind": "hosted_by",
+    "source": "model:perplexity-model-orchestration",
+    "target": "organization:perplexity",
+    "description": "Perplexity model orchestration is hosted behind Perplexity services.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-model-orchestration",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "The same accurate AI that powers Perplexity is available as an API for whatever you're building.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-licensed-as-source-needed-license",
+    "kind": "licensed_as",
+    "source": "model:perplexity-model-orchestration",
+    "target": "license:source-needed-license",
+    "description": "Perplexity model/service terms are represented as source-needed until a deterministic terms source is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-model-terms-source-needed",
+        "type": "manual_entry",
+        "title": "Perplexity model terms source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:perplexity-model-orchestration licensed_as license:source-needed-license; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-trained-on-source-needed-training-data",
+    "kind": "trained_on",
+    "source": "model:perplexity-model-orchestration",
+    "target": "dataset:source-needed-training-data",
+    "description": "Perplexity model training data is not represented by a concrete disclosed dataset in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-training-data-source-needed",
+        "type": "manual_entry",
+        "title": "Perplexity training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:perplexity-model-orchestration trained_on dataset:source-needed-training-data; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-trained-with-source-needed-training-framework",
+    "kind": "trained_with",
+    "source": "model:perplexity-model-orchestration",
+    "target": "software:source-needed-training-framework",
+    "description": "Perplexity model training software is not represented by a concrete disclosed framework in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-training-framework-source-needed",
+        "type": "manual_entry",
+        "title": "Perplexity training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:perplexity-model-orchestration trained_with software:source-needed-training-framework; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:perplexity-model-orchestration-evaluated-on-source-needed-evaluation",
+    "kind": "evaluated_on",
+    "source": "model:perplexity-model-orchestration",
+    "target": "benchmark:source-needed-evaluation",
+    "description": "Perplexity model evaluation coverage is source-needed until concrete benchmark data is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:perplexity-evaluation-source-needed",
+        "type": "manual_entry",
+        "title": "Perplexity evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:perplexity-model-orchestration evaluated_on benchmark:source-needed-evaluation; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-developed-by-github",
+    "kind": "developed_by",
+    "source": "model:github-copilot-model-set",
+    "target": "organization:github",
+    "description": "GitHub Copilot model access is represented through GitHub Copilot documentation.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-model-comparison",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison.md",
+        "quote": "GitHub Copilot supports multiple AI models with different capabilities. The model you choose affects the quality and relevance of responses by Copilot Chat and Copilot inline suggestions.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-hosted-by-github",
+    "kind": "hosted_by",
+    "source": "model:github-copilot-model-set",
+    "target": "organization:github",
+    "description": "GitHub Copilot model access is hosted behind GitHub Copilot services.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-model-comparison",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison.md",
+        "quote": "GitHub Copilot supports multiple AI models with different capabilities.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-licensed-as-github-copilot-product-terms",
+    "kind": "licensed_as",
+    "source": "model:github-copilot-model-set",
+    "target": "license:github-copilot-product-terms",
+    "description": "GitHub Copilot model access is represented under GitHub Copilot product terms.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-product-terms",
+        "type": "official_docs",
+        "title": "GitHub Terms for Additional Products and Features",
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "quote": "For GitHub Copilot Business and Copilot Enterprise license holders, your use of GitHub Copilot is governed by the GitHub Copilot Product Specific Terms .",
+        "published_date": "2026-04-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-trained-on-source-needed-training-data",
+    "kind": "trained_on",
+    "source": "model:github-copilot-model-set",
+    "target": "dataset:source-needed-training-data",
+    "description": "GitHub Copilot model training data is not represented by a concrete disclosed dataset in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-training-data-source-needed",
+        "type": "manual_entry",
+        "title": "GitHub Copilot training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:github-copilot-model-set trained_on dataset:source-needed-training-data; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-trained-with-source-needed-training-framework",
+    "kind": "trained_with",
+    "source": "model:github-copilot-model-set",
+    "target": "software:source-needed-training-framework",
+    "description": "GitHub Copilot model training software is not represented by a concrete disclosed framework in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-training-framework-source-needed",
+        "type": "manual_entry",
+        "title": "GitHub Copilot training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:github-copilot-model-set trained_with software:source-needed-training-framework; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:github-copilot-model-set-evaluated-on-source-needed-evaluation",
+    "kind": "evaluated_on",
+    "source": "model:github-copilot-model-set",
+    "target": "benchmark:source-needed-evaluation",
+    "description": "GitHub Copilot model evaluation coverage is source-needed until concrete benchmark data is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:github-copilot-evaluation-source-needed",
+        "type": "manual_entry",
+        "title": "GitHub Copilot evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:github-copilot-model-set evaluated_on benchmark:source-needed-evaluation; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-developed-by-midjourney",
+    "kind": "developed_by",
+    "source": "model:midjourney-image-model",
+    "target": "organization:midjourney",
+    "description": "Midjourney image model access is represented from Midjourney product documentation.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-getting-started",
+        "type": "official_docs",
+        "title": "Midjourney Getting Started Guide",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+        "quote": "After pressing Enter or the send button if you're using a mobile device, Midjourney creates a set of four images.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-hosted-by-midjourney",
+    "kind": "hosted_by",
+    "source": "model:midjourney-image-model",
+    "target": "organization:midjourney",
+    "description": "Midjourney image model access is hosted behind Midjourney services.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-terms",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Thank you for using the Midjourney platform. These Terms of Service (“Terms”) govern the relationship between Midjourney, Inc. (“Midjourney”,”we”,”our”) and the entity or person (“Customer, “You”, “Your”) using or accessing our services, applications, or platform through our website available at midjourney.com (the “Site”), through any of our Discord servers, or by any other means (together, the “Services”).",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-licensed-as-midjourney-terms",
+    "kind": "licensed_as",
+    "source": "model:midjourney-image-model",
+    "target": "license:midjourney-terms-of-service",
+    "description": "Midjourney model/service access is represented under Midjourney Terms of Service.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-terms",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Midjourney’s Image Editor tool (“Editor”) and the Video Model (\"Video\") are provided as part of the Services and are subject to the terms and conditions outlined in this Agreement.",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-trained-on-source-needed-training-data",
+    "kind": "trained_on",
+    "source": "model:midjourney-image-model",
+    "target": "dataset:source-needed-training-data",
+    "description": "Midjourney image model training data is not represented by a concrete disclosed dataset in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-training-data-source-needed",
+        "type": "manual_entry",
+        "title": "Midjourney training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:midjourney-image-model trained_on dataset:source-needed-training-data; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-trained-with-source-needed-training-framework",
+    "kind": "trained_with",
+    "source": "model:midjourney-image-model",
+    "target": "software:source-needed-training-framework",
+    "description": "Midjourney image model training software is not represented by a concrete disclosed framework in this graph.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-training-framework-source-needed",
+        "type": "manual_entry",
+        "title": "Midjourney training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:midjourney-image-model trained_with software:source-needed-training-framework; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:midjourney-image-model-evaluated-on-source-needed-evaluation",
+    "kind": "evaluated_on",
+    "source": "model:midjourney-image-model",
+    "target": "benchmark:source-needed-evaluation",
+    "description": "Midjourney evaluation coverage is source-needed until concrete benchmark data is added.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:midjourney-evaluation-source-needed",
+        "type": "manual_entry",
+        "title": "Midjourney evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "The linked source does not provide edge-specific evidence for model:midjourney-image-model evaluated_on benchmark:source-needed-evaluation; this relationship is source-needed until a direct quote is collected.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "AI supply-chain maintainers",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ]
+  }
+]

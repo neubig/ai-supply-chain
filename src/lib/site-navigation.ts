@@ -12,6 +12,7 @@ export type NavigationItem = {
 export type ConsumerCategory = {
   name: string;
   slug: string;
+  description: string;
   stacks: RankedStack[];
   topStack: RankedStack;
   stackCount: number;
@@ -26,6 +27,63 @@ export type ComponentLayerEntry = StackLayerCoverage["layers"][number]["entries"
 export type ComponentLayer = Omit<StackLayerCoverage["layers"][number], "entries"> & {
   entries: ComponentLayerEntry[];
 };
+
+type ConsumerCategoryDefinition = {
+  name: string;
+  slug: string;
+  description: string;
+  matches: (stack: RankedStack) => boolean;
+};
+
+function hasApplicationTask(stack: RankedStack, tasks: string[]) {
+  return tasks.some((task) => stack.applicationTasks.includes(task));
+}
+
+export const consumerCategoryDefinitions: ConsumerCategoryDefinition[] = [
+  {
+    name: "Coding Agent",
+    slug: "coding-agent",
+    description: "Developer-facing agents that can modify repositories, run commands, or automate coding workflows.",
+    matches: (stack) => hasApplicationTask(stack, ["agentic-coding", "software-agents", "repository-automation", "coding-agent"])
+  },
+  {
+    name: "Code Completion",
+    slug: "code-completion",
+    description: "Developer-facing assistants for inline coding help, IDE workflows, and code suggestions.",
+    matches: (stack) =>
+      hasApplicationTask(stack, ["developer-assistant", "code-completion"]) || stack.applicationId === "application:continue"
+  },
+  {
+    name: "Chat Interface",
+    slug: "chat-interface",
+    description: "User-facing chat applications for local, self-hosted, or multi-provider language model access.",
+    matches: (stack) => hasApplicationTask(stack, ["chat"])
+  },
+  {
+    name: "Agent Workspace",
+    slug: "agent-workspace",
+    description: "User-facing workspaces for configuring, coordinating, or operating AI agents.",
+    matches: (stack) => hasApplicationTask(stack, ["agents"])
+  },
+  {
+    name: "AI-powered Search",
+    slug: "ai-powered-search",
+    description: "Applications for retrieval, document question answering, and knowledge-base search.",
+    matches: (stack) => hasApplicationTask(stack, ["rag", "ai-powered-search", "semantic-search"])
+  },
+  {
+    name: "Image Generation Platform",
+    slug: "image-generation-platform",
+    description: "Creator-facing applications for image generation, image editing, and diffusion workflows.",
+    matches: (stack) => hasApplicationTask(stack, ["image-generation", "image-editing", "workflow-automation"])
+  },
+  {
+    name: "Local LLM Desktop",
+    slug: "local-llm-desktop",
+    description: "Desktop applications for running local language models on consumer hardware.",
+    matches: (stack) => hasApplicationTask(stack, ["local-inference"])
+  }
+];
 
 export function slugify(value: string) {
   return value
@@ -45,20 +103,15 @@ export function formatTitle(value: string) {
 }
 
 export function getConsumerCategories(stacks: RankedStack[]): ConsumerCategory[] {
-  const stacksByTask = new Map<string, RankedStack[]>();
-
-  for (const stack of stacks) {
-    for (const task of stack.tasks) {
-      stacksByTask.set(task, [...(stacksByTask.get(task) ?? []), stack]);
-    }
-  }
-
-  return [...stacksByTask.entries()]
-    .map(([name, taskStacks]) => {
-      const sorted = [...taskStacks].sort((a, b) => b.overallScore - a.overallScore || b.opennessScore - a.opennessScore);
+  return consumerCategoryDefinitions
+    .map((definition) => {
+      const sorted = stacks
+        .filter((stack) => definition.matches(stack))
+        .sort((a, b) => b.overallScore - a.overallScore || b.opennessScore - a.opennessScore);
       return {
-        name,
-        slug: slugify(name),
+        name: definition.name,
+        slug: definition.slug,
+        description: definition.description,
         stacks: sorted,
         topStack: sorted[0],
         stackCount: sorted.length,
@@ -66,13 +119,12 @@ export function getConsumerCategories(stacks: RankedStack[]): ConsumerCategory[]
         modelCount: new Set(sorted.map((stack) => stack.modelId)).size
       };
     })
-    .filter((category): category is ConsumerCategory => Boolean(category.topStack))
-    .sort((a, b) => a.name.localeCompare(b.name));
+    .filter((category): category is ConsumerCategory => Boolean(category.topStack));
 }
 
 export function getCategoryNavigation(stacks: RankedStack[]): NavigationItem[] {
   return getConsumerCategories(stacks).map((category) => ({
-    label: formatTitle(category.name),
+    label: category.name,
     href: `/categories/${category.slug}`,
     slug: category.slug,
     count: category.stackCount

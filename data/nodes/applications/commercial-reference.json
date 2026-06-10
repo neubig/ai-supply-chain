@@ -1,0 +1,299 @@
+[
+  {
+    "id": "application:chatgpt",
+    "kind": "application",
+    "name": "ChatGPT",
+    "description": "Commercial ChatGPT consumer chat interface from OpenAI.",
+    "canonicalUrl": "https://chatgpt.com/",
+    "homepageUrl": "https://chatgpt.com/",
+    "license": {
+      "expression": "OpenAI Terms of Use",
+      "url": "https://openai.com/policies/terms-of-use/",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:openai-chatgpt-terms"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "chat",
+      "agents"
+    ],
+    "tags": [
+      "commercial-reference",
+      "consumer-facing",
+      "closed-source"
+    ],
+    "sources": [
+      {
+        "id": "official:openai-chatgpt",
+        "type": "official_website",
+        "title": "ChatGPT",
+        "url": "https://openai.com/chatgpt/",
+        "quote": "ChatGPT is AI. By using it, you agree to our Terms & Privacy Policy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      },
+      {
+        "id": "official:openai-chatgpt-terms",
+        "type": "official_website",
+        "title": "OpenAI Terms of Use",
+        "url": "https://openai.com/policies/terms-of-use/",
+        "quote": "Terms of use at OpenAI",
+        "published_date": "2026-01-01",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from ChatGPT product and terms pages."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "costTier": "commercial_subscription_or_free_tier"
+    }
+  },
+  {
+    "id": "application:claude-code",
+    "kind": "application",
+    "name": "Claude Code",
+    "description": "Commercial agentic coding application from Anthropic for terminal, IDE, desktop, and browser workflows.",
+    "canonicalUrl": "https://docs.anthropic.com/en/docs/claude-code/overview",
+    "homepageUrl": "https://claude.ai/code",
+    "license": {
+      "expression": "Anthropic Commercial Terms of Service",
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:anthropic-commercial-terms"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "coding-agent",
+      "agentic-coding",
+      "developer-assistant",
+      "coding"
+    ],
+    "tags": [
+      "commercial-reference",
+      "developer-facing",
+      "closed-source"
+    ],
+    "sources": [
+      {
+        "id": "official:anthropic-claude-code",
+        "type": "official_docs",
+        "title": "Claude Code overview",
+        "url": "https://docs.anthropic.com/en/docs/claude-code/overview",
+        "quote": "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      },
+      {
+        "id": "official:anthropic-commercial-terms",
+        "type": "official_website",
+        "title": "Anthropic Commercial Terms of Service",
+        "url": "https://www.anthropic.com/legal/commercial-terms",
+        "quote": "Anthropic is an AI safety and research company that&#x27;s working to build reliable, interpretable, and steerable AI systems.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from Claude Code product documentation and Anthropic terms."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "costTier": "commercial_subscription"
+    }
+  },
+  {
+    "id": "application:perplexity",
+    "kind": "application",
+    "name": "Perplexity",
+    "description": "Commercial AI answer engine for cited web research and search-grounded answers.",
+    "canonicalUrl": "https://www.perplexity.ai/",
+    "homepageUrl": "https://www.perplexity.ai/",
+    "openness": "proprietary",
+    "tasks": [
+      "ai-powered-search",
+      "rag",
+      "chat"
+    ],
+    "tags": [
+      "commercial-reference",
+      "consumer-facing",
+      "closed-source"
+    ],
+    "sources": [
+      {
+        "id": "official:perplexity-hub",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "Accurate answers, deeper research, fewer hallucinations, backed by citations",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from Perplexity product and API documentation."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "costTier": "commercial_subscription_or_free_tier"
+    }
+  },
+  {
+    "id": "application:github-copilot",
+    "kind": "application",
+    "name": "GitHub Copilot",
+    "description": "Commercial developer assistant for code suggestions, chat, command-line help, and agentic development tasks.",
+    "canonicalUrl": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot",
+    "homepageUrl": "https://github.com/features/copilot",
+    "license": {
+      "expression": "GitHub Copilot Product Terms",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:github-copilot-product-terms"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "code-completion",
+      "developer-assistant",
+      "agentic-coding"
+    ],
+    "tags": [
+      "commercial-reference",
+      "developer-facing",
+      "closed-source"
+    ],
+    "sources": [
+      {
+        "id": "official:github-copilot-overview",
+        "type": "official_docs",
+        "title": "What is GitHub Copilot?",
+        "url": "https://docs.github.com/en/copilot/get-started/what-is-github-copilot",
+        "quote": "Learn what Copilot is and what you can do with it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      },
+      {
+        "id": "official:github-copilot-product-terms",
+        "type": "official_docs",
+        "title": "GitHub Terms for Additional Products and Features",
+        "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+        "quote": "Get started, troubleshoot, and make the most of GitHub. Documentation for new users, developers, administrators, and all of GitHub&#x27;s products.",
+        "published_date": "2026-04-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from GitHub Copilot documentation and product terms."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "costTier": "commercial_subscription_or_free_tier"
+    }
+  },
+  {
+    "id": "application:midjourney",
+    "kind": "application",
+    "name": "Midjourney",
+    "description": "Commercial image generation platform for creating and modifying images from prompts.",
+    "canonicalUrl": "https://www.midjourney.com/",
+    "homepageUrl": "https://www.midjourney.com/",
+    "license": {
+      "expression": "Midjourney Terms of Service",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:midjourney-terms-of-service"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "image-generation",
+      "image-editing"
+    ],
+    "tags": [
+      "commercial-reference",
+      "consumer-facing",
+      "closed-source"
+    ],
+    "sources": [
+      {
+        "id": "official:midjourney-getting-started",
+        "type": "official_docs",
+        "title": "Midjourney Getting Started Guide",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+        "quote": "After pressing Enter or the send button if you're using a mobile device, Midjourney creates a set of four images.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      },
+      {
+        "id": "official:midjourney-terms-of-service",
+        "type": "official_docs",
+        "title": "Midjourney Terms of Service",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+        "quote": "Version Effective Date: May 27, 2026Thank you for using the Midjourney platform. These Terms of Service (“Terms”) govern the relationship...",
+        "published_date": "2026-05-27",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from Midjourney product documentation and terms."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "costTier": "commercial_subscription"
+    }
+  }
+]

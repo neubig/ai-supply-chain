@@ -1,0 +1,250 @@
+[
+  {
+    "id": "model:openai-models",
+    "kind": "model",
+    "name": "OpenAI models",
+    "description": "Closed OpenAI model family used by ChatGPT and OpenAI services.",
+    "canonicalUrl": "https://platform.openai.com/docs/models",
+    "license": {
+      "expression": "OpenAI Terms of Use",
+      "url": "https://openai.com/policies/terms-of-use/",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:openai-models"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "chat",
+      "agents",
+      "instruction-following",
+      "ai-powered-search"
+    ],
+    "tags": [
+      "commercial-reference",
+      "closed-model",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:openai-models",
+        "type": "official_docs",
+        "title": "OpenAI models",
+        "url": "https://platform.openai.com/docs/models",
+        "quote": "Explore all available models on the OpenAI Platform.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model-family metadata from the OpenAI model documentation."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "modelDisclosure": "closed"
+    }
+  },
+  {
+    "id": "model:anthropic-claude-family",
+    "kind": "model",
+    "name": "Anthropic Claude family",
+    "description": "Closed Claude model family used by Anthropic products including Claude Code.",
+    "canonicalUrl": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+    "license": {
+      "expression": "Anthropic Commercial Terms of Service",
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:anthropic-claude-models"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "chat",
+      "coding",
+      "agentic-coding",
+      "instruction-following"
+    ],
+    "tags": [
+      "commercial-reference",
+      "closed-model",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:anthropic-claude-models",
+        "type": "official_docs",
+        "title": "Claude models overview",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+        "quote": "Claude is a family of state-of-the-art large language models developed by Anthropic. This guide introduces the available models and compares their performance.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model-family metadata from Anthropic model documentation."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "modelDisclosure": "closed"
+    }
+  },
+  {
+    "id": "model:perplexity-model-orchestration",
+    "kind": "model",
+    "name": "Perplexity model orchestration",
+    "description": "Closed commercial model routing and answer-engine stack used by Perplexity products.",
+    "canonicalUrl": "https://www.perplexity.ai/hub",
+    "openness": "proprietary",
+    "tasks": [
+      "ai-powered-search",
+      "rag",
+      "chat"
+    ],
+    "tags": [
+      "commercial-reference",
+      "closed-model-stack",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:perplexity-model-orchestration",
+        "type": "official_website",
+        "title": "Perplexity hub",
+        "url": "https://www.perplexity.ai/hub",
+        "quote": "The best frontier AI models, routed in parallel to perform their best",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from Perplexity product and API model documentation."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "modelDisclosure": "partially_disclosed_routing_stack"
+    }
+  },
+  {
+    "id": "model:github-copilot-model-set",
+    "kind": "model",
+    "name": "GitHub Copilot model set",
+    "description": "Closed and third-party model set exposed through GitHub Copilot for inline suggestions, chat, and agents.",
+    "canonicalUrl": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+    "license": {
+      "expression": "GitHub Copilot Product Terms",
+      "url": "https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:github-copilot-model-comparison"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "code-completion",
+      "coding",
+      "agentic-coding",
+      "developer-assistant"
+    ],
+    "tags": [
+      "commercial-reference",
+      "closed-model-stack",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:github-copilot-model-comparison",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "Compare available AI models in Copilot Chat and choose the best model for your task.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from GitHub Copilot model comparison documentation."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "modelDisclosure": "closed_or_third_party_model_set"
+    }
+  },
+  {
+    "id": "model:midjourney-image-model",
+    "kind": "model",
+    "name": "Midjourney image model",
+    "description": "Closed image-generation model stack exposed through Midjourney.",
+    "canonicalUrl": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+    "license": {
+      "expression": "Midjourney Terms of Service",
+      "url": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service",
+      "openness": "proprietary",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:midjourney-getting-started"
+      ]
+    },
+    "openness": "proprietary",
+    "tasks": [
+      "image-generation",
+      "image-editing"
+    ],
+    "tags": [
+      "commercial-reference",
+      "closed-model",
+      "proprietary"
+    ],
+    "sources": [
+      {
+        "id": "official:midjourney-getting-started",
+        "type": "official_docs",
+        "title": "Midjourney Getting Started Guide",
+        "url": "https://docs.midjourney.com/hc/en-us/articles/33329261836941-Getting-Started-Guide",
+        "quote": "After pressing Enter or the send button if you're using a mobile device, Midjourney creates a set of four images.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Midjourney",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from Midjourney product documentation and model/version documentation when available."
+    },
+    "metadata": {
+      "commercialReference": true,
+      "modelDisclosure": "closed"
+    }
+  }
+]
