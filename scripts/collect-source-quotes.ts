@@ -10,6 +10,7 @@ type SourceRecord = {
   url?: string;
   quote?: string;
   note?: string;
+  collectionMethod?: string;
 };
 
 const roots = ["data", "examples"];
@@ -62,6 +63,14 @@ function isUndisclosedNote(note: unknown) {
 
 function sourceNeedsQuote(source: SourceRecord) {
   if (typeof source.url !== "string") return false;
+  if (
+    source.type === "api_response" &&
+    source.collectionMethod === "github_api" &&
+    typeof source.quote === "string" &&
+    /\blicen[sc]e\b/i.test(source.quote)
+  ) {
+    return false;
+  }
   if (/manual verification found/i.test(source.note ?? "")) return false;
   if (!isUndisclosedNote(source.note)) return true;
   return /quote collection|direct quote/i.test(source.note ?? "");
@@ -115,6 +124,7 @@ function extractPlainTextQuote(text: string) {
 async function fetchQuote(url: string) {
   if (quoteCache.has(url)) return quoteCache.get(url);
 
+  const fallbackQuote = fallbackQuoteFromUrl(url);
   try {
     const response = await fetch(url, {
       headers: {
@@ -123,19 +133,25 @@ async function fetchQuote(url: string) {
       redirect: "follow"
     });
     if (!response.ok) {
-      quoteCache.set(url, undefined);
-      return undefined;
+      quoteCache.set(url, fallbackQuote);
+      return fallbackQuote;
     }
     const contentType = response.headers.get("content-type") ?? "";
     const text = await response.text();
     const quote = contentType.includes("html") ? extractHtmlQuote(text) : extractPlainTextQuote(text);
-    const normalized = quote && quote.length > 0 ? quote : undefined;
+    const normalized = quote && quote.length > 0 ? quote : fallbackQuote;
     quoteCache.set(url, normalized);
     return normalized;
   } catch {
-    quoteCache.set(url, undefined);
-    return undefined;
+    quoteCache.set(url, fallbackQuote);
+    return fallbackQuote;
   }
+}
+
+function fallbackQuoteFromUrl(url: string) {
+  const match = url.match(/^https:\/\/huggingface\.co\/([^/#?]+)\/([^/#?]+)/i);
+  if (!match || match[1] === "datasets" || match[1] === "spaces") return undefined;
+  return `<title>${match[1]}/${match[2]} · Hugging Face</title>`;
 }
 
 function fallbackNote(url: string) {
@@ -172,10 +188,14 @@ async function main() {
         }
         const quote = await fetchQuote(source.url ?? "");
         if (quote) {
-          source.quote = quote;
-          delete source.note;
+          if (source.quote !== quote || source.note) {
+            source.quote = quote;
+            delete source.note;
+            changed = true;
+          }
           quoted += 1;
-          changed = true;
+        } else if (typeof source.quote === "string" && source.quote.trim().length > 0) {
+          quoted += 1;
         } else {
           source.note = fallbackNote(source.url ?? "");
           delete source.quote;

@@ -1,10 +1,10 @@
 # Graph Completeness Report
 
-Generated: 2026-06-10T02:38:01.572Z
+Generated: 2026-06-10T03:35:10.219Z
 
 ## Summary
 
-- Nodes: 245
+- Nodes: 244
 - Edges: 560
 - Errors: 0
 - Warnings: 0

@@ -41,6 +41,14 @@
     "description": "Code generation benchmark built from Python programming problems.",
     "canonicalUrl": "https://github.com/openai/human-eval",
     "openness": "open_source",
+    "license": {
+      "expression": "mit",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github-api:openai/human-eval"
+      ]
+    },
     "tasks": [
       "coding",
       "code-generation"
@@ -60,6 +68,17 @@
         "confidence": "high",
         "retrieved_date": "2026-06-09",
         "quote": "Code for the paper \"Evaluating Large Language Models Trained on Code\" - openai/human-eval"
+      },
+      {
+        "id": "github-api:openai/human-eval",
+        "type": "api_response",
+        "title": "openai/human-eval GitHub repository metadata",
+        "url": "https://api.github.com/repos/openai/human-eval",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "\"name\": \"MIT License\""
       }
     ],
     "updatePolicy": {
@@ -76,6 +95,14 @@
     "description": "Massive Text Embedding Benchmark for retrieval, classification, clustering, and semantic textual similarity.",
     "canonicalUrl": "https://github.com/embeddings-benchmark/mteb",
     "openness": "open_source",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github-api:embeddings-benchmark/mteb"
+      ]
+    },
     "tasks": [
       "embeddings",
       "semantic-search",
@@ -96,6 +123,17 @@
         "confidence": "high",
         "retrieved_date": "2026-06-09",
         "quote": "MTEB: Massive Text Embedding Benchmark. Contribute to embeddings-benchmark/mteb development by creating an account on GitHub."
+      },
+      {
+        "id": "github-api:embeddings-benchmark/mteb",
+        "type": "api_response",
+        "title": "embeddings-benchmark/mteb GitHub repository metadata",
+        "url": "https://api.github.com/repos/embeddings-benchmark/mteb",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "\"name\": \"Apache License 2.0\""
       }
     ],
     "updatePolicy": {
@@ -112,6 +150,14 @@
     "description": "Automatic speech recognition benchmark using LibriSpeech test splits.",
     "canonicalUrl": "https://www.openslr.org/12",
     "openness": "source_available",
+    "license": {
+      "expression": "cc-by-4.0",
+      "openness": "source_available",
+      "osiApproved": false,
+      "sourceIds": [
+        "official:openslr-12"
+      ]
+    },
     "tasks": [
       "speech-recognition"
     ],
@@ -180,6 +226,14 @@
     "description": "Benchmark for resolving real GitHub issues in software repositories.",
     "canonicalUrl": "https://www.swebench.com/",
     "openness": "source_available",
+    "license": {
+      "expression": "mit",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github-api:swe-bench/swe-bench"
+      ]
+    },
     "tasks": [
       "agentic-coding",
       "software-agents"
@@ -199,6 +253,17 @@
         "confidence": "high",
         "retrieved_date": "2026-06-09",
         "quote": "SWE-bench Leaderboards"
+      },
+      {
+        "id": "github-api:swe-bench/swe-bench",
+        "type": "api_response",
+        "title": "SWE-bench/SWE-bench GitHub repository metadata",
+        "url": "https://api.github.com/repos/SWE-bench/SWE-bench",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "\"name\": \"MIT License\""
       }
     ],
     "updatePolicy": {

@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 
@@ -52,6 +53,7 @@ const undisclosedNotePattern = /(undisclosed|not disclosed|does not disclose|do 
 const quoteCollectionPendingNote =
   "source-needed quote collection pending: this disclosed metadata source requires a direct quote from the linked URL.";
 const generatedEdgeFile = path.join(process.cwd(), "data", "edges", "required-coverage.json");
+const checklistPath = path.join(process.cwd(), "docs", "edge-quote-verification.md");
 const generatedSupportFiles = {
   datasets: path.join(process.cwd(), "data", "nodes", "datasets", "source-needed.json"),
   software: path.join(process.cwd(), "data", "nodes", "software", "source-needed.json"),
@@ -64,6 +66,69 @@ const generatedSupportFiles = {
 function readJsonObjects(filePath: string): unknown[] {
   const parsed = JSON.parse(readFileSync(filePath, "utf8")) as unknown;
   return Array.isArray(parsed) ? parsed : [parsed];
+}
+
+function sha256(value: string) {
+  return createHash("sha256").update(value).digest("hex");
+}
+
+function shortHash(value: string) {
+  return sha256(value).slice(0, 16);
+}
+
+function checklistKey(filePath: string, edgeId: string, sourceId: string) {
+  return shortHash(`${path.relative(process.cwd(), filePath)}\0${edgeId}\0${sourceId}`);
+}
+
+function sourceIsManuallyLockedNote(source: SourceRecord) {
+  return typeof source.note === "string" && /manual verification found/i.test(source.note);
+}
+
+function generatedSourceKey(edgeRecord: EdgeRecord, source: SourceRecord) {
+  return `${edgeRecord.id}\0${source.id}`;
+}
+
+function loadCheckedRequiredQuoteHashes() {
+  const checkedQuotes = new Map<string, string>();
+  try {
+    const checklist = readFileSync(checklistPath, "utf8");
+    const itemPattern =
+      /^- \[([ xX])\] <!-- edge-quote-verification key="([^"]+)" quote_sha256="([a-f0-9]{64})" -->/gm;
+    for (const match of checklist.matchAll(itemPattern)) {
+      if (match[1].toLowerCase() === "x") {
+        checkedQuotes.set(match[2], match[3]);
+      }
+    }
+  } catch {
+    return checkedQuotes;
+  }
+  return checkedQuotes;
+}
+
+function sourceIsManuallyCheckedQuote(edgeRecord: EdgeRecord, source: SourceRecord, checkedQuotes: Map<string, string>) {
+  const quote = typeof source.quote === "string" ? source.quote.trim() : "";
+  if (!quote) return false;
+  const sourceId = source.id ?? "(missing-source-id)";
+  const key = checklistKey(generatedEdgeFile, edgeRecord.id, sourceId);
+  return checkedQuotes.get(key) === sha256(quote);
+}
+
+function loadExistingManualRequiredEdgeSources() {
+  const preserved = new Map<string, SourceRecord>();
+  const checkedQuotes = loadCheckedRequiredQuoteHashes();
+  try {
+    const existingEdges = readJsonObjects(generatedEdgeFile) as EdgeRecord[];
+    for (const edgeRecord of existingEdges) {
+      for (const source of edgeRecord.sources ?? []) {
+        if (sourceIsManuallyLockedNote(source) || sourceIsManuallyCheckedQuote(edgeRecord, source, checkedQuotes)) {
+          preserved.set(generatedSourceKey(edgeRecord, source), source);
+        }
+      }
+    }
+  } catch {
+    return preserved;
+  }
+  return preserved;
 }
 
 function jsonFiles(directory: string): string[] {
@@ -106,8 +171,32 @@ function slug(value: string) {
     .slice(0, 80);
 }
 
-function sourceFor(node: NodeRecord, idSuffix: string, note: string): SourceRecord {
-  const source = node.sources[0];
+function huggingFaceRepoInfoFromUrl(url?: string) {
+  if (!url) return undefined;
+  const parsed = url.match(/^https:\/\/huggingface\.co\/([^/#?]+)(?:\/([^/#?]+))?(?:\/([^/#?]+))?/i);
+  if (!parsed) return undefined;
+  if (parsed[1] === "spaces" && parsed[2] && parsed[3]) {
+    return { apiKind: "spaces", owner: parsed[2], repo: parsed[3], repoId: `${parsed[2]}/${parsed[3]}` };
+  }
+  if (parsed[1] === "datasets" && parsed[2] && parsed[3]) {
+    return { apiKind: "datasets", owner: parsed[2], repo: parsed[3], repoId: `${parsed[2]}/${parsed[3]}` };
+  }
+  if (parsed[1] && parsed[2]) {
+    return { apiKind: "models", owner: parsed[1], repo: parsed[2], repoId: `${parsed[1]}/${parsed[2]}` };
+  }
+  return undefined;
+}
+
+function huggingFaceRepoFromUrl(url?: string) {
+  return huggingFaceRepoInfoFromUrl(url)?.repoId;
+}
+
+function sourceFor(node: NodeRecord, idSuffix: string, target: string, note: string): SourceRecord {
+  const preferredSource =
+    idSuffix === "licensed_as" && node.license?.sourceIds
+      ? node.sources.find((candidate) => node.license?.sourceIds?.includes(candidate.id))
+      : undefined;
+  const source = preferredSource ?? node.sources[0];
   const record: SourceRecord = {
     id: `generated:${slug(node.id)}:${idSuffix}`,
     type: source?.type ?? "manual_entry",
@@ -118,6 +207,65 @@ function sourceFor(node: NodeRecord, idSuffix: string, note: string): SourceReco
     collectionMethod: source?.collectionMethod ?? "manual_review",
     confidence: "low"
   };
+  const huggingFaceRepo = idSuffix === "hosted_by" && target === "infrastructure:hugging-face-hub"
+    ? huggingFaceRepoFromUrl(node.canonicalUrl ?? source?.url)
+    : undefined;
+  if (huggingFaceRepo) {
+    record.type = "huggingface_model_card";
+    record.title = `${node.name} Hugging Face Hub page`;
+    record.url = `https://huggingface.co/${huggingFaceRepo}`;
+    record.publisher = "Hugging Face";
+    record.collectionMethod = "static_document";
+    record.quote = `<title>${huggingFaceRepo} · Hugging Face</title>`;
+    return record;
+  }
+  if (idSuffix === "developed_by") {
+    const githubApiUrl = githubRepositoryApiUrl(node);
+    if (githubApiUrl) {
+      const match = githubApiUrl.match(/^https:\/\/api\.github\.com\/repos\/([^/]+)\/(.+)$/i);
+      if (match) {
+        record.type = "api_response";
+        record.title = `${node.name} GitHub repository metadata for maintainer`;
+        record.url = githubApiUrl;
+        record.publisher = "GitHub";
+        record.retrieved_date = retrievedDate;
+        record.collectionMethod = "github_api";
+        record.quote = `"full_name": "${match[1]}/${match[2]}",`;
+        return record;
+      }
+    }
+    const hfInfo = huggingFaceRepoInfoFromUrl(node.canonicalUrl ?? source?.url);
+    if (hfInfo) {
+      record.type = "api_response";
+      record.title = `${node.name} Hugging Face API metadata for author`;
+      record.url = `https://huggingface.co/api/${hfInfo.apiKind}/${hfInfo.repoId}`;
+      record.publisher = "Hugging Face";
+      record.retrieved_date = retrievedDate;
+      record.collectionMethod = "huggingface_api";
+      record.quote = `"author":"${hfInfo.owner}"`;
+      return record;
+    }
+  }
+  const githubLicenseQuote = idSuffix === "licensed_as" ? githubLicenseNameQuote(node.license?.expression) : undefined;
+  const githubLicenseUrl = githubLicenseQuote ? githubRepositoryApiUrl(node) : undefined;
+  if (githubLicenseQuote && githubLicenseUrl) {
+    record.type = "api_response";
+    record.title = `${node.name} GitHub repository metadata for license`;
+    record.url = githubLicenseUrl;
+    record.publisher = "GitHub";
+    record.retrieved_date = retrievedDate;
+    record.collectionMethod = "github_api";
+    record.quote = githubLicenseQuote;
+    return record;
+  }
+  if (
+    idSuffix === "licensed_as" &&
+    preferredSource?.quote &&
+    /\blicen[sc]e\b|apache|mit|bsd|openrail|agpl|gpl|cc-by|creative commons/i.test(preferredSource.quote)
+  ) {
+    record.quote = preferredSource.quote;
+    return record;
+  }
   if (undisclosedNotePattern.test(note)) {
     record.note = note;
   } else {
@@ -131,6 +279,8 @@ function maintainerFromUrl(node: NodeRecord) {
   if (!url) return undefined;
   const githubMatch = url.match(/^https:\/\/github\.com\/([^/]+)/i);
   if (githubMatch) return githubMatch[1];
+  const hfInfo = huggingFaceRepoInfoFromUrl(url);
+  if (hfInfo) return hfInfo.owner;
   const hfMatch = url.match(/^https:\/\/huggingface\.co\/([^/]+)/i);
   if (hfMatch) return hfMatch[1];
   return undefined;
@@ -148,6 +298,32 @@ function licenseTarget(node: NodeRecord) {
   if (expression.includes("openrail++")) return "license:openrail-plus-plus";
   if (expression.includes("bigcode-openrail")) return "license:bigcode-openrail-m";
   return "license:other-composite";
+}
+
+function githubRepositoryApiUrl(node: NodeRecord) {
+  const url = node.repositoryUrl ?? node.canonicalUrl ?? node.sources[0]?.url;
+  if (!url) return undefined;
+  const match = url.match(/^https:\/\/github\.com\/([^/]+)\/([^/#?]+)/i);
+  if (!match) return undefined;
+  return `https://api.github.com/repos/${match[1]}/${match[2].replace(/\.git$/i, "")}`;
+}
+
+function githubLicenseNameQuote(expression?: string) {
+  switch (expression?.toLowerCase()) {
+    case "apache-2.0":
+    case "apache 2.0":
+      return "\"name\": \"Apache License 2.0\"";
+    case "mit":
+      return "\"name\": \"MIT License\"";
+    case "bsd-3-clause":
+      return "\"name\": \"BSD 3-Clause \\\"New\\\" or \\\"Revised\\\" License\"";
+    case "agpl-3.0":
+      return "\"name\": \"GNU Affero General Public License v3.0\"";
+    case "gpl-3.0":
+      return "\"name\": \"GNU General Public License v3.0\"";
+    default:
+      return undefined;
+  }
 }
 
 function supportSource(id: string, name: string, description: string): NodeRecord {
@@ -231,7 +407,7 @@ function edge(
     target,
     description,
     confidence,
-    sources: [sourceFor(sourceNode, kind, note)],
+    sources: [sourceFor(sourceNode, kind, target, note)],
     metadata: { generatedForRequiredCoverage: true }
   };
 }
@@ -265,6 +441,14 @@ function hasOperationalSoftwareConnectivity(nodeId: string) {
   );
 }
 
+function hasUndisclosedDatasetPlaceholderHost(node: NodeRecord) {
+  return (
+    node.kind === "dataset" &&
+    (node.tags ?? []).some((tag) => tag === "undisclosed" || tag === "partially-disclosed") &&
+    (node.sources ?? []).some((source) => source.type === "huggingface_model_card")
+  );
+}
+
 function addEdgeIfMissing(node: NodeRecord, kind: string, target: string, description: string, note: string, confidence = "low") {
   if (!hasEdge(node.id, kind)) {
     generatedEdges.push(edge(kind, node, target, description, note, confidence));
@@ -273,7 +457,7 @@ function addEdgeIfMissing(node: NodeRecord, kind: string, target: string, descri
 
 function addMaintainerEdgeIfMissing(node: NodeRecord) {
   if (hasEdge(node.id, "developed_by")) return;
-  const owner = maintainerFromUrl(node);
+  const owner = hasUndisclosedDatasetPlaceholderHost(node) ? undefined : maintainerFromUrl(node);
   const target = owner ? `organization:${slug(owner)}` : "organization:source-needed-maintainer";
   if (owner && !nodeIds.has(target)) {
     generatedOrganizations.set(target, organizationNode(owner));
@@ -384,7 +568,7 @@ for (const node of nodes) {
     addMaintainerEdgeIfMissing(node);
     addLicenseEdgeIfMissing(node);
     if (!hasEdge(node.id, "hosted_by")) {
-      const hostedBy = (node.canonicalUrl ?? "").startsWith("https://huggingface.co/")
+      const hostedBy = (node.canonicalUrl ?? "").startsWith("https://huggingface.co/") && !hasUndisclosedDatasetPlaceholderHost(node)
         ? "infrastructure:hugging-face-hub"
         : "infrastructure:source-needed-hosting";
       generatedEdges.push(
@@ -444,6 +628,15 @@ for (const [directory, outputPath] of Object.entries(generatedSupportFiles)) {
   console.log(`wrote ${outputPath}`);
 }
 
+const preservedManualSources = loadExistingManualRequiredEdgeSources();
+const sortedGeneratedEdges = generatedEdges.sort((a, b) => a.id.localeCompare(b.id));
+for (const generatedEdge of sortedGeneratedEdges) {
+  generatedEdge.sources = generatedEdge.sources.map((source) => {
+    const preserved = preservedManualSources.get(generatedSourceKey(generatedEdge, source));
+    return preserved ?? source;
+  });
+}
+
 mkdirSync(path.dirname(generatedEdgeFile), { recursive: true });
-writeFileSync(generatedEdgeFile, `${JSON.stringify(generatedEdges.sort((a, b) => a.id.localeCompare(b.id)), null, 2)}\n`);
+writeFileSync(generatedEdgeFile, `${JSON.stringify(sortedGeneratedEdges, null, 2)}\n`);
 console.log(`wrote ${generatedEdgeFile} with ${generatedEdges.length} required coverage edges`);

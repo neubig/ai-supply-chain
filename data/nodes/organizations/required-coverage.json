@@ -105,6 +105,40 @@
     }
   },
   {
+    "id": "organization:artificialanalysis",
+    "kind": "organization",
+    "name": "ArtificialAnalysis",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/ArtificialAnalysis",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:artificialanalysis",
+        "type": "github_repo",
+        "title": "ArtificialAnalysis maintainer namespace",
+        "url": "https://github.com/ArtificialAnalysis",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "quote": "Artificial Analysis has 2 repositories available. Follow their code on GitHub."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
     "id": "organization:axolotl-ai-cloud",
     "kind": "organization",
     "name": "axolotl-ai-cloud",
@@ -1315,7 +1349,7 @@
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
         "confidence": "medium",
-        "quote": "Open source projects and samples from Microsoft. Microsoft has 8025 repositories available. Follow their code on GitHub."
+        "quote": "Open source projects and samples from Microsoft. Microsoft has 8026 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {
@@ -1703,40 +1737,6 @@
     }
   },
   {
-    "id": "organization:qwen",
-    "kind": "organization",
-    "name": "Qwen",
-    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
-    "canonicalUrl": "https://github.com/Qwen",
-    "openness": "unknown",
-    "tags": [
-      "generated-maintainer",
-      "required-coverage"
-    ],
-    "sources": [
-      {
-        "id": "generated-org:qwen",
-        "type": "github_repo",
-        "title": "Qwen maintainer namespace",
-        "url": "https://github.com/Qwen",
-        "publisher": "GitHub",
-        "retrieved_date": "2026-06-10",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "quote": "qwen has 5 repositories available. Follow their code on GitHub."
-      }
-    ],
-    "updatePolicy": {
-      "refreshMethod": "manual_review",
-      "cadence": "monthly",
-      "deterministic": false,
-      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
-    },
-    "metadata": {
-      "generatedForRequiredCoverage": true
-    }
-  },
-  {
     "id": "organization:ray-project",
     "kind": "organization",
     "name": "ray-project",
@@ -1894,40 +1894,6 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "quote": "sgl-project has 26 repositories available. Follow their code on GitHub."
-      }
-    ],
-    "updatePolicy": {
-      "refreshMethod": "manual_review",
-      "cadence": "monthly",
-      "deterministic": false,
-      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
-    },
-    "metadata": {
-      "generatedForRequiredCoverage": true
-    }
-  },
-  {
-    "id": "organization:spaces",
-    "kind": "organization",
-    "name": "spaces",
-    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
-    "canonicalUrl": "https://github.com/spaces",
-    "openness": "unknown",
-    "tags": [
-      "generated-maintainer",
-      "required-coverage"
-    ],
-    "sources": [
-      {
-        "id": "generated-org:spaces",
-        "type": "github_repo",
-        "title": "spaces maintainer namespace",
-        "url": "https://github.com/spaces",
-        "publisher": "GitHub",
-        "retrieved_date": "2026-06-10",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "quote": "spaces has 2 repositories available. Follow their code on GitHub."
       }
     ],
     "updatePolicy": {

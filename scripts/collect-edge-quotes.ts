@@ -224,6 +224,16 @@ function specialCandidates(url: string, edge: EdgeRecord) {
 
 function candidateUrls(source: SourceRecord, edge: EdgeRecord) {
   if (!source.url) return [];
+  if (edge.kind === "hosted_by") {
+    return Array.from(
+      new Set([
+        source.url,
+        ...huggingFaceRawCandidates(source.url),
+        ...githubRawCandidates(source.url),
+        ...specialCandidates(source.url, edge)
+      ])
+    );
+  }
   const candidates = [
     ...huggingFaceRawCandidates(source.url),
     ...githubRawCandidates(source.url),
@@ -320,6 +330,10 @@ function sourceIsManuallyCheckedQuote(filePath: string, edge: EdgeRecord, source
   return checked?.checked === true && checked.quoteHash === sha256(quote);
 }
 
+function edgeTargetsSourceNeeded(edge: EdgeRecord) {
+  return edge.target.includes("source-needed");
+}
+
 async function collectEdgeQuote(source: SourceRecord, edge: EdgeRecord, nodes: Map<string, NodeSummary>) {
   for (const url of candidateUrls(source, edge)) {
     const result = await fetchText(url);
@@ -365,6 +379,17 @@ async function main() {
             continue;
           }
 
+          if (edgeTargetsSourceNeeded(edge)) {
+            const note = fallbackNote(source, edge);
+            if (source.note !== note || source.quote) {
+              source.note = note;
+              delete source.quote;
+              changed = true;
+            }
+            noteOnly += 1;
+            continue;
+          }
+
           if (sourceIsManuallyCheckedQuote(filePath, edge, source)) {
             quoted += 1;
             unchanged += 1;
@@ -373,6 +398,11 @@ async function main() {
 
           const currentQuotePasses =
             typeof source.quote === "string" && quotePassesEdgeEvidence(source.quote, edge, nodes);
+          if (edge.kind === "hosted_by" && currentQuotePasses) {
+            quoted += 1;
+            unchanged += 1;
+            continue;
+          }
           const collected = await collectEdgeQuote(source, edge, nodes);
           if (collected) {
             if (source.url !== collected.url || source.quote !== collected.quote || source.note) {
