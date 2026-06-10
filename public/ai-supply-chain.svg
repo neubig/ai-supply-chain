@@ -128,20 +128,20 @@
 <text x="1027.0" y="1857.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
 <path d="M 674.0 3323.0 C 1027.0 3323.0, 1027.0 829.0, 1380.0 829.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
 <text x="1027.0" y="2072.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
-<path d="M 674.0 4441.0 C 1027.0 4441.0, 1027.0 1087.0, 1380.0 1087.0" fill="none" stroke="#0B4A6F" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
-<text x="1027.0" y="2760.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#0B4A6F" opacity="0.84">optimized_for</text>
-<path d="M 674.0 4441.0 C 1027.0 4441.0, 1027.0 1173.0, 1380.0 1173.0" fill="none" stroke="#0B4A6F" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
-<text x="1027.0" y="2803.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#0B4A6F" opacity="0.84">optimized_for</text>
+<path d="M 674.0 4441.0 C 1027.0 4441.0, 1027.0 1087.0, 1380.0 1087.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="1027.0" y="2760.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
+<path d="M 674.0 4441.0 C 1027.0 4441.0, 1027.0 1173.0, 1380.0 1173.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="1027.0" y="2803.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
 <path d="M 674.0 4441.0 C 1027.0 4441.0, 1027.0 227.0, 1380.0 227.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
 <text x="1027.0" y="2330.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
-<path d="M 674.0 4183.0 C 1027.0 4183.0, 1027.0 915.0, 1380.0 915.0" fill="none" stroke="#0B4A6F" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
-<text x="1027.0" y="2545.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#0B4A6F" opacity="0.84">optimized_for</text>
-<path d="M 674.0 571.0 C 1027.0 571.0, 1027.0 1173.0, 1380.0 1173.0" fill="none" stroke="#0B4A6F" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
-<text x="1027.0" y="868.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#0B4A6F" opacity="0.84">optimized_for</text>
+<path d="M 674.0 4183.0 C 1027.0 4183.0, 1027.0 915.0, 1380.0 915.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="1027.0" y="2545.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
+<path d="M 674.0 571.0 C 1027.0 571.0, 1027.0 1173.0, 1380.0 1173.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="1027.0" y="868.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
 <path d="M 674.0 2463.0 C 1027.0 2463.0, 1027.0 915.0, 1380.0 915.0" fill="none" stroke="#0B4A6F" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
 <text x="1027.0" y="1685.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#0B4A6F" opacity="0.84">optimized_for</text>
-<path d="M 674.0 4355.0 C 1027.0 4355.0, 1027.0 1001.0, 1380.0 1001.0" fill="none" stroke="#B42318" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
-<text x="1027.0" y="2674.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#B42318" opacity="0.84">requires</text>
+<path d="M 674.0 4355.0 C 1027.0 4355.0, 1027.0 1001.0, 1380.0 1001.0" fill="none" stroke="#175CD3" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="1027.0" y="2674.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#175CD3" opacity="0.84">supports_hardware</text>
 <path d="M 450.0 3839.0 C 915.0 3839.0, 915.0 1001.0, 1380.0 1001.0" fill="none" stroke="#B42318" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
 <text x="915.0" y="2416.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#B42318" opacity="0.84">requires</text>
 <path d="M 450.0 2119.0 C 915.0 2119.0, 915.0 485.0, 1380.0 485.0" fill="none" stroke="#B42318" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>

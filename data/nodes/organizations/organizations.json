@@ -472,7 +472,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://openai.com/"
+        "quote": "We believe our research will eventually lead to artificial general intelligence, a system that can solve human-level problems. Building safe and beneficial AGI is our mission."
       }
     ],
     "updatePolicy": {

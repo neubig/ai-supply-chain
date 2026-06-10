@@ -9,14 +9,14 @@
     "sources": [
       {
         "id": "edge-source:gpt4all-hardware",
-        "type": "github_repo",
-        "title": "GPT4All GitHub repository",
-        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
+        "type": "api_response",
+        "title": "nomic-ai/gpt4all GitHub API response",
+        "url": "https://api.github.com/repos/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
+        "collectionMethod": "github_api",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "- Offline build support for running old versions of the GPT4All Local LLM Chat Client."
+        "quote": "\"description\":\"GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.\""
       }
     ]
   },
@@ -37,7 +37,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
+        "quote": "- **Privacy First**: Everything runs locally when you want it to"
       }
     ]
   },
@@ -58,18 +58,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
-      },
-      {
-        "id": "edge-source:rtx-5090-spec",
-        "type": "official_website",
-        "title": "NVIDIA GeForce RTX 5090",
-        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
-        "publisher": "NVIDIA",
-        "collectionMethod": "static_document",
-        "confidence": "high",
-        "retrieved_date": "2026-06-10",
-        "quote": "observe(imageTarget); } }; })(); GeForce RTX 5090 Graphics Cards | NVIDIA body."
+        "quote": "Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for:\n- [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)"
       }
     ]
   },
@@ -111,18 +100,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "- LLMKube - Kubernetes operator for llama.cpp with multi-GPU and Apple Silicon Metal"
-      },
-      {
-        "id": "edge-source:apple-m5-max-spec",
-        "type": "official_website",
-        "title": "MacBook Pro tech specs",
-        "url": "https://www.apple.com/macbook-pro/specs/",
-        "publisher": "Apple",
-        "collectionMethod": "static_document",
-        "confidence": "high",
-        "retrieved_date": "2026-06-10",
-        "quote": "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
+        "quote": "- Apple silicon is a first-class citizen - optimized via ARM NEON, Accelerate and Metal frameworks"
       }
     ]
   },
@@ -136,14 +114,14 @@
     "sources": [
       {
         "id": "edge-source:ollama-hardware",
-        "type": "github_repo",
-        "title": "Ollama GitHub repository",
-        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
-        "publisher": "GitHub",
+        "type": "official_docs",
+        "title": "Ollama hardware support documentation",
+        "url": "https://docs.ollama.com/gpu",
+        "publisher": "Ollama",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
+        "quote": "Ollama supports Nvidia GPUs with compute capability 5.0+ and driver version 531 and newer. Nvidia GPUs with compute capability 5.0 through 6.2 require driver version 570 or newer."
       }
     ]
   },
@@ -157,25 +135,15 @@
     "sources": [
       {
         "id": "edge-source:ollama-apple-silicon",
-        "type": "github_repo",
-        "title": "Ollama GitHub repository",
-        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
-        "publisher": "GitHub",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
-      },
-      {
-        "id": "edge-source:apple-m5-max-ollama",
         "type": "official_website",
-        "title": "MacBook Pro tech specs",
-        "url": "https://www.apple.com/macbook-pro/specs/",
-        "publisher": "Apple",
+        "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+        "url": "https://ollama.com/blog/mlx",
+        "publisher": "Ollama",
         "collectionMethod": "static_document",
         "confidence": "high",
+        "published_date": "2026-03-30",
         "retrieved_date": "2026-06-10",
-        "quote": "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
+        "quote": "This results in a large speedup of Ollama on all Apple Silicon devices. On Apple’s M5, M5 Pro and M5 Max chips, Ollama leverages the new GPU Neural Accelerators to accelerate both time to first token (TTFT) and generation speed (tokens per second)."
       }
     ]
   },
@@ -196,18 +164,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Return a bool indicating if the current CUDA/ROCm device supports dtype tf32."
-      },
-      {
-        "id": "edge-source:nvidia-h100",
-        "type": "official_website",
-        "title": "NVIDIA H100 GPU",
-        "url": "https://www.nvidia.com/en-us/data-center/h100/",
-        "publisher": "NVIDIA",
-        "collectionMethod": "static_document",
-        "confidence": "high",
-        "retrieved_date": "2026-06-10",
-        "quote": "Resources Resources Resource Hub Resources to build and optimize AI-ready data centers and factories Data Center GPU Line Card Guide to selecting data center GPUs and networking for AI workloads Data Center GPUs Resource Center Documentation and guides for NVIDIA data center GPU products MLPerf Benchmarks MLPerf training and inference results for the NVIDIA AI platform NVIDIA-Certified Systems Accelerated partner sys"
+        "quote": "This package adds support for CUDA tensor types. It implements the same function as CPU tensors, but they utilize GPUs for computation."
       }
     ]
   },
@@ -223,23 +180,12 @@
         "id": "edge-source:pytorch-rocm-docs",
         "type": "official_docs",
         "title": "PyTorch ROCm documentation",
-        "url": "https://pytorch.org/docs/2.12/notes/hip.html",
+        "url": "https://pytorch.org/docs/2.12/_sources/notes/hip.rst.txt",
         "publisher": "PyTorch",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "HIP is used when converting existing CUDA applications like PyTorch to portable C++ and for new projects that require portability between AMD and NVIDIA."
-      },
-      {
-        "id": "edge-source:amd-mi300x",
-        "type": "official_website",
-        "title": "AMD Instinct MI300X Accelerators",
-        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
-        "publisher": "AMD",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
+        "quote": "ROCm\\ |trade| is AMD’s open source software platform for GPU-accelerated high performance computing and machine learning. HIP is ROCm's C++ dialect designed to ease conversion of CUDA applications to portable C++ code. HIP is used when converting existing CUDA applications like PyTorch to portable C++ and for new projects that require portability between AMD and NVIDIA."
       }
     ]
   },
@@ -255,23 +201,12 @@
         "id": "edge-source:pytorch-xla-docs",
         "type": "official_docs",
         "title": "PyTorch/XLA documentation",
-        "url": "https://pytorch.org/xla/release/r2.8/index.html",
+        "url": "https://pytorch.org/xla/release/r2.8/_sources/index.rst.txt",
         "publisher": "PyTorch/XLA",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "Cost Efficient TPU hardware and the XLA compiler are optimized for cost-efficient training and inference."
-      },
-      {
-        "id": "edge-source:tpu-v6e",
-        "type": "official_docs",
-        "title": "Cloud TPU v6e",
-        "url": "https://docs.cloud.google.com/tpu/docs/v6e?hl=en",
-        "publisher": "Google Cloud",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Run training and inference using TPU v6e"
+        "quote": "``torch_xla`` is a Python package that implements \\\n`XLA <https://openxla.org/xla>`_ as a backend for PyTorch.\n\n+------------------------------------------------+------------------------------------------------+------------------------------------------------+\n| **Familiar APIs**                              | **High Performance**                           | **Cost Efficient**                             |\n|                                                |                                                |                                                |\n| Create and train PyTorch models on TPUs,       | Scale training jobs across thousands of        | TPU hardware and the XLA compiler are optimized|\n| with only minimal changes required.            | TPU cores while maintaining high MFU.          | for cost-efficient training and inference.     |"
       }
     ]
   },
@@ -285,14 +220,14 @@
     "sources": [
       {
         "id": "edge-source:aws-trainium3",
-        "type": "official_website",
-        "title": "AWS Trainium",
-        "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
-        "publisher": "AWS",
+        "type": "official_docs",
+        "title": "PyTorch Support on Neuron",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/index.html",
+        "publisher": "AWS Neuron",
         "collectionMethod": "static_document",
-        "confidence": "high",
+        "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "AI Accelerator - AWS Trainium - AWS {\"pageLanguage\":\"en\",\"supportedLanguages\":[\"ar\",\"cn\",\"de\",\"en\",\"es\",\"fr\",\"id\",\"it\",\"jp\",\"ko\",\"pt\",\"ru\",\"th\",\"tr\",\"tw\",\"vi\"],\"offerOrigin\":\"https://s0."
+        "quote": "PyTorch support on AWS Neuron SDK - TorchNeuron Native for eager execution and torch.compile on Trainium and Inferentia, with torch-neuronx XLA-based support for training and inference."
       }
     ]
   },
@@ -306,67 +241,56 @@
     "sources": [
       {
         "id": "edge-source:intel-gaudi-3-pytorch",
-        "type": "official_website",
-        "title": "Intel Gaudi AI Accelerator Products",
-        "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
-        "publisher": "Intel",
-        "retrieved_date": "2026-06-10",
+        "type": "official_docs",
+        "title": "Getting Started with Training on Intel Gaudi",
+        "url": "https://docs.habana.ai/en/latest/_sources/PyTorch/Getting_Started_with_PyTorch_and_Gaudi/Getting_Started_with_PyTorch.rst.txt",
+        "publisher": "Intel Gaudi Documentation",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "quote": "Intel® Gaudi® AI accelerators and Intel® Gaudi® software are designed to bring a new level of compute advantages and choice to data center training and inference."
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "This guide provides simple steps for preparing a PyTorch model to run training on Intel® Gaudi® AI accelerator."
       }
     ]
   },
   {
-    "id": "edge:vllm-optimized-for-nvidia-h100",
-    "kind": "optimized_for",
+    "id": "edge:vllm-supports-hardware-nvidia-h100",
+    "kind": "supports_hardware",
     "source": "software:vllm",
     "target": "infrastructure:nvidia-h100",
-    "description": "vLLM is represented as optimized for high-throughput NVIDIA datacenter GPU serving.",
+    "description": "vLLM is represented as supporting high-throughput serving on NVIDIA H100 datacenter GPU hardware.",
     "confidence": "medium",
     "sources": [
       {
         "id": "edge-source:vllm-hardware",
-        "type": "github_repo",
-        "title": "vLLM GitHub repository",
-        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
-        "publisher": "GitHub",
+        "type": "official_docs",
+        "title": "gpt-oss vLLM Usage Guide",
+        "url": "https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html",
+        "publisher": "vLLM",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
+        "quote": "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
       }
     ]
   },
   {
-    "id": "edge:vllm-optimized-for-nvidia-h200",
-    "kind": "optimized_for",
+    "id": "edge:vllm-supports-hardware-nvidia-h200",
+    "kind": "supports_hardware",
     "source": "software:vllm",
     "target": "infrastructure:nvidia-h200",
-    "description": "vLLM is represented as optimized for high-memory NVIDIA datacenter GPU serving.",
+    "description": "vLLM is represented as supporting high-memory NVIDIA H200 datacenter GPU serving.",
     "confidence": "medium",
     "sources": [
       {
         "id": "edge-source:vllm-h200",
-        "type": "github_repo",
-        "title": "vLLM GitHub repository",
-        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
-        "publisher": "GitHub",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
-      },
-      {
-        "id": "edge-source:nvidia-h200",
-        "type": "official_website",
-        "title": "NVIDIA H200",
-        "url": "https://www.nvidia.com/en-us/data-center/h200/",
-        "publisher": "NVIDIA",
+        "type": "official_docs",
+        "title": "gpt-oss vLLM Usage Guide",
+        "url": "https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html",
+        "publisher": "vLLM",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "The NVIDIA H200 GPU supercharges generative AI and HPC workloads with game-changing performance and memory capabilities."
+        "quote": "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
       }
     ]
   },
@@ -380,34 +304,23 @@
     "sources": [
       {
         "id": "edge-source:vllm-rocm",
-        "type": "github_repo",
-        "title": "vLLM GitHub repository",
-        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
-        "publisher": "GitHub",
-        "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
-      },
-      {
-        "id": "edge-source:amd-mi325x",
-        "type": "official_website",
-        "title": "AMD Instinct MI325X Accelerators",
-        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
-        "publisher": "AMD",
+        "type": "official_docs",
+        "title": "gpt-oss vLLM Usage Guide",
+        "url": "https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html",
+        "publisher": "vLLM",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
+        "quote": "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
       }
     ]
   },
   {
-    "id": "edge:triton-inference-server-optimized-for-nvidia-b200",
-    "kind": "optimized_for",
+    "id": "edge:triton-inference-server-supports-hardware-nvidia-b200",
+    "kind": "supports_hardware",
     "source": "software:triton-inference-server",
     "target": "infrastructure:nvidia-b200",
-    "description": "Triton Inference Server is represented as optimized for NVIDIA datacenter inference hardware, including Blackwell systems.",
+    "description": "Triton Inference Server is represented as supporting NVIDIA datacenter inference GPUs, with the B200 node serving as the Blackwell profile.",
     "confidence": "medium",
     "sources": [
       {
@@ -417,29 +330,18 @@
         "url": "https://raw.githubusercontent.com/triton-inference-server/server/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-10",
-        "quote": "devices on NVIDIA GPUs, x86 and ARM CPU, or AWS Inferentia. Triton Inference"
-      },
-      {
-        "id": "edge-source:nvidia-b200",
-        "type": "official_website",
-        "title": "NVIDIA DGX B200",
-        "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
-        "publisher": "NVIDIA",
-        "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Equipped with eight NVIDIA Blackwell GPUs interconnected with fifth-generation NVIDIA® NVLink™ , NVIDIA DGX B200 delivers 3X the training performance and 15X the inference performance of previous-generation systems."
+        "quote": "Triton Inference Server supports inference across cloud, data center, edge and embedded\ndevices on NVIDIA GPUs, x86 and ARM CPU, or AWS Inferentia. Triton Inference\nServer delivers optimized performance for many query types, including real time,\nbatched, ensembles and audio/video streaming."
       }
     ]
   },
   {
-    "id": "edge:deepspeed-optimized-for-nvidia-h200",
-    "kind": "optimized_for",
+    "id": "edge:deepspeed-supports-hardware-nvidia-h200",
+    "kind": "supports_hardware",
     "source": "software:deepspeed",
     "target": "infrastructure:nvidia-h200",
-    "description": "DeepSpeed is represented as optimized for distributed GPU training and fine-tuning on NVIDIA datacenter accelerators.",
+    "description": "DeepSpeed is represented as supporting distributed GPU training and fine-tuning on NVIDIA Hopper-class datacenter accelerators.",
     "confidence": "medium",
     "sources": [
       {
@@ -449,9 +351,9 @@
         "url": "https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "14. Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, Yuxiong He. (2022) DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale. arXiv:2207.00032 and SC 2022. [[paper]](https://arxiv.org/abs/2207.00032) [[slides]](docs/assets/files/sc22-ds-inference.pdf) [[blog]](https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-large-scale-model-inference-and-training-via-system-optimizations-and-compression/)"
+        "quote": "Specific GPUs we develop and test against are listed below, this doesn't mean your GPU will not work if it doesn't fall into this category it's just DeepSpeed is most well tested on the following:\n  * NVIDIA: Pascal, Volta, Ampere, and Hopper architectures"
       }
     ]
   },
@@ -470,19 +372,19 @@
         "url": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "For the latest performance benchmarking results, refer to NVIDIA Megatron Bridge Performance Summary."
+        "quote": "- **[2025/08]** **[Mixture of Experts (MoE) Q3–Q4 2025 Roadmap](https://github.com/NVIDIA/Megatron-LM/issues/1729)** - Comprehensive roadmap for MoE features including DeepSeek-V3, Qwen3, advanced parallelism strategies, FP8 optimizations, and Blackwell performance enhancements."
       }
     ]
   },
   {
-    "id": "edge:unsloth-requires-local-gpu",
-    "kind": "requires",
+    "id": "edge:unsloth-supports-hardware-rtx-5090",
+    "kind": "supports_hardware",
     "source": "software:unsloth",
     "target": "infrastructure:nvidia-rtx-5090",
-    "description": "Unsloth local fine-tuning workflows are represented as requiring a capable local GPU profile.",
-    "confidence": "low",
+    "description": "Unsloth local fine-tuning workflows are represented as supporting NVIDIA RTX 50-series consumer GPU profiles, including the RTX 5090 profile.",
+    "confidence": "medium",
     "sources": [
       {
         "id": "edge-source:unsloth-repo",
@@ -491,9 +393,9 @@
         "url": "https://raw.githubusercontent.com/unslothai/unsloth/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "* **CPU:** Supported for Chat and Data Recipes currently * **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more * **macOS:** Training, MLX and GGUF inference are ALL supported. * **AMD:** Chat + Data works. Train with Unsloth Core. Studio support is out soon. * **Multi-GPU:** Available now, with a major upgrade on the way"
+        "quote": "* **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more"
       }
     ]
   },
@@ -502,8 +404,8 @@
     "kind": "requires",
     "source": "model:stable-diffusion-xl-base-1.0",
     "target": "infrastructure:nvidia-rtx-5090",
-    "description": "The SDXL seed stack treats high-end local accelerated hardware as a practical requirement for interactive image generation.",
-    "confidence": "low",
+    "description": "The SDXL model card documents CUDA inference and GPU VRAM constraints; the RTX 5090 node represents the high-end local CUDA GPU profile used by the seed stack.",
+    "confidence": "medium",
     "sources": [
       {
         "id": "edge-source:sdxl-card",
@@ -512,9 +414,9 @@
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
-        "confidence": "medium",
+        "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "If you are limited by GPU VRAM, you can enable *cpu offloading* by calling `pipe.enable_model_cpu_offload` instead of `.to(\"cuda\")`:"
+        "quote": "If you are limited by GPU VRAM, you can enable *cpu offloading* by calling `pipe.enable_model_cpu_offload`\ninstead of `.to(\"cuda\")`:"
       }
     ]
   },

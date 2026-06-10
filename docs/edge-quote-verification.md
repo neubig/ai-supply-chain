@@ -8,9 +8,9 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## Summary
 
-- Quote-backed edge sources: 483
-- Checked: 72
-- Unchecked: 411
+- Quote-backed edge sources: 474
+- Checked: 92
+- Unchecked: 382
 
 <!-- edge-quote-verification-checklist:v1 -->
 
@@ -245,178 +245,124 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## data/edges/hardware-compatibility.json
 
-- [ ] <!-- edge-quote-verification key="16cec3826b56aeb8" quote_sha256="7a9d94144f8bdab4b7f1c51ea544d3841f5e824fe20ce5ae939cfb840fcdf305" --> `edge:deepspeed-optimized-for-nvidia-h200` / `edge-source:deepspeed-repo`
-  - Edge: `software:deepspeed --optimized_for--> infrastructure:nvidia-h200`
+- [x] <!-- edge-quote-verification key="523ac655d74b8bbc" quote_sha256="7621442ab384bc251d7c8d5c05dd1e0f72cd81d4bd704a6d7dc85dae3a316d62" --> `edge:deepspeed-supports-hardware-nvidia-h200` / `edge-source:deepspeed-repo`
+  - Edge: `software:deepspeed --supports_hardware--> infrastructure:nvidia-h200`
   - Source URL: https://raw.githubusercontent.com/deepspeedai/DeepSpeed/master/README.md
-  - Quote: "14. Reza Yazdani Aminabadi, Samyam Rajbhandari, Minjia Zhang, Ammar Ahmad Awan, Cheng Li, Du Li, Elton Zheng, Jeff Rasley, Shaden Smith, Olatunji Ruwase, Yuxiong He. (2022) DeepSpeed Inference: Enabling Efficient Inference of Transformer Models at Unprecedented Scale. arXiv:2207.00032 and SC 2022. [[paper]](https://arxiv.org/abs/2207.00032) [[slides]](docs/assets/files/sc22-ds-inference.pdf) [[blog]](https://www.microsoft.com/en-us/research/blog/deepspeed-accelerating-large-scale-model-inference-and-training-via-system-optimizations-and-compression/)"
+  - Quote: "Specific GPUs we develop and test against are listed below, this doesn't mean your GPU will not work if it doesn't fall into this category it's just DeepSpeed is most well tested on the following: * NVIDIA: Pascal, Volta, Ampere, and Hopper architectures"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="ce4345d8c2474b9d" quote_sha256="b755a6206a1024a8b3bb824827ca7c77f09efe3c1ad57a42e689ce4a6a5fc753" --> `edge:gpt4all-runs-on-consumer-device` / `edge-source:gpt4all-hardware`
+- [x] <!-- edge-quote-verification key="ce4345d8c2474b9d" quote_sha256="8b69473cc0b0d4e10f389fc0c4778f4ee22ba0bd93258a19ad44555ddbdb6794" --> `edge:gpt4all-runs-on-consumer-device` / `edge-source:gpt4all-hardware`
   - Edge: `application:gpt4all --runs_on--> infrastructure:consumer-device`
-  - Source URL: https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md
-  - Quote: "- Offline build support for running old versions of the GPT4All Local LLM Chat Client."
+  - Source URL: https://api.github.com/repos/nomic-ai/gpt4all
+  - Quote: ""description":"GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="d0a4c2dad34e7e76" quote_sha256="352acc0fe96a8c0ffedcf9293e6d8370daaef6dcb5230940c9ee268528e784d6" --> `edge:jan-runs-on-consumer-device` / `edge-source:jan-hardware`
+- [x] <!-- edge-quote-verification key="d0a4c2dad34e7e76" quote_sha256="4d74c054743eb6cdff226ca8dddeb37ea43b7cc7cc30a0bec8913c47c8986aab" --> `edge:jan-runs-on-consumer-device` / `edge-source:jan-hardware`
   - Edge: `application:jan --runs_on--> infrastructure:consumer-device`
   - Source URL: https://raw.githubusercontent.com/janhq/jan/main/README.md
-  - Quote: "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
+  - Quote: "- **Privacy First**: Everything runs locally when you want it to"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="f34d09357fc94418" quote_sha256="1eb22a91956ab170457bce1b8505ed7ad0398af07edb94e1739873ffcb72a8c2" --> `edge:llama.cpp-supports-hardware-apple-m5-max` / `edge-source:apple-m5-max-spec`
-  - Edge: `software:llama.cpp --supports_hardware--> infrastructure:apple-m5-max`
-  - Source URL: https://www.apple.com/macbook-pro/specs/
-  - Quote: "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="edc655633b820067" quote_sha256="2e0e929239f8b0a3a491cf8f61d730bdd5d0ac627771428b5045935d35191bc7" --> `edge:llama.cpp-supports-hardware-apple-m5-max` / `edge-source:llama.cpp-metal`
+- [x] <!-- edge-quote-verification key="edc655633b820067" quote_sha256="c827a477f7615f9d17f9952f18b75edff1aff3bdcde0aa919aaa32e9458bb99a" --> `edge:llama.cpp-supports-hardware-apple-m5-max` / `edge-source:llama.cpp-metal`
   - Edge: `software:llama.cpp --supports_hardware--> infrastructure:apple-m5-max`
   - Source URL: https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md
-  - Quote: "- LLMKube - Kubernetes operator for llama.cpp with multi-GPU and Apple Silicon Metal"
+  - Quote: "- Apple silicon is a first-class citizen - optimized via ARM NEON, Accelerate and Metal frameworks"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="b2d148e55e4cbb28" quote_sha256="a6f310e4b3250d633279c6de0878f1eebec9beae22b2559815e6cd7ed4d5469a" --> `edge:llama.cpp-supports-hardware-rtx-5090` / `edge-source:llama.cpp-gpu-docs`
+- [x] <!-- edge-quote-verification key="b2d148e55e4cbb28" quote_sha256="a6f310e4b3250d633279c6de0878f1eebec9beae22b2559815e6cd7ed4d5469a" --> `edge:llama.cpp-supports-hardware-rtx-5090` / `edge-source:llama.cpp-gpu-docs`
   - Edge: `software:llama.cpp --supports_hardware--> infrastructure:nvidia-rtx-5090`
   - Source URL: https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md
   - Quote: "- Custom CUDA kernels for running LLMs on NVIDIA GPUs (support for AMD GPUs via HIP and Moore Threads GPUs via MUSA)"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="c72a6769b13711b4" quote_sha256="071419b602133614c68a0fe6898b9a5c40fb6638cfd3f8efc539d9238152d65f" --> `edge:megatron-lm-optimized-for-nvidia-b200` / `edge-source:megatron-lm`
+- [x] <!-- edge-quote-verification key="c72a6769b13711b4" quote_sha256="f2a351f66143cd37715e6f71b9f24ee60a3a24696e483236ead70df5108ba241" --> `edge:megatron-lm-optimized-for-nvidia-b200` / `edge-source:megatron-lm`
   - Edge: `software:megatron-lm --optimized_for--> infrastructure:nvidia-b200`
   - Source URL: https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/README.md
-  - Quote: "For the latest performance benchmarking results, refer to NVIDIA Megatron Bridge Performance Summary."
+  - Quote: "- **[2025/08]** **[Mixture of Experts (MoE) Q3–Q4 2025 Roadmap](https://github.com/NVIDIA/Megatron-LM/issues/1729)** - Comprehensive roadmap for MoE features including DeepSeek-V3, Qwen3, advanced parallelism strategies, FP8 optimizations, and Blackwell performance enhancements."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="6a2e582d01a1979d" quote_sha256="1eb22a91956ab170457bce1b8505ed7ad0398af07edb94e1739873ffcb72a8c2" --> `edge:ollama-supports-hardware-apple-m5-max` / `edge-source:apple-m5-max-ollama`
+- [x] <!-- edge-quote-verification key="f99f7c887456c59c" quote_sha256="e14b2f8c3675bf9739f324c7044b56496cdc117eff97d6bc7f443b6ba173e0e6" --> `edge:ollama-supports-hardware-apple-m5-max` / `edge-source:ollama-apple-silicon`
   - Edge: `software:ollama --supports_hardware--> infrastructure:apple-m5-max`
-  - Source URL: https://www.apple.com/macbook-pro/specs/
-  - Quote: "Testing conducted by Apple in January and February 2026 using preproduction 16-inch MacBook Pro systems with Apple M5 Max, 18-core CPU, 32-core GPU, 36GB of unified memory, and 2TB SSD, and Apple M5 Pro, 18-core CPU, 20-core GPU, 48GB of unified memory, and 1TB SSD."
+  - Source URL: https://ollama.com/blog/mlx
+  - Quote: "This results in a large speedup of Ollama on all Apple Silicon devices. On Apple’s M5, M5 Pro and M5 Max chips, Ollama leverages the new GPU Neural Accelerators to accelerate both time to first token (TTFT) and generation speed (tokens per second)."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="f99f7c887456c59c" quote_sha256="9e738387ec471af2c777b2768c9462a2ef606b6e4c9d8cc6b34f92792fc3d41d" --> `edge:ollama-supports-hardware-apple-m5-max` / `edge-source:ollama-apple-silicon`
-  - Edge: `software:ollama --supports_hardware--> infrastructure:apple-m5-max`
-  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/README.md
-  - Quote: "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="a294cc239e42f56a" quote_sha256="9e738387ec471af2c777b2768c9462a2ef606b6e4c9d8cc6b34f92792fc3d41d" --> `edge:ollama-supports-hardware-rtx-5090` / `edge-source:ollama-hardware`
+- [x] <!-- edge-quote-verification key="a294cc239e42f56a" quote_sha256="bc054d9c58b8130a21dd381483a3b2bcadeb7e24c9135baf0d30b6d571537b84" --> `edge:ollama-supports-hardware-rtx-5090` / `edge-source:ollama-hardware`
   - Edge: `software:ollama --supports_hardware--> infrastructure:nvidia-rtx-5090`
-  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/README.md
-  - Quote: "- OpenLIT - OpenTelemetry-native monitoring for Ollama and GPUs"
+  - Source URL: https://docs.ollama.com/gpu
+  - Quote: "Ollama supports Nvidia GPUs with compute capability 5.0+ and driver version 531 and newer. Nvidia GPUs with compute capability 5.0 through 6.2 require driver version 570 or newer."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="676420de97c888f2" quote_sha256="79760c8500c8bc7ede9737a13fad56b4f6b401ecc2eccaa48b811cc392538f98" --> `edge:pytorch-supports-hardware-amd-mi300x` / `edge-source:amd-mi300x`
+- [x] <!-- edge-quote-verification key="42941c9234042935" quote_sha256="8a66d369a911f412889ca875f5b85dd04fd14b060401e1effb911d7fce590cdb" --> `edge:pytorch-supports-hardware-amd-mi300x` / `edge-source:pytorch-rocm-docs`
   - Edge: `software:pytorch --supports_hardware--> infrastructure:amd-mi300x`
-  - Source URL: https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html
-  - Quote: "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
+  - Source URL: https://pytorch.org/docs/2.12/_sources/notes/hip.rst.txt
+  - Quote: "ROCm\ \|trade\| is AMD’s open source software platform for GPU-accelerated high performance computing and machine learning. HIP is ROCm's C++ dialect designed to ease conversion of CUDA applications to portable C++ code. HIP is used when converting existing CUDA applications like PyTorch to portable C++ and for new projects that require portability between AMD and NVIDIA."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="42941c9234042935" quote_sha256="0be13d7d983400bd3e57b1be783d4e6840b8775ce3044ea94fa047aa687c1cda" --> `edge:pytorch-supports-hardware-amd-mi300x` / `edge-source:pytorch-rocm-docs`
-  - Edge: `software:pytorch --supports_hardware--> infrastructure:amd-mi300x`
-  - Source URL: https://pytorch.org/docs/2.12/notes/hip.html
-  - Quote: "HIP is used when converting existing CUDA applications like PyTorch to portable C++ and for new projects that require portability between AMD and NVIDIA."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="6ee85a39e703cee0" quote_sha256="52dc0858dc8f628396b21cce86e711ec2efde59121166d74d77db2d434a4b6f6" --> `edge:pytorch-supports-hardware-aws-trainium3` / `edge-source:aws-trainium3`
+- [x] <!-- edge-quote-verification key="6ee85a39e703cee0" quote_sha256="34626354785ac2b083284cff22e459aff15a1d842cdaa6e3577a7cfe3e34b887" --> `edge:pytorch-supports-hardware-aws-trainium3` / `edge-source:aws-trainium3`
   - Edge: `software:pytorch --supports_hardware--> infrastructure:aws-trainium3`
-  - Source URL: https://aws.amazon.com/ai/machine-learning/trainium/
-  - Quote: "AI Accelerator - AWS Trainium - AWS {"pageLanguage":"en","supportedLanguages":["ar","cn","de","en","es","fr","id","it","jp","ko","pt","ru","th","tr","tw","vi"],"offerOrigin":"https://s0."
+  - Source URL: https://awsdocs-neuron.readthedocs-hosted.com/en/latest/frameworks/torch/index.html
+  - Quote: "PyTorch support on AWS Neuron SDK - TorchNeuron Native for eager execution and torch.compile on Trainium and Inferentia, with torch-neuronx XLA-based support for training and inference."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="495c33158b76f2be" quote_sha256="d8d5ded0a0df5933c778c41f168e461611b6f7d407c89fa72c64c16591232f71" --> `edge:pytorch-supports-hardware-google-tpu-v6e-trillium` / `edge-source:pytorch-xla-docs`
+- [x] <!-- edge-quote-verification key="495c33158b76f2be" quote_sha256="7a2e60aeb8e46f07cc5c9b43f60fb0af15957bd03e2d343ede89e77a816e440f" --> `edge:pytorch-supports-hardware-google-tpu-v6e-trillium` / `edge-source:pytorch-xla-docs`
   - Edge: `software:pytorch --supports_hardware--> infrastructure:google-cloud-tpu-v6e-trillium`
-  - Source URL: https://pytorch.org/xla/release/r2.8/index.html
-  - Quote: "Cost Efficient TPU hardware and the XLA compiler are optimized for cost-efficient training and inference."
+  - Source URL: https://pytorch.org/xla/release/r2.8/_sources/index.rst.txt
+  - Quote: "``torch_xla`` is a Python package that implements \ `XLA <https://openxla.org/xla>`_ as a backend for PyTorch. +------------------------------------------------+------------------------------------------------+------------------------------------------------+ \| **Familiar APIs** \| **High Performance** \| **Cost Efficient** \| \| \| \| \| \| Create and train PyTorch models on TPUs, \| Scale training jobs across thousands of \| TPU hardware and the XLA compiler are optimized\| \| with only minimal changes required. \| TPU cores while maintaining high MFU. \| for cost-efficient training and inf"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="ec853db54098670c" quote_sha256="42aa5939243fcd277c89d51314143b12c17ef379b6d8d228cc1e02caf43bb905" --> `edge:pytorch-supports-hardware-google-tpu-v6e-trillium` / `edge-source:tpu-v6e`
-  - Edge: `software:pytorch --supports_hardware--> infrastructure:google-cloud-tpu-v6e-trillium`
-  - Source URL: https://docs.cloud.google.com/tpu/docs/v6e?hl=en
-  - Quote: "Run training and inference using TPU v6e"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="be118075f779ce6e" quote_sha256="91f87e7485720a2cbe6de9701ac70270f431852297391508ef4e169347486799" --> `edge:pytorch-supports-hardware-intel-gaudi-3` / `edge-source:intel-gaudi-3-pytorch`
+- [x] <!-- edge-quote-verification key="be118075f779ce6e" quote_sha256="a2685be6316de81a43a455bf8a8ddc90f9b5c7c0e52db0ea16f7ea7b499f37d1" --> `edge:pytorch-supports-hardware-intel-gaudi-3` / `edge-source:intel-gaudi-3-pytorch`
   - Edge: `software:pytorch --supports_hardware--> infrastructure:intel-gaudi-3`
-  - Source URL: https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html
-  - Quote: "Intel® Gaudi® AI accelerators and Intel® Gaudi® software are designed to bring a new level of compute advantages and choice to data center training and inference."
+  - Source URL: https://docs.habana.ai/en/latest/_sources/PyTorch/Getting_Started_with_PyTorch_and_Gaudi/Getting_Started_with_PyTorch.rst.txt
+  - Quote: "This guide provides simple steps for preparing a PyTorch model to run training on Intel® Gaudi® AI accelerator."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="a9bdee789bdc3be8" quote_sha256="a3bf4a7ba99cbdec033cdafeb67b7a4a2ec8500baf660cb894a9ecc9b116733f" --> `edge:pytorch-supports-hardware-nvidia-h100` / `edge-source:nvidia-h100`
-  - Edge: `software:pytorch --supports_hardware--> infrastructure:nvidia-h100`
-  - Source URL: https://www.nvidia.com/en-us/data-center/h100/
-  - Quote: "Resources Resources Resource Hub Resources to build and optimize AI-ready data centers and factories Data Center GPU Line Card Guide to selecting data center GPUs and networking for AI workloads Data Center GPUs Resource Center Documentation and guides for NVIDIA data center GPU products MLPerf Benchmarks MLPerf training and inference results for the NVIDIA AI platform NVIDIA-Certified Systems Accelerated partner sys"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="e13cb527b4a7e38d" quote_sha256="3d4450de2e13f302ee8689c80b78a9c4caefcf2abdd826dad200b924042c405f" --> `edge:pytorch-supports-hardware-nvidia-h100` / `edge-source:pytorch-cuda-docs`
+- [x] <!-- edge-quote-verification key="e13cb527b4a7e38d" quote_sha256="e52542648bab8971763421900201edaff8dbbd78a87459ca9ae4150061a7839e" --> `edge:pytorch-supports-hardware-nvidia-h100` / `edge-source:pytorch-cuda-docs`
   - Edge: `software:pytorch --supports_hardware--> infrastructure:nvidia-h100`
   - Source URL: https://pytorch.org/docs/2.12/cuda.html
-  - Quote: "Return a bool indicating if the current CUDA/ROCm device supports dtype tf32."
+  - Quote: "This package adds support for CUDA tensor types. It implements the same function as CPU tensors, but they utilize GPUs for computation."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="5f1a52b84a5898a7" quote_sha256="48503ce6b785891a451522ee69e54093de9c6d107749fb30d342463dd5527a55" --> `edge:stable-diffusion-webui-runs-on-rtx-5090` / `edge-source:rtx-5090-spec`
-  - Edge: `application:stable-diffusion-webui --runs_on--> infrastructure:nvidia-rtx-5090`
-  - Source URL: https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/
-  - Quote: "observe(imageTarget); } }; })(); GeForce RTX 5090 Graphics Cards \| NVIDIA body."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="b68948071f61a6e2" quote_sha256="20de7021376203d4e9046909550bc3aa9402c00cffd670cf266405087186fcd1" --> `edge:stable-diffusion-webui-runs-on-rtx-5090` / `edge-source:stable-diffusion-webui-repo`
+- [x] <!-- edge-quote-verification key="b68948071f61a6e2" quote_sha256="6ed4b0ff0ab9d4af59b667861e624252bb629e03eac0f7a29a82dac60f9b279d" --> `edge:stable-diffusion-webui-runs-on-rtx-5090` / `edge-source:stable-diffusion-webui-repo`
   - Edge: `application:stable-diffusion-webui --runs_on--> infrastructure:nvidia-rtx-5090`
   - Source URL: https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md
-  - Quote: "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
+  - Quote: "Make sure the required [dependencies](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies) are met and follow the instructions available for: - [NVidia](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs) (recommended)"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="4723c51fe28930f7" quote_sha256="c35be609782af504e7dc6296bd2781c98a6b8bcb698b600f1e5c45021302881a" --> `edge:stable-diffusion-xl-base-1.0-requires-accelerated-inference` / `edge-source:sdxl-card`
+- [x] <!-- edge-quote-verification key="4723c51fe28930f7" quote_sha256="6d685a469940d9f0ee4f0e244feaab346118dea7e5deeee47278b52f1d137e9f" --> `edge:stable-diffusion-xl-base-1.0-requires-accelerated-inference` / `edge-source:sdxl-card`
   - Edge: `model:stable-diffusion-xl-base-1.0 --requires--> infrastructure:nvidia-rtx-5090`
   - Source URL: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/raw/main/README.md
   - Quote: "If you are limited by GPU VRAM, you can enable *cpu offloading* by calling `pipe.enable_model_cpu_offload` instead of `.to("cuda")`:"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="7529b268d44ac599" quote_sha256="63c3ae2a70bbbfd814cceaa42409b251121226e904905f6a7bd539c304d95411" --> `edge:triton-inference-server-optimized-for-nvidia-b200` / `edge-source:nvidia-b200`
-  - Edge: `software:triton-inference-server --optimized_for--> infrastructure:nvidia-b200`
-  - Source URL: https://www.nvidia.com/en-us/data-center/dgx-b200/
-  - Quote: "Equipped with eight NVIDIA Blackwell GPUs interconnected with fifth-generation NVIDIA® NVLink™ , NVIDIA DGX B200 delivers 3X the training performance and 15X the inference performance of previous-generation systems."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="ebf338e92452a0a8" quote_sha256="87711ea96ef125050af2cbab4589c629ecedc0c13327bfd197e3743574827c6e" --> `edge:triton-inference-server-optimized-for-nvidia-b200` / `edge-source:triton-server`
-  - Edge: `software:triton-inference-server --optimized_for--> infrastructure:nvidia-b200`
+- [x] <!-- edge-quote-verification key="7f2805abaad92188" quote_sha256="11600b427031a5897493ad732cf8bb95f09448ef0fd973b053492ab0aabf08e4" --> `edge:triton-inference-server-supports-hardware-nvidia-b200` / `edge-source:triton-server`
+  - Edge: `software:triton-inference-server --supports_hardware--> infrastructure:nvidia-b200`
   - Source URL: https://raw.githubusercontent.com/triton-inference-server/server/main/README.md
-  - Quote: "devices on NVIDIA GPUs, x86 and ARM CPU, or AWS Inferentia. Triton Inference"
+  - Quote: "Triton Inference Server supports inference across cloud, data center, edge and embedded devices on NVIDIA GPUs, x86 and ARM CPU, or AWS Inferentia. Triton Inference Server delivers optimized performance for many query types, including real time, batched, ensembles and audio/video streaming."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="40cd591eaf9f73fb" quote_sha256="1dd34d7956d2f48136784635589466374002c416a52afaef7576cc82ea188f2f" --> `edge:unsloth-requires-local-gpu` / `edge-source:unsloth-repo`
-  - Edge: `software:unsloth --requires--> infrastructure:nvidia-rtx-5090`
+- [x] <!-- edge-quote-verification key="413f5a4267c225d0" quote_sha256="e9178bdf66b8b99c475faffdfd4f481cadb3adae555fdb1190db69e99f73fc39" --> `edge:unsloth-supports-hardware-rtx-5090` / `edge-source:unsloth-repo`
+  - Edge: `software:unsloth --supports_hardware--> infrastructure:nvidia-rtx-5090`
   - Source URL: https://raw.githubusercontent.com/unslothai/unsloth/main/README.md
-  - Quote: "* **CPU:** Supported for Chat and Data Recipes currently * **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more * **macOS:** Training, MLX and GGUF inference are ALL supported. * **AMD:** Chat + Data works. Train with Unsloth Core. Studio support is out soon. * **Multi-GPU:** Available now, with a major upgrade on the way"
+  - Quote: "* **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="f2c4f6347863ffd8" quote_sha256="ebf1471b69468bd24a4190c70ca2f91d2234d6fcb45c7f6e13bf4af693b996e4" --> `edge:vllm-optimized-for-nvidia-h100` / `edge-source:vllm-hardware`
-  - Edge: `software:vllm --optimized_for--> infrastructure:nvidia-h100`
-  - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/README.md
-  - Quote: "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="52014a4179972d05" quote_sha256="719264a8196ca79acc6f3071dcdc736a0d83e57d232f7ec8020968d0368845ae" --> `edge:vllm-optimized-for-nvidia-h200` / `edge-source:nvidia-h200`
-  - Edge: `software:vllm --optimized_for--> infrastructure:nvidia-h200`
-  - Source URL: https://www.nvidia.com/en-us/data-center/h200/
-  - Quote: "The NVIDIA H200 GPU supercharges generative AI and HPC workloads with game-changing performance and memory capabilities."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="acf346ef5770751a" quote_sha256="ebf1471b69468bd24a4190c70ca2f91d2234d6fcb45c7f6e13bf4af693b996e4" --> `edge:vllm-optimized-for-nvidia-h200` / `edge-source:vllm-h200`
-  - Edge: `software:vllm --optimized_for--> infrastructure:nvidia-h200`
-  - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/README.md
-  - Quote: "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="e7d071dfc1e3de77" quote_sha256="79760c8500c8bc7ede9737a13fad56b4f6b401ecc2eccaa48b811cc392538f98" --> `edge:vllm-supports-hardware-amd-mi325x` / `edge-source:amd-mi325x`
+- [x] <!-- edge-quote-verification key="a3a897050473986d" quote_sha256="59f704192a5cdcd5090e38a0c36b6ed91d74f7e897d3e7eb9f12471199b8f824" --> `edge:vllm-supports-hardware-amd-mi325x` / `edge-source:vllm-rocm`
   - Edge: `software:vllm --supports_hardware--> infrastructure:amd-mi325x`
-  - Source URL: https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html
-  - Quote: "Additional Features Supported Technologies AMD CDNA™ 3 Architecture , AMD ROCm™ - Ecosystem without Borders , AMD Infinity Architecture RAS Support Yes Page Retirement Yes Page Avoidance Yes SR-IOV Yes"
+  - Source URL: https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html
+  - Quote: "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="a3a897050473986d" quote_sha256="ebf1471b69468bd24a4190c70ca2f91d2234d6fcb45c7f6e13bf4af693b996e4" --> `edge:vllm-supports-hardware-amd-mi325x` / `edge-source:vllm-rocm`
-  - Edge: `software:vllm --supports_hardware--> infrastructure:amd-mi325x`
-  - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/README.md
-  - Quote: "- Support for NVIDIA GPUs, AMD GPUs, and x86/ARM/PowerPC CPUs. Additionally, diverse hardware plugins such as Google TPUs, Intel Gaudi, IBM Spyre, Huawei Ascend, Rebellions NPU, Apple Silicon, MetaX GPU, and more."
+- [x] <!-- edge-quote-verification key="0f1fdf876e34b4bb" quote_sha256="59f704192a5cdcd5090e38a0c36b6ed91d74f7e897d3e7eb9f12471199b8f824" --> `edge:vllm-supports-hardware-nvidia-h100` / `edge-source:vllm-hardware`
+  - Edge: `software:vllm --supports_hardware--> infrastructure:nvidia-h100`
+  - Source URL: https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html
+  - Quote: "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
+  - Manual verification: quote directly supports the edge relationship.
+
+- [x] <!-- edge-quote-verification key="d37b1d0c3633d621" quote_sha256="59f704192a5cdcd5090e38a0c36b6ed91d74f7e897d3e7eb9f12471199b8f824" --> `edge:vllm-supports-hardware-nvidia-h200` / `edge-source:vllm-h200`
+  - Edge: `software:vllm --supports_hardware--> infrastructure:nvidia-h200`
+  - Source URL: https://docs.vllm.ai/projects/recipes/en/latest/OpenAI/GPT-OSS.html
+  - Quote: "In vLLM, you can run it on NVIDIA H100, H200, B200 as well as MI300x, MI325x, MI355x and Radeon AI PRO R9700."
   - Manual verification: quote directly supports the edge relationship.
 
 
