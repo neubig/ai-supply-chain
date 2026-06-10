@@ -8,9 +8,9 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## Summary
 
-- Quote-backed edge sources: 501
-- Checked: 37
-- Unchecked: 464
+- Quote-backed edge sources: 494
+- Checked: 42
+- Unchecked: 452
 
 <!-- edge-quote-verification-checklist:v1 -->
 
@@ -422,79 +422,37 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## data/edges/librechat-stack.json
 
-- [ ] <!-- edge-quote-verification key="27e9db092dad1673" quote_sha256="33231653375fbd83e8e9ad73a42c26673f55f262c0b960c8185ec70cc6cab23a" --> `edge:librechat-developed-by-danny-avila` / `edge-source:librechat-maintainer`
+- [x] <!-- edge-quote-verification key="27e9db092dad1673" quote_sha256="0d849dc67afb30a821e857dfa25f8b7f2bce5c7cd0927039cde6f335b58939a7" --> `edge:librechat-developed-by-danny-avila` / `edge-source:librechat-maintainer`
   - Edge: `application:librechat --developed_by--> organization:danny-avila`
-  - Source URL: https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md
-  - Quote: "**GitHub Repo:** - **RAG API:** github.com/danny-avila/rag_api - **Website:** github.com/LibreChat-AI/librechat.ai"
+  - Source URL: https://api.github.com/repos/danny-avila/LibreChat
+  - Quote: ""full_name": "danny-avila/LibreChat","
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="649ae4c6f2f90af5" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:librechat-licensed-as-mit` / `edge-source:librechat-license`
+- [x] <!-- edge-quote-verification key="649ae4c6f2f90af5" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:librechat-licensed-as-mit` / `edge-source:librechat-license`
   - Edge: `application:librechat --licensed_as--> license:mit`
   - Source URL: https://raw.githubusercontent.com/danny-avila/LibreChat/main/LICENSE
   - Quote: "MIT License"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="f5b218327285992f" quote_sha256="20146053a47a12040184a19bd4a7a85c9ee309efbc72fc01f8fae77b7c058a1b" --> `edge:librechat-supports-litellm` / `edge-source:librechat-litellm`
-  - Edge: `application:librechat --supports--> software:litellm`
-  - Source URL: https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md
-  - Quote: "- 🤖 **AI Model Selection**: - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure) - Custom Endpoints: Use any OpenAI-compatible API with LibreChat, no proxy required - Compatible with Local & Remote AI Providers: - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai, - OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="682789c72833c695" quote_sha256="318753e6e3482e96b68a5e28b5ea00d0ab18e0f9e961022dc51ba633a75e2583" --> `edge:librechat-supports-litellm` / `edge-source:litellm-librechat`
-  - Edge: `application:librechat --supports--> software:litellm`
-  - Source URL: https://raw.githubusercontent.com/BerriAI/litellm/main/README.md
-  - Quote: "**Jump to LiteLLM Proxy (LLM Gateway) Docs** **Jump to Supported LLM Providers**"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="b04665d96f25b06a" quote_sha256="20146053a47a12040184a19bd4a7a85c9ee309efbc72fc01f8fae77b7c058a1b" --> `edge:librechat-supports-qwen2.5-7b-instruct` / `edge-source:librechat-qwen`
-  - Edge: `application:librechat --supports--> model:qwen2.5-7b-instruct`
-  - Source URL: https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md
-  - Quote: "- 🤖 **AI Model Selection**: - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure) - Custom Endpoints: Use any OpenAI-compatible API with LibreChat, no proxy required - Compatible with Local & Remote AI Providers: - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai, - OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more"
-  - Manual verification: quote directly supports the edge relationship.
-
 
 ## data/edges/lobehub-stack.json
 
-- [ ] <!-- edge-quote-verification key="dd8b89c338fa0418" quote_sha256="d7ce036d0c9ddb1a6131d0f49a21e0136e4c56a72abb71d7f7446611c5f247ef" --> `edge:lobehub-developed-by-lobehub` / `edge-source:lobehub-org`
+- [x] <!-- edge-quote-verification key="dd8b89c338fa0418" quote_sha256="13d9db7054e98f5c390d020e5d97b8a332bcc9b02f3d4ef4883f1a0cc84d2bcf" --> `edge:lobehub-developed-by-lobehub` / `edge-source:lobehub-org`
   - Edge: `application:lobehub --developed_by--> organization:lobehub`
-  - Source URL: https://github.com/lobehub
-  - Quote: "Repos Packages Version Release Date Downloads 🍭 LobeUI @lobehub/ui 🥨 LobeIcons @lobehub/icons 📊 LobeCharts @lobehub/charts ✒️ LobeEditor @lobehub/editor 🎤 LobeTTS @lobehub/tts 📐 LobeLint @lobehub/lint 🤝 Contributing We foster trust and welcome all forms of open-source collaboration and creative contributions to jointly advance the innovation of personalized AI tools, feel free to check out our GitHub Issues and"
+  - Source URL: https://api.github.com/repos/lobehub/lobehub
+  - Quote: ""full_name": "lobehub/lobehub","
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="48ff9f74df99b80c" quote_sha256="027adb8b15114cc4b91e60b2205567da15a1ee457f24ade7cf3c9e835967f400" --> `edge:lobehub-licensed-as-other-composite` / `edge-source:lobehub-license`
+- [x] <!-- edge-quote-verification key="48ff9f74df99b80c" quote_sha256="027adb8b15114cc4b91e60b2205567da15a1ee457f24ade7cf3c9e835967f400" --> `edge:lobehub-licensed-as-other-composite` / `edge-source:lobehub-license`
   - Edge: `application:lobehub --licensed_as--> license:other-composite`
   - Source URL: https://raw.githubusercontent.com/lobehub/lobehub/main/README.md
   - Quote: "This project is LobeHub Community License licensed."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="96b78f7fe1abe0d0" quote_sha256="37c5605cb1c108d14249bfd4c0c64e448c537c6b20f108faccd3e6551476e6f3" --> `edge:lobehub-sandboxed-by-docker-moby` / `edge-source:docker-moby-lobehub`
-  - Edge: `application:lobehub --sandboxed_by--> software:docker-moby`
-  - Source URL: https://raw.githubusercontent.com/moby/moby/master/README.md
-  - Quote: "Moby is an open-source project created by Docker to enable and accelerate software containerization."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="d833a123d2b67a4d" quote_sha256="bbc428adcea96dd07cfc3fd140aba07cb9efbd6901cd3031fa078f80d2f4d3b7" --> `edge:lobehub-sandboxed-by-docker-moby` / `edge-source:lobehub-docker`
+- [x] <!-- edge-quote-verification key="d833a123d2b67a4d" quote_sha256="07e44b3552f4b822e7ad18577be18c40dd050de8fb7fc8a0d83db0d763adcfd7" --> `edge:lobehub-sandboxed-by-docker-moby` / `edge-source:lobehub-docker`
   - Edge: `application:lobehub --sandboxed_by--> software:docker-moby`
   - Source URL: https://raw.githubusercontent.com/lobehub/lobehub/main/README.md
-  - Quote: "[docs-docker]: https://lobehub.com/docs/self-hosting/server-database/docker-compose"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="2c647614d16299f1" quote_sha256="318753e6e3482e96b68a5e28b5ea00d0ab18e0f9e961022dc51ba633a75e2583" --> `edge:lobehub-supports-litellm` / `edge-source:litellm-repo`
-  - Edge: `application:lobehub --supports--> software:litellm`
-  - Source URL: https://raw.githubusercontent.com/BerriAI/litellm/main/README.md
-  - Quote: "**Jump to LiteLLM Proxy (LLM Gateway) Docs** **Jump to Supported LLM Providers**"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="b849e51f0ab105c7" quote_sha256="8f191793961188c98338b5b5f2dc3f1d1556d2071cd564e70864a67a43ecffa3" --> `edge:lobehub-supports-litellm` / `edge-source:lobehub-litellm`
-  - Edge: `application:lobehub --supports--> software:litellm`
-  - Source URL: https://raw.githubusercontent.com/lobehub/lobehub/main/README.md
-  - Quote: "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="7508e503eb85882a" quote_sha256="8f191793961188c98338b5b5f2dc3f1d1556d2071cd564e70864a67a43ecffa3" --> `edge:lobehub-supports-qwen2.5-7b-instruct` / `edge-source:lobehub-repo`
-  - Edge: `application:lobehub --supports--> model:qwen2.5-7b-instruct`
-  - Source URL: https://raw.githubusercontent.com/lobehub/lobehub/main/README.md
-  - Quote: "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
+  - Quote: "We provide a Docker image for deploying the LobeHub service on your own private device. Use the following command to start the LobeHub service:"
   - Manual verification: quote directly supports the edge relationship.
 
 

@@ -16,7 +16,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "- 🤖 **AI Model Selection**: - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure) - Custom Endpoints: Use any OpenAI-compatible API with LibreChat, no proxy required - Compatible with Local & Remote AI Providers: - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai, - OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:librechat supports model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -37,7 +37,7 @@
         "collectionMethod": "static_document",
         "confidence": "low",
         "retrieved_date": "2026-06-10",
-        "quote": "- 🤖 **AI Model Selection**: - Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure) - Custom Endpoints: Use any OpenAI-compatible API with LibreChat, no proxy required - Compatible with Local & Remote AI Providers: - Ollama, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai, - OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:librechat supports software:litellm; this source record remains source-needed."
       },
       {
         "id": "edge-source:litellm-librechat",
@@ -48,7 +48,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "**Jump to LiteLLM Proxy (LLM Gateway) Docs** **Jump to Supported LLM Providers**"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:librechat supports software:litellm; this source record remains source-needed."
       }
     ]
   },
@@ -83,14 +83,14 @@
     "sources": [
       {
         "id": "edge-source:librechat-maintainer",
-        "type": "github_repo",
-        "title": "LibreChat GitHub repository",
-        "url": "https://raw.githubusercontent.com/danny-avila/LibreChat/main/README.md",
+        "type": "api_response",
+        "title": "LibreChat GitHub repository API response",
+        "url": "https://api.github.com/repos/danny-avila/LibreChat",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "**GitHub Repo:** - **RAG API:** github.com/danny-avila/rag_api - **Website:** github.com/LibreChat-AI/librechat.ai"
+        "quote": "\"full_name\": \"danny-avila/LibreChat\","
       }
     ]
   }

@@ -16,7 +16,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:lobehub supports model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -37,7 +37,7 @@
         "collectionMethod": "static_document",
         "confidence": "low",
         "retrieved_date": "2026-06-10",
-        "quote": "[share-mastodon-link]: https://mastodon.social/share?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeHub%20-%20An%20open-source,%20extensible%20%28Function%20Calling%29,%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https://github.com/lobehub/lobehub%20#chatbot%20#chatGPT%20#openAI"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:lobehub supports software:litellm; this source record remains source-needed."
       },
       {
         "id": "edge-source:litellm-repo",
@@ -48,7 +48,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "**Jump to LiteLLM Proxy (LLM Gateway) Docs** **Jump to Supported LLM Providers**"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:lobehub supports software:litellm; this source record remains source-needed."
       }
     ]
   },
@@ -69,7 +69,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "[docs-docker]: https://lobehub.com/docs/self-hosting/server-database/docker-compose"
+        "quote": "We provide a Docker image for deploying the LobeHub service on your own private device. Use the following command to start the LobeHub service:"
       },
       {
         "id": "edge-source:docker-moby-lobehub",
@@ -80,7 +80,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:lobehub sandboxed_by software:docker-moby; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -129,14 +129,14 @@
     "sources": [
       {
         "id": "edge-source:lobehub-org",
-        "type": "github_repo",
-        "title": "LobeHub GitHub organization",
-        "url": "https://github.com/lobehub",
+        "type": "api_response",
+        "title": "LobeHub GitHub repository API response",
+        "url": "https://api.github.com/repos/lobehub/lobehub",
         "publisher": "GitHub",
-        "collectionMethod": "static_document",
+        "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Repos Packages Version Release Date Downloads 🍭 LobeUI @lobehub/ui 🥨 LobeIcons @lobehub/icons 📊 LobeCharts @lobehub/charts ✒️ LobeEditor @lobehub/editor 🎤 LobeTTS @lobehub/tts 📐 LobeLint @lobehub/lint 🤝 Contributing We foster trust and welcome all forms of open-source collaboration and creative contributions to jointly advance the innovation of personalized AI tools, feel free to check out our GitHub Issues and"
+        "quote": "\"full_name\": \"lobehub/lobehub\","
       }
     ]
   }
