@@ -1,0 +1,3570 @@
+[
+  {
+    "id": "model:llama-3.1-8b-instruct",
+    "kind": "model",
+    "name": "Llama 3.1 8B Instruct",
+    "description": "Instruction-tuned Llama 3.1 open-weight model.",
+    "canonicalUrl": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "license": {
+      "expression": "llama3.1",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:meta-llama/llama-3.1-8b-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:meta-llama/llama-3.1-8b-instruct",
+        "type": "huggingface_model_card",
+        "title": "Llama 3.1 8B Instruct model card",
+        "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 10031112,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:meta-llama/llama-3.1-8b-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 6035,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:meta-llama/llama-3.1-8b-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:meta-llama/llama-3.1-8b-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 10031112
+      }
+    }
+  },
+  {
+    "id": "model:mixtral-8x7b-instruct-v0.1",
+    "kind": "model",
+    "name": "Mixtral-8x7B-Instruct-v0.1",
+    "description": "Sparse mixture-of-experts instruction model.",
+    "canonicalUrl": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:mistralai/mixtral-8x7b-instruct-v0.1"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:mistralai/mixtral-8x7b-instruct-v0.1",
+        "type": "huggingface_model_card",
+        "title": "Mixtral-8x7B-Instruct-v0.1 model card",
+        "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 824791,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:mistralai/mixtral-8x7b-instruct-v0.1"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 4694,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:mistralai/mixtral-8x7b-instruct-v0.1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:mistralai/mixtral-8x7b-instruct-v0.1"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 824791
+      }
+    }
+  },
+  {
+    "id": "model:phi-3-mini-4k-instruct",
+    "kind": "model",
+    "name": "Phi-3-mini-4k-instruct",
+    "description": "Small instruction-tuned language model.",
+    "canonicalUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:microsoft/phi-3-mini-4k-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:microsoft/phi-3-mini-4k-instruct",
+        "type": "huggingface_model_card",
+        "title": "Phi-3-mini-4k-instruct model card",
+        "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 610575,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:microsoft/phi-3-mini-4k-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1431,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:microsoft/phi-3-mini-4k-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:microsoft/phi-3-mini-4k-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 610575
+      }
+    }
+  },
+  {
+    "id": "model:deepseek-r1-distill-qwen-7b",
+    "kind": "model",
+    "name": "DeepSeek-R1-Distill-Qwen-7B",
+    "description": "Reasoning distillation based on Qwen 7B.",
+    "canonicalUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:deepseek-ai/deepseek-r1-distill-qwen-7b"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat",
+      "reasoning"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:deepseek-ai/deepseek-r1-distill-qwen-7b",
+        "type": "huggingface_model_card",
+        "title": "DeepSeek-R1-Distill-Qwen-7B model card",
+        "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 489121,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-r1-distill-qwen-7b"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 842,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-r1-distill-qwen-7b"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-r1-distill-qwen-7b"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 489121
+      }
+    }
+  },
+  {
+    "id": "model:gemma-2-9b-it",
+    "kind": "model",
+    "name": "Gemma 2 9B IT",
+    "description": "Instruction-tuned Gemma model.",
+    "canonicalUrl": "https://huggingface.co/google/gemma-2-9b-it",
+    "license": {
+      "expression": "gemma",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:google/gemma-2-9b-it"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:google/gemma-2-9b-it",
+        "type": "huggingface_model_card",
+        "title": "Gemma 2 9B IT model card",
+        "url": "https://huggingface.co/google/gemma-2-9b-it",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 394810,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:google/gemma-2-9b-it"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 826,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:google/gemma-2-9b-it"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:google/gemma-2-9b-it"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 394810
+      }
+    }
+  },
+  {
+    "id": "model:falcon-7b-instruct",
+    "kind": "model",
+    "name": "Falcon-7B-Instruct",
+    "description": "Instruction-tuned Falcon 7B model.",
+    "canonicalUrl": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:tiiuae/falcon-7b-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:tiiuae/falcon-7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "Falcon-7B-Instruct model card",
+        "url": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 243678,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:tiiuae/falcon-7b-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1032,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:tiiuae/falcon-7b-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:tiiuae/falcon-7b-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 243678
+      }
+    }
+  },
+  {
+    "id": "model:olmo-2-1124-7b-instruct",
+    "kind": "model",
+    "name": "OLMo-2-1124-7B-Instruct",
+    "description": "AllenAI open language model.",
+    "canonicalUrl": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:allenai/olmo-2-1124-7b-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "chat"
+    ],
+    "tags": [
+      "foundation-chat-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:allenai/olmo-2-1124-7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "OLMo-2-1124-7B-Instruct model card",
+        "url": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 52510,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:allenai/olmo-2-1124-7b-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 50,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:allenai/olmo-2-1124-7b-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:allenai/olmo-2-1124-7b-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "foundation-chat-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 52510
+      }
+    }
+  },
+  {
+    "id": "model:codegen-350m-mono",
+    "kind": "model",
+    "name": "CodeGen 350M Mono",
+    "description": "Salesforce autoregressive code generation model.",
+    "canonicalUrl": "https://huggingface.co/Salesforce/codegen-350M-mono",
+    "license": {
+      "expression": "bsd-3-clause",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:salesforce/codegen-350m-mono"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:salesforce/codegen-350m-mono",
+        "type": "huggingface_model_card",
+        "title": "CodeGen 350M Mono model card",
+        "url": "https://huggingface.co/Salesforce/codegen-350M-mono",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 137804,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:salesforce/codegen-350m-mono"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 101,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:salesforce/codegen-350m-mono"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:salesforce/codegen-350m-mono"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 137804
+      }
+    }
+  },
+  {
+    "id": "model:deepseek-coder-6.7b-instruct",
+    "kind": "model",
+    "name": "DeepSeek Coder 6.7B Instruct",
+    "description": "Instruction-tuned DeepSeek code model.",
+    "canonicalUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:deepseek-ai/deepseek-coder-6.7b-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:deepseek-ai/deepseek-coder-6.7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "DeepSeek Coder 6.7B Instruct model card",
+        "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 120203,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-coder-6.7b-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 496,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-coder-6.7b-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:deepseek-ai/deepseek-coder-6.7b-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 120203
+      }
+    }
+  },
+  {
+    "id": "model:codellama-7b-instruct",
+    "kind": "model",
+    "name": "CodeLlama 7B Instruct",
+    "description": "Instruction-tuned Code Llama model.",
+    "canonicalUrl": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+    "license": {
+      "expression": "llama2",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:codellama/codellama-7b-instruct-hf"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:codellama/codellama-7b-instruct-hf",
+        "type": "huggingface_model_card",
+        "title": "CodeLlama 7B Instruct model card",
+        "url": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 28105,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:codellama/codellama-7b-instruct-hf"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 258,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:codellama/codellama-7b-instruct-hf"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:codellama/codellama-7b-instruct-hf"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 28105
+      }
+    }
+  },
+  {
+    "id": "model:granite-8b-code-instruct",
+    "kind": "model",
+    "name": "Granite 8B Code Instruct",
+    "description": "IBM Granite code instruction model.",
+    "canonicalUrl": "https://huggingface.co/ibm-granite/granite-8b-code-instruct",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:ibm-granite/granite-8b-code-instruct"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:ibm-granite/granite-8b-code-instruct",
+        "type": "huggingface_model_card",
+        "title": "Granite 8B Code Instruct model card",
+        "url": "https://huggingface.co/ibm-granite/granite-8b-code-instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 7939,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:ibm-granite/granite-8b-code-instruct"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 115,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:ibm-granite/granite-8b-code-instruct"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:ibm-granite/granite-8b-code-instruct"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 7939
+      }
+    }
+  },
+  {
+    "id": "model:codegemma-7b-it",
+    "kind": "model",
+    "name": "CodeGemma 7B IT",
+    "description": "Instruction-tuned CodeGemma model.",
+    "canonicalUrl": "https://huggingface.co/google/codegemma-7b-it",
+    "license": {
+      "expression": "gemma",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:google/codegemma-7b-it"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:google/codegemma-7b-it",
+        "type": "huggingface_model_card",
+        "title": "CodeGemma 7B IT model card",
+        "url": "https://huggingface.co/google/codegemma-7b-it",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 6784,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:google/codegemma-7b-it"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 255,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:google/codegemma-7b-it"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:google/codegemma-7b-it"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 6784
+      }
+    }
+  },
+  {
+    "id": "model:santacoder",
+    "kind": "model",
+    "name": "SantaCoder",
+    "description": "BigCode code generation model.",
+    "canonicalUrl": "https://huggingface.co/bigcode/santacoder",
+    "license": {
+      "expression": "bigcode-openrail-m",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:bigcode/santacoder"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:bigcode/santacoder",
+        "type": "huggingface_model_card",
+        "title": "SantaCoder model card",
+        "url": "https://huggingface.co/bigcode/santacoder",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 4201,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:bigcode/santacoder"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 335,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:bigcode/santacoder"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:bigcode/santacoder"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 4201
+      }
+    }
+  },
+  {
+    "id": "model:magicoder-s-ds-6.7b",
+    "kind": "model",
+    "name": "Magicoder-S-DS-6.7B",
+    "description": "Magicoder code model.",
+    "canonicalUrl": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:ise-uiuc/magicoder-s-ds-6.7b"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "coding"
+    ],
+    "tags": [
+      "coding-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:ise-uiuc/magicoder-s-ds-6.7b",
+        "type": "huggingface_model_card",
+        "title": "Magicoder-S-DS-6.7B model card",
+        "url": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 303,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:ise-uiuc/magicoder-s-ds-6.7b"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 207,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:ise-uiuc/magicoder-s-ds-6.7b"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:ise-uiuc/magicoder-s-ds-6.7b"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "coding-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 303
+      }
+    }
+  },
+  {
+    "id": "model:stable-diffusion-v1-5",
+    "kind": "model",
+    "name": "Stable Diffusion v1.5",
+    "description": "Latent diffusion text-to-image model.",
+    "canonicalUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+    "license": {
+      "expression": "creativeml-openrail-m",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:stable-diffusion-v1-5/stable-diffusion-v1-5"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion v1.5 model card",
+        "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 1704765,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:stable-diffusion-v1-5/stable-diffusion-v1-5"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1146,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:stable-diffusion-v1-5/stable-diffusion-v1-5"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:stable-diffusion-v1-5/stable-diffusion-v1-5"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 1704765
+      }
+    }
+  },
+  {
+    "id": "model:flux.1-dev",
+    "kind": "model",
+    "name": "FLUX.1-dev",
+    "description": "Black Forest Labs image generation model.",
+    "canonicalUrl": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:black-forest-labs/flux.1-dev"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:black-forest-labs/flux.1-dev",
+        "type": "huggingface_model_card",
+        "title": "FLUX.1-dev model card",
+        "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 984011,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-dev"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 13126,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-dev"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-dev"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 984011
+      }
+    }
+  },
+  {
+    "id": "model:flux.1-schnell",
+    "kind": "model",
+    "name": "FLUX.1-schnell",
+    "description": "Fast FLUX image generation model.",
+    "canonicalUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:black-forest-labs/flux.1-schnell"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:black-forest-labs/flux.1-schnell",
+        "type": "huggingface_model_card",
+        "title": "FLUX.1-schnell model card",
+        "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 337454,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-schnell"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 5068,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-schnell"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:black-forest-labs/flux.1-schnell"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 337454
+      }
+    }
+  },
+  {
+    "id": "model:playground-v2.5-1024px-aesthetic",
+    "kind": "model",
+    "name": "Playground v2.5",
+    "description": "Aesthetic text-to-image model.",
+    "canonicalUrl": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:playgroundai/playground-v2.5-1024px-aesthetic"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:playgroundai/playground-v2.5-1024px-aesthetic",
+        "type": "huggingface_model_card",
+        "title": "Playground v2.5 model card",
+        "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 271756,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:playgroundai/playground-v2.5-1024px-aesthetic"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 765,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:playgroundai/playground-v2.5-1024px-aesthetic"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:playgroundai/playground-v2.5-1024px-aesthetic"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 271756
+      }
+    }
+  },
+  {
+    "id": "model:dreamshaper-8",
+    "kind": "model",
+    "name": "DreamShaper 8",
+    "description": "Community text-to-image model.",
+    "canonicalUrl": "https://huggingface.co/Lykon/dreamshaper-8",
+    "license": {
+      "expression": "creativeml-openrail-m",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:lykon/dreamshaper-8"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:lykon/dreamshaper-8",
+        "type": "huggingface_model_card",
+        "title": "DreamShaper 8 model card",
+        "url": "https://huggingface.co/Lykon/dreamshaper-8",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 57985,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:lykon/dreamshaper-8"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 108,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:lykon/dreamshaper-8"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:lykon/dreamshaper-8"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 57985
+      }
+    }
+  },
+  {
+    "id": "model:stable-diffusion-3.5-large",
+    "kind": "model",
+    "name": "Stable Diffusion 3.5 Large",
+    "description": "Stability AI image generation model.",
+    "canonicalUrl": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:stabilityai/stable-diffusion-3.5-large"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:stabilityai/stable-diffusion-3.5-large",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion 3.5 Large model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 22257,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-3.5-large"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 3527,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-3.5-large"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-3.5-large"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 22257
+      }
+    }
+  },
+  {
+    "id": "model:pixart-xl-2-1024-ms",
+    "kind": "model",
+    "name": "PixArt-XL-2-1024-MS",
+    "description": "PixArt text-to-image model.",
+    "canonicalUrl": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS",
+    "license": {
+      "expression": "openrail++",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:pixart-alpha/pixart-xl-2-1024-ms"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:pixart-alpha/pixart-xl-2-1024-ms",
+        "type": "huggingface_model_card",
+        "title": "PixArt-XL-2-1024-MS model card",
+        "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 4727,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:pixart-alpha/pixart-xl-2-1024-ms"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 213,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:pixart-alpha/pixart-xl-2-1024-ms"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:pixart-alpha/pixart-xl-2-1024-ms"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 4727
+      }
+    }
+  },
+  {
+    "id": "model:kandinsky-2-2-decoder",
+    "kind": "model",
+    "name": "Kandinsky 2.2 Decoder",
+    "description": "Kandinsky decoder model.",
+    "canonicalUrl": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:kandinsky-community/kandinsky-2-2-decoder"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:kandinsky-community/kandinsky-2-2-decoder",
+        "type": "huggingface_model_card",
+        "title": "Kandinsky 2.2 Decoder model card",
+        "url": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 2835,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:kandinsky-community/kandinsky-2-2-decoder"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 74,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:kandinsky-community/kandinsky-2-2-decoder"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:kandinsky-community/kandinsky-2-2-decoder"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 2835
+      }
+    }
+  },
+  {
+    "id": "model:hunyuan-dit-v1.2",
+    "kind": "model",
+    "name": "HunyuanDiT v1.2",
+    "description": "Tencent Hunyuan text-to-image model.",
+    "canonicalUrl": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:tencent-hunyuan/hunyuandit-v1.2-diffusers"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-media-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:tencent-hunyuan/hunyuandit-v1.2-diffusers",
+        "type": "huggingface_model_card",
+        "title": "HunyuanDiT v1.2 model card",
+        "url": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 369,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:tencent-hunyuan/hunyuandit-v1.2-diffusers"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 30,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:tencent-hunyuan/hunyuandit-v1.2-diffusers"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:tencent-hunyuan/hunyuandit-v1.2-diffusers"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "image-media-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 369
+      }
+    }
+  },
+  {
+    "id": "model:all-minilm-l6-v2",
+    "kind": "model",
+    "name": "all-MiniLM-L6-v2",
+    "description": "Sentence Transformers embedding model.",
+    "canonicalUrl": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:sentence-transformers/all-minilm-l6-v2"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:sentence-transformers/all-minilm-l6-v2",
+        "type": "huggingface_model_card",
+        "title": "all-MiniLM-L6-v2 model card",
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 230826064,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:sentence-transformers/all-minilm-l6-v2"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 4926,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:sentence-transformers/all-minilm-l6-v2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:sentence-transformers/all-minilm-l6-v2"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 230826064
+      }
+    }
+  },
+  {
+    "id": "model:bge-large-en-v1.5",
+    "kind": "model",
+    "name": "BGE Large EN v1.5",
+    "description": "BAAI English embedding model.",
+    "canonicalUrl": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:baai/bge-large-en-v1.5"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:baai/bge-large-en-v1.5",
+        "type": "huggingface_model_card",
+        "title": "BGE Large EN v1.5 model card",
+        "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 14158114,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-large-en-v1.5"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 683,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-large-en-v1.5"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:baai/bge-large-en-v1.5"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 14158114
+      }
+    }
+  },
+  {
+    "id": "model:bge-base-en-v1.5",
+    "kind": "model",
+    "name": "BGE Base EN v1.5",
+    "description": "BAAI English embedding model.",
+    "canonicalUrl": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:baai/bge-base-en-v1.5"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:baai/bge-base-en-v1.5",
+        "type": "huggingface_model_card",
+        "title": "BGE Base EN v1.5 model card",
+        "url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 8571107,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-base-en-v1.5"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 436,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-base-en-v1.5"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:baai/bge-base-en-v1.5"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 8571107
+      }
+    }
+  },
+  {
+    "id": "model:multilingual-e5-large",
+    "kind": "model",
+    "name": "Multilingual E5 Large",
+    "description": "Multilingual text embedding model.",
+    "canonicalUrl": "https://huggingface.co/intfloat/multilingual-e5-large",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:intfloat/multilingual-e5-large"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:intfloat/multilingual-e5-large",
+        "type": "huggingface_model_card",
+        "title": "Multilingual E5 Large model card",
+        "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 7017018,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:intfloat/multilingual-e5-large"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1202,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:intfloat/multilingual-e5-large"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:intfloat/multilingual-e5-large"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 7017018
+      }
+    }
+  },
+  {
+    "id": "model:mxbai-embed-large-v1",
+    "kind": "model",
+    "name": "mxbai-embed-large-v1",
+    "description": "Mixedbread embedding model.",
+    "canonicalUrl": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:mixedbread-ai/mxbai-embed-large-v1"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:mixedbread-ai/mxbai-embed-large-v1",
+        "type": "huggingface_model_card",
+        "title": "mxbai-embed-large-v1 model card",
+        "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 4752072,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:mixedbread-ai/mxbai-embed-large-v1"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 808,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:mixedbread-ai/mxbai-embed-large-v1"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:mixedbread-ai/mxbai-embed-large-v1"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 4752072
+      }
+    }
+  },
+  {
+    "id": "model:jina-embeddings-v3",
+    "kind": "model",
+    "name": "Jina Embeddings v3",
+    "description": "Jina multilingual embedding model.",
+    "canonicalUrl": "https://huggingface.co/jinaai/jina-embeddings-v3",
+    "license": {
+      "expression": "cc-by-nc-4.0",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:jinaai/jina-embeddings-v3"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:jinaai/jina-embeddings-v3",
+        "type": "huggingface_model_card",
+        "title": "Jina Embeddings v3 model card",
+        "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 3461822,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:jinaai/jina-embeddings-v3"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1144,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:jinaai/jina-embeddings-v3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:jinaai/jina-embeddings-v3"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 3461822
+      }
+    }
+  },
+  {
+    "id": "model:e5-large-v2",
+    "kind": "model",
+    "name": "E5 Large v2",
+    "description": "Text embedding model.",
+    "canonicalUrl": "https://huggingface.co/intfloat/e5-large-v2",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:intfloat/e5-large-v2"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:intfloat/e5-large-v2",
+        "type": "huggingface_model_card",
+        "title": "E5 Large v2 model card",
+        "url": "https://huggingface.co/intfloat/e5-large-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 3351617,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:intfloat/e5-large-v2"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 279,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:intfloat/e5-large-v2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:intfloat/e5-large-v2"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 3351617
+      }
+    }
+  },
+  {
+    "id": "model:bge-reranker-large",
+    "kind": "model",
+    "name": "BGE Reranker Large",
+    "description": "BAAI reranking model.",
+    "canonicalUrl": "https://huggingface.co/BAAI/bge-reranker-large",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:baai/bge-reranker-large"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "reranking"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:baai/bge-reranker-large",
+        "type": "huggingface_model_card",
+        "title": "BGE Reranker Large model card",
+        "url": "https://huggingface.co/BAAI/bge-reranker-large",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 1534971,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-reranker-large"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 464,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:baai/bge-reranker-large"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:baai/bge-reranker-large"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 1534971
+      }
+    }
+  },
+  {
+    "id": "model:gte-large-en-v1.5",
+    "kind": "model",
+    "name": "GTE Large EN v1.5",
+    "description": "Alibaba GTE embedding model.",
+    "canonicalUrl": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:alibaba-nlp/gte-large-en-v1.5"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "embeddings"
+    ],
+    "tags": [
+      "embedding-reranking-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:alibaba-nlp/gte-large-en-v1.5",
+        "type": "huggingface_model_card",
+        "title": "GTE Large EN v1.5 model card",
+        "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 1550013,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:alibaba-nlp/gte-large-en-v1.5"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 236,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:alibaba-nlp/gte-large-en-v1.5"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:alibaba-nlp/gte-large-en-v1.5"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "embedding-reranking-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 1550013
+      }
+    }
+  },
+  {
+    "id": "model:xtts-v2",
+    "kind": "model",
+    "name": "XTTS-v2",
+    "description": "Coqui multilingual text-to-speech model.",
+    "canonicalUrl": "https://huggingface.co/coqui/XTTS-v2",
+    "license": {
+      "expression": "other",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:coqui/xtts-v2"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "text-to-speech"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:coqui/xtts-v2",
+        "type": "huggingface_model_card",
+        "title": "XTTS-v2 model card",
+        "url": "https://huggingface.co/coqui/XTTS-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 9034852,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:coqui/xtts-v2"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 3587,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:coqui/xtts-v2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:coqui/xtts-v2"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 9034852
+      }
+    }
+  },
+  {
+    "id": "model:whisper-small",
+    "kind": "model",
+    "name": "Whisper small",
+    "description": "OpenAI small ASR model.",
+    "canonicalUrl": "https://huggingface.co/openai/whisper-small",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:openai/whisper-small"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:openai/whisper-small",
+        "type": "huggingface_model_card",
+        "title": "Whisper small model card",
+        "url": "https://huggingface.co/openai/whisper-small",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 2315618,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:openai/whisper-small"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 565,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:openai/whisper-small"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:openai/whisper-small"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 2315618
+      }
+    }
+  },
+  {
+    "id": "model:wav2vec2-base-960h",
+    "kind": "model",
+    "name": "wav2vec2-base-960h",
+    "description": "Facebook wav2vec2 ASR model.",
+    "canonicalUrl": "https://huggingface.co/facebook/wav2vec2-base-960h",
+    "license": {
+      "expression": "apache-2.0",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:facebook/wav2vec2-base-960h"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:facebook/wav2vec2-base-960h",
+        "type": "huggingface_model_card",
+        "title": "wav2vec2-base-960h model card",
+        "url": "https://huggingface.co/facebook/wav2vec2-base-960h",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 1098753,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/wav2vec2-base-960h"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 398,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/wav2vec2-base-960h"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:facebook/wav2vec2-base-960h"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 1098753
+      }
+    }
+  },
+  {
+    "id": "model:distil-large-v3",
+    "kind": "model",
+    "name": "Distil-Whisper large-v3",
+    "description": "Distilled Whisper ASR model.",
+    "canonicalUrl": "https://huggingface.co/distil-whisper/distil-large-v3",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:distil-whisper/distil-large-v3"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:distil-whisper/distil-large-v3",
+        "type": "huggingface_model_card",
+        "title": "Distil-Whisper large-v3 model card",
+        "url": "https://huggingface.co/distil-whisper/distil-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 933990,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:distil-whisper/distil-large-v3"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 375,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:distil-whisper/distil-large-v3"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:distil-whisper/distil-large-v3"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 933990
+      }
+    }
+  },
+  {
+    "id": "model:seamless-m4t-v2-large",
+    "kind": "model",
+    "name": "SeamlessM4T v2 Large",
+    "description": "Multimodal speech translation model.",
+    "canonicalUrl": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+    "license": {
+      "expression": "cc-by-nc-4.0",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:facebook/seamless-m4t-v2-large"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "speech-translation"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:facebook/seamless-m4t-v2-large",
+        "type": "huggingface_model_card",
+        "title": "SeamlessM4T v2 Large model card",
+        "url": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 410860,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/seamless-m4t-v2-large"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 984,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/seamless-m4t-v2-large"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:facebook/seamless-m4t-v2-large"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 410860
+      }
+    }
+  },
+  {
+    "id": "model:parakeet-tdt-0.6b-v2",
+    "kind": "model",
+    "name": "Parakeet TDT 0.6B v2",
+    "description": "NVIDIA ASR model.",
+    "canonicalUrl": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "license": {
+      "expression": "cc-by-4.0",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:nvidia/parakeet-tdt-0.6b-v2"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:nvidia/parakeet-tdt-0.6b-v2",
+        "type": "huggingface_model_card",
+        "title": "Parakeet TDT 0.6B v2 model card",
+        "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 360108,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:nvidia/parakeet-tdt-0.6b-v2"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1494,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:nvidia/parakeet-tdt-0.6b-v2"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:nvidia/parakeet-tdt-0.6b-v2"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 360108
+      }
+    }
+  },
+  {
+    "id": "model:musicgen-small",
+    "kind": "model",
+    "name": "MusicGen Small",
+    "description": "Audio generation model.",
+    "canonicalUrl": "https://huggingface.co/facebook/musicgen-small",
+    "license": {
+      "expression": "cc-by-nc-4.0",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": [
+        "hf-model:facebook/musicgen-small"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "text-to-audio"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:facebook/musicgen-small",
+        "type": "huggingface_model_card",
+        "title": "MusicGen Small model card",
+        "url": "https://huggingface.co/facebook/musicgen-small",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 186078,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/musicgen-small"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 493,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:facebook/musicgen-small"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:facebook/musicgen-small"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 186078
+      }
+    }
+  },
+  {
+    "id": "model:speecht5-tts",
+    "kind": "model",
+    "name": "SpeechT5 TTS",
+    "description": "Microsoft text-to-speech model.",
+    "canonicalUrl": "https://huggingface.co/microsoft/speecht5_tts",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:microsoft/speecht5_tts"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "text-to-speech"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:microsoft/speecht5_tts",
+        "type": "huggingface_model_card",
+        "title": "SpeechT5 TTS model card",
+        "url": "https://huggingface.co/microsoft/speecht5_tts",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 105237,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:microsoft/speecht5_tts"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 835,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:microsoft/speecht5_tts"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:microsoft/speecht5_tts"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 105237
+      }
+    }
+  },
+  {
+    "id": "model:bark-small",
+    "kind": "model",
+    "name": "Bark Small",
+    "description": "Suno text-to-speech model.",
+    "canonicalUrl": "https://huggingface.co/suno/bark-small",
+    "license": {
+      "expression": "mit",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": [
+        "hf-model:suno/bark-small"
+      ]
+    },
+    "openness": "open_weights",
+    "tasks": [
+      "text-to-speech"
+    ],
+    "tags": [
+      "speech-audio-models",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "hf-model:suno/bark-small",
+        "type": "huggingface_model_card",
+        "title": "Bark Small model card",
+        "url": "https://huggingface.co/suno/bark-small",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 50282,
+        "unit": "downloads",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:suno/bark-small"
+        ]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 259,
+        "unit": "likes",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "hf-model:suno/bark-small"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "model_card",
+        "status": "present",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "hf-model:suno/bark-small"
+        ],
+        "notes": "Model-card metadata is present; deeper AI SBOM evidence is not yet assessed."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model popularity, license, and card metadata through Hugging Face API."
+    },
+    "metadata": {
+      "layerCoverage": "speech-audio-models",
+      "costTier": "local_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Hugging Face downloads",
+        "value": 50282
+      }
+    }
+  }
+]

@@ -1,6 +1,6 @@
-# Open-source AI supply chain
+# AI supply chain
 
-This repository models the open-source AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, and `licensed_as`.
+This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, and `licensed_as`.
 
 The initial seed starts with user-facing applications because they are the surface where people choose AI capabilities. The graph is designed to support questions such as:
 
@@ -18,6 +18,7 @@ The initial seed starts with user-facing applications because they are the surfa
 - `examples/`: Minimal examples for each schema object and edge category.
 - `schema/`: Generated JSON Schema for the complete graph.
 - `visualizations/`: Generated graph artifacts.
+- `docs/risk-analysis.md`: Risk dimensions, source frameworks, and answerable questions.
 
 ## Quick start
 
@@ -29,7 +30,7 @@ npm run visualize
 npm run dev
 ```
 
-The committed visualization is `visualizations/supply-chain.svg`, and the Vercel/Next app serves the same graph at `/`.
+The committed visualization is `visualizations/ai-supply-chain.svg`, and the Vercel/Next app serves the same graph at `/`.
 
 ## Ranking downstream stacks
 
@@ -40,6 +41,8 @@ The site builds candidate downstream stacks from `application --supports--> mode
 - `popularity`: aggregate GitHub stars/forks and Hugging Face downloads/likes using a log-scaled weighted score.
 
 The table can be sorted by these criteria and marks Pareto-optimal stacks where no other option is at least as good on openness, benchmark score, and popularity while being strictly better on one of them.
+
+Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, RAG/vector/data infrastructure, and evaluation tools/benchmarks.
 
 ## Health signals
 

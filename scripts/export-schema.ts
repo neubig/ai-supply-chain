@@ -5,7 +5,7 @@ import { zodToJsonSchema } from "zod-to-json-schema";
 
 import { SupplyChainGraphSchema } from "../src/schema";
 
-const outputPath = path.join(process.cwd(), "schema", "osai-supply-chain.schema.json");
+const outputPath = path.join(process.cwd(), "schema", "ai-supply-chain.schema.json");
 mkdirSync(path.dirname(outputPath), { recursive: true });
 writeFileSync(outputPath, `${JSON.stringify(zodToJsonSchema(SupplyChainGraphSchema, "SupplyChainGraph"), null, 2)}\n`);
 console.log(`wrote ${outputPath}`);

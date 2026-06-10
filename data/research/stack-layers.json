@@ -1,0 +1,1596 @@
+{
+  "generatedAt": "2026-06-10T00:00:00.000Z",
+  "sourcePolicy": "Popularity snapshots are deterministic API reads from GitHub repositories or Hugging Face model metadata, captured on the retrievedAt date.",
+  "layers": [
+    {
+      "id": "applications",
+      "name": "User-facing AI applications",
+      "description": "Applications that expose AI capabilities directly to users.",
+      "popularityBasis": "GitHub stars among selected open-source or source-available user-facing AI applications.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "application:stable-diffusion-webui",
+          "kind": "application",
+          "name": "Stable Diffusion web UI",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 163584,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+          },
+          "sourceUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "application:open-webui",
+          "kind": "application",
+          "name": "Open WebUI",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 140857,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/open-webui/open-webui"
+          },
+          "sourceUrl": "https://github.com/open-webui/open-webui",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "application:comfyui",
+          "kind": "application",
+          "name": "ComfyUI",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 116374,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/Comfy-Org/ComfyUI"
+          },
+          "sourceUrl": "https://github.com/Comfy-Org/ComfyUI",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "application:lobehub",
+          "kind": "application",
+          "name": "LobeHub",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 78425,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/lobehub/lobehub"
+          },
+          "sourceUrl": "https://github.com/lobehub/lobehub",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "application:gpt4all",
+          "kind": "application",
+          "name": "GPT4All",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 77359,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/nomic-ai/gpt4all"
+          },
+          "sourceUrl": "https://github.com/nomic-ai/gpt4all",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "application:openhands",
+          "kind": "application",
+          "name": "OpenHands",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 76331,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/OpenHands/OpenHands"
+          },
+          "sourceUrl": "https://github.com/OpenHands/OpenHands",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "application:anythingllm",
+          "kind": "application",
+          "name": "AnythingLLM",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 61327,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/Mintplex-Labs/anything-llm"
+          },
+          "sourceUrl": "https://github.com/Mintplex-Labs/anything-llm",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "application:jan",
+          "kind": "application",
+          "name": "Jan",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 42956,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/janhq/jan"
+          },
+          "sourceUrl": "https://github.com/janhq/jan",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "application:librechat",
+          "kind": "application",
+          "name": "LibreChat",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 38770,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/danny-avila/LibreChat"
+          },
+          "sourceUrl": "https://github.com/danny-avila/LibreChat",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "application:continue",
+          "kind": "application",
+          "name": "Continue",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 33631,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/continuedev/continue"
+          },
+          "sourceUrl": "https://github.com/continuedev/continue",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "foundation-chat-models",
+      "name": "Foundation and chat models",
+      "description": "General-purpose open or open-weight language models used in chat and RAG stacks.",
+      "popularityBasis": "Hugging Face downloads among selected open/open-weight chat model alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "model:qwen2.5-7b-instruct",
+          "kind": "model",
+          "name": "Qwen2.5-7B-Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 11890117,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct"
+          },
+          "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "model:llama-3.1-8b-instruct",
+          "kind": "model",
+          "name": "Llama 3.1 8B Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 10031112,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct"
+          },
+          "sourceUrl": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "model:mistral-7b-instruct-v0.3",
+          "kind": "model",
+          "name": "Mistral-7B-Instruct-v0.3",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 3392572,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"
+          },
+          "sourceUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "model:mixtral-8x7b-instruct-v0.1",
+          "kind": "model",
+          "name": "Mixtral-8x7B-Instruct-v0.1",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 824791,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"
+          },
+          "sourceUrl": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "model:phi-3-mini-4k-instruct",
+          "kind": "model",
+          "name": "Phi-3-mini-4k-instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 610575,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+          },
+          "sourceUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "model:deepseek-r1-distill-qwen-7b",
+          "kind": "model",
+          "name": "DeepSeek-R1-Distill-Qwen-7B",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 489121,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
+          },
+          "sourceUrl": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "model:gemma-2-9b-it",
+          "kind": "model",
+          "name": "Gemma 2 9B IT",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 394810,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/google/gemma-2-9b-it"
+          },
+          "sourceUrl": "https://huggingface.co/google/gemma-2-9b-it",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "model:gpt-j-6b",
+          "kind": "model",
+          "name": "GPT-J-6B",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 250402,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/EleutherAI/gpt-j-6b"
+          },
+          "sourceUrl": "https://huggingface.co/EleutherAI/gpt-j-6b",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "model:falcon-7b-instruct",
+          "kind": "model",
+          "name": "Falcon-7B-Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 243678,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/tiiuae/falcon-7b-instruct"
+          },
+          "sourceUrl": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "model:olmo-2-1124-7b-instruct",
+          "kind": "model",
+          "name": "OLMo-2-1124-7B-Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 52510,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct"
+          },
+          "sourceUrl": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "coding-models",
+      "name": "Coding models",
+      "description": "Open or open-weight models used for code completion, coding assistants, and software agents.",
+      "popularityBasis": "Hugging Face downloads among selected code model alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "model:qwen2.5-coder-7b-instruct",
+          "kind": "model",
+          "name": "Qwen2.5-Coder-7B-Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 2085546,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct"
+          },
+          "sourceUrl": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "model:phi-3-mini-4k-instruct",
+          "kind": "model",
+          "name": "Phi-3-mini-4k-instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 610575,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+          },
+          "sourceUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "model:codegen-350m-mono",
+          "kind": "model",
+          "name": "CodeGen 350M Mono",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 137804,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Salesforce/codegen-350M-mono"
+          },
+          "sourceUrl": "https://huggingface.co/Salesforce/codegen-350M-mono",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "model:starcoder2-3b",
+          "kind": "model",
+          "name": "StarCoder2-3B",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 123303,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/bigcode/starcoder2-3b"
+          },
+          "sourceUrl": "https://huggingface.co/bigcode/starcoder2-3b",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "model:deepseek-coder-6.7b-instruct",
+          "kind": "model",
+          "name": "DeepSeek Coder 6.7B Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 120203,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct"
+          },
+          "sourceUrl": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "model:codellama-7b-instruct",
+          "kind": "model",
+          "name": "CodeLlama 7B Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 28105,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf"
+          },
+          "sourceUrl": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "model:granite-8b-code-instruct",
+          "kind": "model",
+          "name": "Granite 8B Code Instruct",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 7939,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/ibm-granite/granite-8b-code-instruct"
+          },
+          "sourceUrl": "https://huggingface.co/ibm-granite/granite-8b-code-instruct",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "model:codegemma-7b-it",
+          "kind": "model",
+          "name": "CodeGemma 7B IT",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 6784,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/google/codegemma-7b-it"
+          },
+          "sourceUrl": "https://huggingface.co/google/codegemma-7b-it",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "model:santacoder",
+          "kind": "model",
+          "name": "SantaCoder",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 4201,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/bigcode/santacoder"
+          },
+          "sourceUrl": "https://huggingface.co/bigcode/santacoder",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "model:magicoder-s-ds-6.7b",
+          "kind": "model",
+          "name": "Magicoder-S-DS-6.7B",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 303,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B"
+          },
+          "sourceUrl": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "image-media-models",
+      "name": "Image and media generation models",
+      "description": "Open or open-weight image/media generation models used by visual AI applications.",
+      "popularityBasis": "Hugging Face downloads among selected image/media model alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "model:stable-diffusion-v1-5",
+          "kind": "model",
+          "name": "Stable Diffusion v1.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 1704765,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5"
+          },
+          "sourceUrl": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "model:stable-diffusion-xl-base-1.0",
+          "kind": "model",
+          "name": "Stable Diffusion XL Base 1.0",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 1436868,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0"
+          },
+          "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "model:flux.1-dev",
+          "kind": "model",
+          "name": "FLUX.1-dev",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 984011,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.1-dev"
+          },
+          "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "model:flux.1-schnell",
+          "kind": "model",
+          "name": "FLUX.1-schnell",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 337454,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell"
+          },
+          "sourceUrl": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "model:playground-v2.5-1024px-aesthetic",
+          "kind": "model",
+          "name": "Playground v2.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 271756,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic"
+          },
+          "sourceUrl": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "model:dreamshaper-8",
+          "kind": "model",
+          "name": "DreamShaper 8",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 57985,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Lykon/dreamshaper-8"
+          },
+          "sourceUrl": "https://huggingface.co/Lykon/dreamshaper-8",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "model:stable-diffusion-3.5-large",
+          "kind": "model",
+          "name": "Stable Diffusion 3.5 Large",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 22257,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large"
+          },
+          "sourceUrl": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "model:pixart-xl-2-1024-ms",
+          "kind": "model",
+          "name": "PixArt-XL-2-1024-MS",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 4727,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS"
+          },
+          "sourceUrl": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "model:kandinsky-2-2-decoder",
+          "kind": "model",
+          "name": "Kandinsky 2.2 Decoder",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 2835,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder"
+          },
+          "sourceUrl": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "model:hunyuan-dit-v1.2",
+          "kind": "model",
+          "name": "HunyuanDiT v1.2",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 369,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers"
+          },
+          "sourceUrl": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "embedding-reranking-models",
+      "name": "Embedding and reranking models",
+      "description": "Embedding and reranking models used for semantic search, RAG, and retrieval workflows.",
+      "popularityBasis": "Hugging Face downloads among selected embedding/reranking model alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "model:all-minilm-l6-v2",
+          "kind": "model",
+          "name": "all-MiniLM-L6-v2",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 230826064,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2"
+          },
+          "sourceUrl": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "model:nomic-embed-text-v1.5",
+          "kind": "model",
+          "name": "Nomic Embed Text v1.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 17630308,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5"
+          },
+          "sourceUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "model:bge-large-en-v1.5",
+          "kind": "model",
+          "name": "BGE Large EN v1.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 14158114,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/BAAI/bge-large-en-v1.5"
+          },
+          "sourceUrl": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "model:bge-base-en-v1.5",
+          "kind": "model",
+          "name": "BGE Base EN v1.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 8571107,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/BAAI/bge-base-en-v1.5"
+          },
+          "sourceUrl": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "model:multilingual-e5-large",
+          "kind": "model",
+          "name": "Multilingual E5 Large",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 7017018,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/intfloat/multilingual-e5-large"
+          },
+          "sourceUrl": "https://huggingface.co/intfloat/multilingual-e5-large",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "model:mxbai-embed-large-v1",
+          "kind": "model",
+          "name": "mxbai-embed-large-v1",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 4752072,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1"
+          },
+          "sourceUrl": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "model:jina-embeddings-v3",
+          "kind": "model",
+          "name": "Jina Embeddings v3",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 3461822,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/jinaai/jina-embeddings-v3"
+          },
+          "sourceUrl": "https://huggingface.co/jinaai/jina-embeddings-v3",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "model:e5-large-v2",
+          "kind": "model",
+          "name": "E5 Large v2",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 3351617,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/intfloat/e5-large-v2"
+          },
+          "sourceUrl": "https://huggingface.co/intfloat/e5-large-v2",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "model:gte-large-en-v1.5",
+          "kind": "model",
+          "name": "GTE Large EN v1.5",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 1550013,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5"
+          },
+          "sourceUrl": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "model:bge-reranker-large",
+          "kind": "model",
+          "name": "BGE Reranker Large",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 1534971,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/BAAI/bge-reranker-large"
+          },
+          "sourceUrl": "https://huggingface.co/BAAI/bge-reranker-large",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "speech-audio-models",
+      "name": "Speech and audio models",
+      "description": "ASR, TTS, translation, and audio generation models.",
+      "popularityBasis": "Hugging Face downloads among selected speech/audio model alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "model:xtts-v2",
+          "kind": "model",
+          "name": "XTTS-v2",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 9034852,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/coqui/XTTS-v2"
+          },
+          "sourceUrl": "https://huggingface.co/coqui/XTTS-v2",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "model:whisper-large-v3",
+          "kind": "model",
+          "name": "Whisper large-v3",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 5054098,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/openai/whisper-large-v3"
+          },
+          "sourceUrl": "https://huggingface.co/openai/whisper-large-v3",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "model:whisper-small",
+          "kind": "model",
+          "name": "Whisper small",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 2315618,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/openai/whisper-small"
+          },
+          "sourceUrl": "https://huggingface.co/openai/whisper-small",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "model:wav2vec2-base-960h",
+          "kind": "model",
+          "name": "wav2vec2-base-960h",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 1098753,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/facebook/wav2vec2-base-960h"
+          },
+          "sourceUrl": "https://huggingface.co/facebook/wav2vec2-base-960h",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "model:distil-large-v3",
+          "kind": "model",
+          "name": "Distil-Whisper large-v3",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 933990,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/distil-whisper/distil-large-v3"
+          },
+          "sourceUrl": "https://huggingface.co/distil-whisper/distil-large-v3",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "model:seamless-m4t-v2-large",
+          "kind": "model",
+          "name": "SeamlessM4T v2 Large",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 410860,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/facebook/seamless-m4t-v2-large"
+          },
+          "sourceUrl": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "model:parakeet-tdt-0.6b-v2",
+          "kind": "model",
+          "name": "Parakeet TDT 0.6B v2",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 360108,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2"
+          },
+          "sourceUrl": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "model:musicgen-small",
+          "kind": "model",
+          "name": "MusicGen Small",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 186078,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/facebook/musicgen-small"
+          },
+          "sourceUrl": "https://huggingface.co/facebook/musicgen-small",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "model:speecht5-tts",
+          "kind": "model",
+          "name": "SpeechT5 TTS",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 105237,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/microsoft/speecht5_tts"
+          },
+          "sourceUrl": "https://huggingface.co/microsoft/speecht5_tts",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "model:bark-small",
+          "kind": "model",
+          "name": "Bark Small",
+          "popularityMetric": {
+            "name": "Hugging Face downloads",
+            "value": 50282,
+            "unit": "downloads",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://huggingface.co/suno/bark-small"
+          },
+          "sourceUrl": "https://huggingface.co/suno/bark-small",
+          "notes": "Ranked by Hugging Face downloads within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "inference-serving-runtimes",
+      "name": "Inference and serving runtimes",
+      "description": "Local runtimes, inference servers, and LLM gateways.",
+      "popularityBasis": "GitHub stars among selected inference and serving alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "software:ollama",
+          "kind": "software",
+          "name": "Ollama",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 173713,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/ollama/ollama"
+          },
+          "sourceUrl": "https://github.com/ollama/ollama",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "software:llama.cpp",
+          "kind": "software",
+          "name": "llama.cpp",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 115795,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/ggml-org/llama.cpp"
+          },
+          "sourceUrl": "https://github.com/ggml-org/llama.cpp",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "software:vllm",
+          "kind": "software",
+          "name": "vLLM",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 82361,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/vllm-project/vllm"
+          },
+          "sourceUrl": "https://github.com/vllm-project/vllm",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "software:litellm",
+          "kind": "software",
+          "name": "LiteLLM",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 49818,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/BerriAI/litellm"
+          },
+          "sourceUrl": "https://github.com/BerriAI/litellm",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "software:localai",
+          "kind": "software",
+          "name": "LocalAI",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 46758,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/mudler/LocalAI"
+          },
+          "sourceUrl": "https://github.com/mudler/LocalAI",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "software:ray",
+          "kind": "software",
+          "name": "Ray",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 42824,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/ray-project/ray"
+          },
+          "sourceUrl": "https://github.com/ray-project/ray",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "software:sglang",
+          "kind": "software",
+          "name": "SGLang",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 28903,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/sgl-project/sglang"
+          },
+          "sourceUrl": "https://github.com/sgl-project/sglang",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "software:text-generation-inference",
+          "kind": "software",
+          "name": "Text Generation Inference",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 10860,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/text-generation-inference"
+          },
+          "sourceUrl": "https://github.com/huggingface/text-generation-inference",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "software:triton-inference-server",
+          "kind": "software",
+          "name": "Triton Inference Server",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 10742,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/triton-inference-server/server"
+          },
+          "sourceUrl": "https://github.com/triton-inference-server/server",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "software:kserve",
+          "kind": "software",
+          "name": "KServe",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 5561,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/kserve/kserve"
+          },
+          "sourceUrl": "https://github.com/kserve/kserve",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "training-finetuning-frameworks",
+      "name": "Training and fine-tuning frameworks",
+      "description": "Frameworks and libraries used to train, fine-tune, and load AI models.",
+      "popularityBasis": "GitHub stars among selected training/fine-tuning framework alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "software:transformers",
+          "kind": "software",
+          "name": "Transformers",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 161459,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/transformers"
+          },
+          "sourceUrl": "https://github.com/huggingface/transformers",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "software:pytorch",
+          "kind": "software",
+          "name": "PyTorch",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 100623,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/pytorch/pytorch"
+          },
+          "sourceUrl": "https://github.com/pytorch/pytorch",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "software:unsloth",
+          "kind": "software",
+          "name": "Unsloth",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 66142,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/unslothai/unsloth"
+          },
+          "sourceUrl": "https://github.com/unslothai/unsloth",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "software:deepspeed",
+          "kind": "software",
+          "name": "DeepSpeed",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 42488,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/deepspeedai/DeepSpeed"
+          },
+          "sourceUrl": "https://github.com/deepspeedai/DeepSpeed",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "software:diffusers",
+          "kind": "software",
+          "name": "Diffusers",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 33817,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/diffusers"
+          },
+          "sourceUrl": "https://github.com/huggingface/diffusers",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "software:pytorch-lightning",
+          "kind": "software",
+          "name": "PyTorch Lightning",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 31178,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/Lightning-AI/pytorch-lightning"
+          },
+          "sourceUrl": "https://github.com/Lightning-AI/pytorch-lightning",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "software:peft",
+          "kind": "software",
+          "name": "PEFT",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 21257,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/peft"
+          },
+          "sourceUrl": "https://github.com/huggingface/peft",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "software:trl",
+          "kind": "software",
+          "name": "TRL",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 18591,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/trl"
+          },
+          "sourceUrl": "https://github.com/huggingface/trl",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "software:megatron-lm",
+          "kind": "software",
+          "name": "Megatron-LM",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 16643,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/NVIDIA/Megatron-LM"
+          },
+          "sourceUrl": "https://github.com/NVIDIA/Megatron-LM",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "software:axolotl",
+          "kind": "software",
+          "name": "Axolotl",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 12030,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/axolotl-ai-cloud/axolotl"
+          },
+          "sourceUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "rag-vector-data-infrastructure",
+      "name": "RAG, vector, and data infrastructure",
+      "description": "Retrieval frameworks, vector databases, and data systems used in AI stacks.",
+      "popularityBasis": "GitHub stars among selected RAG/vector/data infrastructure alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "software:langchain",
+          "kind": "software",
+          "name": "LangChain",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 138900,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/langchain-ai/langchain"
+          },
+          "sourceUrl": "https://github.com/langchain-ai/langchain",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "software:llamaindex",
+          "kind": "software",
+          "name": "LlamaIndex",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 50046,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/run-llama/llama_index"
+          },
+          "sourceUrl": "https://github.com/run-llama/llama_index",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "software:milvus",
+          "kind": "software",
+          "name": "Milvus",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 44703,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/milvus-io/milvus"
+          },
+          "sourceUrl": "https://github.com/milvus-io/milvus",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "software:faiss",
+          "kind": "software",
+          "name": "FAISS",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 40241,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/facebookresearch/faiss"
+          },
+          "sourceUrl": "https://github.com/facebookresearch/faiss",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "software:qdrant",
+          "kind": "software",
+          "name": "Qdrant",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 31982,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/qdrant/qdrant"
+          },
+          "sourceUrl": "https://github.com/qdrant/qdrant",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "software:chroma",
+          "kind": "software",
+          "name": "Chroma",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 28330,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/chroma-core/chroma"
+          },
+          "sourceUrl": "https://github.com/chroma-core/chroma",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "software:haystack",
+          "kind": "software",
+          "name": "Haystack",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 25506,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/deepset-ai/haystack"
+          },
+          "sourceUrl": "https://github.com/deepset-ai/haystack",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "software:pgvector",
+          "kind": "software",
+          "name": "pgvector",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 21681,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/pgvector/pgvector"
+          },
+          "sourceUrl": "https://github.com/pgvector/pgvector",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "software:weaviate",
+          "kind": "software",
+          "name": "Weaviate",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 16303,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/weaviate/weaviate"
+          },
+          "sourceUrl": "https://github.com/weaviate/weaviate",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "software:lancedb",
+          "kind": "software",
+          "name": "LanceDB",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 10555,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/lancedb/lancedb"
+          },
+          "sourceUrl": "https://github.com/lancedb/lancedb",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "evaluation-tools-benchmarks",
+      "name": "Evaluation tools and benchmarks",
+      "description": "Evaluation harnesses, benchmark suites, and quality measurement tools.",
+      "popularityBasis": "GitHub stars among selected evaluation and benchmark alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "software:openai-evals",
+          "kind": "software",
+          "name": "OpenAI Evals",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 18645,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/openai/evals"
+          },
+          "sourceUrl": "https://github.com/openai/evals",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "software:deepeval",
+          "kind": "software",
+          "name": "DeepEval",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 16056,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/confident-ai/deepeval"
+          },
+          "sourceUrl": "https://github.com/confident-ai/deepeval",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "software:ragas",
+          "kind": "software",
+          "name": "Ragas",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 14313,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/vibrantlabsai/ragas"
+          },
+          "sourceUrl": "https://github.com/vibrantlabsai/ragas",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "software:lm-evaluation-harness",
+          "kind": "software",
+          "name": "LM Evaluation Harness",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 12897,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/EleutherAI/lm-evaluation-harness"
+          },
+          "sourceUrl": "https://github.com/EleutherAI/lm-evaluation-harness",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "software:promptflow",
+          "kind": "software",
+          "name": "Prompt flow",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 11144,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/microsoft/promptflow"
+          },
+          "sourceUrl": "https://github.com/microsoft/promptflow",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "software:opencompass",
+          "kind": "software",
+          "name": "OpenCompass",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 7075,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/open-compass/opencompass"
+          },
+          "sourceUrl": "https://github.com/open-compass/opencompass",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "benchmark:swe-bench",
+          "kind": "benchmark",
+          "name": "SWE-bench",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 5120,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/SWE-bench/SWE-bench"
+          },
+          "sourceUrl": "https://github.com/SWE-bench/SWE-bench",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "benchmark:mteb",
+          "kind": "benchmark",
+          "name": "MTEB",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 3295,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/embeddings-benchmark/mteb"
+          },
+          "sourceUrl": "https://github.com/embeddings-benchmark/mteb",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "software:helm",
+          "kind": "software",
+          "name": "HELM",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 2819,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/stanford-crfm/helm"
+          },
+          "sourceUrl": "https://github.com/stanford-crfm/helm",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "software:lighteval",
+          "kind": "software",
+          "name": "Lighteval",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 2439,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/huggingface/lighteval"
+          },
+          "sourceUrl": "https://github.com/huggingface/lighteval",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 import { loadGraph, summarizeGraph } from "../src/lib/graph";
+import { loadLayerCoverage } from "../src/lib/layers";
 import { buildRankedStacks } from "../src/lib/ranking";
 import { edgeKinds, nodeKinds, openSourceClasses } from "../src/schema";
 import { StackRanking } from "./components/StackRanking";
+import { SupplyChainGraph } from "./components/SupplyChainGraph";
 
 export const dynamic = "force-static";
 
@@ -11,6 +13,7 @@ function formatNumber(value: number) {
 
 export default function Home() {
   const graph = loadGraph();
+  const layerCoverage = loadLayerCoverage();
   const summary = summarizeGraph(graph);
   const stacks = buildRankedStacks(graph);
   const tasks = [...new Set(stacks.flatMap((stack) => stack.tasks))].sort();
@@ -50,11 +53,35 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="graphBand" aria-label="Supply-chain graph visualization">
-        <img src="/supply-chain.svg" alt="Open-source AI supply-chain graph" />
-      </section>
+      <SupplyChainGraph nodes={graph.nodes} edges={graph.edges} stacks={stacks} />
 
       <StackRanking stacks={stacks} tasks={tasks} />
+
+      <section className="graphBand" aria-label="Full supply-chain graph snapshot">
+        <img src="/ai-supply-chain.svg" alt="AI supply-chain graph" />
+      </section>
+
+      <section className="layerCoverage" aria-label="Top alternatives by stack layer">
+        <div className="sectionTitle">
+          <h2>Top alternatives by layer</h2>
+          <p>{layerCoverage.layers.length} validated layer lists, 10 alternatives each</p>
+        </div>
+        <div className="layerGrid">
+          {layerCoverage.layers.map((layer) => (
+            <article key={layer.id} className="layerCard">
+              <h3>{layer.name}</h3>
+              <ol>
+                {layer.entries.map((entry) => (
+                  <li key={entry.nodeId}>
+                    <span>{entry.name}</span>
+                    <strong>{formatNumber(entry.popularityMetric.value)}</strong>
+                  </li>
+                ))}
+              </ol>
+            </article>
+          ))}
+        </div>
+      </section>
 
       <section className="workspace">
         <div className="panel">

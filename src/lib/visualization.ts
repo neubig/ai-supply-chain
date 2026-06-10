@@ -104,7 +104,7 @@ export function renderSupplyChainSvg(graph: SupplyChainGraph) {
     "</marker>",
     "</defs>",
     '<rect width="100%" height="100%" fill="#FCFCFD"/>',
-    '<text x="36" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#101828">Open-source AI supply-chain seed graph</text>',
+    '<text x="36" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#101828">AI supply-chain seed graph</text>',
     '<text x="36" y="68" font-family="Inter, Arial, sans-serif" font-size="13" fill="#475467">Generated from data/*.json. Stroke color indicates openness class; edge labels indicate dependency semantics.</text>'
   ];
 

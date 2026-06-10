@@ -68,13 +68,32 @@ export const confidences = ["high", "medium", "low"] as const;
 export const metricCategories = [
   "adoption",
   "benchmark",
+  "cost",
   "maintenance",
   "openness",
+  "provenance",
+  "risk",
   "security",
+  "velocity",
   "performance",
   "usage",
   "quality"
 ] as const;
+
+export const evidenceKinds = [
+  "sbom",
+  "ai_sbom",
+  "slsa",
+  "openssf_scorecard",
+  "signature",
+  "vulnerability_scan",
+  "model_card",
+  "dataset_card",
+  "benchmark_card",
+  "license_review"
+] as const;
+
+export const evidenceStatuses = ["present", "partial", "missing", "unknown", "not_applicable"] as const;
 
 export const refreshCadences = ["daily", "weekly", "monthly", "quarterly", "manual"] as const;
 
@@ -86,6 +105,8 @@ export const CollectionMethodSchema = z.enum(collectionMethods);
 export const ConfidenceSchema = z.enum(confidences);
 export const MetricCategorySchema = z.enum(metricCategories);
 export const RefreshCadenceSchema = z.enum(refreshCadences);
+export const EvidenceKindSchema = z.enum(evidenceKinds);
+export const EvidenceStatusSchema = z.enum(evidenceStatuses);
 
 const sourceIdSchema = z.string().regex(/^[a-z0-9][a-z0-9:_./-]*$/);
 const nodeIdSchema = z.string().regex(/^[a-z]+:[a-z0-9][a-z0-9_.-]*$/);
@@ -143,6 +164,18 @@ export const MetricSchema = z
   })
   .strict();
 
+export const RiskEvidenceSchema = z
+  .object({
+    kind: EvidenceKindSchema,
+    status: EvidenceStatusSchema,
+    score: z.number().min(0).max(100).optional(),
+    url: urlSchema.optional(),
+    checkedAt: dateSchema.optional(),
+    sourceIds: z.array(sourceIdSchema).default([]),
+    notes: z.string().min(1).optional()
+  })
+  .strict();
+
 function validateSourceReferences(
   sourceIds: string[],
   availableIds: Set<string>,
@@ -175,6 +208,7 @@ export const SupplyChainNodeSchema = z
     tags: z.array(z.string().min(1)).default([]),
     sources: z.array(SourceRecordSchema).default([]),
     metrics: z.array(MetricSchema).default([]),
+    evidence: z.array(RiskEvidenceSchema).default([]),
     updatePolicy: UpdatePolicySchema.optional(),
     metadata: z.record(z.unknown()).default({})
   })
@@ -196,6 +230,9 @@ export const SupplyChainNodeSchema = z
     }
     for (const [index, metric] of node.metrics.entries()) {
       validateSourceReferences(metric.sourceIds, sourceIds, ctx, ["metrics", index, "sourceIds"]);
+    }
+    for (const [index, evidence] of node.evidence.entries()) {
+      validateSourceReferences(evidence.sourceIds, sourceIds, ctx, ["evidence", index, "sourceIds"]);
     }
   });
 
@@ -232,6 +269,7 @@ export type EdgeKind = z.infer<typeof EdgeKindSchema>;
 export type OpenSourceClass = z.infer<typeof OpenSourceClassSchema>;
 export type SourceRecord = z.infer<typeof SourceRecordSchema>;
 export type Metric = z.infer<typeof MetricSchema>;
+export type RiskEvidence = z.infer<typeof RiskEvidenceSchema>;
 export type SupplyChainNode = z.infer<typeof SupplyChainNodeSchema>;
 export type SupplyChainEdge = z.infer<typeof SupplyChainEdgeSchema>;
 

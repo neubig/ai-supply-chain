@@ -1,0 +1,3476 @@
+[
+  {
+    "id": "software:localai",
+    "kind": "software",
+    "name": "LocalAI",
+    "description": "Open-source local AI engine.",
+    "canonicalUrl": "https://github.com/mudler/LocalAI",
+    "repositoryUrl": "https://github.com/mudler/LocalAI",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:mudler/localai"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "local-inference"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:mudler/localai",
+        "type": "github_repo",
+        "title": "LocalAI GitHub repository",
+        "url": "https://github.com/mudler/LocalAI",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 46758,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:mudler/localai"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4123,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:mudler/localai"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 194,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:mudler/localai"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T23:16:29Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:mudler/localai"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:mudler/localai"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 46758
+      }
+    }
+  },
+  {
+    "id": "software:ray",
+    "kind": "software",
+    "name": "Ray",
+    "description": "Distributed AI compute engine.",
+    "canonicalUrl": "https://github.com/ray-project/ray",
+    "repositoryUrl": "https://github.com/ray-project/ray",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:ray-project/ray"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "distributed-inference"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:ray-project/ray",
+        "type": "github_repo",
+        "title": "Ray GitHub repository",
+        "url": "https://github.com/ray-project/ray",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 42824,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:ray-project/ray"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 7665,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:ray-project/ray"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 3463,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:ray-project/ray"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:06:44Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:ray-project/ray"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:ray-project/ray"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 42824
+      }
+    }
+  },
+  {
+    "id": "software:sglang",
+    "kind": "software",
+    "name": "SGLang",
+    "description": "Serving framework for LLMs and multimodal models.",
+    "canonicalUrl": "https://github.com/sgl-project/sglang",
+    "repositoryUrl": "https://github.com/sgl-project/sglang",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:sgl-project/sglang"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "model-serving"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:sgl-project/sglang",
+        "type": "github_repo",
+        "title": "SGLang GitHub repository",
+        "url": "https://github.com/sgl-project/sglang",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 28903,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:sgl-project/sglang"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 6429,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:sgl-project/sglang"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 3813,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:sgl-project/sglang"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:19:21Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:sgl-project/sglang"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:sgl-project/sglang"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 28903
+      }
+    }
+  },
+  {
+    "id": "software:text-generation-inference",
+    "kind": "software",
+    "name": "Text Generation Inference",
+    "description": "Hugging Face LLM serving runtime.",
+    "canonicalUrl": "https://github.com/huggingface/text-generation-inference",
+    "repositoryUrl": "https://github.com/huggingface/text-generation-inference",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:huggingface/text-generation-inference"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "model-serving"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:huggingface/text-generation-inference",
+        "type": "github_repo",
+        "title": "Text Generation Inference GitHub repository",
+        "url": "https://github.com/huggingface/text-generation-inference",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 10860,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/text-generation-inference"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1271,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/text-generation-inference"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 324,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:huggingface/text-generation-inference"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-03-21T11:34:22Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/text-generation-inference"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:huggingface/text-generation-inference"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 10860
+      }
+    }
+  },
+  {
+    "id": "software:triton-inference-server",
+    "kind": "software",
+    "name": "Triton Inference Server",
+    "description": "NVIDIA inference serving system.",
+    "canonicalUrl": "https://github.com/triton-inference-server/server",
+    "repositoryUrl": "https://github.com/triton-inference-server/server",
+    "license": {
+      "expression": "BSD-3-Clause",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:triton-inference-server/server"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "model-serving"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:triton-inference-server/server",
+        "type": "github_repo",
+        "title": "Triton Inference Server GitHub repository",
+        "url": "https://github.com/triton-inference-server/server",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 10742,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:triton-inference-server/server"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1792,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:triton-inference-server/server"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 892,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:triton-inference-server/server"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:06:42Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:triton-inference-server/server"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:triton-inference-server/server"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 10742
+      }
+    }
+  },
+  {
+    "id": "software:kserve",
+    "kind": "software",
+    "name": "KServe",
+    "description": "Kubernetes inference platform.",
+    "canonicalUrl": "https://github.com/kserve/kserve",
+    "repositoryUrl": "https://github.com/kserve/kserve",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:kserve/kserve"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "model-serving"
+    ],
+    "tags": [
+      "inference-serving-runtimes",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:kserve/kserve",
+        "type": "github_repo",
+        "title": "KServe GitHub repository",
+        "url": "https://github.com/kserve/kserve",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 5561,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kserve/kserve"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1518,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kserve/kserve"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 707,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:kserve/kserve"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T19:08:00Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kserve/kserve"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:kserve/kserve"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "inference-serving-runtimes",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 5561
+      }
+    }
+  },
+  {
+    "id": "software:unsloth",
+    "kind": "software",
+    "name": "Unsloth",
+    "description": "Fine-tuning and local model training toolkit.",
+    "canonicalUrl": "https://github.com/unslothai/unsloth",
+    "repositoryUrl": "https://github.com/unslothai/unsloth",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:unslothai/unsloth"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "fine-tuning"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:unslothai/unsloth",
+        "type": "github_repo",
+        "title": "Unsloth GitHub repository",
+        "url": "https://github.com/unslothai/unsloth",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 66142,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:unslothai/unsloth"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 5923,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:unslothai/unsloth"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 1416,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:unslothai/unsloth"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T20:43:24Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:unslothai/unsloth"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:unslothai/unsloth"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 66142
+      }
+    }
+  },
+  {
+    "id": "software:deepspeed",
+    "kind": "software",
+    "name": "DeepSpeed",
+    "description": "Distributed training optimization library.",
+    "canonicalUrl": "https://github.com/deepspeedai/DeepSpeed",
+    "repositoryUrl": "https://github.com/deepspeedai/DeepSpeed",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:deepspeedai/deepspeed"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "training"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:deepspeedai/deepspeed",
+        "type": "github_repo",
+        "title": "DeepSpeed GitHub repository",
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 42488,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepspeedai/deepspeed"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4856,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepspeedai/deepspeed"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 1298,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:deepspeedai/deepspeed"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T19:58:32Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepspeedai/deepspeed"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:deepspeedai/deepspeed"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 42488
+      }
+    }
+  },
+  {
+    "id": "software:pytorch-lightning",
+    "kind": "software",
+    "name": "PyTorch Lightning",
+    "description": "Training framework for AI models.",
+    "canonicalUrl": "https://github.com/Lightning-AI/pytorch-lightning",
+    "repositoryUrl": "https://github.com/Lightning-AI/pytorch-lightning",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:lightning-ai/pytorch-lightning"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "training"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:lightning-ai/pytorch-lightning",
+        "type": "github_repo",
+        "title": "PyTorch Lightning GitHub repository",
+        "url": "https://github.com/Lightning-AI/pytorch-lightning",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 31178,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lightning-ai/pytorch-lightning"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 3733,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lightning-ai/pytorch-lightning"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 1003,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:lightning-ai/pytorch-lightning"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T16:31:54Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lightning-ai/pytorch-lightning"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:lightning-ai/pytorch-lightning"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 31178
+      }
+    }
+  },
+  {
+    "id": "software:peft",
+    "kind": "software",
+    "name": "PEFT",
+    "description": "Parameter-efficient fine-tuning library.",
+    "canonicalUrl": "https://github.com/huggingface/peft",
+    "repositoryUrl": "https://github.com/huggingface/peft",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:huggingface/peft"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "fine-tuning"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:huggingface/peft",
+        "type": "github_repo",
+        "title": "PEFT GitHub repository",
+        "url": "https://github.com/huggingface/peft",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 21257,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/peft"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2329,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/peft"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 50,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:huggingface/peft"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-08T15:15:27Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/peft"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:huggingface/peft"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 21257
+      }
+    }
+  },
+  {
+    "id": "software:trl",
+    "kind": "software",
+    "name": "TRL",
+    "description": "Transformer reinforcement learning training library.",
+    "canonicalUrl": "https://github.com/huggingface/trl",
+    "repositoryUrl": "https://github.com/huggingface/trl",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:huggingface/trl"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "fine-tuning"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:huggingface/trl",
+        "type": "github_repo",
+        "title": "TRL GitHub repository",
+        "url": "https://github.com/huggingface/trl",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 18591,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/trl"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2780,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/trl"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 589,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:huggingface/trl"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T16:02:27Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/trl"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:huggingface/trl"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 18591
+      }
+    }
+  },
+  {
+    "id": "software:megatron-lm",
+    "kind": "software",
+    "name": "Megatron-LM",
+    "description": "Large transformer training framework.",
+    "canonicalUrl": "https://github.com/NVIDIA/Megatron-LM",
+    "repositoryUrl": "https://github.com/NVIDIA/Megatron-LM",
+    "license": {
+      "expression": "NOASSERTION",
+      "openness": "unknown",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:nvidia/megatron-lm"
+      ]
+    },
+    "openness": "unknown",
+    "tasks": [
+      "training"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:nvidia/megatron-lm",
+        "type": "github_repo",
+        "title": "Megatron-LM GitHub repository",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 16643,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:nvidia/megatron-lm"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4054,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:nvidia/megatron-lm"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 859,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:nvidia/megatron-lm"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:15:25Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:nvidia/megatron-lm"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:nvidia/megatron-lm"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 16643
+      }
+    }
+  },
+  {
+    "id": "software:axolotl",
+    "kind": "software",
+    "name": "Axolotl",
+    "description": "LLM fine-tuning framework.",
+    "canonicalUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+    "repositoryUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:axolotl-ai-cloud/axolotl"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "fine-tuning"
+    ],
+    "tags": [
+      "training-finetuning-frameworks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:axolotl-ai-cloud/axolotl",
+        "type": "github_repo",
+        "title": "Axolotl GitHub repository",
+        "url": "https://github.com/axolotl-ai-cloud/axolotl",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 12030,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:axolotl-ai-cloud/axolotl"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1367,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:axolotl-ai-cloud/axolotl"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 220,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:axolotl-ai-cloud/axolotl"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T19:29:41Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:axolotl-ai-cloud/axolotl"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:axolotl-ai-cloud/axolotl"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "training-finetuning-frameworks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 12030
+      }
+    }
+  },
+  {
+    "id": "software:langchain",
+    "kind": "software",
+    "name": "LangChain",
+    "description": "Agent and LLM application framework.",
+    "canonicalUrl": "https://github.com/langchain-ai/langchain",
+    "repositoryUrl": "https://github.com/langchain-ai/langchain",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:langchain-ai/langchain"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "rag",
+      "agents"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:langchain-ai/langchain",
+        "type": "github_repo",
+        "title": "LangChain GitHub repository",
+        "url": "https://github.com/langchain-ai/langchain",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 138900,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:langchain-ai/langchain"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 23000,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:langchain-ai/langchain"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 531,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:langchain-ai/langchain"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:15:35Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:langchain-ai/langchain"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:langchain-ai/langchain"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 138900
+      }
+    }
+  },
+  {
+    "id": "software:llamaindex",
+    "kind": "software",
+    "name": "LlamaIndex",
+    "description": "Document agent and data framework.",
+    "canonicalUrl": "https://github.com/run-llama/llama_index",
+    "repositoryUrl": "https://github.com/run-llama/llama_index",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:run-llama/llama_index"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "rag"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:run-llama/llama_index",
+        "type": "github_repo",
+        "title": "LlamaIndex GitHub repository",
+        "url": "https://github.com/run-llama/llama_index",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 50046,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:run-llama/llama_index"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 7529,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:run-llama/llama_index"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 429,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:run-llama/llama_index"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T22:59:00Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:run-llama/llama_index"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:run-llama/llama_index"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 50046
+      }
+    }
+  },
+  {
+    "id": "software:milvus",
+    "kind": "software",
+    "name": "Milvus",
+    "description": "Cloud-native vector database.",
+    "canonicalUrl": "https://github.com/milvus-io/milvus",
+    "repositoryUrl": "https://github.com/milvus-io/milvus",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:milvus-io/milvus"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:milvus-io/milvus",
+        "type": "github_repo",
+        "title": "Milvus GitHub repository",
+        "url": "https://github.com/milvus-io/milvus",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 44703,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:milvus-io/milvus"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4054,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:milvus-io/milvus"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 879,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:milvus-io/milvus"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T21:14:20Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:milvus-io/milvus"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:milvus-io/milvus"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 44703
+      }
+    }
+  },
+  {
+    "id": "software:faiss",
+    "kind": "software",
+    "name": "FAISS",
+    "description": "Similarity search and vector indexing library.",
+    "canonicalUrl": "https://github.com/facebookresearch/faiss",
+    "repositoryUrl": "https://github.com/facebookresearch/faiss",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:facebookresearch/faiss"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:facebookresearch/faiss",
+        "type": "github_repo",
+        "title": "FAISS GitHub repository",
+        "url": "https://github.com/facebookresearch/faiss",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 40241,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:facebookresearch/faiss"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4416,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:facebookresearch/faiss"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 274,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:facebookresearch/faiss"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T16:39:15Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:facebookresearch/faiss"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:facebookresearch/faiss"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 40241
+      }
+    }
+  },
+  {
+    "id": "software:qdrant",
+    "kind": "software",
+    "name": "Qdrant",
+    "description": "Vector database and search engine.",
+    "canonicalUrl": "https://github.com/qdrant/qdrant",
+    "repositoryUrl": "https://github.com/qdrant/qdrant",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:qdrant/qdrant"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:qdrant/qdrant",
+        "type": "github_repo",
+        "title": "Qdrant GitHub repository",
+        "url": "https://github.com/qdrant/qdrant",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 31982,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:qdrant/qdrant"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2349,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:qdrant/qdrant"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 574,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:qdrant/qdrant"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:15:03Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:qdrant/qdrant"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:qdrant/qdrant"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 31982
+      }
+    }
+  },
+  {
+    "id": "software:chroma",
+    "kind": "software",
+    "name": "Chroma",
+    "description": "Search infrastructure for AI.",
+    "canonicalUrl": "https://github.com/chroma-core/chroma",
+    "repositoryUrl": "https://github.com/chroma-core/chroma",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:chroma-core/chroma"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:chroma-core/chroma",
+        "type": "github_repo",
+        "title": "Chroma GitHub repository",
+        "url": "https://github.com/chroma-core/chroma",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 28330,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:chroma-core/chroma"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2305,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:chroma-core/chroma"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 644,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:chroma-core/chroma"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:03:08Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:chroma-core/chroma"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:chroma-core/chroma"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 28330
+      }
+    }
+  },
+  {
+    "id": "software:haystack",
+    "kind": "software",
+    "name": "Haystack",
+    "description": "AI orchestration framework for RAG and agents.",
+    "canonicalUrl": "https://github.com/deepset-ai/haystack",
+    "repositoryUrl": "https://github.com/deepset-ai/haystack",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:deepset-ai/haystack"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "rag"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:deepset-ai/haystack",
+        "type": "github_repo",
+        "title": "Haystack GitHub repository",
+        "url": "https://github.com/deepset-ai/haystack",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 25506,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepset-ai/haystack"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2834,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepset-ai/haystack"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 107,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:deepset-ai/haystack"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T15:28:28Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:deepset-ai/haystack"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:deepset-ai/haystack"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 25506
+      }
+    }
+  },
+  {
+    "id": "software:pgvector",
+    "kind": "software",
+    "name": "pgvector",
+    "description": "Vector similarity search for Postgres.",
+    "canonicalUrl": "https://github.com/pgvector/pgvector",
+    "repositoryUrl": "https://github.com/pgvector/pgvector",
+    "license": {
+      "expression": "NOASSERTION",
+      "openness": "open_source",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:pgvector/pgvector"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:pgvector/pgvector",
+        "type": "github_repo",
+        "title": "pgvector GitHub repository",
+        "url": "https://github.com/pgvector/pgvector",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 21681,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:pgvector/pgvector"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1201,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:pgvector/pgvector"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 13,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:pgvector/pgvector"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-05-30T18:58:13Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:pgvector/pgvector"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:pgvector/pgvector"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 21681
+      }
+    }
+  },
+  {
+    "id": "software:weaviate",
+    "kind": "software",
+    "name": "Weaviate",
+    "description": "Open-source vector database.",
+    "canonicalUrl": "https://github.com/weaviate/weaviate",
+    "repositoryUrl": "https://github.com/weaviate/weaviate",
+    "license": {
+      "expression": "BSD-3-Clause",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:weaviate/weaviate"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:weaviate/weaviate",
+        "type": "github_repo",
+        "title": "Weaviate GitHub repository",
+        "url": "https://github.com/weaviate/weaviate",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 16303,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:weaviate/weaviate"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1308,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:weaviate/weaviate"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 516,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:weaviate/weaviate"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T20:22:56Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:weaviate/weaviate"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:weaviate/weaviate"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 16303
+      }
+    }
+  },
+  {
+    "id": "software:lancedb",
+    "kind": "software",
+    "name": "LanceDB",
+    "description": "Embedded retrieval and vector database.",
+    "canonicalUrl": "https://github.com/lancedb/lancedb",
+    "repositoryUrl": "https://github.com/lancedb/lancedb",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:lancedb/lancedb"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "vector-search"
+    ],
+    "tags": [
+      "rag-vector-data-infrastructure",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:lancedb/lancedb",
+        "type": "github_repo",
+        "title": "LanceDB GitHub repository",
+        "url": "https://github.com/lancedb/lancedb",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 10555,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lancedb/lancedb"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 904,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lancedb/lancedb"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 660,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:lancedb/lancedb"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T22:59:31Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lancedb/lancedb"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:lancedb/lancedb"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "rag-vector-data-infrastructure",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 10555
+      }
+    }
+  },
+  {
+    "id": "software:openai-evals",
+    "kind": "software",
+    "name": "OpenAI Evals",
+    "description": "Framework and registry for evaluating LLM systems.",
+    "canonicalUrl": "https://github.com/openai/evals",
+    "repositoryUrl": "https://github.com/openai/evals",
+    "license": {
+      "expression": "NOASSERTION",
+      "openness": "open_source",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:openai/evals"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:openai/evals",
+        "type": "github_repo",
+        "title": "OpenAI Evals GitHub repository",
+        "url": "https://github.com/openai/evals",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 18645,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openai/evals"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2981,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openai/evals"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 207,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:openai/evals"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-04-14T15:29:57Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openai/evals"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:openai/evals"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 18645
+      }
+    }
+  },
+  {
+    "id": "software:deepeval",
+    "kind": "software",
+    "name": "DeepEval",
+    "description": "LLM evaluation framework.",
+    "canonicalUrl": "https://github.com/confident-ai/deepeval",
+    "repositoryUrl": "https://github.com/confident-ai/deepeval",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:confident-ai/deepeval"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:confident-ai/deepeval",
+        "type": "github_repo",
+        "title": "DeepEval GitHub repository",
+        "url": "https://github.com/confident-ai/deepeval",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 16056,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:confident-ai/deepeval"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1513,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:confident-ai/deepeval"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 284,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:confident-ai/deepeval"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T17:19:55Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:confident-ai/deepeval"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:confident-ai/deepeval"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 16056
+      }
+    }
+  },
+  {
+    "id": "software:ragas",
+    "kind": "software",
+    "name": "Ragas",
+    "description": "LLM application evaluation framework.",
+    "canonicalUrl": "https://github.com/vibrantlabsai/ragas",
+    "repositoryUrl": "https://github.com/vibrantlabsai/ragas",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:vibrantlabsai/ragas"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation",
+      "rag"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:vibrantlabsai/ragas",
+        "type": "github_repo",
+        "title": "Ragas GitHub repository",
+        "url": "https://github.com/vibrantlabsai/ragas",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 14313,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:vibrantlabsai/ragas"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1474,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:vibrantlabsai/ragas"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 428,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:vibrantlabsai/ragas"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-02-24T07:47:19Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:vibrantlabsai/ragas"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:vibrantlabsai/ragas"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 14313
+      }
+    }
+  },
+  {
+    "id": "software:lm-evaluation-harness",
+    "kind": "software",
+    "name": "LM Evaluation Harness",
+    "description": "Few-shot language model evaluation framework.",
+    "canonicalUrl": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "repositoryUrl": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:eleutherai/lm-evaluation-harness"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:eleutherai/lm-evaluation-harness",
+        "type": "github_repo",
+        "title": "LM Evaluation Harness GitHub repository",
+        "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 12897,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:eleutherai/lm-evaluation-harness"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 3332,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:eleutherai/lm-evaluation-harness"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 840,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:eleutherai/lm-evaluation-harness"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-02T15:06:38Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:eleutherai/lm-evaluation-harness"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:eleutherai/lm-evaluation-harness"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 12897
+      }
+    }
+  },
+  {
+    "id": "software:promptflow",
+    "kind": "software",
+    "name": "Prompt flow",
+    "description": "LLM app prototyping, testing, and evaluation tooling.",
+    "canonicalUrl": "https://github.com/microsoft/promptflow",
+    "repositoryUrl": "https://github.com/microsoft/promptflow",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:microsoft/promptflow"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:microsoft/promptflow",
+        "type": "github_repo",
+        "title": "Prompt flow GitHub repository",
+        "url": "https://github.com/microsoft/promptflow",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 11144,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:microsoft/promptflow"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1101,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:microsoft/promptflow"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 82,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:microsoft/promptflow"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-04T02:58:12Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:microsoft/promptflow"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:microsoft/promptflow"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 11144
+      }
+    }
+  },
+  {
+    "id": "software:opencompass",
+    "kind": "software",
+    "name": "OpenCompass",
+    "description": "LLM evaluation platform.",
+    "canonicalUrl": "https://github.com/open-compass/opencompass",
+    "repositoryUrl": "https://github.com/open-compass/opencompass",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:open-compass/opencompass"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:open-compass/opencompass",
+        "type": "github_repo",
+        "title": "OpenCompass GitHub repository",
+        "url": "https://github.com/open-compass/opencompass",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 7075,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:open-compass/opencompass"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 787,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:open-compass/opencompass"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 464,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:open-compass/opencompass"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-05T08:02:56Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:open-compass/opencompass"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:open-compass/opencompass"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 7075
+      }
+    }
+  },
+  {
+    "id": "software:helm",
+    "kind": "software",
+    "name": "HELM",
+    "description": "Holistic Evaluation of Language Models.",
+    "canonicalUrl": "https://github.com/stanford-crfm/helm",
+    "repositoryUrl": "https://github.com/stanford-crfm/helm",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:stanford-crfm/helm"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:stanford-crfm/helm",
+        "type": "github_repo",
+        "title": "HELM GitHub repository",
+        "url": "https://github.com/stanford-crfm/helm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 2819,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:stanford-crfm/helm"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 398,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:stanford-crfm/helm"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 77,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:stanford-crfm/helm"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-05T20:23:35Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:stanford-crfm/helm"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:stanford-crfm/helm"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 2819
+      }
+    }
+  },
+  {
+    "id": "software:lighteval",
+    "kind": "software",
+    "name": "Lighteval",
+    "description": "Hugging Face LLM evaluation toolkit.",
+    "canonicalUrl": "https://github.com/huggingface/lighteval",
+    "repositoryUrl": "https://github.com/huggingface/lighteval",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:huggingface/lighteval"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "evaluation"
+    ],
+    "tags": [
+      "evaluation-tools-benchmarks",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:huggingface/lighteval",
+        "type": "github_repo",
+        "title": "Lighteval GitHub repository",
+        "url": "https://github.com/huggingface/lighteval",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 2439,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/lighteval"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 480,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/lighteval"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 318,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:huggingface/lighteval"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T07:28:54Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:huggingface/lighteval"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:huggingface/lighteval"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "evaluation-tools-benchmarks",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 2439
+      }
+    }
+  }
+]

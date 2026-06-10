@@ -5,23 +5,54 @@ import { useMemo, useState } from "react";
 import type { RankedStack } from "../../src/lib/ranking";
 
 type SortKey =
+  | "preferenceScore"
   | "overallScore"
   | "opennessScore"
   | "benchmarkScore"
   | "popularityScore"
+  | "costScore"
+  | "velocityScore"
+  | "provenanceScore"
+  | "concentrationScore"
   | "nonOpenComponents"
   | "githubStars"
   | "hfDownloads";
 
 const sortLabels: Record<SortKey, string> = {
+  preferenceScore: "Preference",
   overallScore: "Overall",
   opennessScore: "Openness",
   benchmarkScore: "Benchmark",
   popularityScore: "Popularity",
+  costScore: "Cost",
+  velocityScore: "Velocity",
+  provenanceScore: "Provenance",
+  concentrationScore: "Concentration",
   nonOpenComponents: "Non-open",
   githubStars: "GitHub stars",
   hfDownloads: "HF downloads"
 };
+
+type WeightKey =
+  | "benchmarkScore"
+  | "opennessScore"
+  | "popularityScore"
+  | "costScore"
+  | "velocityScore"
+  | "provenanceScore"
+  | "concentrationScore";
+
+const weightLabels: Record<WeightKey, string> = {
+  benchmarkScore: "Accuracy",
+  opennessScore: "Openness",
+  popularityScore: "Popularity",
+  costScore: "Cost",
+  velocityScore: "Velocity",
+  provenanceScore: "Provenance",
+  concentrationScore: "Concentration"
+};
+
+type ScoredStack = RankedStack & { preferenceScore: number };
 
 function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 }).format(value);
@@ -30,20 +61,42 @@ function formatNumber(value: number) {
 export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: string[] }) {
   const [task, setTask] = useState("all");
   const [maxNonOpen, setMaxNonOpen] = useState("any");
-  const [sortKey, setSortKey] = useState<SortKey>("overallScore");
+  const [sortKey, setSortKey] = useState<SortKey>("preferenceScore");
+  const [weights, setWeights] = useState<Record<WeightKey, number>>({
+    benchmarkScore: 4,
+    opennessScore: 4,
+    popularityScore: 3,
+    costScore: 2,
+    velocityScore: 2,
+    provenanceScore: 3,
+    concentrationScore: 1
+  });
 
   const filtered = useMemo(() => {
     const limit = maxNonOpen === "any" ? Number.POSITIVE_INFINITY : Number(maxNonOpen);
+    const totalWeight = Object.values(weights).reduce((sum, value) => sum + value, 0) || 1;
     return stacks
+      .map<ScoredStack>((stack) => ({
+        ...stack,
+        preferenceScore:
+          (stack.benchmarkScore * weights.benchmarkScore +
+            stack.opennessScore * weights.opennessScore +
+            stack.popularityScore * weights.popularityScore +
+            stack.costScore * weights.costScore +
+            stack.velocityScore * weights.velocityScore +
+            stack.provenanceScore * weights.provenanceScore +
+            stack.concentrationScore * weights.concentrationScore) /
+          totalWeight
+      }))
       .filter((stack) => task === "all" || stack.tasks.includes(task))
       .filter((stack) => stack.nonOpenComponents <= limit)
       .sort((a, b) => {
         if (sortKey === "nonOpenComponents") {
-          return a.nonOpenComponents - b.nonOpenComponents || b.overallScore - a.overallScore;
+          return a.nonOpenComponents - b.nonOpenComponents || b.preferenceScore - a.preferenceScore;
         }
-        return b[sortKey] - a[sortKey] || b.overallScore - a.overallScore;
+        return b[sortKey] - a[sortKey] || b.preferenceScore - a.preferenceScore;
       });
-  }, [maxNonOpen, sortKey, stacks, task]);
+  }, [maxNonOpen, sortKey, stacks, task, weights]);
 
   const paretoCount = filtered.filter((stack) => stack.paretoOptimal).length;
 
@@ -91,15 +144,37 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
         </div>
       </div>
 
+      <div className="weightGrid" aria-label="Preference weights">
+        {(Object.keys(weightLabels) as WeightKey[]).map((key) => (
+          <label key={key}>
+            <span>
+              {weightLabels[key]} <b>{weights[key]}</b>
+            </span>
+            <input
+              type="range"
+              min="0"
+              max="5"
+              step="1"
+              value={weights[key]}
+              onChange={(event) => setWeights((current) => ({ ...current, [key]: Number(event.target.value) }))}
+            />
+          </label>
+        ))}
+      </div>
+
       <div className="tableFrame">
         <table>
           <thead>
             <tr>
               <th>Stack</th>
+              <th>Pref</th>
               <th>Overall</th>
               <th>Open</th>
               <th>Bench</th>
               <th>Popularity</th>
+              <th>Cost</th>
+              <th>Velocity</th>
+              <th>Prov</th>
               <th>Non-open</th>
               <th>Evidence</th>
             </tr>
@@ -112,10 +187,14 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
                   <span>{stack.modelName}</span>
                   <em>{stack.tasks.slice(0, 4).join(", ")}</em>
                 </td>
+                <td>{formatNumber(stack.preferenceScore)}</td>
                 <td>{formatNumber(stack.overallScore)}</td>
                 <td>{formatNumber(stack.opennessScore)}</td>
                 <td>{formatNumber(stack.benchmarkScore)}</td>
                 <td>{formatNumber(stack.popularityScore)}</td>
+                <td>{formatNumber(stack.costScore)}</td>
+                <td>{formatNumber(stack.velocityScore)}</td>
+                <td>{formatNumber(stack.provenanceScore)}</td>
                 <td>{stack.nonOpenComponents}</td>
                 <td>
                   <span>{formatNumber(stack.githubStars)} GitHub stars</span>

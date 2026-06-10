@@ -1,0 +1,228 @@
+[
+  {
+    "id": "application:lobehub",
+    "kind": "application",
+    "name": "LobeHub",
+    "description": "Agent and chat operations interface.",
+    "canonicalUrl": "https://github.com/lobehub/lobehub",
+    "repositoryUrl": "https://github.com/lobehub/lobehub",
+    "license": {
+      "expression": "NOASSERTION",
+      "openness": "unknown",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:lobehub/lobehub"
+      ]
+    },
+    "openness": "unknown",
+    "tasks": [
+      "chat",
+      "agents"
+    ],
+    "tags": [
+      "applications",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:lobehub/lobehub",
+        "type": "github_repo",
+        "title": "LobeHub GitHub repository",
+        "url": "https://github.com/lobehub/lobehub",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 78425,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lobehub/lobehub"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 15395,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lobehub/lobehub"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 372,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:lobehub/lobehub"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:06:11Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:lobehub/lobehub"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:lobehub/lobehub"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "applications",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 78425
+      }
+    }
+  },
+  {
+    "id": "application:librechat",
+    "kind": "application",
+    "name": "LibreChat",
+    "description": "Self-hosted multi-provider chat and agent application.",
+    "canonicalUrl": "https://github.com/danny-avila/LibreChat",
+    "repositoryUrl": "https://github.com/danny-avila/LibreChat",
+    "license": {
+      "expression": "MIT",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:danny-avila/librechat"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "chat",
+      "agents"
+    ],
+    "tags": [
+      "applications",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:danny-avila/librechat",
+        "type": "github_repo",
+        "title": "LibreChat GitHub repository",
+        "url": "https://github.com/danny-avila/LibreChat",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 38770,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:danny-avila/librechat"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 7954,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:danny-avila/librechat"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 485,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:danny-avila/librechat"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:16:40Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:danny-avila/librechat"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:danny-avila/librechat"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "applications",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 38770
+      }
+    }
+  }
+]

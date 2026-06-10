@@ -16,6 +16,21 @@ const opennessValue: Record<OpenSourceClass, number> = {
   proprietary: 0
 };
 
+const costValue: Record<OpenSourceClass, number> = {
+  open_source: 92,
+  open_weights: 84,
+  source_available: 68,
+  open_core: 58,
+  unknown: 45,
+  proprietary: 20
+};
+
+const confidenceValue = {
+  high: 100,
+  medium: 65,
+  low: 30
+} as const;
+
 const stackComponentKinds = new Set<NodeKind>([
   "application",
   "model",
@@ -46,6 +61,10 @@ export type RankedStack = {
   opennessScore: number;
   benchmarkScore: number;
   popularityScore: number;
+  costScore: number;
+  velocityScore: number;
+  provenanceScore: number;
+  concentrationScore: number;
   overallScore: number;
   nonOpenComponents: number;
   githubStars: number;
@@ -113,6 +132,75 @@ function popularity(nodes: SupplyChainNode[]) {
   };
 }
 
+function collectCostScore(nodes: SupplyChainNode[]) {
+  const values = nodes.map((node) => {
+    const costTier = typeof node.metadata.costTier === "string" ? node.metadata.costTier : "";
+    if (costTier.includes("free")) {
+      return 96;
+    }
+    if (costTier.includes("local") || costTier.includes("self_hosted")) {
+      return Math.max(82, costValue[node.openness]);
+    }
+    if (costTier.includes("commercial")) {
+      return 45;
+    }
+    return costValue[node.openness];
+  });
+  return values.reduce((sum, value) => sum + value, 0) / Math.max(1, values.length);
+}
+
+function collectVelocityScore(nodes: SupplyChainNode[]) {
+  const timestamps = nodes.flatMap((node) =>
+    node.metrics
+      .filter((metric) => metric.category === "velocity" || metric.name === "Last pushed at")
+      .map((metric) => (typeof metric.value === "string" ? Date.parse(metric.value) : NaN))
+      .filter((value) => Number.isFinite(value))
+  );
+
+  if (timestamps.length === 0) {
+    return 50;
+  }
+
+  const now = Date.now();
+  const scores = timestamps.map((timestamp) => {
+    const days = (now - timestamp) / 86_400_000;
+    if (days <= 7) return 100;
+    if (days <= 30) return 85;
+    if (days <= 90) return 70;
+    if (days <= 180) return 55;
+    if (days <= 365) return 35;
+    return 15;
+  });
+  return scores.reduce((sum, value) => sum + value, 0) / scores.length;
+}
+
+function collectProvenanceScore(nodes: SupplyChainNode[], edges: SupplyChainEdge[]) {
+  const sources = [...nodes.flatMap((node) => node.sources), ...edges.flatMap((edge) => edge.sources)];
+  if (sources.length === 0) {
+    return 0;
+  }
+  const score = sources.reduce((sum, source) => {
+    const deterministicPenalty = ["web_search", "manual_review"].includes(source.collectionMethod) ? 20 : 0;
+    return sum + Math.max(0, confidenceValue[source.confidence] - deterministicPenalty);
+  }, 0);
+  return score / sources.length;
+}
+
+function collectConcentrationScore(edges: SupplyChainEdge[]) {
+  const targets = edges
+    .filter((edge) => edge.kind === "developed_by" || edge.kind === "hosted_by")
+    .map((edge) => edge.target);
+  if (targets.length <= 1) {
+    return 100;
+  }
+  const counts = new Map<string, number>();
+  for (const target of targets) {
+    counts.set(target, (counts.get(target) ?? 0) + 1);
+  }
+  const largestShare = Math.max(...counts.values()) / targets.length;
+  return Math.max(0, 100 - Math.max(0, largestShare - 0.34) * 140);
+}
+
 function addNode(
   graph: SupplyChainGraph,
   componentIds: Set<string>,
@@ -145,7 +233,8 @@ function buildCandidate(graph: SupplyChainGraph, application: SupplyChainNode, m
     "implements",
     "hosted_by",
     "licensed_as",
-    "evaluated_on"
+    "evaluated_on",
+    "developed_by"
   ])) {
     if (edge.kind === "supports" && edge.target.startsWith("model:") && edge.target !== model.id) {
       continue;
@@ -159,13 +248,14 @@ function buildCandidate(graph: SupplyChainGraph, application: SupplyChainNode, m
     "evaluated_on",
     "hosted_by",
     "licensed_as",
-    "derived_from"
+    "derived_from",
+    "developed_by"
   ])) {
     includeEdge(edge);
   }
 
   for (const softwareId of [...componentIds].filter((id) => id.startsWith("software:"))) {
-    for (const edge of outgoing(graph.edges, softwareId, ["depends_on", "implements", "licensed_as", "hosted_by"])) {
+    for (const edge of outgoing(graph.edges, softwareId, ["depends_on", "implements", "licensed_as", "hosted_by", "developed_by"])) {
       includeEdge(edge);
     }
   }
@@ -224,7 +314,18 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
       components.reduce((sum, node) => sum + opennessValue[node.openness], 0) / Math.max(1, components.length);
     const benchmarkScore = collectBenchmarkScore([...components, ...benchmarks], candidate.evidenceEdges);
     const popularityValues = popularity(components);
-    const overallScore = opennessScore * 100 * 0.4 + benchmarkScore * 0.35 + popularityValues.popularityScore * 0.25;
+    const costScore = collectCostScore(components);
+    const velocityScore = collectVelocityScore(components);
+    const provenanceScore = collectProvenanceScore([...components, ...benchmarks], candidate.evidenceEdges);
+    const concentrationScore = collectConcentrationScore(candidate.evidenceEdges);
+    const overallScore =
+      opennessScore * 100 * 0.24 +
+      benchmarkScore * 0.24 +
+      popularityValues.popularityScore * 0.18 +
+      costScore * 0.1 +
+      velocityScore * 0.1 +
+      provenanceScore * 0.09 +
+      concentrationScore * 0.05;
     const tasks = [...new Set([...candidate.application.tasks, ...candidate.model.tasks])].sort();
 
     return {
@@ -240,6 +341,10 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
       opennessScore: Math.round(opennessScore * 1000) / 10,
       benchmarkScore: Math.round(benchmarkScore * 10) / 10,
       popularityScore: Math.round(popularityValues.popularityScore * 10) / 10,
+      costScore: Math.round(costScore * 10) / 10,
+      velocityScore: Math.round(velocityScore * 10) / 10,
+      provenanceScore: Math.round(provenanceScore * 10) / 10,
+      concentrationScore: Math.round(concentrationScore * 10) / 10,
       overallScore: Math.round(overallScore * 10) / 10,
       nonOpenComponents: components.filter((node) => node.openness !== "open_source").length,
       githubStars: popularityValues.githubStars,

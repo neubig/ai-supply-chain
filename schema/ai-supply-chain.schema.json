@@ -213,9 +213,13 @@
                       "enum": [
                         "adoption",
                         "benchmark",
+                        "cost",
                         "maintenance",
                         "openness",
+                        "provenance",
+                        "risk",
                         "security",
+                        "velocity",
                         "performance",
                         "usage",
                         "quality"
@@ -266,6 +270,67 @@
                     "category",
                     "name",
                     "value"
+                  ],
+                  "additionalProperties": false
+                },
+                "default": []
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "sbom",
+                        "ai_sbom",
+                        "slsa",
+                        "openssf_scorecard",
+                        "signature",
+                        "vulnerability_scan",
+                        "model_card",
+                        "dataset_card",
+                        "benchmark_card",
+                        "license_review"
+                      ]
+                    },
+                    "status": {
+                      "type": "string",
+                      "enum": [
+                        "present",
+                        "partial",
+                        "missing",
+                        "unknown",
+                        "not_applicable"
+                      ]
+                    },
+                    "score": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100
+                    },
+                    "url": {
+                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/canonicalUrl"
+                    },
+                    "checkedAt": {
+                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/retrievedAt"
+                    },
+                    "sourceIds": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/license/properties/sourceIds/items"
+                      },
+                      "default": []
+                    },
+                    "notes": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "kind",
+                    "status"
                   ],
                   "additionalProperties": false
                 },

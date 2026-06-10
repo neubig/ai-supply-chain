@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1830" height="4458" viewBox="0 0 1830 4458">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#667085"/>
+</marker>
+</defs>
+<rect width="100%" height="100%" fill="#FCFCFD"/>
+<text x="36" y="40" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#101828">AI supply-chain seed graph</text>
+<text x="36" y="68" font-family="Inter, Arial, sans-serif" font-size="13" fill="#475467">Generated from data/*.json. Stroke color indicates openness class; edge labels indicate dependency semantics.</text>
+<text x="36" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">APPLICATION</text>
+<text x="260" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">MODEL</text>
+<text x="484" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">SOFTWARE</text>
+<text x="708" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">DATASET</text>
+<text x="932" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">BENCHMARK</text>
+<text x="1156" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">ORGANIZATION</text>
+<text x="1380" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">INFRASTRUCTURE</text>
+<text x="1604" y="96" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#344054">LICENSE</text>
+<path d="M 226.0 743.0 C 262.0 743.0, 224.0 3237.0, 260.0 3237.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1986.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 743.0 C 262.0 743.0, 224.0 2291.0, 260.0 2291.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1513.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 743.0 C 355.0 743.0, 355.0 1861.0, 484.0 1861.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="1298.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 743.0 C 915.0 743.0, 915.0 829.0, 1604.0 829.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 743.0 C 691.0 743.0, 691.0 1345.0, 1156.0 1345.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 141.0 C 262.0 141.0, 224.0 3237.0, 260.0 3237.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1685.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 141.0 C 262.0 141.0, 224.0 2721.0, 260.0 2721.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1427.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 141.0 C 355.0 141.0, 355.0 1861.0, 484.0 1861.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="997.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 141.0 C 915.0 141.0, 915.0 657.0, 1604.0 657.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 141.0 C 691.0 141.0, 691.0 1001.0, 1156.0 1001.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 399.0 C 262.0 399.0, 224.0 2291.0, 260.0 2291.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1341.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 399.0 C 262.0 399.0, 224.0 1603.0, 260.0 1603.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="997.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 399.0 C 355.0 399.0, 355.0 1345.0, 484.0 1345.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="868.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 226.0 399.0 C 915.0 399.0, 915.0 657.0, 1604.0 657.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 399.0 C 691.0 399.0, 691.0 1173.0, 1156.0 1173.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 313.0 C 262.0 313.0, 224.0 3323.0, 260.0 3323.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1814.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 313.0 C 262.0 313.0, 224.0 3925.0, 260.0 3925.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="2115.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 313.0 C 355.0 313.0, 355.0 1861.0, 484.0 1861.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="1083.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 313.0 C 355.0 313.0, 355.0 2033.0, 484.0 2033.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 226.0 313.0 C 915.0 313.0, 915.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 313.0 C 691.0 313.0, 691.0 485.0, 1156.0 485.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 227.0 C 262.0 227.0, 224.0 3839.0, 260.0 3839.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="2029.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 227.0 C 355.0 227.0, 355.0 2463.0, 484.0 2463.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="1341.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 226.0 227.0 C 915.0 227.0, 915.0 571.0, 1604.0 571.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 227.0 C 691.0 227.0, 691.0 399.0, 1156.0 399.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 915.0 C 262.0 915.0, 224.0 3839.0, 260.0 3839.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="2373.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 915.0 C 355.0 915.0, 355.0 2463.0, 484.0 2463.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="1685.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 226.0 915.0 C 915.0 915.0, 915.0 485.0, 1604.0 485.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 915.0 C 691.0 915.0, 691.0 227.0, 1156.0 227.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 829.0 C 262.0 829.0, 224.0 3323.0, 260.0 3323.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="2072.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 829.0 C 355.0 829.0, 355.0 1259.0, 484.0 1259.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="1040.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 226.0 829.0 C 579.0 829.0, 579.0 571.0, 932.0 571.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="696.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 226.0 829.0 C 915.0 829.0, 915.0 743.0, 1604.0 743.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 829.0 C 691.0 829.0, 691.0 1517.0, 1156.0 1517.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 485.0 C 262.0 485.0, 224.0 3237.0, 260.0 3237.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1857.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 485.0 C 262.0 485.0, 224.0 2291.0, 260.0 2291.0" fill="none" stroke="#2563EB" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="243.0" y="1384.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#2563EB" opacity="0.84">supports</text>
+<path d="M 226.0 485.0 C 355.0 485.0, 355.0 1345.0, 484.0 1345.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="355.0" y="911.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 226.0 485.0 C 803.0 485.0, 803.0 141.0, 1380.0 141.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 485.0 C 915.0 485.0, 915.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 226.0 485.0 C 691.0 485.0, 691.0 915.0, 1156.0 915.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3237.0 C 579.0 3237.0, 579.0 485.0, 708.0 485.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1857.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 3237.0 C 486.0 3237.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 3237.0 C 691.0 3237.0, 691.0 399.0, 932.0 399.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="1814.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 3237.0 C 803.0 3237.0, 803.0 141.0, 1156.0 141.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3237.0 C 915.0 3237.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3237.0 C 1027.0 3237.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3323.0 C 545.0 3323.0, 165.0 3237.0, 260.0 3237.0" fill="none" stroke="#7C3AED" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 3323.0 C 579.0 3323.0, 579.0 485.0, 708.0 485.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1900.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 3323.0 C 486.0 3323.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 3323.0 C 691.0 3323.0, 691.0 141.0, 932.0 141.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="1728.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 3323.0 C 803.0 3323.0, 803.0 141.0, 1156.0 141.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3323.0 C 915.0 3323.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3323.0 C 1027.0 3323.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2291.0 C 579.0 2291.0, 579.0 313.0, 708.0 313.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1298.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 2291.0 C 486.0 2291.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 2291.0 C 691.0 2291.0, 691.0 399.0, 932.0 399.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="1341.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 2291.0 C 803.0 2291.0, 803.0 1087.0, 1156.0 1087.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2291.0 C 915.0 2291.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2291.0 C 1027.0 2291.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3839.0 C 579.0 3839.0, 579.0 141.0, 708.0 141.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1986.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 3839.0 C 486.0 3839.0, 448.0 485.0, 484.0 485.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 3839.0 C 691.0 3839.0, 691.0 657.0, 932.0 657.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="2244.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 3839.0 C 803.0 3839.0, 803.0 1689.0, 1156.0 1689.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3839.0 C 915.0 3839.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3839.0 C 1027.0 3839.0, 1027.0 915.0, 1604.0 915.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 4097.0 C 579.0 4097.0, 579.0 829.0, 708.0 829.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="2459.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 4097.0 C 486.0 4097.0, 448.0 2463.0, 484.0 2463.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 4097.0 C 691.0 4097.0, 691.0 313.0, 932.0 313.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="2201.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 4097.0 C 803.0 4097.0, 803.0 1431.0, 1156.0 1431.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 4097.0 C 915.0 4097.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 4097.0 C 1027.0 4097.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2721.0 C 579.0 2721.0, 579.0 399.0, 708.0 399.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1556.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 2721.0 C 486.0 2721.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 2721.0 C 691.0 2721.0, 691.0 485.0, 932.0 485.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="1599.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 2721.0 C 803.0 2721.0, 803.0 1173.0, 1156.0 1173.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2721.0 C 915.0 2721.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 2721.0 C 1027.0 2721.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 1603.0 C 579.0 1603.0, 579.0 657.0, 708.0 657.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1126.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 1603.0 C 486.0 1603.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 1603.0 C 691.0 1603.0, 691.0 227.0, 932.0 227.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="911.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 1603.0 C 803.0 1603.0, 803.0 571.0, 1156.0 571.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 1603.0 C 915.0 1603.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 1603.0 C 1027.0 1603.0, 1027.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3925.0 C 579.0 3925.0, 579.0 743.0, 708.0 743.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="2330.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A15C07" opacity="0.84">trained_on</text>
+<path d="M 450.0 3925.0 C 486.0 3925.0, 448.0 3065.0, 484.0 3065.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 450.0 3925.0 C 691.0 3925.0, 691.0 141.0, 932.0 141.0" fill="none" stroke="#C11574" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="691.0" y="2029.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#C11574" opacity="0.84">evaluated_on</text>
+<path d="M 450.0 3925.0 C 803.0 3925.0, 803.0 313.0, 1156.0 313.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3925.0 C 915.0 3925.0, 915.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 450.0 3925.0 C 1027.0 3925.0, 1027.0 227.0, 1604.0 227.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 1861.0 C 769.0 1861.0, 389.0 2033.0, 484.0 2033.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 674.0 1861.0 C 769.0 1861.0, 389.0 1345.0, 484.0 1345.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1599.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 674.0 1861.0 C 915.0 1861.0, 915.0 1259.0, 1156.0 1259.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 1861.0 C 1139.0 1861.0, 1139.0 657.0, 1604.0 657.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 1345.0 C 1139.0 1345.0, 1139.0 657.0, 1604.0 657.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 1345.0 C 915.0 1345.0, 915.0 657.0, 1156.0 657.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 2463.0 C 1139.0 2463.0, 1139.0 313.0, 1604.0 313.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 2463.0 C 915.0 2463.0, 915.0 1603.0, 1156.0 1603.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 3065.0 C 769.0 3065.0, 389.0 2463.0, 484.0 2463.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="2760.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 674.0 3065.0 C 915.0 3065.0, 915.0 743.0, 1156.0 743.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 3065.0 C 1139.0 3065.0, 1139.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 485.0 C 769.0 485.0, 389.0 2463.0, 484.0 2463.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="1470.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 674.0 485.0 C 915.0 485.0, 915.0 743.0, 1156.0 743.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 485.0 C 1139.0 485.0, 1139.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 3409.0 C 769.0 3409.0, 389.0 2463.0, 484.0 2463.0" fill="none" stroke="#475467" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<text x="579.0" y="2932.0" font-family="Inter, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#475467" opacity="0.84">depends_on</text>
+<path d="M 674.0 3409.0 C 769.0 3409.0, 389.0 2033.0, 484.0 2033.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 674.0 3409.0 C 1139.0 3409.0, 1139.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 1259.0 C 769.0 1259.0, 389.0 2033.0, 484.0 2033.0" fill="none" stroke="#0E7490" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 674.0 1259.0 C 1139.0 1259.0, 1139.0 743.0, 1604.0 743.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 657.0 C 915.0 657.0, 915.0 743.0, 1156.0 743.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 674.0 657.0 C 1139.0 657.0, 1139.0 141.0, 1604.0 141.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 657.0 C 1027.0 657.0, 1027.0 571.0, 1156.0 571.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 657.0 C 1139.0 657.0, 1139.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 657.0 C 1251.0 657.0, 1251.0 1001.0, 1604.0 1001.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 743.0 C 1027.0 743.0, 1027.0 313.0, 1156.0 313.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 743.0 C 1139.0 743.0, 1139.0 313.0, 1380.0 313.0" fill="none" stroke="#147D64" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 743.0 C 1251.0 743.0, 1251.0 1001.0, 1604.0 1001.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 141.0 C 1027.0 141.0, 1027.0 829.0, 1156.0 829.0" fill="none" stroke="#344054" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 141.0 C 1251.0 141.0, 1251.0 399.0, 1604.0 399.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 898.0 227.0 C 1251.0 227.0, 1251.0 399.0, 1604.0 399.0" fill="none" stroke="#7A5C00" stroke-width="1.2" opacity="0.38" marker-end="url(#arrow)"/>
+<path d="M 932.0 313.0 C 968.0 313.0, 862.0 227.0, 898.0 227.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<path d="M 932.0 571.0 C 968.0 571.0, 862.0 571.0, 898.0 571.0" fill="none" stroke="#A15C07" stroke-width="1.2" opacity="0.58" marker-end="url(#arrow)"/>
+<rect x="36" y="628" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#667085" stroke-width="2"/>
+<circle cx="50" cy="644" r="5" fill="#667085"/>
+<text x="62" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LobeHub</text>
+<text x="62" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, agents</text>
+<rect x="36" y="542" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="558" r="5" fill="#16803A"/>
+<text x="62" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LibreChat</text>
+<text x="62" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, agents</text>
+<rect x="36" y="714" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#9A3412" stroke-width="2"/>
+<circle cx="50" cy="730" r="5" fill="#9A3412"/>
+<text x="62" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Open WebUI</text>
+<text x="62" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, rag</text>
+<rect x="36" y="112" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="128" r="5" fill="#16803A"/>
+<text x="62" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">AnythingLLM</text>
+<text x="62" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, rag</text>
+<rect x="36" y="370" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="386" r="5" fill="#16803A"/>
+<text x="62" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GPT4All</text>
+<text x="62" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, local-inference</text>
+<rect x="36" y="284" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="300" r="5" fill="#16803A"/>
+<text x="62" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Continue</text>
+<text x="62" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding, developer-assistant</text>
+<rect x="36" y="198" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="214" r="5" fill="#16803A"/>
+<text x="62" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">ComfyUI</text>
+<text x="62" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation, workflow-auto</text>
+<rect x="36" y="886" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="902" r="5" fill="#16803A"/>
+<text x="62" y="904" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Stable Diffusion web UI</text>
+<text x="62" y="936" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation, image-editing</text>
+<rect x="36" y="800" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#7A5C00" stroke-width="2"/>
+<circle cx="50" cy="816" r="5" fill="#7A5C00"/>
+<text x="62" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenHands</text>
+<text x="62" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding, software-agents</text>
+<rect x="36" y="456" width="190" height="58" rx="7" fill="#D8F0E4" stroke="#16803A" stroke-width="2"/>
+<circle cx="50" cy="472" r="5" fill="#16803A"/>
+<text x="62" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Jan</text>
+<text x="62" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, local-inference</text>
+<rect x="260" y="3208" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3224" r="5" fill="#B06900"/>
+<text x="286" y="3226" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Qwen2.5-7B-Instruct</text>
+<text x="286" y="3258" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, instruction-following</text>
+<rect x="260" y="3294" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3310" r="5" fill="#B06900"/>
+<text x="286" y="3312" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Qwen2.5-Coder-7B-Instruct</text>
+<text x="286" y="3344" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding, agentic-coding</text>
+<rect x="260" y="2262" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2278" r="5" fill="#B06900"/>
+<text x="286" y="2280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Mistral-7B-Instruct-v0.3</text>
+<text x="286" y="2312" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, instruction-following</text>
+<rect x="260" y="3810" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3826" r="5" fill="#B06900"/>
+<text x="286" y="3828" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Stable Diffusion XL Base</text>
+<text x="286" y="3842" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">1.0</text>
+<text x="286" y="3860" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation, image-editing</text>
+<rect x="260" y="4068" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="4084" r="5" fill="#B06900"/>
+<text x="286" y="4086" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Whisper large-v3</text>
+<text x="286" y="4118" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition, speech-tran</text>
+<rect x="260" y="2692" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2708" r="5" fill="#B06900"/>
+<text x="286" y="2710" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Nomic Embed Text v1.5</text>
+<text x="286" y="2742" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings, rag</text>
+<rect x="260" y="1574" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1590" r="5" fill="#B06900"/>
+<text x="286" y="1592" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GPT-J-6B</text>
+<text x="286" y="1624" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, text-generation</text>
+<rect x="260" y="3896" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3912" r="5" fill="#B06900"/>
+<text x="286" y="3914" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">StarCoder2-3B</text>
+<text x="286" y="3946" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding, code-completion</text>
+<rect x="260" y="2090" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2106" r="5" fill="#B06900"/>
+<text x="286" y="2108" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Llama 3.1 8B Instruct</text>
+<text x="286" y="2140" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="2348" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2364" r="5" fill="#B06900"/>
+<text x="286" y="2366" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Mixtral-8x7B-Instruct-v0.1</text>
+<text x="286" y="2398" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="2950" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2966" r="5" fill="#B06900"/>
+<text x="286" y="2968" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Phi-3-mini-4k-instruct</text>
+<text x="286" y="3000" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="886" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="902" r="5" fill="#B06900"/>
+<text x="286" y="904" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">DeepSeek-R1-Distill-Qwen-7B</text>
+<text x="286" y="936" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, reasoning</text>
+<rect x="260" y="1488" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1504" r="5" fill="#B06900"/>
+<text x="286" y="1506" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Gemma 2 9B IT</text>
+<text x="286" y="1538" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="1230" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1246" r="5" fill="#B06900"/>
+<text x="286" y="1248" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Falcon-7B-Instruct</text>
+<text x="286" y="1280" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="2778" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2794" r="5" fill="#B06900"/>
+<text x="286" y="2796" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OLMo-2-1124-7B-Instruct</text>
+<text x="286" y="2828" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat</text>
+<rect x="260" y="628" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="644" r="5" fill="#B06900"/>
+<text x="286" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">CodeGen 350M Mono</text>
+<text x="286" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="800" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="816" r="5" fill="#B06900"/>
+<text x="286" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">DeepSeek Coder 6.7B</text>
+<text x="286" y="832" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">Instruct</text>
+<text x="286" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="714" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="730" r="5" fill="#B06900"/>
+<text x="286" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">CodeLlama 7B Instruct</text>
+<text x="286" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="1660" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1676" r="5" fill="#B06900"/>
+<text x="286" y="1678" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Granite 8B Code Instruct</text>
+<text x="286" y="1710" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="542" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="558" r="5" fill="#B06900"/>
+<text x="286" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">CodeGemma 7B IT</text>
+<text x="286" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="3380" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3396" r="5" fill="#B06900"/>
+<text x="286" y="3398" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SantaCoder</text>
+<text x="286" y="3430" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="2176" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2192" r="5" fill="#B06900"/>
+<text x="286" y="2194" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Magicoder-S-DS-6.7B</text>
+<text x="286" y="2226" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding</text>
+<rect x="260" y="3724" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3740" r="5" fill="#B06900"/>
+<text x="286" y="3742" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Stable Diffusion v1.5</text>
+<text x="286" y="3774" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="1316" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1332" r="5" fill="#B06900"/>
+<text x="286" y="1334" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">FLUX.1-dev</text>
+<text x="286" y="1366" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="1402" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1418" r="5" fill="#B06900"/>
+<text x="286" y="1420" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">FLUX.1-schnell</text>
+<text x="286" y="1452" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="3122" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3138" r="5" fill="#B06900"/>
+<text x="286" y="3140" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Playground v2.5</text>
+<text x="286" y="3172" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="1058" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1074" r="5" fill="#B06900"/>
+<text x="286" y="1076" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">DreamShaper 8</text>
+<text x="286" y="1108" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="3638" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3654" r="5" fill="#B06900"/>
+<text x="286" y="3656" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Stable Diffusion 3.5 Large</text>
+<text x="286" y="3688" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="3036" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3052" r="5" fill="#B06900"/>
+<text x="286" y="3054" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">PixArt-XL-2-1024-MS</text>
+<text x="286" y="3086" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="2004" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2020" r="5" fill="#B06900"/>
+<text x="286" y="2022" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Kandinsky 2.2 Decoder</text>
+<text x="286" y="2054" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="1832" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1848" r="5" fill="#B06900"/>
+<text x="286" y="1850" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">HunyuanDiT v1.2</text>
+<text x="286" y="1882" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="260" y="112" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="128" r="5" fill="#B06900"/>
+<text x="286" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">all-MiniLM-L6-v2</text>
+<text x="286" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="370" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="386" r="5" fill="#B06900"/>
+<text x="286" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BGE Large EN v1.5</text>
+<text x="286" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="284" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="300" r="5" fill="#B06900"/>
+<text x="286" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BGE Base EN v1.5</text>
+<text x="286" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="2434" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2450" r="5" fill="#B06900"/>
+<text x="286" y="2452" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Multilingual E5 Large</text>
+<text x="286" y="2484" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="2606" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2622" r="5" fill="#B06900"/>
+<text x="286" y="2624" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">mxbai-embed-large-v1</text>
+<text x="286" y="2656" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="1918" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1934" r="5" fill="#B06900"/>
+<text x="286" y="1936" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Jina Embeddings v3</text>
+<text x="286" y="1968" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="1144" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1160" r="5" fill="#B06900"/>
+<text x="286" y="1162" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">E5 Large v2</text>
+<text x="286" y="1194" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="456" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="472" r="5" fill="#B06900"/>
+<text x="286" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BGE Reranker Large</text>
+<text x="286" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">reranking</text>
+<rect x="260" y="1746" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="1762" r="5" fill="#B06900"/>
+<text x="286" y="1764" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GTE Large EN v1.5</text>
+<text x="286" y="1796" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings</text>
+<rect x="260" y="4240" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="4256" r="5" fill="#B06900"/>
+<text x="286" y="4258" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">XTTS-v2</text>
+<text x="286" y="4290" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">text-to-speech</text>
+<rect x="260" y="4154" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="4170" r="5" fill="#B06900"/>
+<text x="286" y="4172" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Whisper small</text>
+<text x="286" y="4204" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="260" y="3982" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3998" r="5" fill="#B06900"/>
+<text x="286" y="4000" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">wav2vec2-base-960h</text>
+<text x="286" y="4032" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="260" y="972" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="988" r="5" fill="#B06900"/>
+<text x="286" y="990" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Distil-Whisper large-v3</text>
+<text x="286" y="1022" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="260" y="3466" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3482" r="5" fill="#B06900"/>
+<text x="286" y="3484" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SeamlessM4T v2 Large</text>
+<text x="286" y="3516" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-translation</text>
+<rect x="260" y="2864" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2880" r="5" fill="#B06900"/>
+<text x="286" y="2882" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Parakeet TDT 0.6B v2</text>
+<text x="286" y="2914" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="260" y="2520" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="2536" r="5" fill="#B06900"/>
+<text x="286" y="2538" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">MusicGen Small</text>
+<text x="286" y="2570" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">text-to-audio</text>
+<rect x="260" y="3552" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="3568" r="5" fill="#B06900"/>
+<text x="286" y="3570" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SpeechT5 TTS</text>
+<text x="286" y="3602" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">text-to-speech</text>
+<rect x="260" y="198" width="190" height="58" rx="7" fill="#E7DDF7" stroke="#B06900" stroke-width="2"/>
+<circle cx="274" cy="214" r="5" fill="#B06900"/>
+<text x="286" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Bark Small</text>
+<text x="286" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">text-to-speech</text>
+<rect x="708" y="628" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#9A3412" stroke-width="2"/>
+<circle cx="722" cy="644" r="5" fill="#9A3412"/>
+<text x="734" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">The Pile</text>
+<text x="734" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">language-model-training</text>
+<rect x="708" y="714" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#9A3412" stroke-width="2"/>
+<circle cx="722" cy="730" r="5" fill="#9A3412"/>
+<text x="734" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">The Stack v2</text>
+<text x="734" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">code-model-training</text>
+<rect x="708" y="112" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#9A3412" stroke-width="2"/>
+<circle cx="722" cy="128" r="5" fill="#9A3412"/>
+<text x="734" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LAION-5B family</text>
+<text x="734" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation-training</text>
+<rect x="708" y="198" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#9A3412" stroke-width="2"/>
+<circle cx="722" cy="214" r="5" fill="#9A3412"/>
+<text x="734" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LibriSpeech</text>
+<text x="734" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="708" y="456" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#667085" stroke-width="2"/>
+<circle cx="722" cy="472" r="5" fill="#667085"/>
+<text x="734" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Qwen2.5 training corpus</text>
+<text x="734" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">language-model-training, code-m</text>
+<rect x="708" y="284" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#667085" stroke-width="2"/>
+<circle cx="722" cy="300" r="5" fill="#667085"/>
+<text x="734" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Mistral 7B training corpus</text>
+<text x="734" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">language-model-training</text>
+<rect x="708" y="800" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#667085" stroke-width="2"/>
+<circle cx="722" cy="816" r="5" fill="#667085"/>
+<text x="734" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Whisper weakly supervised</text>
+<text x="734" y="832" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">web audio</text>
+<text x="734" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition-training, sp</text>
+<rect x="708" y="370" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#667085" stroke-width="2"/>
+<circle cx="722" cy="386" r="5" fill="#667085"/>
+<text x="734" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Nomic Embed training data</text>
+<text x="734" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embedding-training</text>
+<rect x="708" y="542" width="190" height="58" rx="7" fill="#F6E5CB" stroke="#9A3412" stroke-width="2"/>
+<circle cx="722" cy="558" r="5" fill="#9A3412"/>
+<text x="734" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SWE-bench task instances</text>
+<text x="734" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">agentic-coding-evaluation</text>
+<rect x="484" y="1832" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1848" r="5" fill="#16803A"/>
+<text x="510" y="1850" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Ollama</text>
+<text x="510" y="1882" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">local-inference, model-serving</text>
+<rect x="484" y="1316" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1332" r="5" fill="#16803A"/>
+<text x="510" y="1334" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">llama.cpp</text>
+<text x="510" y="1366" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">local-inference, model-serving</text>
+<rect x="484" y="2434" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2450" r="5" fill="#16803A"/>
+<text x="510" y="2452" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">PyTorch</text>
+<text x="510" y="2484" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">training, inference</text>
+<rect x="484" y="3036" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3052" r="5" fill="#16803A"/>
+<text x="510" y="3054" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Transformers</text>
+<text x="510" y="3086" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">training, inference</text>
+<rect x="484" y="456" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="472" r="5" fill="#16803A"/>
+<text x="510" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Diffusers</text>
+<text x="510" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation, model-loading</text>
+<rect x="484" y="3380" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3396" r="5" fill="#16803A"/>
+<text x="510" y="3398" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">vLLM</text>
+<text x="510" y="3430" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-serving, inference</text>
+<rect x="484" y="1230" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#7A5C00" stroke-width="2"/>
+<circle cx="498" cy="1246" r="5" fill="#7A5C00"/>
+<text x="510" y="1248" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LiteLLM</text>
+<text x="510" y="1280" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-routing, api-proxy</text>
+<rect x="484" y="628" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="644" r="5" fill="#16803A"/>
+<text x="510" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Gradio</text>
+<text x="510" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">app-framework, model-demo</text>
+<rect x="484" y="2004" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#B42318" stroke-width="2"/>
+<circle cx="498" cy="2020" r="5" fill="#B42318"/>
+<text x="510" y="2022" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenAI-compatible API</text>
+<text x="510" y="2054" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">api-compatibility, model-servin</text>
+<rect x="484" y="1574" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1590" r="5" fill="#16803A"/>
+<text x="510" y="1592" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LocalAI</text>
+<text x="510" y="1624" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">local-inference</text>
+<rect x="484" y="2778" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2794" r="5" fill="#16803A"/>
+<text x="510" y="2796" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Ray</text>
+<text x="510" y="2828" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">distributed-inference</text>
+<rect x="484" y="2864" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2880" r="5" fill="#16803A"/>
+<text x="510" y="2882" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SGLang</text>
+<text x="510" y="2914" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-serving</text>
+<rect x="484" y="2950" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2966" r="5" fill="#16803A"/>
+<text x="510" y="2968" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Text Generation Inference</text>
+<text x="510" y="3000" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-serving</text>
+<rect x="484" y="3122" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3138" r="5" fill="#16803A"/>
+<text x="510" y="3140" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Triton Inference Server</text>
+<text x="510" y="3172" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-serving</text>
+<rect x="484" y="886" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="902" r="5" fill="#16803A"/>
+<text x="510" y="904" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">KServe</text>
+<text x="510" y="936" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-serving</text>
+<rect x="484" y="3294" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3310" r="5" fill="#16803A"/>
+<text x="510" y="3312" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Unsloth</text>
+<text x="510" y="3344" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">fine-tuning</text>
+<rect x="484" y="370" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="386" r="5" fill="#16803A"/>
+<text x="510" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">DeepSpeed</text>
+<text x="510" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">training</text>
+<rect x="484" y="2520" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2536" r="5" fill="#16803A"/>
+<text x="510" y="2538" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">PyTorch Lightning</text>
+<text x="510" y="2570" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">training</text>
+<rect x="484" y="2176" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2192" r="5" fill="#16803A"/>
+<text x="510" y="2194" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">PEFT</text>
+<text x="510" y="2226" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">fine-tuning</text>
+<rect x="484" y="3208" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3224" r="5" fill="#16803A"/>
+<text x="510" y="3226" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">TRL</text>
+<text x="510" y="3258" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">fine-tuning</text>
+<rect x="484" y="1660" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#667085" stroke-width="2"/>
+<circle cx="498" cy="1676" r="5" fill="#667085"/>
+<text x="510" y="1678" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Megatron-LM</text>
+<text x="510" y="1710" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">training</text>
+<rect x="484" y="112" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="128" r="5" fill="#16803A"/>
+<text x="510" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Axolotl</text>
+<text x="510" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">fine-tuning</text>
+<rect x="484" y="1058" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1074" r="5" fill="#16803A"/>
+<text x="510" y="1076" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LangChain</text>
+<text x="510" y="1108" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">rag, agents</text>
+<rect x="484" y="1402" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1418" r="5" fill="#16803A"/>
+<text x="510" y="1420" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LlamaIndex</text>
+<text x="510" y="1452" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">rag</text>
+<rect x="484" y="1746" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1762" r="5" fill="#16803A"/>
+<text x="510" y="1764" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Milvus</text>
+<text x="510" y="1796" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="542" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="558" r="5" fill="#16803A"/>
+<text x="510" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">FAISS</text>
+<text x="510" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="2606" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2622" r="5" fill="#16803A"/>
+<text x="510" y="2624" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Qdrant</text>
+<text x="510" y="2656" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="198" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="214" r="5" fill="#16803A"/>
+<text x="510" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Chroma</text>
+<text x="510" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="714" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="730" r="5" fill="#16803A"/>
+<text x="510" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Haystack</text>
+<text x="510" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">rag</text>
+<rect x="484" y="2262" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2278" r="5" fill="#16803A"/>
+<text x="510" y="2280" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">pgvector</text>
+<text x="510" y="2312" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="3466" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="3482" r="5" fill="#16803A"/>
+<text x="510" y="3484" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Weaviate</text>
+<text x="510" y="3516" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="972" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="988" r="5" fill="#16803A"/>
+<text x="510" y="990" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LanceDB</text>
+<text x="510" y="1022" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">vector-search</text>
+<rect x="484" y="1918" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1934" r="5" fill="#16803A"/>
+<text x="510" y="1936" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenAI Evals</text>
+<text x="510" y="1968" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="284" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="300" r="5" fill="#16803A"/>
+<text x="510" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">DeepEval</text>
+<text x="510" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="2692" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2708" r="5" fill="#16803A"/>
+<text x="510" y="2710" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Ragas</text>
+<text x="510" y="2742" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation, rag</text>
+<rect x="484" y="1488" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1504" r="5" fill="#16803A"/>
+<text x="510" y="1506" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LM Evaluation Harness</text>
+<text x="510" y="1538" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="2348" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2364" r="5" fill="#16803A"/>
+<text x="510" y="2366" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Prompt flow</text>
+<text x="510" y="2398" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="2090" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="2106" r="5" fill="#16803A"/>
+<text x="510" y="2108" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenCompass</text>
+<text x="510" y="2140" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="800" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="816" r="5" fill="#16803A"/>
+<text x="510" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">HELM</text>
+<text x="510" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="484" y="1144" width="190" height="58" rx="7" fill="#D7E8FA" stroke="#16803A" stroke-width="2"/>
+<circle cx="498" cy="1160" r="5" fill="#16803A"/>
+<text x="510" y="1162" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Lighteval</text>
+<text x="510" y="1194" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">evaluation</text>
+<rect x="932" y="370" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#9A3412" stroke-width="2"/>
+<circle cx="946" cy="386" r="5" fill="#9A3412"/>
+<text x="958" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">MMLU</text>
+<text x="958" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">chat, language-understanding</text>
+<rect x="932" y="112" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#16803A" stroke-width="2"/>
+<circle cx="946" cy="128" r="5" fill="#16803A"/>
+<text x="958" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">HumanEval</text>
+<text x="958" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">coding, code-generation</text>
+<rect x="932" y="456" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#16803A" stroke-width="2"/>
+<circle cx="946" cy="472" r="5" fill="#16803A"/>
+<text x="958" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">MTEB</text>
+<text x="958" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">embeddings, semantic-search</text>
+<rect x="932" y="284" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#9A3412" stroke-width="2"/>
+<circle cx="946" cy="300" r="5" fill="#9A3412"/>
+<text x="958" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LibriSpeech ASR</text>
+<text x="958" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">speech-recognition</text>
+<rect x="932" y="628" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#667085" stroke-width="2"/>
+<circle cx="946" cy="644" r="5" fill="#667085"/>
+<text x="958" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Text-to-image quality</text>
+<text x="958" y="660" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">benchmark</text>
+<text x="958" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">image-generation</text>
+<rect x="932" y="542" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#9A3412" stroke-width="2"/>
+<circle cx="946" cy="558" r="5" fill="#9A3412"/>
+<text x="958" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">SWE-bench</text>
+<text x="958" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">agentic-coding, software-agents</text>
+<rect x="932" y="198" width="190" height="58" rx="7" fill="#F8D5DF" stroke="#9A3412" stroke-width="2"/>
+<circle cx="946" cy="214" r="5" fill="#9A3412"/>
+<text x="958" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LAMBADA</text>
+<text x="958" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">text-generation</text>
+<rect x="1156" y="1230" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1246" r="5" fill="#667085"/>
+<text x="1182" y="1248" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Ollama</text>
+<text x="1182" y="1280" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="628" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="644" r="5" fill="#667085"/>
+<text x="1182" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">ggml-org</text>
+<text x="1182" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1316" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1332" r="5" fill="#667085"/>
+<text x="1182" y="1334" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Open WebUI</text>
+<text x="1182" y="1366" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="972" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="988" r="5" fill="#667085"/>
+<text x="1182" y="990" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Mintplex Labs</text>
+<text x="1182" y="1022" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1144" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1160" r="5" fill="#667085"/>
+<text x="1182" y="1162" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Nomic AI</text>
+<text x="1182" y="1194" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="456" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="472" r="5" fill="#667085"/>
+<text x="1182" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Continue</text>
+<text x="1182" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="370" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="386" r="5" fill="#667085"/>
+<text x="1182" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Comfy Org</text>
+<text x="1182" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="198" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="214" r="5" fill="#667085"/>
+<text x="1182" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">AUTOMATIC1111</text>
+<text x="1182" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1488" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1504" r="5" fill="#667085"/>
+<text x="1182" y="1506" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenHands</text>
+<text x="1182" y="1538" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="886" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="902" r="5" fill="#667085"/>
+<text x="1182" y="904" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Menlo Research</text>
+<text x="1182" y="936" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="112" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="128" r="5" fill="#667085"/>
+<text x="1182" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Alibaba Qwen</text>
+<text x="1182" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1058" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1074" r="5" fill="#667085"/>
+<text x="1182" y="1076" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Mistral AI</text>
+<text x="1182" y="1108" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1660" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1676" r="5" fill="#667085"/>
+<text x="1182" y="1678" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Stability AI</text>
+<text x="1182" y="1710" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1402" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1418" r="5" fill="#667085"/>
+<text x="1182" y="1420" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenAI</text>
+<text x="1182" y="1452" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="542" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="558" r="5" fill="#667085"/>
+<text x="1182" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">EleutherAI</text>
+<text x="1182" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="284" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="300" r="5" fill="#667085"/>
+<text x="1182" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BigCode</text>
+<text x="1182" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="714" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="730" r="5" fill="#667085"/>
+<text x="1182" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Hugging Face</text>
+<text x="1182" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="800" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="816" r="5" fill="#667085"/>
+<text x="1182" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">LAION</text>
+<text x="1182" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1156" y="1574" width="190" height="58" rx="7" fill="#E2E5EA" stroke="#667085" stroke-width="2"/>
+<circle cx="1170" cy="1590" r="5" fill="#667085"/>
+<text x="1182" y="1592" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">PyTorch Foundation</text>
+<text x="1182" y="1624" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1604" y="112" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#16803A" stroke-width="2"/>
+<circle cx="1618" cy="128" r="5" fill="#16803A"/>
+<text x="1630" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Apache License 2.0</text>
+<text x="1630" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_source</text>
+<rect x="1604" y="628" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#16803A" stroke-width="2"/>
+<circle cx="1618" cy="644" r="5" fill="#16803A"/>
+<text x="1630" y="646" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">MIT License</text>
+<text x="1630" y="678" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_source</text>
+<rect x="1604" y="542" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#16803A" stroke-width="2"/>
+<circle cx="1618" cy="558" r="5" fill="#16803A"/>
+<text x="1630" y="560" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GNU General Public License</text>
+<text x="1630" y="574" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">v3.0</text>
+<text x="1630" y="592" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_source</text>
+<rect x="1604" y="456" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#16803A" stroke-width="2"/>
+<circle cx="1618" cy="472" r="5" fill="#16803A"/>
+<text x="1630" y="474" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GNU Affero General Public</text>
+<text x="1630" y="488" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">License v3.0</text>
+<text x="1630" y="506" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_source</text>
+<rect x="1604" y="284" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#16803A" stroke-width="2"/>
+<circle cx="1618" cy="300" r="5" fill="#16803A"/>
+<text x="1630" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BSD 3-Clause License</text>
+<text x="1630" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_source</text>
+<rect x="1604" y="370" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#9A3412" stroke-width="2"/>
+<circle cx="1618" cy="386" r="5" fill="#9A3412"/>
+<text x="1630" y="388" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Creative Commons</text>
+<text x="1630" y="402" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">Attribution 4.0</text>
+<text x="1630" y="420" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">source_available</text>
+<rect x="1604" y="886" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#B06900" stroke-width="2"/>
+<circle cx="1618" cy="902" r="5" fill="#B06900"/>
+<text x="1630" y="904" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">OpenRAIL++</text>
+<text x="1630" y="936" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_weights</text>
+<rect x="1604" y="198" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#B06900" stroke-width="2"/>
+<circle cx="1618" cy="214" r="5" fill="#B06900"/>
+<text x="1630" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">BigCode OpenRAIL-M</text>
+<text x="1630" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_weights</text>
+<rect x="1604" y="800" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#9A3412" stroke-width="2"/>
+<circle cx="1618" cy="816" r="5" fill="#9A3412"/>
+<text x="1630" y="818" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Open WebUI custom license</text>
+<text x="1630" y="850" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">source_available</text>
+<rect x="1604" y="714" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#7A5C00" stroke-width="2"/>
+<circle cx="1618" cy="730" r="5" fill="#7A5C00"/>
+<text x="1630" y="732" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">MIT plus</text>
+<text x="1630" y="746" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">enterprise-restricted</text>
+<text x="1630" y="760" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="500" fill="#101828">directories</text>
+<text x="1630" y="764" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">open_core</text>
+<rect x="1604" y="972" width="190" height="58" rx="7" fill="#F0E6B2" stroke="#667085" stroke-width="2"/>
+<circle cx="1618" cy="988" r="5" fill="#667085"/>
+<text x="1630" y="990" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Other or composite license</text>
+<text x="1630" y="1022" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">unknown</text>
+<rect x="1380" y="284" width="190" height="58" rx="7" fill="#D7ECEB" stroke="#7A5C00" stroke-width="2"/>
+<circle cx="1394" cy="300" r="5" fill="#7A5C00"/>
+<text x="1406" y="302" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Hugging Face Hub</text>
+<text x="1406" y="334" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">model-hosting, dataset-hosting</text>
+<rect x="1380" y="198" width="190" height="58" rx="7" fill="#D7ECEB" stroke="#B42318" stroke-width="2"/>
+<circle cx="1394" cy="214" r="5" fill="#B42318"/>
+<text x="1406" y="216" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">GitHub</text>
+<text x="1406" y="248" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">source-hosting, issue-tracking</text>
+<rect x="1380" y="112" width="190" height="58" rx="7" fill="#D7ECEB" stroke="#667085" stroke-width="2"/>
+<circle cx="1394" cy="128" r="5" fill="#667085"/>
+<text x="1406" y="130" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#101828">Consumer device</text>
+<text x="1406" y="162" font-family="Inter, Arial, sans-serif" font-size="10" fill="#475467">local-inference</text>
+<circle cx="36" cy="4388" r="6" fill="#16803A"/>
+<text x="48" y="4392" font-family="Inter, Arial, sans-serif" font-size="11" fill="#344054">open source</text>
+<circle cx="206" cy="4388" r="6" fill="#7A5C00"/>
+<text x="218" y="4392" font-family="Inter, Arial, sans-serif" font-size="11" fill="#344054">open core</text>
+<circle cx="376" cy="4388" r="6" fill="#B06900"/>
+<text x="388" y="4392" font-family="Inter, Arial, sans-serif" font-size="11" fill="#344054">open weights</text>
+<circle cx="546" cy="4388" r="6" fill="#9A3412"/>
+<text x="558" y="4392" font-family="Inter, Arial, sans-serif" font-size="11" fill="#344054">source available</text>
+<circle cx="716" cy="4388" r="6" fill="#667085"/>
+<text x="728" y="4392" font-family="Inter, Arial, sans-serif" font-size="11" fill="#344054">unknown</text>
+</svg>

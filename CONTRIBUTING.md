@@ -1,6 +1,6 @@
 # Contributing
 
-Add graph facts as small JSON changes and run validation before submitting.
+Add AI supply-chain graph facts as small JSON changes and run validation before submitting.
 
 ## IDs
 
