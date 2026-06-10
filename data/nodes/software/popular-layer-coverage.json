@@ -28,8 +28,9 @@
         "type": "github_repo",
         "title": "LocalAI GitHub repository",
         "url": "https://github.com/mudler/LocalAI",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -140,8 +141,9 @@
         "type": "github_repo",
         "title": "Ray GitHub repository",
         "url": "https://github.com/ray-project/ray",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -252,8 +254,9 @@
         "type": "github_repo",
         "title": "SGLang GitHub repository",
         "url": "https://github.com/sgl-project/sglang",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -364,8 +367,9 @@
         "type": "github_repo",
         "title": "Text Generation Inference GitHub repository",
         "url": "https://github.com/huggingface/text-generation-inference",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -476,8 +480,9 @@
         "type": "github_repo",
         "title": "Triton Inference Server GitHub repository",
         "url": "https://github.com/triton-inference-server/server",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -588,8 +593,9 @@
         "type": "github_repo",
         "title": "KServe GitHub repository",
         "url": "https://github.com/kserve/kserve",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -700,8 +706,9 @@
         "type": "github_repo",
         "title": "Unsloth GitHub repository",
         "url": "https://github.com/unslothai/unsloth",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -812,8 +819,9 @@
         "type": "github_repo",
         "title": "DeepSpeed GitHub repository",
         "url": "https://github.com/deepspeedai/DeepSpeed",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -924,8 +932,9 @@
         "type": "github_repo",
         "title": "PyTorch Lightning GitHub repository",
         "url": "https://github.com/Lightning-AI/pytorch-lightning",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1036,8 +1045,9 @@
         "type": "github_repo",
         "title": "PEFT GitHub repository",
         "url": "https://github.com/huggingface/peft",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1148,8 +1158,9 @@
         "type": "github_repo",
         "title": "TRL GitHub repository",
         "url": "https://github.com/huggingface/trl",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1260,8 +1271,9 @@
         "type": "github_repo",
         "title": "Megatron-LM GitHub repository",
         "url": "https://github.com/NVIDIA/Megatron-LM",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1372,8 +1384,9 @@
         "type": "github_repo",
         "title": "Axolotl GitHub repository",
         "url": "https://github.com/axolotl-ai-cloud/axolotl",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1485,8 +1498,9 @@
         "type": "github_repo",
         "title": "LangChain GitHub repository",
         "url": "https://github.com/langchain-ai/langchain",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1597,8 +1611,9 @@
         "type": "github_repo",
         "title": "LlamaIndex GitHub repository",
         "url": "https://github.com/run-llama/llama_index",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1709,8 +1724,9 @@
         "type": "github_repo",
         "title": "Milvus GitHub repository",
         "url": "https://github.com/milvus-io/milvus",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1821,8 +1837,9 @@
         "type": "github_repo",
         "title": "FAISS GitHub repository",
         "url": "https://github.com/facebookresearch/faiss",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -1933,8 +1950,9 @@
         "type": "github_repo",
         "title": "Qdrant GitHub repository",
         "url": "https://github.com/qdrant/qdrant",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2045,8 +2063,9 @@
         "type": "github_repo",
         "title": "Chroma GitHub repository",
         "url": "https://github.com/chroma-core/chroma",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2157,8 +2176,9 @@
         "type": "github_repo",
         "title": "Haystack GitHub repository",
         "url": "https://github.com/deepset-ai/haystack",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2269,8 +2289,9 @@
         "type": "github_repo",
         "title": "pgvector GitHub repository",
         "url": "https://github.com/pgvector/pgvector",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2381,8 +2402,9 @@
         "type": "github_repo",
         "title": "Weaviate GitHub repository",
         "url": "https://github.com/weaviate/weaviate",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2493,8 +2515,9 @@
         "type": "github_repo",
         "title": "LanceDB GitHub repository",
         "url": "https://github.com/lancedb/lancedb",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2577,6 +2600,1238 @@
     }
   },
   {
+    "id": "software:kubernetes",
+    "kind": "software",
+    "name": "Kubernetes",
+    "description": "Container orchestration platform used to isolate and schedule AI services and agent workspaces.",
+    "canonicalUrl": "https://github.com/kubernetes/kubernetes",
+    "repositoryUrl": "https://github.com/kubernetes/kubernetes",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:kubernetes/kubernetes"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "container-orchestration",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:kubernetes/kubernetes",
+        "type": "github_repo",
+        "title": "Kubernetes GitHub repository",
+        "url": "https://github.com/kubernetes/kubernetes",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 122896,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kubernetes/kubernetes"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 43179,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kubernetes/kubernetes"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 2702,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:kubernetes/kubernetes"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:29:45Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kubernetes/kubernetes"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:kubernetes/kubernetes"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 122896
+      },
+      "sandbox": {
+        "isolationType": "orchestrator",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:openhands-runtime",
+    "kind": "software",
+    "name": "OpenHands Runtime",
+    "description": "Containerized runtime and workspace isolation layer used by OpenHands software agents.",
+    "canonicalUrl": "https://github.com/OpenHands/OpenHands",
+    "repositoryUrl": "https://github.com/OpenHands/OpenHands",
+    "license": {
+      "expression": "NOASSERTION",
+      "openness": "open_core",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:openhands/openhands"
+      ]
+    },
+    "openness": "open_core",
+    "tasks": [
+      "software-agents",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:openhands/openhands",
+        "type": "github_repo",
+        "title": "OpenHands Runtime GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 76331,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 9703,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 342,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T22:50:15Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:openhands/openhands"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 76331
+      },
+      "sandbox": {
+        "isolationType": "agent-runtime",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:daytona",
+    "kind": "software",
+    "name": "Daytona",
+    "description": "Development environment manager for secure, repeatable workspaces.",
+    "canonicalUrl": "https://github.com/daytonaio/daytona",
+    "repositoryUrl": "https://github.com/daytonaio/daytona",
+    "license": {
+      "expression": "AGPL-3.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:daytonaio/daytona"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "developer-workspaces",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:daytonaio/daytona",
+        "type": "github_repo",
+        "title": "Daytona GitHub repository",
+        "url": "https://github.com/daytonaio/daytona",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 72445,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:daytonaio/daytona"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 5613,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:daytonaio/daytona"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 437,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:daytonaio/daytona"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T18:21:50Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:daytonaio/daytona"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:daytonaio/daytona"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 72445
+      },
+      "sandbox": {
+        "isolationType": "workspace-manager",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:docker-moby",
+    "kind": "software",
+    "name": "Docker/Moby",
+    "description": "Open container engine used as a baseline isolation layer for local AI services and agents.",
+    "canonicalUrl": "https://github.com/moby/moby",
+    "repositoryUrl": "https://github.com/moby/moby",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:moby/moby"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "containers",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:moby/moby",
+        "type": "github_repo",
+        "title": "Docker/Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 71643,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:moby/moby"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 18958,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:moby/moby"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 3794,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:moby/moby"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T22:11:01Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:moby/moby"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:moby/moby"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 71643
+      },
+      "sandbox": {
+        "isolationType": "container-runtime",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:firecracker",
+    "kind": "software",
+    "name": "Firecracker",
+    "description": "MicroVM runtime for serverless and multi-tenant workload isolation.",
+    "canonicalUrl": "https://github.com/firecracker-microvm/firecracker",
+    "repositoryUrl": "https://github.com/firecracker-microvm/firecracker",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:firecracker-microvm/firecracker"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "microvm",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:firecracker-microvm/firecracker",
+        "type": "github_repo",
+        "title": "Firecracker GitHub repository",
+        "url": "https://github.com/firecracker-microvm/firecracker",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 34843,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:firecracker-microvm/firecracker"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2435,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:firecracker-microvm/firecracker"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 93,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:firecracker-microvm/firecracker"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-08T16:56:18Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:firecracker-microvm/firecracker"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:firecracker-microvm/firecracker"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 34843
+      },
+      "sandbox": {
+        "isolationType": "microvm",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:gvisor",
+    "kind": "software",
+    "name": "gVisor",
+    "description": "Application kernel sandbox for container isolation.",
+    "canonicalUrl": "https://github.com/google/gvisor",
+    "repositoryUrl": "https://github.com/google/gvisor",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:google/gvisor"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "containers",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:google/gvisor",
+        "type": "github_repo",
+        "title": "gVisor GitHub repository",
+        "url": "https://github.com/google/gvisor",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 18496,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:google/gvisor"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1629,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:google/gvisor"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 638,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:google/gvisor"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T23:47:25Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:google/gvisor"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:google/gvisor"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 18496
+      },
+      "sandbox": {
+        "isolationType": "userspace-kernel",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:dagger",
+    "kind": "software",
+    "name": "Dagger",
+    "description": "Programmable containerized workflow engine for repeatable build and agent execution.",
+    "canonicalUrl": "https://github.com/dagger/dagger",
+    "repositoryUrl": "https://github.com/dagger/dagger",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:dagger/dagger"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "containers",
+      "ci",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:dagger/dagger",
+        "type": "github_repo",
+        "title": "Dagger GitHub repository",
+        "url": "https://github.com/dagger/dagger",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 15920,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:dagger/dagger"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 883,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:dagger/dagger"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 114,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:dagger/dagger"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:30:17Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:dagger/dagger"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:dagger/dagger"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 15920
+      },
+      "sandbox": {
+        "isolationType": "workflow-runtime",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:kata-containers",
+    "kind": "software",
+    "name": "Kata Containers",
+    "description": "Lightweight VM-backed container runtime for stronger workload isolation.",
+    "canonicalUrl": "https://github.com/kata-containers/kata-containers",
+    "repositoryUrl": "https://github.com/kata-containers/kata-containers",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:kata-containers/kata-containers"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "containers",
+      "microvm",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:kata-containers/kata-containers",
+        "type": "github_repo",
+        "title": "Kata Containers GitHub repository",
+        "url": "https://github.com/kata-containers/kata-containers",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 8041,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kata-containers/kata-containers"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 1350,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kata-containers/kata-containers"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 1602,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:kata-containers/kata-containers"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-09T22:37:07Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:kata-containers/kata-containers"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:kata-containers/kata-containers"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 8041
+      },
+      "sandbox": {
+        "isolationType": "vm-backed-container",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:dev-containers-spec",
+    "kind": "software",
+    "name": "Dev Containers",
+    "description": "Open specification for reproducible development containers.",
+    "canonicalUrl": "https://github.com/devcontainers/spec",
+    "repositoryUrl": "https://github.com/devcontainers/spec",
+    "license": {
+      "expression": "CC-BY-4.0",
+      "openness": "source_available",
+      "osiApproved": false,
+      "sourceIds": [
+        "github:devcontainers/spec"
+      ]
+    },
+    "openness": "source_available",
+    "tasks": [
+      "developer-workspaces",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:devcontainers/spec",
+        "type": "github_repo",
+        "title": "Dev Containers GitHub repository",
+        "url": "https://github.com/devcontainers/spec",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 5500,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:devcontainers/spec"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 471,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:devcontainers/spec"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 163,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:devcontainers/spec"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-03-20T11:13:13Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:devcontainers/spec"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:devcontainers/spec"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 5500
+      },
+      "sandbox": {
+        "isolationType": "workspace-spec",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
+    "id": "software:e2b-infra",
+    "kind": "software",
+    "name": "E2B Infra",
+    "description": "Open-source infrastructure for cloud sandboxes used by AI agents.",
+    "canonicalUrl": "https://github.com/e2b-dev/infra",
+    "repositoryUrl": "https://github.com/e2b-dev/infra",
+    "license": {
+      "expression": "Apache-2.0",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": [
+        "github:e2b-dev/infra"
+      ]
+    },
+    "openness": "open_source",
+    "tasks": [
+      "cloud-sandbox",
+      "agent-sandboxing"
+    ],
+    "tags": [
+      "agent-sandboxing",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "github:e2b-dev/infra",
+        "type": "github_repo",
+        "title": "E2B Infra GitHub repository",
+        "url": "https://github.com/e2b-dev/infra",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 1157,
+        "unit": "stars",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:e2b-dev/infra"
+        ]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 336,
+        "unit": "forks",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:e2b-dev/infra"
+        ]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 113,
+        "unit": "issues",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": false,
+        "sourceIds": [
+          "github:e2b-dev/infra"
+        ]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "velocity",
+        "name": "Last pushed at",
+        "value": "2026-06-10T00:37:12Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "github:e2b-dev/infra"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "openssf_scorecard",
+        "status": "unknown",
+        "checkedAt": "2026-06-10",
+        "sourceIds": [
+          "github:e2b-dev/infra"
+        ],
+        "notes": "OpenSSF Scorecard evidence has not yet been ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh repository popularity, maintenance, and license metadata through GitHub API."
+    },
+    "metadata": {
+      "layerCoverage": "agent-sandboxing",
+      "costTier": "free_or_self_hosted",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "GitHub stars",
+        "value": 1157
+      },
+      "sandbox": {
+        "isolationType": "cloud-sandbox",
+        "controls": [
+          "filesystem isolation",
+          "process isolation",
+          "network policy configurable"
+        ],
+        "primaryUse": "AI agent and tool execution isolation"
+      }
+    }
+  },
+  {
     "id": "software:openai-evals",
     "kind": "software",
     "name": "OpenAI Evals",
@@ -2605,8 +3860,9 @@
         "type": "github_repo",
         "title": "OpenAI Evals GitHub repository",
         "url": "https://github.com/openai/evals",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2717,8 +3973,9 @@
         "type": "github_repo",
         "title": "DeepEval GitHub repository",
         "url": "https://github.com/confident-ai/deepeval",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2830,8 +4087,9 @@
         "type": "github_repo",
         "title": "Ragas GitHub repository",
         "url": "https://github.com/vibrantlabsai/ragas",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -2942,8 +4200,9 @@
         "type": "github_repo",
         "title": "LM Evaluation Harness GitHub repository",
         "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -3054,8 +4313,9 @@
         "type": "github_repo",
         "title": "Prompt flow GitHub repository",
         "url": "https://github.com/microsoft/promptflow",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -3166,8 +4426,9 @@
         "type": "github_repo",
         "title": "OpenCompass GitHub repository",
         "url": "https://github.com/open-compass/opencompass",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -3278,8 +4539,9 @@
         "type": "github_repo",
         "title": "HELM GitHub repository",
         "url": "https://github.com/stanford-crfm/helm",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -3390,8 +4652,9 @@
         "type": "github_repo",
         "title": "Lighteval GitHub repository",
         "url": "https://github.com/huggingface/lighteval",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }

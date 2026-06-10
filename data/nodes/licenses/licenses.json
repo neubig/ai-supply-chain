@@ -6,7 +6,11 @@
     "description": "Permissive OSI-approved open-source software license.",
     "canonicalUrl": "https://spdx.org/licenses/Apache-2.0.html",
     "openness": "open_source",
-    "tags": ["permissive", "osi-approved", "spdx"],
+    "tags": [
+      "permissive",
+      "osi-approved",
+      "spdx"
+    ],
     "sources": [
       {
         "id": "spdx:apache-2.0",
@@ -14,9 +18,10 @@
         "title": "SPDX Apache-2.0 license entry",
         "url": "https://spdx.org/licenses/Apache-2.0.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -25,9 +30,17 @@
         "category": "openness",
         "name": "OSI approved",
         "value": true,
-        "sourceIds": ["spdx:apache-2.0"]
+        "sourceIds": [
+          "spdx:apache-2.0"
+        ]
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:mit",
@@ -36,7 +49,11 @@
     "description": "Permissive OSI-approved open-source software license.",
     "canonicalUrl": "https://spdx.org/licenses/MIT.html",
     "openness": "open_source",
-    "tags": ["permissive", "osi-approved", "spdx"],
+    "tags": [
+      "permissive",
+      "osi-approved",
+      "spdx"
+    ],
     "sources": [
       {
         "id": "spdx:mit",
@@ -44,9 +61,10 @@
         "title": "SPDX MIT license entry",
         "url": "https://spdx.org/licenses/MIT.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -55,9 +73,17 @@
         "category": "openness",
         "name": "OSI approved",
         "value": true,
-        "sourceIds": ["spdx:mit"]
+        "sourceIds": [
+          "spdx:mit"
+        ]
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:gpl-3.0",
@@ -66,7 +92,11 @@
     "description": "Copyleft OSI-approved open-source software license.",
     "canonicalUrl": "https://spdx.org/licenses/GPL-3.0-only.html",
     "openness": "open_source",
-    "tags": ["copyleft", "osi-approved", "spdx"],
+    "tags": [
+      "copyleft",
+      "osi-approved",
+      "spdx"
+    ],
     "sources": [
       {
         "id": "spdx:gpl-3.0-only",
@@ -74,9 +104,10 @@
         "title": "SPDX GPL-3.0-only license entry",
         "url": "https://spdx.org/licenses/GPL-3.0-only.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -85,9 +116,17 @@
         "category": "openness",
         "name": "OSI approved",
         "value": true,
-        "sourceIds": ["spdx:gpl-3.0-only"]
+        "sourceIds": [
+          "spdx:gpl-3.0-only"
+        ]
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:agpl-3.0",
@@ -96,7 +135,11 @@
     "description": "Network-copyleft OSI-approved open-source software license.",
     "canonicalUrl": "https://spdx.org/licenses/AGPL-3.0-only.html",
     "openness": "open_source",
-    "tags": ["network-copyleft", "osi-approved", "spdx"],
+    "tags": [
+      "network-copyleft",
+      "osi-approved",
+      "spdx"
+    ],
     "sources": [
       {
         "id": "spdx:agpl-3.0-only",
@@ -104,9 +147,10 @@
         "title": "SPDX AGPL-3.0-only license entry",
         "url": "https://spdx.org/licenses/AGPL-3.0-only.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -115,9 +159,17 @@
         "category": "openness",
         "name": "OSI approved",
         "value": true,
-        "sourceIds": ["spdx:agpl-3.0-only"]
+        "sourceIds": [
+          "spdx:agpl-3.0-only"
+        ]
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:bsd-3-clause",
@@ -126,7 +178,11 @@
     "description": "Permissive OSI-approved open-source software license.",
     "canonicalUrl": "https://spdx.org/licenses/BSD-3-Clause.html",
     "openness": "open_source",
-    "tags": ["permissive", "osi-approved", "spdx"],
+    "tags": [
+      "permissive",
+      "osi-approved",
+      "spdx"
+    ],
     "sources": [
       {
         "id": "spdx:bsd-3-clause",
@@ -134,9 +190,10 @@
         "title": "SPDX BSD-3-Clause license entry",
         "url": "https://spdx.org/licenses/BSD-3-Clause.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -145,9 +202,17 @@
         "category": "openness",
         "name": "OSI approved",
         "value": true,
-        "sourceIds": ["spdx:bsd-3-clause"]
+        "sourceIds": [
+          "spdx:bsd-3-clause"
+        ]
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:cc-by-4.0",
@@ -156,7 +221,10 @@
     "description": "Creative Commons attribution license commonly used for datasets and documentation.",
     "canonicalUrl": "https://spdx.org/licenses/CC-BY-4.0.html",
     "openness": "source_available",
-    "tags": ["creative-commons", "dataset"],
+    "tags": [
+      "creative-commons",
+      "dataset"
+    ],
     "sources": [
       {
         "id": "spdx:cc-by-4.0",
@@ -164,11 +232,18 @@
         "title": "SPDX CC-BY-4.0 license entry",
         "url": "https://spdx.org/licenses/CC-BY-4.0.html",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:openrail-plus-plus",
@@ -177,7 +252,10 @@
     "description": "Responsible AI license family used by some open-weight model releases.",
     "canonicalUrl": "https://www.licenses.ai/",
     "openness": "open_weights",
-    "tags": ["model-license", "use-restrictions"],
+    "tags": [
+      "model-license",
+      "use-restrictions"
+    ],
     "sources": [
       {
         "id": "official:licenses-ai",
@@ -185,11 +263,18 @@
         "title": "Responsible AI Licenses",
         "url": "https://www.licenses.ai/",
         "publisher": "Responsible AI Licenses",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:bigcode-openrail-m",
@@ -198,7 +283,10 @@
     "description": "Model license with responsible-use restrictions used by BigCode model releases.",
     "canonicalUrl": "https://huggingface.co/spaces/bigcode/license",
     "openness": "open_weights",
-    "tags": ["model-license", "use-restrictions"],
+    "tags": [
+      "model-license",
+      "use-restrictions"
+    ],
     "sources": [
       {
         "id": "hf:bigcode-license",
@@ -206,11 +294,18 @@
         "title": "BigCode OpenRAIL-M license",
         "url": "https://huggingface.co/spaces/bigcode/license",
         "publisher": "BigCode",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:open-webui",
@@ -219,7 +314,10 @@
     "description": "Custom source-available Open WebUI license with branding restrictions.",
     "canonicalUrl": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
     "openness": "source_available",
-    "tags": ["custom", "branding-restriction"],
+    "tags": [
+      "custom",
+      "branding-restriction"
+    ],
     "sources": [
       {
         "id": "github-license:open-webui/open-webui",
@@ -227,11 +325,18 @@
         "title": "Open WebUI LICENSE",
         "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:open-core-mit-enterprise",
@@ -240,7 +345,10 @@
     "description": "Open-core repository pattern where most source is MIT but enterprise directories carry separate restrictions.",
     "canonicalUrl": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
     "openness": "open_core",
-    "tags": ["open-core", "enterprise-restriction"],
+    "tags": [
+      "open-core",
+      "enterprise-restriction"
+    ],
     "sources": [
       {
         "id": "github-license:openhands/openhands",
@@ -248,11 +356,18 @@
         "title": "OpenHands LICENSE",
         "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "license:other-composite",
@@ -261,7 +376,10 @@
     "description": "Placeholder for datasets or artifacts whose effective license is composite or not captured by one SPDX identifier.",
     "canonicalUrl": "https://spdx.org/licenses/",
     "openness": "unknown",
-    "tags": ["composite", "needs-review"],
+    "tags": [
+      "composite",
+      "needs-review"
+    ],
     "sources": [
       {
         "id": "spdx:license-list",
@@ -269,10 +387,17 @@
         "title": "SPDX License List",
         "url": "https://spdx.org/licenses/",
         "publisher": "SPDX",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   }
 ]

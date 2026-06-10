@@ -30,6 +30,8 @@ The initial risk dimensions are grounded in these primary sources:
 | Maintenance velocity | Stale components can increase vulnerability and ecosystem abandonment risk. | `Metric.category=velocity`, `metric:pushed_at`, `open_issues` |
 | Concentration risk | A stack can be fragile if it depends heavily on one maintainer, host, registry, or vendor. | `developed_by`, `hosted_by`, organization and infrastructure nodes |
 | Cost and operational fit | Local, self-hosted, and hosted components have different cost and deployment tradeoffs. | `Metric.category=cost`, `metadata.costTier`, ranking `costScore` |
+| Hardware fit | Model quality and openness do not matter if the stack cannot run on available accelerators or local devices. | `kind=infrastructure`, `metadata.hardware`, `runs_on`, `requires`, `optimized_for`, `supports_hardware` |
+| Agent execution isolation | Agentic applications can execute code, browse files, or call tools, so sandbox strength affects blast radius and data exposure. | `metadata.sandbox`, `sandboxed_by`, `Metric.name=Isolation strength`, ranking `sandboxScore` |
 
 ## Answerable Questions
 
@@ -43,6 +45,10 @@ The graph and site should make these questions answerable:
 - Where does a stack concentrate around one maintainer, model host, registry, or source host?
 - Which stacks are most exposed to AI-specific supply-chain threats such as model poisoning, dataset poisoning, untrusted model artifacts, or weak evaluation provenance?
 - Which components have SBOM, AI SBOM, SLSA, Scorecard, signature, or vulnerability-scan evidence?
+- Which stacks can run on a given local GPU, Apple Silicon workstation, cloud TPU, Trainium system, NVIDIA datacenter GPU, or AMD accelerator?
+- Which models and applications have explicit hardware requirements versus broad compatibility claims?
+- Which agentic applications have no sandbox edge, and which rely only on baseline containers versus microVM or VM-backed isolation?
+- Which sandboxing alternatives are popular, actively maintained, and connected to the applications or runtimes they protect?
 
 ## Ranking Criteria
 
@@ -55,5 +61,17 @@ The site exposes adjustable criteria instead of one fixed risk score:
 - `velocity`: recency of GitHub activity when available.
 - `provenance`: source confidence and deterministic collection-method coverage.
 - `concentration`: penalty for repeated organization or infrastructure dependencies in one stack.
+- `sandbox`: heuristic isolation-strength score from `sandboxed_by` edge metrics.
 
 Weights are intentionally transparent so different users can tune the table to their deployment constraints.
+
+## Completeness Criteria
+
+`npm run report:completeness` applies graph-level checks that correspond to the issue-tracking plan:
+
+- Application stacks should expose supported models/software, license/developer evidence, and sandbox edges for agentic or coding applications.
+- Models should expose training data, training software, benchmark, host, developer, and license edges when disclosed.
+- Software should be connected to dependencies, implemented interfaces, hardware compatibility, sandboxing, licenses, or incoming users.
+- Datasets and benchmarks should be connected by training, evaluation, or benchmark-data edges.
+- Hardware should be a first-class infrastructure layer with metadata and compatibility/requirement edges.
+- Agent sandboxes should have metadata and links to applications, runtimes, or lower-level isolation systems.

@@ -13,9 +13,10 @@
         "title": "Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -33,9 +34,10 @@
         "title": "Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -53,9 +55,10 @@
         "title": "Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -73,9 +76,10 @@
         "title": "Qwen Hugging Face organization",
         "url": "https://huggingface.co/Qwen",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -93,9 +97,10 @@
         "title": "Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -113,9 +118,10 @@
         "title": "Qwen2.5-7B-Instruct Hugging Face metadata",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -133,9 +139,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -153,9 +160,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -173,9 +181,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -193,9 +202,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -213,9 +223,10 @@
         "title": "Qwen Hugging Face organization",
         "url": "https://huggingface.co/Qwen",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -233,9 +244,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -253,9 +265,10 @@
         "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -273,9 +286,10 @@
         "title": "Mistral-7B-Instruct-v0.3 model card",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -293,9 +307,10 @@
         "title": "Mistral-7B-Instruct-v0.3 model card",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -313,9 +328,10 @@
         "title": "Mistral-7B-Instruct-v0.3 model card",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -333,9 +349,10 @@
         "title": "Mistral AI Hugging Face organization",
         "url": "https://huggingface.co/mistralai",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -353,9 +370,10 @@
         "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -373,9 +391,10 @@
         "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -393,9 +412,10 @@
         "title": "Stable Diffusion XL Base 1.0 model card",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -413,9 +433,10 @@
         "title": "Stable Diffusion XL Base 1.0 model card",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -433,9 +454,10 @@
         "title": "Stable Diffusion XL Base 1.0 model card",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "low"
+        "confidence": "low",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -453,9 +475,10 @@
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -473,9 +496,10 @@
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -493,9 +517,10 @@
         "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -513,9 +538,10 @@
         "title": "OpenAI Whisper repository",
         "url": "https://github.com/openai/whisper",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -533,9 +559,10 @@
         "title": "OpenAI Whisper repository",
         "url": "https://github.com/openai/whisper",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -553,9 +580,10 @@
         "title": "Whisper large-v3 model card",
         "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -573,9 +601,10 @@
         "title": "Whisper large-v3 Hugging Face metadata",
         "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -593,9 +622,10 @@
         "title": "Whisper large-v3 Hugging Face metadata",
         "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -613,9 +643,10 @@
         "title": "Whisper large-v3 Hugging Face metadata",
         "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -633,9 +664,10 @@
         "title": "Nomic Embed Text v1.5 model card",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -653,9 +685,10 @@
         "title": "Nomic Embed Text v1.5 model card",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -673,9 +706,10 @@
         "title": "Nomic Embed Text v1.5 model card",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -693,9 +727,10 @@
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -713,9 +748,10 @@
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -733,9 +769,10 @@
         "title": "Nomic Embed Text v1.5 Hugging Face metadata",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -753,9 +790,10 @@
         "title": "GPT-J-6B model card",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -773,9 +811,10 @@
         "title": "GPT-J-6B model card",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -793,9 +832,10 @@
         "title": "GPT-J-6B model card",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "low"
+        "confidence": "low",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -813,9 +853,10 @@
         "title": "GPT-J-6B Hugging Face metadata",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -833,9 +874,10 @@
         "title": "GPT-J-6B Hugging Face metadata",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -853,9 +895,10 @@
         "title": "GPT-J-6B Hugging Face metadata",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -873,9 +916,10 @@
         "title": "StarCoder2-3B model card",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -893,9 +937,10 @@
         "title": "StarCoder2-3B model card",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -913,9 +958,10 @@
         "title": "StarCoder2-3B model card",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -933,9 +979,10 @@
         "title": "StarCoder2-3B Hugging Face metadata",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -953,9 +1000,10 @@
         "title": "StarCoder2-3B Hugging Face metadata",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -973,9 +1021,10 @@
         "title": "StarCoder2-3B Hugging Face metadata",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   }

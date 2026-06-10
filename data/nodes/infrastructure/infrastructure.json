@@ -6,8 +6,15 @@
     "description": "Model and dataset hosting infrastructure used for model cards, dataset cards, downloads, and metadata.",
     "canonicalUrl": "https://huggingface.co/",
     "openness": "open_core",
-    "tasks": ["model-hosting", "dataset-hosting", "metadata"],
-    "tags": ["hosting", "registry"],
+    "tasks": [
+      "model-hosting",
+      "dataset-hosting",
+      "metadata"
+    ],
+    "tags": [
+      "hosting",
+      "registry"
+    ],
     "sources": [
       {
         "id": "official:hugging-face-hub",
@@ -15,9 +22,10 @@
         "title": "Hugging Face Hub",
         "url": "https://huggingface.co/",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -34,8 +42,15 @@
     "description": "Source hosting, issue tracking, and release infrastructure used by many open-source AI projects.",
     "canonicalUrl": "https://github.com/",
     "openness": "proprietary",
-    "tasks": ["source-hosting", "issue-tracking", "releases"],
-    "tags": ["hosting", "source-control"],
+    "tasks": [
+      "source-hosting",
+      "issue-tracking",
+      "releases"
+    ],
+    "tags": [
+      "hosting",
+      "source-control"
+    ],
     "sources": [
       {
         "id": "official:github",
@@ -43,9 +58,10 @@
         "title": "GitHub",
         "url": "https://github.com/",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -61,8 +77,13 @@
     "name": "Consumer device",
     "description": "End-user desktop or laptop hardware used for local AI inference.",
     "openness": "unknown",
-    "tasks": ["local-inference"],
-    "tags": ["hardware", "local"],
+    "tasks": [
+      "local-inference"
+    ],
+    "tags": [
+      "hardware",
+      "local"
+    ],
     "sources": [
       {
         "id": "manual:consumer-device",
@@ -70,10 +91,10 @@
         "title": "Generic consumer device infrastructure placeholder",
         "url": "https://github.com/neubig",
         "publisher": "AI supply-chain maintainers",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "manual_review",
         "confidence": "medium",
-        "notes": "Placeholder for local hardware constraints until hardware profiles are added."
+        "retrieved_date": "2026-06-09",
+        "note": "Placeholder for local hardware constraints until hardware profiles are added."
       }
     ],
     "updatePolicy": {
@@ -81,6 +102,24 @@
       "cadence": "manual",
       "deterministic": false,
       "instructions": "Replace with explicit CPU/GPU/RAM profiles when ranking hardware-dependent stacks."
+    },
+    "metadata": {
+      "hardware": {
+        "vendor": "various",
+        "acceleratorType": "local-device",
+        "deployment": "consumer-workstation",
+        "memoryGb": "varies",
+        "memoryType": "system, VRAM, or unified memory",
+        "softwareBackends": [
+          "CPU",
+          "CUDA",
+          "Metal",
+          "ROCm"
+        ],
+        "supportsTraining": "limited",
+        "supportsInference": true
+      },
+      "costTier": "local_capex"
     }
   }
 ]

@@ -91,12 +91,13 @@
                       "type": "string",
                       "pattern": "^[a-z0-9][a-z0-9:_./-]*$"
                     },
-                    "default": []
+                    "minItems": 1
                   }
                 },
                 "required": [
                   "expression",
-                  "openness"
+                  "openness",
+                  "sourceIds"
                 ],
                 "additionalProperties": false
               },
@@ -152,13 +153,24 @@
                     "url": {
                       "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/canonicalUrl"
                     },
-                    "publisher": {
+                    "quote": {
                       "type": "string",
                       "minLength": 1
                     },
-                    "retrievedAt": {
+                    "note": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "published_date": {
                       "type": "string",
                       "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "retrieved_date": {
+                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/published_date"
+                    },
+                    "publisher": {
+                      "type": "string",
+                      "minLength": 1
                     },
                     "collectionMethod": {
                       "type": "string",
@@ -182,10 +194,6 @@
                         "low"
                       ],
                       "default": "medium"
-                    },
-                    "notes": {
-                      "type": "string",
-                      "minLength": 1
                     }
                   },
                   "required": [
@@ -193,12 +201,11 @@
                     "type",
                     "title",
                     "url",
-                    "retrievedAt",
                     "collectionMethod"
                   ],
                   "additionalProperties": false
                 },
-                "default": []
+                "minItems": 1
               },
               "metrics": {
                 "type": "array",
@@ -248,7 +255,7 @@
                       "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/id"
                     },
                     "measuredAt": {
-                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/retrievedAt"
+                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/published_date"
                     },
                     "higherIsBetter": {
                       "type": "boolean"
@@ -258,7 +265,7 @@
                       "items": {
                         "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/license/properties/sourceIds/items"
                       },
-                      "default": []
+                      "minItems": 1
                     },
                     "notes": {
                       "type": "string",
@@ -269,7 +276,8 @@
                     "id",
                     "category",
                     "name",
-                    "value"
+                    "value",
+                    "sourceIds"
                   ],
                   "additionalProperties": false
                 },
@@ -314,14 +322,14 @@
                       "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/canonicalUrl"
                     },
                     "checkedAt": {
-                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/retrievedAt"
+                      "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/published_date"
                     },
                     "sourceIds": {
                       "type": "array",
                       "items": {
                         "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/license/properties/sourceIds/items"
                       },
-                      "default": []
+                      "minItems": 1
                     },
                     "notes": {
                       "type": "string",
@@ -330,7 +338,8 @@
                   },
                   "required": [
                     "kind",
-                    "status"
+                    "status",
+                    "sourceIds"
                   ],
                   "additionalProperties": false
                 },
@@ -378,7 +387,9 @@
               "id",
               "kind",
               "name",
-              "description"
+              "description",
+              "sources",
+              "updatePolicy"
             ],
             "additionalProperties": false
           }
@@ -397,6 +408,7 @@
                 "enum": [
                   "supports",
                   "depends_on",
+                  "requires",
                   "trained_on",
                   "trained_with",
                   "evaluated_on",
@@ -405,7 +417,11 @@
                   "licensed_as",
                   "derived_from",
                   "uses_data",
-                  "implements"
+                  "implements",
+                  "runs_on",
+                  "optimized_for",
+                  "supports_hardware",
+                  "sandboxed_by"
                 ]
               },
               "source": {
@@ -423,17 +439,17 @@
                 "default": "medium"
               },
               "validFrom": {
-                "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/retrievedAt"
+                "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/published_date"
               },
               "validUntil": {
-                "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/retrievedAt"
+                "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items/properties/published_date"
               },
               "sources": {
                 "type": "array",
                 "items": {
                   "$ref": "#/definitions/SupplyChainGraph/properties/nodes/items/properties/sources/items"
                 },
-                "default": []
+                "minItems": 1
               },
               "metrics": {
                 "type": "array",
@@ -453,7 +469,8 @@
               "kind",
               "source",
               "target",
-              "description"
+              "description",
+              "sources"
             ],
             "additionalProperties": false
           }

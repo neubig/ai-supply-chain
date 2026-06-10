@@ -1,0 +1,542 @@
+[
+  {
+    "id": "edge:gpt4all-runs-on-consumer-device",
+    "kind": "runs_on",
+    "source": "application:gpt4all",
+    "target": "infrastructure:consumer-device",
+    "description": "GPT4All is represented as a local desktop application that can run on end-user consumer devices.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-hardware",
+        "type": "github_repo",
+        "title": "GPT4All GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-runs-on-consumer-device",
+    "kind": "runs_on",
+    "source": "application:jan",
+    "target": "infrastructure:consumer-device",
+    "description": "Jan is represented as a local desktop application that can run on end-user consumer devices.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:jan-hardware",
+        "type": "github_repo",
+        "title": "Jan GitHub repository",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-webui-runs-on-rtx-5090",
+    "kind": "runs_on",
+    "source": "application:stable-diffusion-webui",
+    "target": "infrastructure:nvidia-rtx-5090",
+    "description": "Stable Diffusion web UI is represented as a local image-generation application suitable for high-end consumer NVIDIA GPUs.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:stable-diffusion-webui-repo",
+        "type": "github_repo",
+        "title": "Stable Diffusion web UI GitHub repository",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:rtx-5090-spec",
+        "type": "official_website",
+        "title": "NVIDIA GeForce RTX 5090",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "publisher": "NVIDIA",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:llama.cpp-supports-hardware-rtx-5090",
+    "kind": "supports_hardware",
+    "source": "software:llama.cpp",
+    "target": "infrastructure:nvidia-rtx-5090",
+    "description": "llama.cpp supports local inference on CUDA-capable consumer GPUs represented by the RTX 5090 profile.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:llama.cpp-gpu-docs",
+        "type": "github_repo",
+        "title": "llama.cpp GitHub repository",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:llama.cpp-supports-hardware-apple-m5-max",
+    "kind": "supports_hardware",
+    "source": "software:llama.cpp",
+    "target": "infrastructure:apple-m5-max",
+    "description": "llama.cpp supports Apple Silicon local inference paths represented by the Apple M5 Max profile.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:llama.cpp-metal",
+        "type": "github_repo",
+        "title": "llama.cpp GitHub repository",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:apple-m5-max-spec",
+        "type": "official_website",
+        "title": "MacBook Pro tech specs",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "publisher": "Apple",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:ollama-supports-hardware-rtx-5090",
+    "kind": "supports_hardware",
+    "source": "software:ollama",
+    "target": "infrastructure:nvidia-rtx-5090",
+    "description": "Ollama is represented as supporting local model serving on CUDA-capable consumer GPUs.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:ollama-hardware",
+        "type": "github_repo",
+        "title": "Ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:ollama-supports-hardware-apple-m5-max",
+    "kind": "supports_hardware",
+    "source": "software:ollama",
+    "target": "infrastructure:apple-m5-max",
+    "description": "Ollama is represented as supporting local model serving on Apple Silicon systems.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:ollama-apple-silicon",
+        "type": "github_repo",
+        "title": "Ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:apple-m5-max-ollama",
+        "type": "official_website",
+        "title": "MacBook Pro tech specs",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "publisher": "Apple",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-supports-hardware-nvidia-h100",
+    "kind": "supports_hardware",
+    "source": "software:pytorch",
+    "target": "infrastructure:nvidia-h100",
+    "description": "PyTorch supports NVIDIA GPU training and inference paths represented by the H100 profile.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:pytorch-cuda-docs",
+        "type": "official_docs",
+        "title": "PyTorch CUDA documentation",
+        "url": "https://pytorch.org/docs/stable/cuda.html",
+        "publisher": "PyTorch",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:nvidia-h100",
+        "type": "official_website",
+        "title": "NVIDIA H100 GPU",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "publisher": "NVIDIA",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-supports-hardware-amd-mi300x",
+    "kind": "supports_hardware",
+    "source": "software:pytorch",
+    "target": "infrastructure:amd-mi300x",
+    "description": "PyTorch supports AMD GPU training and inference paths through ROCm, represented by the MI300X profile.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:pytorch-rocm-docs",
+        "type": "official_docs",
+        "title": "PyTorch ROCm documentation",
+        "url": "https://pytorch.org/docs/stable/notes/hip.html",
+        "publisher": "PyTorch",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:amd-mi300x",
+        "type": "official_website",
+        "title": "AMD Instinct MI300X Accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+        "publisher": "AMD",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-supports-hardware-google-tpu-v6e-trillium",
+    "kind": "supports_hardware",
+    "source": "software:pytorch",
+    "target": "infrastructure:google-cloud-tpu-v6e-trillium",
+    "description": "PyTorch can target Cloud TPU environments through PyTorch/XLA, represented by the TPU v6e Trillium profile.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:pytorch-xla-docs",
+        "type": "official_docs",
+        "title": "PyTorch/XLA documentation",
+        "url": "https://pytorch.org/xla/",
+        "publisher": "PyTorch/XLA",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:tpu-v6e",
+        "type": "official_docs",
+        "title": "Cloud TPU v6e",
+        "url": "https://docs.cloud.google.com/tpu/docs/v6e",
+        "publisher": "Google Cloud",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-supports-hardware-aws-trainium3",
+    "kind": "supports_hardware",
+    "source": "software:pytorch",
+    "target": "infrastructure:aws-trainium3",
+    "description": "PyTorch can target AWS Trainium through the Neuron software stack, represented by the Trainium3 profile.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:aws-trainium3",
+        "type": "official_website",
+        "title": "AWS Trainium",
+        "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "publisher": "AWS",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-supports-hardware-intel-gaudi-3",
+    "kind": "supports_hardware",
+    "source": "software:pytorch",
+    "target": "infrastructure:intel-gaudi-3",
+    "description": "PyTorch is represented as a training and inference framework that can target Intel Gaudi accelerator environments through Intel's Gaudi software stack.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:intel-gaudi-3-pytorch",
+        "type": "official_website",
+        "title": "Intel Gaudi AI Accelerator Products",
+        "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "note": "Official Intel Gaudi product page used for the Gaudi 3 accelerator profile; no exact quote is captured in this seed ingest.",
+        "publisher": "Intel",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-optimized-for-nvidia-h100",
+    "kind": "optimized_for",
+    "source": "software:vllm",
+    "target": "infrastructure:nvidia-h100",
+    "description": "vLLM is represented as optimized for high-throughput NVIDIA datacenter GPU serving.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:vllm-hardware",
+        "type": "github_repo",
+        "title": "vLLM GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-optimized-for-nvidia-h200",
+    "kind": "optimized_for",
+    "source": "software:vllm",
+    "target": "infrastructure:nvidia-h200",
+    "description": "vLLM is represented as optimized for high-memory NVIDIA datacenter GPU serving.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:vllm-h200",
+        "type": "github_repo",
+        "title": "vLLM GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:nvidia-h200",
+        "type": "official_website",
+        "title": "NVIDIA H200",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "publisher": "NVIDIA",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-supports-hardware-amd-mi325x",
+    "kind": "supports_hardware",
+    "source": "software:vllm",
+    "target": "infrastructure:amd-mi325x",
+    "description": "vLLM is represented as supporting AMD ROCm serving paths on high-memory MI325X-class hardware.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:vllm-rocm",
+        "type": "github_repo",
+        "title": "vLLM GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:amd-mi325x",
+        "type": "official_website",
+        "title": "AMD Instinct MI325X Accelerators",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
+        "publisher": "AMD",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:triton-inference-server-optimized-for-nvidia-b200",
+    "kind": "optimized_for",
+    "source": "software:triton-inference-server",
+    "target": "infrastructure:nvidia-b200",
+    "description": "Triton Inference Server is represented as optimized for NVIDIA datacenter inference hardware, including Blackwell systems.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:triton-server",
+        "type": "github_repo",
+        "title": "Triton Inference Server GitHub repository",
+        "url": "https://github.com/triton-inference-server/server",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:nvidia-b200",
+        "type": "official_website",
+        "title": "NVIDIA DGX B200",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "publisher": "NVIDIA",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:deepspeed-optimized-for-nvidia-h200",
+    "kind": "optimized_for",
+    "source": "software:deepspeed",
+    "target": "infrastructure:nvidia-h200",
+    "description": "DeepSpeed is represented as optimized for distributed GPU training and fine-tuning on NVIDIA datacenter accelerators.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:deepspeed-repo",
+        "type": "github_repo",
+        "title": "DeepSpeed GitHub repository",
+        "url": "https://github.com/deepspeedai/DeepSpeed",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:megatron-lm-optimized-for-nvidia-b200",
+    "kind": "optimized_for",
+    "source": "software:megatron-lm",
+    "target": "infrastructure:nvidia-b200",
+    "description": "Megatron-LM is represented as optimized for large-scale NVIDIA GPU training systems.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:megatron-lm",
+        "type": "github_repo",
+        "title": "Megatron-LM GitHub repository",
+        "url": "https://github.com/NVIDIA/Megatron-LM",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:unsloth-requires-local-gpu",
+    "kind": "requires",
+    "source": "software:unsloth",
+    "target": "infrastructure:nvidia-rtx-5090",
+    "description": "Unsloth local fine-tuning workflows are represented as requiring a capable local GPU profile.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:unsloth-repo",
+        "type": "github_repo",
+        "title": "Unsloth GitHub repository",
+        "url": "https://github.com/unslothai/unsloth",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-requires-accelerated-inference",
+    "kind": "requires",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "infrastructure:nvidia-rtx-5090",
+    "description": "The SDXL seed stack treats high-end local accelerated hardware as a practical requirement for interactive image generation.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-card",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:llama-3.1-8b-instruct-requires-local-memory",
+    "kind": "requires",
+    "source": "model:llama-3.1-8b-instruct",
+    "target": "infrastructure:consumer-device",
+    "description": "Local Llama 3.1 8B inference requires an end-user device with enough memory for the selected quantization and runtime.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:llama-3.1-card",
+        "type": "huggingface_model_card",
+        "title": "Llama 3.1 8B Instruct model card",
+        "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+        "publisher": "Hugging Face",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  }
+]

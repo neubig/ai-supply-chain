@@ -13,9 +13,10 @@
         "title": "Open WebUI repository metadata",
         "url": "https://github.com/open-webui/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -33,9 +34,10 @@
         "title": "Open WebUI repository metadata",
         "url": "https://github.com/open-webui/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -53,9 +55,10 @@
         "title": "Open WebUI GitHub repository description",
         "url": "https://github.com/open-webui/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -73,9 +76,10 @@
         "title": "Open WebUI LICENSE",
         "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -93,9 +97,10 @@
         "title": "Open WebUI GitHub organization",
         "url": "https://github.com/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -113,9 +118,10 @@
         "title": "AnythingLLM GitHub repository",
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -133,9 +139,10 @@
         "title": "AnythingLLM GitHub repository",
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -153,9 +160,10 @@
         "title": "AnythingLLM GitHub repository",
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -173,9 +181,10 @@
         "title": "AnythingLLM LICENSE",
         "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -193,9 +202,10 @@
         "title": "AnythingLLM GitHub repository",
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -213,9 +223,10 @@
         "title": "GPT4All GitHub repository",
         "url": "https://github.com/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -233,9 +244,10 @@
         "title": "GPT4All GitHub repository",
         "url": "https://github.com/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -253,9 +265,10 @@
         "title": "GPT4All GitHub repository",
         "url": "https://github.com/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -273,9 +286,10 @@
         "title": "GPT4All LICENSE",
         "url": "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -293,9 +307,10 @@
         "title": "GPT4All GitHub repository",
         "url": "https://github.com/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -313,9 +328,10 @@
         "title": "Continue GitHub repository",
         "url": "https://github.com/continuedev/continue",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -333,9 +349,10 @@
         "title": "Continue GitHub repository",
         "url": "https://github.com/continuedev/continue",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -353,9 +370,10 @@
         "title": "Continue GitHub repository",
         "url": "https://github.com/continuedev/continue",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -373,9 +391,10 @@
         "title": "Continue GitHub repository",
         "url": "https://github.com/continuedev/continue",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -393,9 +412,10 @@
         "title": "Continue LICENSE",
         "url": "https://github.com/continuedev/continue/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -413,9 +433,10 @@
         "title": "Continue website",
         "url": "https://www.continue.dev/",
         "publisher": "Continue",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -433,9 +454,10 @@
         "title": "ComfyUI GitHub repository",
         "url": "https://github.com/Comfy-Org/ComfyUI",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -453,9 +475,10 @@
         "title": "ComfyUI GitHub repository",
         "url": "https://github.com/Comfy-Org/ComfyUI",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -473,9 +496,10 @@
         "title": "ComfyUI LICENSE",
         "url": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -493,9 +517,10 @@
         "title": "ComfyUI GitHub repository",
         "url": "https://github.com/Comfy-Org/ComfyUI",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -513,9 +538,10 @@
         "title": "Stable Diffusion web UI GitHub repository",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -533,9 +559,10 @@
         "title": "Stable Diffusion web UI GitHub repository",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -553,9 +580,10 @@
         "title": "Stable Diffusion web UI LICENSE",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -573,9 +601,10 @@
         "title": "Stable Diffusion web UI GitHub repository",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -593,9 +622,10 @@
         "title": "OpenHands GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -613,9 +643,10 @@
         "title": "OpenHands GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -633,9 +664,10 @@
         "title": "OpenHands GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -649,7 +681,9 @@
         "benchmarkId": "benchmark:swe-bench",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["edge-source:openhands-repo"],
+        "sourceIds": [
+          "edge-source:openhands-repo"
+        ],
         "notes": "Seed placeholder pending deterministic SWE-bench leaderboard ingestion."
       }
     ]
@@ -668,9 +702,10 @@
         "title": "OpenHands LICENSE",
         "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -688,9 +723,10 @@
         "title": "OpenHands GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -708,9 +744,10 @@
         "title": "Jan GitHub repository",
         "url": "https://github.com/janhq/jan",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -728,9 +765,10 @@
         "title": "Jan GitHub repository",
         "url": "https://github.com/janhq/jan",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -748,9 +786,10 @@
         "title": "Jan GitHub repository",
         "url": "https://github.com/janhq/jan",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -768,9 +807,10 @@
         "title": "Jan GitHub repository description",
         "url": "https://github.com/janhq/jan",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -788,9 +828,10 @@
         "title": "Jan LICENSE",
         "url": "https://github.com/janhq/jan/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   },
@@ -808,9 +849,10 @@
         "title": "Jan LICENSE",
         "url": "https://github.com/janhq/jan/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ]
   }

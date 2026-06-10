@@ -65,6 +65,7 @@ export type RankedStack = {
   velocityScore: number;
   provenanceScore: number;
   concentrationScore: number;
+  sandboxScore: number;
   overallScore: number;
   nonOpenComponents: number;
   githubStars: number;
@@ -201,6 +202,30 @@ function collectConcentrationScore(edges: SupplyChainEdge[]) {
   return Math.max(0, 100 - Math.max(0, largestShare - 0.34) * 140);
 }
 
+function collectSandboxScore(edges: SupplyChainEdge[]) {
+  const sandboxEdges = edges.filter((edge) => edge.kind === "sandboxed_by");
+  if (sandboxEdges.length === 0) {
+    return 35;
+  }
+
+  const values = sandboxEdges
+    .flatMap((edge) =>
+      edge.metrics.filter(
+        (metric) =>
+          metric.category === "security" &&
+          metric.name === "Isolation strength" &&
+          metric.unit === "score_0_100" &&
+          typeof metric.value === "number"
+      )
+    )
+    .map(numericMetricValue);
+
+  if (values.length === 0) {
+    return 55;
+  }
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
 function addNode(
   graph: SupplyChainGraph,
   componentIds: Set<string>,
@@ -230,11 +255,16 @@ function buildCandidate(graph: SupplyChainGraph, application: SupplyChainNode, m
   for (const edge of outgoing(graph.edges, application.id, [
     "depends_on",
     "supports",
+    "requires",
     "implements",
     "hosted_by",
     "licensed_as",
     "evaluated_on",
-    "developed_by"
+    "developed_by",
+    "runs_on",
+    "optimized_for",
+    "supports_hardware",
+    "sandboxed_by"
   ])) {
     if (edge.kind === "supports" && edge.target.startsWith("model:") && edge.target !== model.id) {
       continue;
@@ -249,13 +279,27 @@ function buildCandidate(graph: SupplyChainGraph, application: SupplyChainNode, m
     "hosted_by",
     "licensed_as",
     "derived_from",
-    "developed_by"
+    "developed_by",
+    "runs_on",
+    "requires",
+    "optimized_for"
   ])) {
     includeEdge(edge);
   }
 
   for (const softwareId of [...componentIds].filter((id) => id.startsWith("software:"))) {
-    for (const edge of outgoing(graph.edges, softwareId, ["depends_on", "implements", "licensed_as", "hosted_by", "developed_by"])) {
+    for (const edge of outgoing(graph.edges, softwareId, [
+      "depends_on",
+      "implements",
+      "licensed_as",
+      "hosted_by",
+      "developed_by",
+      "runs_on",
+      "requires",
+      "optimized_for",
+      "supports_hardware",
+      "sandboxed_by"
+    ])) {
       includeEdge(edge);
     }
   }
@@ -318,14 +362,16 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
     const velocityScore = collectVelocityScore(components);
     const provenanceScore = collectProvenanceScore([...components, ...benchmarks], candidate.evidenceEdges);
     const concentrationScore = collectConcentrationScore(candidate.evidenceEdges);
+    const sandboxScore = collectSandboxScore(candidate.evidenceEdges);
     const overallScore =
-      opennessScore * 100 * 0.24 +
-      benchmarkScore * 0.24 +
-      popularityValues.popularityScore * 0.18 +
+      opennessScore * 100 * 0.22 +
+      benchmarkScore * 0.22 +
+      popularityValues.popularityScore * 0.17 +
       costScore * 0.1 +
       velocityScore * 0.1 +
-      provenanceScore * 0.09 +
-      concentrationScore * 0.05;
+      provenanceScore * 0.08 +
+      concentrationScore * 0.05 +
+      sandboxScore * 0.06;
     const tasks = [...new Set([...candidate.application.tasks, ...candidate.model.tasks])].sort();
 
     return {
@@ -345,6 +391,7 @@ export function buildRankedStacks(graph: SupplyChainGraph): RankedStack[] {
       velocityScore: Math.round(velocityScore * 10) / 10,
       provenanceScore: Math.round(provenanceScore * 10) / 10,
       concentrationScore: Math.round(concentrationScore * 10) / 10,
+      sandboxScore: Math.round(sandboxScore * 10) / 10,
       overallScore: Math.round(overallScore * 10) / 10,
       nonOpenComponents: components.filter((node) => node.openness !== "open_source").length,
       githubStars: popularityValues.githubStars,

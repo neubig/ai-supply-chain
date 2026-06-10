@@ -29,8 +29,9 @@
         "type": "github_repo",
         "title": "LobeHub GitHub repository",
         "url": "https://github.com/lobehub/lobehub",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }
@@ -142,8 +143,9 @@
         "type": "github_repo",
         "title": "LibreChat GitHub repository",
         "url": "https://github.com/danny-avila/LibreChat",
+        "note": "GitHub API/repository metadata source used for popularity, maintenance, license, and project metadata; no exact quote is captured in the seed ingest.",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high"
       }

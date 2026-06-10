@@ -1,6 +1,6 @@
 # AI supply chain
 
-This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, and `licensed_as`.
+This repository models the AI supply chain as a typed TypeScript graph. Nodes are user-facing applications, models, datasets, software, benchmarks, organizations, infrastructure, and licenses. Edges represent supply-chain relationships such as `supports`, `depends_on`, `requires`, `trained_on`, `trained_with`, `evaluated_on`, `developed_by`, `hosted_by`, `licensed_as`, `runs_on`, `optimized_for`, `supports_hardware`, and `sandboxed_by`.
 
 The initial seed starts with user-facing applications because they are the surface where people choose AI capabilities. The graph is designed to support questions such as:
 
@@ -25,6 +25,7 @@ The initial seed starts with user-facing applications because they are the surfa
 ```bash
 npm install
 npm run validate
+npm run report:completeness
 npm run export:schema
 npm run visualize
 npm run dev
@@ -34,15 +35,27 @@ The committed visualization is `visualizations/ai-supply-chain.svg`, and the Ver
 
 ## Ranking downstream stacks
 
-The site builds candidate downstream stacks from `application --supports--> model` edges, then follows reachable software, dataset, benchmark, infrastructure, and license dependencies. It scores each option by:
+The site builds candidate downstream stacks from `application --supports--> model` edges, then follows reachable software, dataset, benchmark, infrastructure, hardware, sandboxing, and license dependencies. It scores each option by:
 
 - `openness`: average component openness, with `open_source` weighted above `open_core`, `open_weights`, `source_available`, `unknown`, and `proprietary`.
 - `benchmark`: sourced `score_0_100` benchmark metrics on the selected model, application, or linked evaluation edge.
 - `popularity`: aggregate GitHub stars/forks and Hugging Face downloads/likes using a log-scaled weighted score.
+- `sandbox`: isolation-strength metrics on `sandboxed_by` edges, with a penalty for stacks that have no sandbox evidence.
 
-The table can be sorted by these criteria and marks Pareto-optimal stacks where no other option is at least as good on openness, benchmark score, and popularity while being strictly better on one of them.
+The table can be sorted by these criteria, and its preference sliders let a user reweight accuracy, openness, popularity, cost, development velocity, provenance, concentration, and sandbox posture. It marks Pareto-optimal stacks where no other option is at least as good on openness, benchmark score, and popularity while being strictly better on one of them.
 
-Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, RAG/vector/data infrastructure, and evaluation tools/benchmarks.
+Top-10 layer coverage lives in `data/research/stack-layers.json` and is validated against graph node IDs. The current layers cover user-facing applications, foundation/chat models, coding models, image/media models, embedding/reranking models, speech/audio models, inference runtimes, training/fine-tuning frameworks, hardware accelerators, RAG/vector/data infrastructure, agent sandboxing, and evaluation tools/benchmarks.
+
+## Completeness reporting
+
+`npm run report:completeness` writes:
+
+- `reports/graph-completeness.json`: machine-readable audit results.
+- `reports/graph-completeness.md`: human-readable summary of criteria, layer coverage, and findings.
+
+The report checks whether nodes have sources and update policies, whether applications/models/software/datasets/benchmarks have the expected relationship families, whether hardware nodes have hardware metadata and compatibility edges, and whether agent-sandboxing nodes have sandbox metadata and isolation edges.
+
+Strict validation is part of `npm run check` and CI. Every source record must include `url`, either `quote` or `note`, and at least one of `published_date` or `retrieved_date` with a preference for `published_date` when the source exposes it. Required relationships are enforced by node class; for example, every non-placeholder model must have `trained_on`, `trained_with`, and `evaluated_on` edges. When a public source does not disclose a required fact, `npm run generate:required` creates explicit `source-needed` placeholder nodes and edges instead of leaving the graph incomplete.
 
 ## Health signals
 
@@ -53,6 +66,8 @@ The schema separates facts from scoring. Each node and edge can carry metrics fo
 - `maintenance`: pushed-at timestamps, release cadence, open issue load, contributor activity.
 - `openness`: OSI-approved license status, open-weight status, open-core status, and custom license risk.
 - `security`: vulnerability disclosures, signed releases, SBOM availability, dependency hygiene.
+- `hardware`: accelerator memory, deployment class, supported backends, and compatibility edges.
+- `sandbox`: container, microVM, VM-backed container, or workspace isolation posture.
 
 Downstream analysis should compute paths from application nodes to task-relevant model, software, dataset, benchmark, and license nodes. The `openness` field enables queries with zero, one, or two non-open-source components allowed.
 

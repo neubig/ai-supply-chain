@@ -16,6 +16,7 @@ export const nodeKinds = [
 export const edgeKinds = [
   "supports",
   "depends_on",
+  "requires",
   "trained_on",
   "trained_with",
   "evaluated_on",
@@ -24,7 +25,11 @@ export const edgeKinds = [
   "licensed_as",
   "derived_from",
   "uses_data",
-  "implements"
+  "implements",
+  "runs_on",
+  "optimized_for",
+  "supports_hardware",
+  "sandboxed_by"
 ] as const;
 
 export const openSourceClasses = [
@@ -120,13 +125,31 @@ export const SourceRecordSchema = z
     type: SourceTypeSchema,
     title: z.string().min(1),
     url: urlSchema,
+    quote: z.string().min(1).optional(),
+    note: z.string().min(1).optional(),
+    published_date: dateSchema.optional(),
+    retrieved_date: dateSchema.optional(),
     publisher: z.string().min(1).optional(),
-    retrievedAt: dateSchema,
     collectionMethod: CollectionMethodSchema,
-    confidence: ConfidenceSchema.default("medium"),
-    notes: z.string().min(1).optional()
+    confidence: ConfidenceSchema.default("medium")
   })
-  .strict();
+  .strict()
+  .superRefine((source, ctx) => {
+    if (!source.quote && !source.note) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["note"],
+        message: "source records must include either quote or note"
+      });
+    }
+    if (!source.published_date && !source.retrieved_date) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["published_date"],
+        message: "source records must include published_date or retrieved_date; prefer published_date when available"
+      });
+    }
+  });
 
 export const UpdatePolicySchema = z
   .object({
@@ -144,7 +167,7 @@ export const LicenseInfoSchema = z
     openness: OpenSourceClassSchema,
     osiApproved: z.boolean().nullable().optional(),
     notes: z.string().min(1).optional(),
-    sourceIds: z.array(sourceIdSchema).default([])
+    sourceIds: z.array(sourceIdSchema).min(1)
   })
   .strict();
 
@@ -159,7 +182,7 @@ export const MetricSchema = z
     benchmarkId: nodeIdSchema.optional(),
     measuredAt: dateSchema.optional(),
     higherIsBetter: z.boolean().optional(),
-    sourceIds: z.array(sourceIdSchema).default([]),
+    sourceIds: z.array(sourceIdSchema).min(1),
     notes: z.string().min(1).optional()
   })
   .strict();
@@ -171,7 +194,7 @@ export const RiskEvidenceSchema = z
     score: z.number().min(0).max(100).optional(),
     url: urlSchema.optional(),
     checkedAt: dateSchema.optional(),
-    sourceIds: z.array(sourceIdSchema).default([]),
+    sourceIds: z.array(sourceIdSchema).min(1),
     notes: z.string().min(1).optional()
   })
   .strict();
@@ -206,10 +229,10 @@ export const SupplyChainNodeSchema = z
     openness: OpenSourceClassSchema.default("unknown"),
     tasks: z.array(z.string().min(1)).default([]),
     tags: z.array(z.string().min(1)).default([]),
-    sources: z.array(SourceRecordSchema).default([]),
+    sources: z.array(SourceRecordSchema).min(1),
     metrics: z.array(MetricSchema).default([]),
     evidence: z.array(RiskEvidenceSchema).default([]),
-    updatePolicy: UpdatePolicySchema.optional(),
+    updatePolicy: UpdatePolicySchema,
     metadata: z.record(z.unknown()).default({})
   })
   .strict()
@@ -246,7 +269,7 @@ export const SupplyChainEdgeSchema = z
     confidence: ConfidenceSchema.default("medium"),
     validFrom: dateSchema.optional(),
     validUntil: dateSchema.optional(),
-    sources: z.array(SourceRecordSchema).default([]),
+    sources: z.array(SourceRecordSchema).min(1),
     metrics: z.array(MetricSchema).default([]),
     metadata: z.record(z.unknown()).default({})
   })
@@ -287,6 +310,10 @@ export const allowedEdgeEndpoints: Record<EdgeKind, EndpointRule> = {
     sourceKinds: ["application", "software", "model", "infrastructure"],
     targetKinds: ["software", "model", "infrastructure"]
   },
+  requires: {
+    sourceKinds: ["application", "software", "model", "benchmark"],
+    targetKinds: ["software", "dataset", "infrastructure"]
+  },
   trained_on: { sourceKinds: ["model"], targetKinds: ["dataset"] },
   trained_with: { sourceKinds: ["model"], targetKinds: ["software", "infrastructure"] },
   evaluated_on: { sourceKinds: ["application", "model", "software"], targetKinds: ["benchmark"] },
@@ -304,7 +331,11 @@ export const allowedEdgeEndpoints: Record<EdgeKind, EndpointRule> = {
   },
   derived_from: { sourceKinds: ["model", "dataset", "software"], targetKinds: ["model", "dataset", "software"] },
   uses_data: { sourceKinds: ["application", "software", "benchmark"], targetKinds: ["dataset"] },
-  implements: { sourceKinds: ["application", "software", "model"], targetKinds: ["benchmark", "software"] }
+  implements: { sourceKinds: ["application", "software", "model"], targetKinds: ["benchmark", "software"] },
+  runs_on: { sourceKinds: ["application", "model", "software"], targetKinds: ["infrastructure"] },
+  optimized_for: { sourceKinds: ["model", "software"], targetKinds: ["software", "infrastructure"] },
+  supports_hardware: { sourceKinds: ["application", "software"], targetKinds: ["infrastructure"] },
+  sandboxed_by: { sourceKinds: ["application", "software"], targetKinds: ["software", "infrastructure"] }
 };
 
 export const SupplyChainGraphSchema = z
@@ -318,6 +349,8 @@ export const SupplyChainGraphSchema = z
   .superRefine((graph, ctx) => {
     const nodeById = new Map<string, SupplyChainNode>();
     const edgeIds = new Set<string>();
+    const outgoingBySource = new Map<string, SupplyChainEdge[]>();
+    const incomingByTarget = new Map<string, SupplyChainEdge[]>();
 
     for (const [index, node] of graph.nodes.entries()) {
       if (nodeById.has(node.id)) {
@@ -357,6 +390,74 @@ export const SupplyChainGraphSchema = z
           path: ["edges", index, "target"],
           message: `invalid target kind '${target.kind}' for ${edge.kind}`
         });
+      }
+      outgoingBySource.set(edge.source, [...(outgoingBySource.get(edge.source) ?? []), edge]);
+      incomingByTarget.set(edge.target, [...(incomingByTarget.get(edge.target) ?? []), edge]);
+    }
+
+    function nodeIsSourceNeeded(node: SupplyChainNode) {
+      return node.metadata.sourceNeeded === true;
+    }
+
+    function hasOutgoing(nodeId: string, kinds: EdgeKind[]) {
+      return (outgoingBySource.get(nodeId) ?? []).some((edge) => kinds.includes(edge.kind));
+    }
+
+    function hasIncoming(nodeId: string, kinds: EdgeKind[]) {
+      return (incomingByTarget.get(nodeId) ?? []).some((edge) => kinds.includes(edge.kind));
+    }
+
+    function addMissingNodeEdgeIssue(nodeIndex: number, node: SupplyChainNode, criterion: string) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        path: ["nodes", nodeIndex, "id"],
+        message: `${node.kind} node '${node.id}' is missing required relationship: ${criterion}`
+      });
+    }
+
+    for (const [nodeIndex, node] of graph.nodes.entries()) {
+      if (nodeIsSourceNeeded(node)) {
+        continue;
+      }
+
+      if (node.kind === "application") {
+        if (!hasOutgoing(node.id, ["developed_by"])) addMissingNodeEdgeIssue(nodeIndex, node, "developed_by");
+        if (!hasOutgoing(node.id, ["licensed_as"])) addMissingNodeEdgeIssue(nodeIndex, node, "licensed_as");
+        if (!hasOutgoing(node.id, ["supports", "depends_on"])) {
+          addMissingNodeEdgeIssue(nodeIndex, node, "supports or depends_on");
+        }
+      }
+
+      if (node.kind === "model") {
+        for (const kind of ["developed_by", "hosted_by", "licensed_as", "trained_on", "trained_with", "evaluated_on"] as const) {
+          if (!hasOutgoing(node.id, [kind])) addMissingNodeEdgeIssue(nodeIndex, node, kind);
+        }
+      }
+
+      if (node.kind === "software") {
+        if (!hasOutgoing(node.id, ["developed_by"])) addMissingNodeEdgeIssue(nodeIndex, node, "developed_by");
+        if (!hasOutgoing(node.id, ["licensed_as"])) addMissingNodeEdgeIssue(nodeIndex, node, "licensed_as");
+      }
+
+      if (node.kind === "dataset") {
+        if (!hasOutgoing(node.id, ["developed_by"])) addMissingNodeEdgeIssue(nodeIndex, node, "developed_by");
+        if (!hasOutgoing(node.id, ["hosted_by"])) addMissingNodeEdgeIssue(nodeIndex, node, "hosted_by");
+        if (!hasOutgoing(node.id, ["licensed_as"])) addMissingNodeEdgeIssue(nodeIndex, node, "licensed_as");
+      }
+
+      if (node.kind === "benchmark") {
+        if (!hasOutgoing(node.id, ["developed_by"])) addMissingNodeEdgeIssue(nodeIndex, node, "developed_by");
+        if (!hasOutgoing(node.id, ["licensed_as"])) addMissingNodeEdgeIssue(nodeIndex, node, "licensed_as");
+        if (!hasOutgoing(node.id, ["uses_data"])) addMissingNodeEdgeIssue(nodeIndex, node, "uses_data");
+      }
+
+      if (node.kind === "infrastructure" && node.metadata.layerCoverage === "hardware") {
+        if (!node.metadata.hardware || typeof node.metadata.hardware !== "object") {
+          addMissingNodeEdgeIssue(nodeIndex, node, "hardware metadata");
+        }
+        if (!hasIncoming(node.id, ["runs_on", "requires", "trained_with", "optimized_for", "supports_hardware"])) {
+          addMissingNodeEdgeIssue(nodeIndex, node, "hardware compatibility or requirement edge");
+        }
       }
     }
   });

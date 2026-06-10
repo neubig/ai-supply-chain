@@ -1,0 +1,76 @@
+[
+  {
+    "id": "software:source-needed-training-framework",
+    "kind": "software",
+    "name": "Source-needed training framework",
+    "description": "Explicit placeholder for a model training framework that is required but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:software-source-needed-training-framework",
+        "type": "manual_entry",
+        "title": "Source-needed training framework source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  },
+  {
+    "id": "software:source-needed-operational-dependency",
+    "kind": "software",
+    "name": "Source-needed operational dependency",
+    "description": "Explicit placeholder for a software dependency, interface, hardware, or sandbox relationship that is required for graph completeness but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:software-source-needed-operational-dependency",
+        "type": "manual_entry",
+        "title": "Source-needed operational dependency source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  }
+]

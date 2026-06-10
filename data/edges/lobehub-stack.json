@@ -1,0 +1,143 @@
+[
+  {
+    "id": "edge:lobehub-supports-qwen2.5-7b-instruct",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "LobeHub is represented as a chat and agent interface that can connect to OpenAI-compatible or local runtimes serving Qwen2.5 models.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:lobehub-repo",
+        "type": "github_repo",
+        "title": "LobeHub GitHub repository",
+        "url": "https://github.com/lobehub/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:lobehub-supports-litellm",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "software:litellm",
+    "description": "LobeHub is represented as compatible with OpenAI-style gateway and model-routing runtimes.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:lobehub-litellm",
+        "type": "github_repo",
+        "title": "LobeHub GitHub repository",
+        "url": "https://github.com/lobehub/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "low",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:litellm-repo",
+        "type": "github_repo",
+        "title": "LiteLLM GitHub repository",
+        "url": "https://github.com/BerriAI/litellm",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:lobehub-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "application:lobehub",
+    "target": "software:docker-moby",
+    "description": "LobeHub self-hosting is represented as commonly deployable through containerized infrastructure.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:lobehub-docker",
+        "type": "github_repo",
+        "title": "LobeHub GitHub repository",
+        "url": "https://github.com/lobehub/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:docker-moby-lobehub",
+        "type": "github_repo",
+        "title": "Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 65,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:docker-moby-lobehub"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:lobehub-licensed-as-other-composite",
+    "kind": "licensed_as",
+    "source": "application:lobehub",
+    "target": "license:other-composite",
+    "description": "LobeHub license metadata is represented as unresolved/composite until a deterministic license record is ingested.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:lobehub-license",
+        "type": "github_license",
+        "title": "LobeHub GitHub license metadata",
+        "url": "https://github.com/lobehub/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "low",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:lobehub-developed-by-lobehub",
+    "kind": "developed_by",
+    "source": "application:lobehub",
+    "target": "organization:lobehub",
+    "description": "LobeHub is maintained under the LobeHub GitHub organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:lobehub-org",
+        "type": "github_repo",
+        "title": "LobeHub GitHub organization",
+        "url": "https://github.com/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  }
+]

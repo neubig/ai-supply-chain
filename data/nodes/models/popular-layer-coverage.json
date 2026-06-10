@@ -27,8 +27,9 @@
         "type": "huggingface_model_card",
         "title": "Llama 3.1 8B Instruct model card",
         "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -114,8 +115,9 @@
         "type": "huggingface_model_card",
         "title": "Mixtral-8x7B-Instruct-v0.1 model card",
         "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -201,8 +203,9 @@
         "type": "huggingface_model_card",
         "title": "Phi-3-mini-4k-instruct model card",
         "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -289,8 +292,9 @@
         "type": "huggingface_model_card",
         "title": "DeepSeek-R1-Distill-Qwen-7B model card",
         "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -376,8 +380,9 @@
         "type": "huggingface_model_card",
         "title": "Gemma 2 9B IT model card",
         "url": "https://huggingface.co/google/gemma-2-9b-it",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -463,8 +468,9 @@
         "type": "huggingface_model_card",
         "title": "Falcon-7B-Instruct model card",
         "url": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -550,8 +556,9 @@
         "type": "huggingface_model_card",
         "title": "OLMo-2-1124-7B-Instruct model card",
         "url": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -637,8 +644,9 @@
         "type": "huggingface_model_card",
         "title": "CodeGen 350M Mono model card",
         "url": "https://huggingface.co/Salesforce/codegen-350M-mono",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -724,8 +732,9 @@
         "type": "huggingface_model_card",
         "title": "DeepSeek Coder 6.7B Instruct model card",
         "url": "https://huggingface.co/deepseek-ai/deepseek-coder-6.7b-instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -811,8 +820,9 @@
         "type": "huggingface_model_card",
         "title": "CodeLlama 7B Instruct model card",
         "url": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -898,8 +908,9 @@
         "type": "huggingface_model_card",
         "title": "Granite 8B Code Instruct model card",
         "url": "https://huggingface.co/ibm-granite/granite-8b-code-instruct",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -985,8 +996,9 @@
         "type": "huggingface_model_card",
         "title": "CodeGemma 7B IT model card",
         "url": "https://huggingface.co/google/codegemma-7b-it",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1072,8 +1084,9 @@
         "type": "huggingface_model_card",
         "title": "SantaCoder model card",
         "url": "https://huggingface.co/bigcode/santacoder",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1159,8 +1172,9 @@
         "type": "huggingface_model_card",
         "title": "Magicoder-S-DS-6.7B model card",
         "url": "https://huggingface.co/ise-uiuc/Magicoder-S-DS-6.7B",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1246,8 +1260,9 @@
         "type": "huggingface_model_card",
         "title": "Stable Diffusion v1.5 model card",
         "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1333,8 +1348,9 @@
         "type": "huggingface_model_card",
         "title": "FLUX.1-dev model card",
         "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1420,8 +1436,9 @@
         "type": "huggingface_model_card",
         "title": "FLUX.1-schnell model card",
         "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1507,8 +1524,9 @@
         "type": "huggingface_model_card",
         "title": "Playground v2.5 model card",
         "url": "https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1594,8 +1612,9 @@
         "type": "huggingface_model_card",
         "title": "DreamShaper 8 model card",
         "url": "https://huggingface.co/Lykon/dreamshaper-8",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1681,8 +1700,9 @@
         "type": "huggingface_model_card",
         "title": "Stable Diffusion 3.5 Large model card",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-3.5-large",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1768,8 +1788,9 @@
         "type": "huggingface_model_card",
         "title": "PixArt-XL-2-1024-MS model card",
         "url": "https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1855,8 +1876,9 @@
         "type": "huggingface_model_card",
         "title": "Kandinsky 2.2 Decoder model card",
         "url": "https://huggingface.co/kandinsky-community/kandinsky-2-2-decoder",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -1942,8 +1964,9 @@
         "type": "huggingface_model_card",
         "title": "HunyuanDiT v1.2 model card",
         "url": "https://huggingface.co/Tencent-Hunyuan/HunyuanDiT-v1.2-Diffusers",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2029,8 +2052,9 @@
         "type": "huggingface_model_card",
         "title": "all-MiniLM-L6-v2 model card",
         "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2116,8 +2140,9 @@
         "type": "huggingface_model_card",
         "title": "BGE Large EN v1.5 model card",
         "url": "https://huggingface.co/BAAI/bge-large-en-v1.5",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2203,8 +2228,9 @@
         "type": "huggingface_model_card",
         "title": "BGE Base EN v1.5 model card",
         "url": "https://huggingface.co/BAAI/bge-base-en-v1.5",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2290,8 +2316,9 @@
         "type": "huggingface_model_card",
         "title": "Multilingual E5 Large model card",
         "url": "https://huggingface.co/intfloat/multilingual-e5-large",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2377,8 +2404,9 @@
         "type": "huggingface_model_card",
         "title": "mxbai-embed-large-v1 model card",
         "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2464,8 +2492,9 @@
         "type": "huggingface_model_card",
         "title": "Jina Embeddings v3 model card",
         "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2551,8 +2580,9 @@
         "type": "huggingface_model_card",
         "title": "E5 Large v2 model card",
         "url": "https://huggingface.co/intfloat/e5-large-v2",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2638,8 +2668,9 @@
         "type": "huggingface_model_card",
         "title": "BGE Reranker Large model card",
         "url": "https://huggingface.co/BAAI/bge-reranker-large",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2725,8 +2756,9 @@
         "type": "huggingface_model_card",
         "title": "GTE Large EN v1.5 model card",
         "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2812,8 +2844,9 @@
         "type": "huggingface_model_card",
         "title": "XTTS-v2 model card",
         "url": "https://huggingface.co/coqui/XTTS-v2",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2899,8 +2932,9 @@
         "type": "huggingface_model_card",
         "title": "Whisper small model card",
         "url": "https://huggingface.co/openai/whisper-small",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -2986,8 +3020,9 @@
         "type": "huggingface_model_card",
         "title": "wav2vec2-base-960h model card",
         "url": "https://huggingface.co/facebook/wav2vec2-base-960h",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3073,8 +3108,9 @@
         "type": "huggingface_model_card",
         "title": "Distil-Whisper large-v3 model card",
         "url": "https://huggingface.co/distil-whisper/distil-large-v3",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3160,8 +3196,9 @@
         "type": "huggingface_model_card",
         "title": "SeamlessM4T v2 Large model card",
         "url": "https://huggingface.co/facebook/seamless-m4t-v2-large",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3247,8 +3284,9 @@
         "type": "huggingface_model_card",
         "title": "Parakeet TDT 0.6B v2 model card",
         "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3334,8 +3372,9 @@
         "type": "huggingface_model_card",
         "title": "MusicGen Small model card",
         "url": "https://huggingface.co/facebook/musicgen-small",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3421,8 +3460,9 @@
         "type": "huggingface_model_card",
         "title": "SpeechT5 TTS model card",
         "url": "https://huggingface.co/microsoft/speecht5_tts",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }
@@ -3508,8 +3548,9 @@
         "type": "huggingface_model_card",
         "title": "Bark Small model card",
         "url": "https://huggingface.co/suno/bark-small",
+        "note": "Hugging Face model-card/API metadata source used for popularity, license, and model metadata; no exact quote is captured in the seed ingest.",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-10",
+        "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
         "confidence": "high"
       }

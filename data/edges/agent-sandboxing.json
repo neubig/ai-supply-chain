@@ -1,0 +1,454 @@
+[
+  {
+    "id": "edge:openhands-sandboxed-by-openhands-runtime",
+    "kind": "sandboxed_by",
+    "source": "application:openhands",
+    "target": "software:openhands-runtime",
+    "description": "OpenHands agent execution is represented through its containerized runtime and workspace isolation layer.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openhands-runtime",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 74,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:openhands-runtime"
+        ],
+        "notes": "Containerized agent runtime with configurable workspace and network controls; score is a seed heuristic pending a formal sandbox benchmark."
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-runtime-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "software:openhands-runtime",
+    "target": "software:docker-moby",
+    "description": "The OpenHands runtime is represented as using Docker/Moby-style containers as a baseline execution sandbox.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openhands-docker",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:moby",
+        "type": "github_repo",
+        "title": "Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 68,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:moby"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-sandboxed-by-dev-containers-spec",
+    "kind": "sandboxed_by",
+    "source": "application:continue",
+    "target": "software:dev-containers-spec",
+    "description": "Continue is represented as able to operate inside reproducible development-container workspaces.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:continue-repo",
+        "type": "github_repo",
+        "title": "Continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:devcontainers-spec",
+        "type": "github_repo",
+        "title": "Dev Containers specification",
+        "url": "https://github.com/devcontainers/spec",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 58,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:devcontainers-spec"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:librechat-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "application:librechat",
+    "target": "software:docker-moby",
+    "description": "LibreChat self-hosting is represented as commonly deployed through containerized infrastructure.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:librechat-repo",
+        "type": "github_repo",
+        "title": "LibreChat GitHub repository",
+        "url": "https://github.com/danny-avila/LibreChat",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:docker-moby-librechat",
+        "type": "github_repo",
+        "title": "Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 65,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:docker-moby-librechat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:open-webui-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "application:open-webui",
+    "target": "software:docker-moby",
+    "description": "Open WebUI self-hosting is represented as commonly deployed through containerized infrastructure.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-docker",
+        "type": "github_repo",
+        "title": "Open WebUI GitHub repository",
+        "url": "https://github.com/open-webui/open-webui",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:docker-moby-open-webui",
+        "type": "github_repo",
+        "title": "Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 65,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:docker-moby-open-webui"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "application:anythingllm",
+    "target": "software:docker-moby",
+    "description": "AnythingLLM self-hosting is represented as commonly deployable through containerized infrastructure.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-docker",
+        "type": "github_repo",
+        "title": "AnythingLLM GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "note": "Repository source used for containerized deployment context; no exact quote is captured in this seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      },
+      {
+        "id": "edge-source:docker-moby-anythingllm",
+        "type": "github_repo",
+        "title": "Moby GitHub repository",
+        "url": "https://github.com/moby/moby",
+        "note": "GitHub API/repository metadata source used for Docker/Moby sandbox metadata; no exact quote is captured in this seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 65,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:docker-moby-anythingllm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:e2b-infra-sandboxed-by-firecracker",
+    "kind": "sandboxed_by",
+    "source": "software:e2b-infra",
+    "target": "software:firecracker",
+    "description": "E2B cloud sandbox infrastructure is represented as a microVM-backed isolation path.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:e2b-infra",
+        "type": "github_repo",
+        "title": "E2B infra GitHub repository",
+        "url": "https://github.com/e2b-dev/infra",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:firecracker",
+        "type": "github_repo",
+        "title": "Firecracker GitHub repository",
+        "url": "https://github.com/firecracker-microvm/firecracker",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 86,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:firecracker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:daytona-depends-on-kubernetes",
+    "kind": "depends_on",
+    "source": "software:daytona",
+    "target": "software:kubernetes",
+    "description": "Daytona is represented as supporting orchestrated workspace deployments on Kubernetes-class infrastructure.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:daytona-repo",
+        "type": "github_repo",
+        "title": "Daytona GitHub repository",
+        "url": "https://github.com/daytonaio/daytona",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:daytona-sandboxed-by-docker-moby",
+    "kind": "sandboxed_by",
+    "source": "software:daytona",
+    "target": "software:docker-moby",
+    "description": "Daytona workspaces are represented as relying on container-style workspace isolation.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:daytona-docker",
+        "type": "github_repo",
+        "title": "Daytona GitHub repository",
+        "url": "https://github.com/daytonaio/daytona",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:isolation_strength",
+        "category": "security",
+        "name": "Isolation strength",
+        "value": 66,
+        "unit": "score_0_100",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "edge-source:daytona-docker"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edge:kata-containers-depends-on-kubernetes",
+    "kind": "depends_on",
+    "source": "software:kata-containers",
+    "target": "software:kubernetes",
+    "description": "Kata Containers is represented as a Kubernetes-compatible VM-backed container runtime option.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:kata-containers",
+        "type": "github_repo",
+        "title": "Kata Containers GitHub repository",
+        "url": "https://github.com/kata-containers/kata-containers",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:kubernetes-supports-gvisor",
+    "kind": "supports",
+    "source": "software:kubernetes",
+    "target": "software:gvisor",
+    "description": "Kubernetes is represented as supporting gVisor-style container sandbox runtimes through runtime integration.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:kubernetes-gvisor",
+        "type": "github_repo",
+        "title": "gVisor GitHub repository",
+        "url": "https://github.com/google/gvisor",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:dagger-depends-on-docker-moby",
+    "kind": "depends_on",
+    "source": "software:dagger",
+    "target": "software:docker-moby",
+    "description": "Dagger is represented as using container runtime infrastructure for reproducible workflow execution.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:dagger-repo",
+        "type": "github_repo",
+        "title": "Dagger GitHub repository",
+        "url": "https://github.com/dagger/dagger",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:kserve-depends-on-kubernetes",
+    "kind": "depends_on",
+    "source": "software:kserve",
+    "target": "software:kubernetes",
+    "description": "KServe is represented as relying on Kubernetes for model-serving orchestration.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:kserve-repo",
+        "type": "github_repo",
+        "title": "KServe GitHub repository",
+        "url": "https://github.com/kserve/kserve",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  }
+]

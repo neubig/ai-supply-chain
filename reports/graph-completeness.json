@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-06-10T00:57:37.436Z",
+  "criteria": [
+    "Every node should have at least one source record and an update policy.",
+    "Application nodes should link to supported models or software and to license/developer evidence where available.",
+    "Model nodes should link to training data, training software, evaluation benchmarks, hosting, developer, and license evidence when disclosed.",
+    "Software nodes should link to licenses, developers, dependencies, implemented interfaces, hardware compatibility, or sandboxing relationships as applicable.",
+    "Dataset and benchmark nodes should be connected by training, evaluation, or benchmark-data edges.",
+    "Hardware infrastructure nodes should carry hardware metadata and be connected by runs_on, requires, optimized_for, or supports_hardware edges.",
+    "Agent-sandboxing nodes should carry sandbox metadata and be connected by sandboxed_by, depends_on, or supports edges.",
+    "Each top-10 layer entry should resolve to a graph node with source and refresh metadata."
+  ],
+  "summary": {
+    "nodes": 245,
+    "edges": 560,
+    "nodeCounts": {
+      "application": 10,
+      "model": 49,
+      "dataset": 11,
+      "software": 52,
+      "benchmark": 8,
+      "organization": 89,
+      "license": 12,
+      "infrastructure": 14
+    },
+    "findings": {
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "layers": [
+    {
+      "id": "applications",
+      "name": "User-facing AI applications",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "foundation-chat-models",
+      "name": "Foundation and chat models",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "coding-models",
+      "name": "Coding models",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "image-media-models",
+      "name": "Image and media generation models",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "embedding-reranking-models",
+      "name": "Embedding and reranking models",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "speech-audio-models",
+      "name": "Speech and audio models",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "inference-serving-runtimes",
+      "name": "Inference and serving runtimes",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "training-finetuning-frameworks",
+      "name": "Training and fine-tuning frameworks",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "hardware",
+      "name": "Hardware and accelerator infrastructure",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "rag-vector-data-infrastructure",
+      "name": "RAG, vector, and data infrastructure",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "agent-sandboxing",
+      "name": "Agent sandboxing and execution isolation",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    },
+    {
+      "id": "evaluation-tools-benchmarks",
+      "name": "Evaluation tools and benchmarks",
+      "entries": 10,
+      "entriesWithSources": 10,
+      "entriesWithUpdatePolicy": 10,
+      "entriesWithAnyEdge": 10
+    }
+  ],
+  "findings": []
+}

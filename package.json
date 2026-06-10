@@ -12,7 +12,10 @@
     "export:graph": "tsx scripts/export-graph.ts",
     "visualize": "tsx scripts/visualize.ts",
     "research:layers": "tsx scripts/generate-layer-research.ts",
-    "check": "npm run research:layers && npm run validate && npm run export:schema && npm run export:graph && npm run visualize && npm run build"
+    "normalize:sources": "tsx scripts/normalize-sources.ts",
+    "generate:required": "tsx scripts/generate-required-coverage.ts",
+    "report:completeness": "tsx scripts/completeness-report.ts",
+    "check": "npm run research:layers && npm run normalize:sources && npm run generate:required && npm run validate && npm run report:completeness && npm run export:schema && npm run export:graph && npm run visualize && npm run build"
   },
   "dependencies": {
     "next": "^15.3.4",

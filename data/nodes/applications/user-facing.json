@@ -13,11 +13,21 @@
       "openness": "source_available",
       "osiApproved": false,
       "notes": "Custom license with branding and enterprise restrictions.",
-      "sourceIds": ["github-license:open-webui/open-webui"]
+      "sourceIds": [
+        "github-license:open-webui/open-webui"
+      ]
     },
     "openness": "source_available",
-    "tasks": ["chat", "rag", "agents"],
-    "tags": ["consumer-facing", "web-ui", "local-llm"],
+    "tasks": [
+      "chat",
+      "rag",
+      "agents"
+    ],
+    "tags": [
+      "consumer-facing",
+      "web-ui",
+      "local-llm"
+    ],
     "sources": [
       {
         "id": "github:open-webui/open-webui",
@@ -25,9 +35,10 @@
         "title": "open-webui/open-webui GitHub repository",
         "url": "https://github.com/open-webui/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       },
       {
         "id": "github-license:open-webui/open-webui",
@@ -35,9 +46,10 @@
         "title": "Open WebUI LICENSE",
         "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -49,7 +61,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:open-webui/open-webui"]
+        "sourceIds": [
+          "github:open-webui/open-webui"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -59,7 +73,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:open-webui/open-webui"]
+        "sourceIds": [
+          "github:open-webui/open-webui"
+        ]
       },
       {
         "id": "metric:open_issues",
@@ -69,7 +85,9 @@
         "unit": "issues",
         "measuredAt": "2026-06-09",
         "higherIsBetter": false,
-        "sourceIds": ["github:open-webui/open-webui"]
+        "sourceIds": [
+          "github:open-webui/open-webui"
+        ]
       },
       {
         "id": "metric:pushed_at",
@@ -78,7 +96,9 @@
         "value": "2026-06-08T21:52:55Z",
         "unit": "iso8601 timestamp",
         "measuredAt": "2026-06-09",
-        "sourceIds": ["github:open-webui/open-webui"]
+        "sourceIds": [
+          "github:open-webui/open-webui"
+        ]
       }
     ],
     "updatePolicy": {
@@ -104,11 +124,21 @@
       "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:mintplex-labs/anything-llm"]
+      "sourceIds": [
+        "github:mintplex-labs/anything-llm"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["chat", "rag", "agents"],
-    "tags": ["consumer-facing", "local-first", "document-qa"],
+    "tasks": [
+      "chat",
+      "rag",
+      "agents"
+    ],
+    "tags": [
+      "consumer-facing",
+      "local-first",
+      "document-qa"
+    ],
     "sources": [
       {
         "id": "github:mintplex-labs/anything-llm",
@@ -116,9 +146,10 @@
         "title": "Mintplex-Labs/anything-llm GitHub repository",
         "url": "https://github.com/Mintplex-Labs/anything-llm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -130,7 +161,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:mintplex-labs/anything-llm"]
+        "sourceIds": [
+          "github:mintplex-labs/anything-llm"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -140,7 +173,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:mintplex-labs/anything-llm"]
+        "sourceIds": [
+          "github:mintplex-labs/anything-llm"
+        ]
       },
       {
         "id": "metric:open_issues",
@@ -150,7 +185,9 @@
         "unit": "issues",
         "measuredAt": "2026-06-09",
         "higherIsBetter": false,
-        "sourceIds": ["github:mintplex-labs/anything-llm"]
+        "sourceIds": [
+          "github:mintplex-labs/anything-llm"
+        ]
       }
     ],
     "updatePolicy": {
@@ -176,11 +213,20 @@
       "url": "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:nomic-ai/gpt4all"]
+      "sourceIds": [
+        "github:nomic-ai/gpt4all"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["chat", "local-inference"],
-    "tags": ["consumer-facing", "desktop", "local-llm"],
+    "tasks": [
+      "chat",
+      "local-inference"
+    ],
+    "tags": [
+      "consumer-facing",
+      "desktop",
+      "local-llm"
+    ],
     "sources": [
       {
         "id": "github:nomic-ai/gpt4all",
@@ -188,9 +234,10 @@
         "title": "nomic-ai/gpt4all GitHub repository",
         "url": "https://github.com/nomic-ai/gpt4all",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -202,7 +249,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:nomic-ai/gpt4all"]
+        "sourceIds": [
+          "github:nomic-ai/gpt4all"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -212,7 +261,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:nomic-ai/gpt4all"]
+        "sourceIds": [
+          "github:nomic-ai/gpt4all"
+        ]
       },
       {
         "id": "metric:open_issues",
@@ -222,7 +273,9 @@
         "unit": "issues",
         "measuredAt": "2026-06-09",
         "higherIsBetter": false,
-        "sourceIds": ["github:nomic-ai/gpt4all"]
+        "sourceIds": [
+          "github:nomic-ai/gpt4all"
+        ]
       }
     ],
     "updatePolicy": {
@@ -248,11 +301,21 @@
       "url": "https://github.com/continuedev/continue/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:continuedev/continue"]
+      "sourceIds": [
+        "github:continuedev/continue"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["coding", "developer-assistant", "agentic-coding"],
-    "tags": ["consumer-facing", "ide-extension", "coding"],
+    "tasks": [
+      "coding",
+      "developer-assistant",
+      "agentic-coding"
+    ],
+    "tags": [
+      "consumer-facing",
+      "ide-extension",
+      "coding"
+    ],
     "sources": [
       {
         "id": "github:continuedev/continue",
@@ -260,9 +323,10 @@
         "title": "continuedev/continue GitHub repository",
         "url": "https://github.com/continuedev/continue",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -274,7 +338,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:continuedev/continue"]
+        "sourceIds": [
+          "github:continuedev/continue"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -284,7 +350,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:continuedev/continue"]
+        "sourceIds": [
+          "github:continuedev/continue"
+        ]
       }
     ],
     "updatePolicy": {
@@ -309,11 +377,20 @@
       "url": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:comfy-org/comfyui"]
+      "sourceIds": [
+        "github:comfy-org/comfyui"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["image-generation", "workflow-automation"],
-    "tags": ["consumer-facing", "diffusion", "node-graph"],
+    "tasks": [
+      "image-generation",
+      "workflow-automation"
+    ],
+    "tags": [
+      "consumer-facing",
+      "diffusion",
+      "node-graph"
+    ],
     "sources": [
       {
         "id": "github:comfy-org/comfyui",
@@ -321,9 +398,10 @@
         "title": "Comfy-Org/ComfyUI GitHub repository",
         "url": "https://github.com/Comfy-Org/ComfyUI",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -335,7 +413,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:comfy-org/comfyui"]
+        "sourceIds": [
+          "github:comfy-org/comfyui"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -345,7 +425,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:comfy-org/comfyui"]
+        "sourceIds": [
+          "github:comfy-org/comfyui"
+        ]
       }
     ],
     "updatePolicy": {
@@ -370,11 +452,20 @@
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+      "sourceIds": [
+        "github:automatic1111/stable-diffusion-webui"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["image-generation", "image-editing"],
-    "tags": ["consumer-facing", "diffusion", "web-ui"],
+    "tasks": [
+      "image-generation",
+      "image-editing"
+    ],
+    "tags": [
+      "consumer-facing",
+      "diffusion",
+      "web-ui"
+    ],
     "sources": [
       {
         "id": "github:automatic1111/stable-diffusion-webui",
@@ -382,9 +473,10 @@
         "title": "AUTOMATIC1111/stable-diffusion-webui GitHub repository",
         "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -396,7 +488,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+        "sourceIds": [
+          "github:automatic1111/stable-diffusion-webui"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -406,7 +500,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+        "sourceIds": [
+          "github:automatic1111/stable-diffusion-webui"
+        ]
       }
     ],
     "updatePolicy": {
@@ -433,11 +529,21 @@
       "openness": "open_core",
       "osiApproved": null,
       "notes": "Repository license grants MIT terms outside enterprise-restricted directories.",
-      "sourceIds": ["github-license:openhands/openhands"]
+      "sourceIds": [
+        "github-license:openhands/openhands"
+      ]
     },
     "openness": "open_core",
-    "tasks": ["coding", "software-agents", "repository-automation"],
-    "tags": ["consumer-facing", "agent", "coding"],
+    "tasks": [
+      "coding",
+      "software-agents",
+      "repository-automation"
+    ],
+    "tags": [
+      "consumer-facing",
+      "agent",
+      "coding"
+    ],
     "sources": [
       {
         "id": "github:openhands/openhands",
@@ -445,9 +551,10 @@
         "title": "OpenHands/OpenHands GitHub repository",
         "url": "https://github.com/OpenHands/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       },
       {
         "id": "github-license:openhands/openhands",
@@ -455,9 +562,10 @@
         "title": "OpenHands LICENSE",
         "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -469,7 +577,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:openhands/openhands"]
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -479,7 +589,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:openhands/openhands"]
+        "sourceIds": [
+          "github:openhands/openhands"
+        ]
       }
     ],
     "updatePolicy": {
@@ -506,11 +618,20 @@
       "openness": "open_source",
       "osiApproved": true,
       "notes": "License file requests attribution in user-facing documentation where appropriate.",
-      "sourceIds": ["github-license:janhq/jan"]
+      "sourceIds": [
+        "github-license:janhq/jan"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["chat", "local-inference"],
-    "tags": ["consumer-facing", "desktop", "offline"],
+    "tasks": [
+      "chat",
+      "local-inference"
+    ],
+    "tags": [
+      "consumer-facing",
+      "desktop",
+      "offline"
+    ],
     "sources": [
       {
         "id": "github:janhq/jan",
@@ -518,9 +639,10 @@
         "title": "janhq/jan GitHub repository",
         "url": "https://github.com/janhq/jan",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       },
       {
         "id": "github-license:janhq/jan",
@@ -528,9 +650,10 @@
         "title": "Jan LICENSE",
         "url": "https://github.com/janhq/jan/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -542,7 +665,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:janhq/jan"]
+        "sourceIds": [
+          "github:janhq/jan"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -552,7 +677,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:janhq/jan"]
+        "sourceIds": [
+          "github:janhq/jan"
+        ]
       }
     ],
     "updatePolicy": {

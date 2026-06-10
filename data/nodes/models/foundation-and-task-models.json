@@ -10,11 +10,21 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+      "sourceIds": [
+        "hf-model:qwen/qwen2.5-7b-instruct"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["chat", "instruction-following", "rag"],
-    "tags": ["llm", "open-weights", "multilingual"],
+    "tasks": [
+      "chat",
+      "instruction-following",
+      "rag"
+    ],
+    "tags": [
+      "llm",
+      "open-weights",
+      "multilingual"
+    ],
     "sources": [
       {
         "id": "hf-model:qwen/qwen2.5-7b-instruct",
@@ -22,9 +32,10 @@
         "title": "Qwen/Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -36,7 +47,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-7b-instruct"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -46,7 +59,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-7b-instruct"
+        ]
       },
       {
         "id": "metric:mmlu",
@@ -58,7 +73,9 @@
         "benchmarkId": "benchmark:mmlu",
         "measuredAt": "2024-09-19",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-7b-instruct"
+        ]
       }
     ],
     "updatePolicy": {
@@ -83,11 +100,21 @@
       "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+      "sourceIds": [
+        "hf-model:qwen/qwen2.5-coder-7b-instruct"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["coding", "agentic-coding", "code-completion"],
-    "tags": ["llm", "code", "open-weights"],
+    "tasks": [
+      "coding",
+      "agentic-coding",
+      "code-completion"
+    ],
+    "tags": [
+      "llm",
+      "code",
+      "open-weights"
+    ],
     "sources": [
       {
         "id": "hf-model:qwen/qwen2.5-coder-7b-instruct",
@@ -95,9 +122,10 @@
         "title": "Qwen/Qwen2.5-Coder-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -109,7 +137,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-coder-7b-instruct"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -119,7 +149,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-coder-7b-instruct"
+        ]
       },
       {
         "id": "metric:humaneval",
@@ -131,7 +163,9 @@
         "benchmarkId": "benchmark:humaneval",
         "measuredAt": "2024-11-12",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+        "sourceIds": [
+          "hf-model:qwen/qwen2.5-coder-7b-instruct"
+        ]
       }
     ],
     "updatePolicy": {
@@ -156,11 +190,19 @@
       "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+      "sourceIds": [
+        "hf-model:mistralai/mistral-7b-instruct-v0.3"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["chat", "instruction-following"],
-    "tags": ["llm", "open-weights"],
+    "tasks": [
+      "chat",
+      "instruction-following"
+    ],
+    "tags": [
+      "llm",
+      "open-weights"
+    ],
     "sources": [
       {
         "id": "hf-model:mistralai/mistral-7b-instruct-v0.3",
@@ -168,9 +210,10 @@
         "title": "mistralai/Mistral-7B-Instruct-v0.3 model card",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -182,7 +225,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+        "sourceIds": [
+          "hf-model:mistralai/mistral-7b-instruct-v0.3"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -192,7 +237,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+        "sourceIds": [
+          "hf-model:mistralai/mistral-7b-instruct-v0.3"
+        ]
       },
       {
         "id": "metric:mmlu",
@@ -204,7 +251,9 @@
         "benchmarkId": "benchmark:mmlu",
         "measuredAt": "2024-05-22",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+        "sourceIds": [
+          "hf-model:mistralai/mistral-7b-instruct-v0.3"
+        ]
       }
     ],
     "updatePolicy": {
@@ -228,11 +277,20 @@
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
       "openness": "open_weights",
       "osiApproved": false,
-      "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+      "sourceIds": [
+        "hf-model:stabilityai/stable-diffusion-xl-base-1.0"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["image-generation", "image-editing"],
-    "tags": ["diffusion", "open-weights", "text-to-image"],
+    "tasks": [
+      "image-generation",
+      "image-editing"
+    ],
+    "tags": [
+      "diffusion",
+      "open-weights",
+      "text-to-image"
+    ],
     "sources": [
       {
         "id": "hf-model:stabilityai/stable-diffusion-xl-base-1.0",
@@ -240,9 +298,10 @@
         "title": "stabilityai/stable-diffusion-xl-base-1.0 model card",
         "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -254,7 +313,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-xl-base-1.0"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -264,7 +325,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-xl-base-1.0"
+        ]
       },
       {
         "id": "metric:clip-aesthetic-proxy",
@@ -276,7 +339,9 @@
         "benchmarkId": "benchmark:text-to-image-quality",
         "measuredAt": "2023-07-26",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"],
+        "sourceIds": [
+          "hf-model:stabilityai/stable-diffusion-xl-base-1.0"
+        ],
         "notes": "Seed normalized quality proxy from official model-card evaluation discussion; replace with a deterministic benchmark feed when available."
       }
     ],
@@ -302,11 +367,20 @@
       "url": "https://huggingface.co/openai/whisper-large-v3",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:openai/whisper-large-v3"]
+      "sourceIds": [
+        "hf-model:openai/whisper-large-v3"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["speech-recognition", "speech-translation"],
-    "tags": ["speech", "open-weights", "multilingual"],
+    "tasks": [
+      "speech-recognition",
+      "speech-translation"
+    ],
+    "tags": [
+      "speech",
+      "open-weights",
+      "multilingual"
+    ],
     "sources": [
       {
         "id": "hf-model:openai/whisper-large-v3",
@@ -314,9 +388,10 @@
         "title": "openai/whisper-large-v3 model card",
         "url": "https://huggingface.co/openai/whisper-large-v3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -328,7 +403,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:openai/whisper-large-v3"]
+        "sourceIds": [
+          "hf-model:openai/whisper-large-v3"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -338,7 +415,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:openai/whisper-large-v3"]
+        "sourceIds": [
+          "hf-model:openai/whisper-large-v3"
+        ]
       },
       {
         "id": "metric:librispeech-clean-wer-derived",
@@ -350,7 +429,9 @@
         "benchmarkId": "benchmark:librispeech-asr",
         "measuredAt": "2023-11-06",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:openai/whisper-large-v3"],
+        "sourceIds": [
+          "hf-model:openai/whisper-large-v3"
+        ],
         "notes": "Normalized as 100 minus reported WER-style error where lower raw WER is better."
       }
     ],
@@ -376,11 +457,21 @@
       "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+      "sourceIds": [
+        "hf-model:nomic-ai/nomic-embed-text-v1.5"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["embeddings", "rag", "semantic-search"],
-    "tags": ["embedding", "retrieval", "open-weights"],
+    "tasks": [
+      "embeddings",
+      "rag",
+      "semantic-search"
+    ],
+    "tags": [
+      "embedding",
+      "retrieval",
+      "open-weights"
+    ],
     "sources": [
       {
         "id": "hf-model:nomic-ai/nomic-embed-text-v1.5",
@@ -388,9 +479,10 @@
         "title": "nomic-ai/nomic-embed-text-v1.5 model card",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -402,7 +494,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+        "sourceIds": [
+          "hf-model:nomic-ai/nomic-embed-text-v1.5"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -412,7 +506,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+        "sourceIds": [
+          "hf-model:nomic-ai/nomic-embed-text-v1.5"
+        ]
       },
       {
         "id": "metric:mteb-average",
@@ -424,7 +520,9 @@
         "benchmarkId": "benchmark:mteb",
         "measuredAt": "2024-02-10",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+        "sourceIds": [
+          "hf-model:nomic-ai/nomic-embed-text-v1.5"
+        ]
       }
     ],
     "updatePolicy": {
@@ -449,11 +547,20 @@
       "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
       "openness": "open_weights",
       "osiApproved": true,
-      "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+      "sourceIds": [
+        "hf-model:eleutherai/gpt-j-6b"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["chat", "text-generation"],
-    "tags": ["llm", "open-weights", "research"],
+    "tasks": [
+      "chat",
+      "text-generation"
+    ],
+    "tags": [
+      "llm",
+      "open-weights",
+      "research"
+    ],
     "sources": [
       {
         "id": "hf-model:eleutherai/gpt-j-6b",
@@ -461,9 +568,10 @@
         "title": "EleutherAI/gpt-j-6b model card",
         "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -475,7 +583,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+        "sourceIds": [
+          "hf-model:eleutherai/gpt-j-6b"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -485,7 +595,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+        "sourceIds": [
+          "hf-model:eleutherai/gpt-j-6b"
+        ]
       },
       {
         "id": "metric:lambada-proxy",
@@ -497,7 +609,9 @@
         "benchmarkId": "benchmark:lambada",
         "measuredAt": "2021-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"],
+        "sourceIds": [
+          "hf-model:eleutherai/gpt-j-6b"
+        ],
         "notes": "Seed proxy retained until a deterministic benchmark table is ingested."
       }
     ],
@@ -523,11 +637,19 @@
       "url": "https://huggingface.co/bigcode/starcoder2-3b",
       "openness": "open_weights",
       "osiApproved": false,
-      "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+      "sourceIds": [
+        "hf-model:bigcode/starcoder2-3b"
+      ]
     },
     "openness": "open_weights",
-    "tasks": ["coding", "code-completion"],
-    "tags": ["code", "open-weights"],
+    "tasks": [
+      "coding",
+      "code-completion"
+    ],
+    "tags": [
+      "code",
+      "open-weights"
+    ],
     "sources": [
       {
         "id": "hf-model:bigcode/starcoder2-3b",
@@ -535,9 +657,10 @@
         "title": "bigcode/starcoder2-3b model card",
         "url": "https://huggingface.co/bigcode/starcoder2-3b",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -549,7 +672,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+        "sourceIds": [
+          "hf-model:bigcode/starcoder2-3b"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -559,7 +684,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+        "sourceIds": [
+          "hf-model:bigcode/starcoder2-3b"
+        ]
       },
       {
         "id": "metric:humaneval",
@@ -571,7 +698,9 @@
         "benchmarkId": "benchmark:humaneval",
         "measuredAt": "2024-02-28",
         "higherIsBetter": true,
-        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+        "sourceIds": [
+          "hf-model:bigcode/starcoder2-3b"
+        ]
       }
     ],
     "updatePolicy": {

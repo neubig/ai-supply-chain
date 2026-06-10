@@ -6,7 +6,9 @@
     "description": "Organization maintaining the Ollama local model runtime.",
     "canonicalUrl": "https://github.com/ollama",
     "openness": "unknown",
-    "tags": ["software-maintainer"],
+    "tags": [
+      "software-maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:ollama",
@@ -14,11 +16,18 @@
         "title": "Ollama GitHub organization",
         "url": "https://github.com/ollama",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:ggml-org",
@@ -27,7 +36,9 @@
     "description": "Organization maintaining llama.cpp and related local inference software.",
     "canonicalUrl": "https://github.com/ggml-org",
     "openness": "unknown",
-    "tags": ["software-maintainer"],
+    "tags": [
+      "software-maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:ggml-org",
@@ -35,11 +46,18 @@
         "title": "ggml-org GitHub organization",
         "url": "https://github.com/ggml-org",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:open-webui",
@@ -48,7 +66,9 @@
     "description": "Organization maintaining the Open WebUI project.",
     "canonicalUrl": "https://github.com/open-webui",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:open-webui",
@@ -56,11 +76,18 @@
         "title": "Open WebUI GitHub organization",
         "url": "https://github.com/open-webui",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:mintplex-labs",
@@ -69,7 +96,9 @@
     "description": "Organization maintaining AnythingLLM.",
     "canonicalUrl": "https://github.com/Mintplex-Labs",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:mintplex-labs",
@@ -77,11 +106,18 @@
         "title": "Mintplex-Labs GitHub organization",
         "url": "https://github.com/Mintplex-Labs",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:nomic-ai",
@@ -90,7 +126,10 @@
     "description": "Organization developing GPT4All and Nomic embedding models.",
     "canonicalUrl": "https://www.nomic.ai/",
     "openness": "unknown",
-    "tags": ["model-developer", "application-developer"],
+    "tags": [
+      "model-developer",
+      "application-developer"
+    ],
     "sources": [
       {
         "id": "official:nomic-ai",
@@ -98,11 +137,18 @@
         "title": "Nomic AI website",
         "url": "https://www.nomic.ai/",
         "publisher": "Nomic AI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:continue",
@@ -111,7 +157,9 @@
     "description": "Organization maintaining the Continue AI coding assistant.",
     "canonicalUrl": "https://www.continue.dev/",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "official:continue",
@@ -119,11 +167,18 @@
         "title": "Continue website",
         "url": "https://www.continue.dev/",
         "publisher": "Continue",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:comfy-org",
@@ -132,7 +187,9 @@
     "description": "Organization maintaining ComfyUI.",
     "canonicalUrl": "https://github.com/Comfy-Org",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:comfy-org",
@@ -140,11 +197,18 @@
         "title": "Comfy-Org GitHub organization",
         "url": "https://github.com/Comfy-Org",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:automatic1111",
@@ -153,7 +217,9 @@
     "description": "Maintainer namespace for Stable Diffusion web UI.",
     "canonicalUrl": "https://github.com/AUTOMATIC1111",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "github-user:automatic1111",
@@ -161,11 +227,18 @@
         "title": "AUTOMATIC1111 GitHub namespace",
         "url": "https://github.com/AUTOMATIC1111",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:openhands",
@@ -174,7 +247,9 @@
     "description": "Organization maintaining the OpenHands software agent.",
     "canonicalUrl": "https://github.com/OpenHands",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "github-org:openhands",
@@ -182,11 +257,18 @@
         "title": "OpenHands GitHub organization",
         "url": "https://github.com/OpenHands",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:menlo-research",
@@ -195,7 +277,9 @@
     "description": "Organization maintaining Jan.",
     "canonicalUrl": "https://jan.ai/",
     "openness": "unknown",
-    "tags": ["maintainer"],
+    "tags": [
+      "maintainer"
+    ],
     "sources": [
       {
         "id": "official:jan",
@@ -203,11 +287,80 @@
         "title": "Jan website",
         "url": "https://jan.ai/",
         "publisher": "Menlo Research",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
+  },
+  {
+    "id": "organization:lobehub",
+    "kind": "organization",
+    "name": "LobeHub",
+    "description": "Organization maintaining the LobeHub AI application projects.",
+    "canonicalUrl": "https://github.com/lobehub",
+    "openness": "unknown",
+    "tags": [
+      "maintainer",
+      "application-developer"
+    ],
+    "sources": [
+      {
+        "id": "github-org:lobehub",
+        "type": "github_repo",
+        "title": "LobeHub GitHub organization",
+        "url": "https://github.com/lobehub",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
+  },
+  {
+    "id": "organization:danny-avila",
+    "kind": "organization",
+    "name": "Danny Avila",
+    "description": "Maintainer namespace for the LibreChat project.",
+    "canonicalUrl": "https://github.com/danny-avila",
+    "openness": "unknown",
+    "tags": [
+      "maintainer",
+      "application-developer"
+    ],
+    "sources": [
+      {
+        "id": "github-user:danny-avila",
+        "type": "github_repo",
+        "title": "danny-avila GitHub namespace",
+        "url": "https://github.com/danny-avila",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:alibaba-qwen",
@@ -216,7 +369,9 @@
     "description": "Organization developing Qwen model families.",
     "canonicalUrl": "https://huggingface.co/Qwen",
     "openness": "unknown",
-    "tags": ["model-developer"],
+    "tags": [
+      "model-developer"
+    ],
     "sources": [
       {
         "id": "hf-org:qwen",
@@ -224,11 +379,18 @@
         "title": "Qwen Hugging Face organization",
         "url": "https://huggingface.co/Qwen",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:mistral-ai",
@@ -237,7 +399,9 @@
     "description": "AI company developing Mistral model families.",
     "canonicalUrl": "https://mistral.ai/",
     "openness": "unknown",
-    "tags": ["model-developer"],
+    "tags": [
+      "model-developer"
+    ],
     "sources": [
       {
         "id": "official:mistral-ai",
@@ -245,11 +409,18 @@
         "title": "Mistral AI website",
         "url": "https://mistral.ai/",
         "publisher": "Mistral AI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:stability-ai",
@@ -258,7 +429,9 @@
     "description": "Organization releasing Stable Diffusion model families.",
     "canonicalUrl": "https://stability.ai/",
     "openness": "unknown",
-    "tags": ["model-developer"],
+    "tags": [
+      "model-developer"
+    ],
     "sources": [
       {
         "id": "official:stability-ai",
@@ -266,11 +439,18 @@
         "title": "Stability AI website",
         "url": "https://stability.ai/",
         "publisher": "Stability AI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:openai",
@@ -279,7 +459,9 @@
     "description": "Organization that released Whisper model weights and code.",
     "canonicalUrl": "https://openai.com/",
     "openness": "unknown",
-    "tags": ["model-developer"],
+    "tags": [
+      "model-developer"
+    ],
     "sources": [
       {
         "id": "official:openai",
@@ -287,11 +469,18 @@
         "title": "OpenAI website",
         "url": "https://openai.com/",
         "publisher": "OpenAI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:eleutherai",
@@ -300,7 +489,10 @@
     "description": "Open research collective that released GPT-J and The Pile.",
     "canonicalUrl": "https://www.eleuther.ai/",
     "openness": "unknown",
-    "tags": ["model-developer", "dataset-creator"],
+    "tags": [
+      "model-developer",
+      "dataset-creator"
+    ],
     "sources": [
       {
         "id": "official:eleutherai",
@@ -308,11 +500,18 @@
         "title": "EleutherAI website",
         "url": "https://www.eleuther.ai/",
         "publisher": "EleutherAI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:bigcode",
@@ -321,7 +520,10 @@
     "description": "Open scientific collaboration developing code datasets and code models.",
     "canonicalUrl": "https://www.bigcode-project.org/",
     "openness": "unknown",
-    "tags": ["model-developer", "dataset-creator"],
+    "tags": [
+      "model-developer",
+      "dataset-creator"
+    ],
     "sources": [
       {
         "id": "official:bigcode",
@@ -329,11 +531,18 @@
         "title": "BigCode project website",
         "url": "https://www.bigcode-project.org/",
         "publisher": "BigCode",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:hugging-face",
@@ -342,7 +551,10 @@
     "description": "Organization maintaining model, dataset, and library infrastructure.",
     "canonicalUrl": "https://huggingface.co/",
     "openness": "unknown",
-    "tags": ["infrastructure", "software-maintainer"],
+    "tags": [
+      "infrastructure",
+      "software-maintainer"
+    ],
     "sources": [
       {
         "id": "official:hugging-face",
@@ -350,11 +562,18 @@
         "title": "Hugging Face website",
         "url": "https://huggingface.co/",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:laion",
@@ -363,7 +582,9 @@
     "description": "Non-profit organization releasing large-scale open datasets and models.",
     "canonicalUrl": "https://laion.ai/",
     "openness": "unknown",
-    "tags": ["dataset-creator"],
+    "tags": [
+      "dataset-creator"
+    ],
     "sources": [
       {
         "id": "official:laion",
@@ -371,11 +592,18 @@
         "title": "LAION website",
         "url": "https://laion.ai/",
         "publisher": "LAION",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   },
   {
     "id": "organization:pytorch-foundation",
@@ -384,7 +612,9 @@
     "description": "Foundation stewarding the PyTorch ecosystem.",
     "canonicalUrl": "https://pytorch.org/foundation",
     "openness": "unknown",
-    "tags": ["software-maintainer"],
+    "tags": [
+      "software-maintainer"
+    ],
     "sources": [
       {
         "id": "official:pytorch-foundation",
@@ -392,10 +622,17 @@
         "title": "PyTorch Foundation",
         "url": "https://pytorch.org/foundation",
         "publisher": "PyTorch Foundation",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
-    ]
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+    }
   }
 ]

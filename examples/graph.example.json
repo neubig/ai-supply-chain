@@ -13,11 +13,17 @@
         "url": "https://example.com/license",
         "openness": "open_source",
         "osiApproved": true,
-        "sourceIds": ["example:app-source"]
+        "sourceIds": [
+          "example:app-source"
+        ]
       },
       "openness": "open_source",
-      "tasks": ["chat"],
-      "tags": ["example"],
+      "tasks": [
+        "chat"
+      ],
+      "tags": [
+        "example"
+      ],
       "sources": [
         {
           "id": "example:app-source",
@@ -25,9 +31,10 @@
           "title": "Example app source",
           "url": "https://example.com/app",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "high"
+          "confidence": "high",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
       ],
       "metrics": [
@@ -39,7 +46,9 @@
           "unit": "users",
           "measuredAt": "2026-06-09",
           "higherIsBetter": true,
-          "sourceIds": ["example:app-source"]
+          "sourceIds": [
+            "example:app-source"
+          ]
         }
       ],
       "updatePolicy": {
@@ -56,7 +65,9 @@
       "description": "Minimal example of a model node.",
       "canonicalUrl": "https://example.com/model",
       "openness": "open_weights",
-      "tasks": ["chat"],
+      "tasks": [
+        "chat"
+      ],
       "sources": [
         {
           "id": "example:model-source",
@@ -64,9 +75,10 @@
           "title": "Example model card",
           "url": "https://example.com/model",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
       ],
       "metrics": [
@@ -80,9 +92,17 @@
           "benchmarkId": "benchmark:example-benchmark",
           "measuredAt": "2026-06-09",
           "higherIsBetter": true,
-          "sourceIds": ["example:model-source"]
+          "sourceIds": [
+            "example:model-source"
+          ]
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "model:example-base-model",
@@ -91,7 +111,9 @@
       "description": "Minimal example of a base model node.",
       "canonicalUrl": "https://example.com/base-model",
       "openness": "open_weights",
-      "tasks": ["text-generation"],
+      "tasks": [
+        "text-generation"
+      ],
       "sources": [
         {
           "id": "example:base-model-source",
@@ -99,11 +121,18 @@
           "title": "Example base model card",
           "url": "https://example.com/base-model",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "dataset:example-pretraining-data",
@@ -112,7 +141,9 @@
       "description": "Minimal example of a dataset node.",
       "canonicalUrl": "https://example.com/dataset",
       "openness": "source_available",
-      "tasks": ["training"],
+      "tasks": [
+        "training"
+      ],
       "sources": [
         {
           "id": "example:dataset-source",
@@ -120,11 +151,18 @@
           "title": "Example dataset card",
           "url": "https://example.com/dataset",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "software:example-runtime",
@@ -133,7 +171,9 @@
       "description": "Minimal example of a software node.",
       "canonicalUrl": "https://example.com/runtime",
       "openness": "open_source",
-      "tasks": ["inference"],
+      "tasks": [
+        "inference"
+      ],
       "sources": [
         {
           "id": "example:runtime-source",
@@ -141,11 +181,18 @@
           "title": "Example runtime repository",
           "url": "https://example.com/runtime",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "software:example-api",
@@ -154,7 +201,9 @@
       "description": "Minimal example of an interface software node.",
       "canonicalUrl": "https://example.com/api",
       "openness": "open_source",
-      "tasks": ["api"],
+      "tasks": [
+        "api"
+      ],
       "sources": [
         {
           "id": "example:api-source",
@@ -162,11 +211,18 @@
           "title": "Example API documentation",
           "url": "https://example.com/api",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "benchmark:example-benchmark",
@@ -175,7 +231,9 @@
       "description": "Minimal example of a benchmark node.",
       "canonicalUrl": "https://example.com/benchmark",
       "openness": "open_source",
-      "tasks": ["chat"],
+      "tasks": [
+        "chat"
+      ],
       "sources": [
         {
           "id": "example:benchmark-source",
@@ -183,11 +241,18 @@
           "title": "Example benchmark definition",
           "url": "https://example.com/benchmark",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "organization:example-org",
@@ -203,11 +268,18 @@
           "title": "Example organization",
           "url": "https://example.com/org",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "license:example-license",
@@ -223,11 +295,18 @@
           "title": "Example license text",
           "url": "https://example.com/license",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     },
     {
       "id": "infrastructure:example-hub",
@@ -236,7 +315,9 @@
       "description": "Minimal example of an infrastructure node.",
       "canonicalUrl": "https://example.com/hub",
       "openness": "open_core",
-      "tasks": ["hosting"],
+      "tasks": [
+        "hosting"
+      ],
       "sources": [
         {
           "id": "example:hub-source",
@@ -244,11 +325,18 @@
           "title": "Example hub",
           "url": "https://example.com/hub",
           "publisher": "Example Publisher",
-          "retrievedAt": "2026-06-09",
           "collectionMethod": "static_document",
-          "confidence": "medium"
+          "confidence": "medium",
+          "retrieved_date": "2026-06-09",
+          "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
         }
-      ]
+      ],
+      "updatePolicy": {
+        "refreshMethod": "manual_review",
+        "cadence": "manual",
+        "deterministic": false,
+        "instructions": "Review the cited node sources and replace any source-needed notes with exact quotes where possible."
+      }
     }
   ],
   "edges": [
@@ -258,7 +346,19 @@
       "source": "application:example-chat-app",
       "target": "model:example-chat-model",
       "description": "Example supports edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-app-supports-model",
+          "type": "manual_entry",
+          "title": "edge:example-app-supports-model seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-app-depends-on-runtime",
@@ -266,7 +366,19 @@
       "source": "application:example-chat-app",
       "target": "software:example-runtime",
       "description": "Example depends_on edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-app-depends-on-runtime",
+          "type": "manual_entry",
+          "title": "edge:example-app-depends-on-runtime seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-trained-on-data",
@@ -274,7 +386,19 @@
       "source": "model:example-chat-model",
       "target": "dataset:example-pretraining-data",
       "description": "Example trained_on edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-trained-on-data",
+          "type": "manual_entry",
+          "title": "edge:example-model-trained-on-data seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-trained-with-runtime",
@@ -282,7 +406,19 @@
       "source": "model:example-chat-model",
       "target": "software:example-runtime",
       "description": "Example trained_with edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-trained-with-runtime",
+          "type": "manual_entry",
+          "title": "edge:example-model-trained-with-runtime seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-evaluated-on-benchmark",
@@ -290,7 +426,19 @@
       "source": "model:example-chat-model",
       "target": "benchmark:example-benchmark",
       "description": "Example evaluated_on edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-evaluated-on-benchmark",
+          "type": "manual_entry",
+          "title": "edge:example-model-evaluated-on-benchmark seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-app-developed-by-org",
@@ -298,7 +446,19 @@
       "source": "application:example-chat-app",
       "target": "organization:example-org",
       "description": "Example developed_by edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-app-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-app-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-hosted-by-hub",
@@ -306,7 +466,19 @@
       "source": "model:example-chat-model",
       "target": "infrastructure:example-hub",
       "description": "Example hosted_by edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-hosted-by-hub",
+          "type": "manual_entry",
+          "title": "edge:example-model-hosted-by-hub seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-licensed-as-license",
@@ -314,7 +486,19 @@
       "source": "model:example-chat-model",
       "target": "license:example-license",
       "description": "Example licensed_as edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-model-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-model-derived-from-base-model",
@@ -322,7 +506,19 @@
       "source": "model:example-chat-model",
       "target": "model:example-base-model",
       "description": "Example derived_from edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-model-derived-from-base-model",
+          "type": "manual_entry",
+          "title": "edge:example-model-derived-from-base-model seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-benchmark-uses-data",
@@ -330,7 +526,19 @@
       "source": "benchmark:example-benchmark",
       "target": "dataset:example-pretraining-data",
       "description": "Example uses_data edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-benchmark-uses-data",
+          "type": "manual_entry",
+          "title": "edge:example-benchmark-uses-data seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     },
     {
       "id": "edge:example-runtime-implements-api",
@@ -338,7 +546,359 @@
       "source": "software:example-runtime",
       "target": "software:example-api",
       "description": "Example implements edge.",
-      "sources": []
+      "sources": [
+        {
+          "id": "manual:edge-example-runtime-implements-api",
+          "type": "manual_entry",
+          "title": "edge:example-runtime-implements-api seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-app-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "application:example-chat-app",
+      "target": "license:example-license",
+      "description": "Example application license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-app-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-app-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-model-developed-by-org",
+      "kind": "developed_by",
+      "source": "model:example-chat-model",
+      "target": "organization:example-org",
+      "description": "Example model developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-model-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-model-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-developed-by-org",
+      "kind": "developed_by",
+      "source": "model:example-base-model",
+      "target": "organization:example-org",
+      "description": "Example base model developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-hosted-by-hub",
+      "kind": "hosted_by",
+      "source": "model:example-base-model",
+      "target": "infrastructure:example-hub",
+      "description": "Example base model hosting edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-hosted-by-hub",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-hosted-by-hub seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "model:example-base-model",
+      "target": "license:example-license",
+      "description": "Example base model license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-trained-on-data",
+      "kind": "trained_on",
+      "source": "model:example-base-model",
+      "target": "dataset:example-pretraining-data",
+      "description": "Example base model training-data edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-trained-on-data",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-trained-on-data seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-trained-with-runtime",
+      "kind": "trained_with",
+      "source": "model:example-base-model",
+      "target": "software:example-runtime",
+      "description": "Example base model training-software edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-trained-with-runtime",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-trained-with-runtime seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-base-model-evaluated-on-benchmark",
+      "kind": "evaluated_on",
+      "source": "model:example-base-model",
+      "target": "benchmark:example-benchmark",
+      "description": "Example base model evaluation edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-base-model-evaluated-on-benchmark",
+          "type": "manual_entry",
+          "title": "edge:example-base-model-evaluated-on-benchmark seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-dataset-developed-by-org",
+      "kind": "developed_by",
+      "source": "dataset:example-pretraining-data",
+      "target": "organization:example-org",
+      "description": "Example dataset developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-dataset-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-dataset-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-dataset-hosted-by-hub",
+      "kind": "hosted_by",
+      "source": "dataset:example-pretraining-data",
+      "target": "infrastructure:example-hub",
+      "description": "Example dataset hosting edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-dataset-hosted-by-hub",
+          "type": "manual_entry",
+          "title": "edge:example-dataset-hosted-by-hub seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-dataset-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "dataset:example-pretraining-data",
+      "target": "license:example-license",
+      "description": "Example dataset license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-dataset-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-dataset-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-runtime-developed-by-org",
+      "kind": "developed_by",
+      "source": "software:example-runtime",
+      "target": "organization:example-org",
+      "description": "Example runtime developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-runtime-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-runtime-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-runtime-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "software:example-runtime",
+      "target": "license:example-license",
+      "description": "Example runtime license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-runtime-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-runtime-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-api-developed-by-org",
+      "kind": "developed_by",
+      "source": "software:example-api",
+      "target": "organization:example-org",
+      "description": "Example API developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-api-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-api-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-api-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "software:example-api",
+      "target": "license:example-license",
+      "description": "Example API license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-api-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-api-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-benchmark-developed-by-org",
+      "kind": "developed_by",
+      "source": "benchmark:example-benchmark",
+      "target": "organization:example-org",
+      "description": "Example benchmark developer edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-benchmark-developed-by-org",
+          "type": "manual_entry",
+          "title": "edge:example-benchmark-developed-by-org seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "id": "edge:example-benchmark-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "benchmark:example-benchmark",
+      "target": "license:example-license",
+      "description": "Example benchmark license edge.",
+      "sources": [
+        {
+          "id": "manual:edge-example-benchmark-licensed-as-license",
+          "type": "manual_entry",
+          "title": "edge:example-benchmark-licensed-as-license seed edge source placeholder",
+          "url": "https://github.com/neubig/ai-supply-chain",
+          "note": "Example or seed edge placeholder; no external quote was captured in the initial ingest.",
+          "publisher": "AI supply-chain maintainers",
+          "retrieved_date": "2026-06-10",
+          "collectionMethod": "manual_review",
+          "confidence": "low"
+        }
+      ]
     }
   ]
 }

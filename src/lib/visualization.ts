@@ -34,6 +34,7 @@ const opennessStroke: Record<OpenSourceClass, string> = {
 const edgeStroke: Record<EdgeKind, string> = {
   supports: "#2563EB",
   depends_on: "#475467",
+  requires: "#B42318",
   trained_on: "#A15C07",
   trained_with: "#0E7490",
   evaluated_on: "#C11574",
@@ -42,7 +43,11 @@ const edgeStroke: Record<EdgeKind, string> = {
   licensed_as: "#7A5C00",
   derived_from: "#7C3AED",
   uses_data: "#A15C07",
-  implements: "#0E7490"
+  implements: "#0E7490",
+  runs_on: "#147D64",
+  optimized_for: "#0B4A6F",
+  supports_hardware: "#175CD3",
+  sandboxed_by: "#6941C6"
 };
 
 function escapeXml(value: string) {
@@ -141,7 +146,19 @@ export function renderSupplyChainSvg(graph: SupplyChainGraph) {
         1
       )}" fill="none" stroke="${color}" stroke-width="1.2" opacity="${opacity}" marker-end="url(#arrow)"/>`
     );
-    if (["supports", "trained_on", "evaluated_on", "depends_on"].includes(edge.kind)) {
+    if (
+      [
+        "supports",
+        "trained_on",
+        "evaluated_on",
+        "depends_on",
+        "requires",
+        "runs_on",
+        "optimized_for",
+        "supports_hardware",
+        "sandboxed_by"
+      ].includes(edge.kind)
+    ) {
       lines.push(
         `<text x="${((startX + endX) / 2).toFixed(1)}" y="${((startY + endY) / 2 - 4).toFixed(
           1

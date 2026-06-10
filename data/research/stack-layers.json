@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-06-10T00:00:00.000Z",
-  "sourcePolicy": "Popularity snapshots are deterministic API reads from GitHub repositories or Hugging Face model metadata, captured on the retrievedAt date.",
+  "sourcePolicy": "Popularity snapshots are deterministic API reads from GitHub repositories or Hugging Face model metadata when available. Hardware coverage uses official vendor documentation and a curated coverage-priority rank because cross-vendor popularity metrics are not comparable.",
   "layers": [
     {
       "id": "applications",
@@ -1275,6 +1275,165 @@
       ]
     },
     {
+      "id": "hardware",
+      "name": "Hardware and accelerator infrastructure",
+      "description": "Accelerators and local compute profiles used for AI training, fine-tuning, and inference.",
+      "popularityBasis": "Curated coverage priority across current AI accelerator and local-device alternatives from official vendor documentation; this is not a market-share estimate.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "infrastructure:nvidia-b200",
+          "kind": "infrastructure",
+          "name": "NVIDIA B200",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 100,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.nvidia.com/en-us/data-center/dgx-b200/"
+          },
+          "sourceUrl": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 2,
+          "nodeId": "infrastructure:nvidia-h200",
+          "kind": "infrastructure",
+          "name": "NVIDIA H200",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 99,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.nvidia.com/en-us/data-center/h200/"
+          },
+          "sourceUrl": "https://www.nvidia.com/en-us/data-center/h200/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 3,
+          "nodeId": "infrastructure:nvidia-h100",
+          "kind": "infrastructure",
+          "name": "NVIDIA H100",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 98,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.nvidia.com/en-us/data-center/h100/"
+          },
+          "sourceUrl": "https://www.nvidia.com/en-us/data-center/h100/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 4,
+          "nodeId": "infrastructure:nvidia-rtx-5090",
+          "kind": "infrastructure",
+          "name": "NVIDIA GeForce RTX 5090",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 97,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/"
+          },
+          "sourceUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 5,
+          "nodeId": "infrastructure:amd-mi325x",
+          "kind": "infrastructure",
+          "name": "AMD Instinct MI325X",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 96,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html"
+          },
+          "sourceUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 6,
+          "nodeId": "infrastructure:amd-mi300x",
+          "kind": "infrastructure",
+          "name": "AMD Instinct MI300X",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 95,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
+          },
+          "sourceUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 7,
+          "nodeId": "infrastructure:intel-gaudi-3",
+          "kind": "infrastructure",
+          "name": "Intel Gaudi 3",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 94,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html"
+          },
+          "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 8,
+          "nodeId": "infrastructure:google-cloud-tpu-v6e-trillium",
+          "kind": "infrastructure",
+          "name": "Google Cloud TPU v6e Trillium",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 93,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://docs.cloud.google.com/tpu/docs/v6e"
+          },
+          "sourceUrl": "https://docs.cloud.google.com/tpu/docs/v6e",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 9,
+          "nodeId": "infrastructure:aws-trainium3",
+          "kind": "infrastructure",
+          "name": "AWS Trainium3",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 92,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://aws.amazon.com/ai/machine-learning/trainium/"
+          },
+          "sourceUrl": "https://aws.amazon.com/ai/machine-learning/trainium/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        },
+        {
+          "rank": 10,
+          "nodeId": "infrastructure:apple-m5-max",
+          "kind": "infrastructure",
+          "name": "Apple M5 Max",
+          "popularityMetric": {
+            "name": "Coverage priority",
+            "value": 91,
+            "unit": "rank_score",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://www.apple.com/macbook-pro/specs/"
+          },
+          "sourceUrl": "https://www.apple.com/macbook-pro/specs/",
+          "notes": "Curated from official hardware/specification documentation; rank is coverage priority, not market share."
+        }
+      ]
+    },
+    {
       "id": "rag-vector-data-infrastructure",
       "name": "RAG, vector, and data infrastructure",
       "description": "Retrieval frameworks, vector databases, and data systems used in AI stacks.",
@@ -1429,6 +1588,165 @@
             "sourceUrl": "https://github.com/lancedb/lancedb"
           },
           "sourceUrl": "https://github.com/lancedb/lancedb",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        }
+      ]
+    },
+    {
+      "id": "agent-sandboxing",
+      "name": "Agent sandboxing and execution isolation",
+      "description": "Container, microVM, workspace, and policy layers used to isolate AI agents and tool execution.",
+      "popularityBasis": "GitHub stars among selected sandboxing and execution-isolation alternatives.",
+      "retrievedAt": "2026-06-10",
+      "entries": [
+        {
+          "rank": 1,
+          "nodeId": "software:kubernetes",
+          "kind": "software",
+          "name": "Kubernetes",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 122896,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/kubernetes/kubernetes"
+          },
+          "sourceUrl": "https://github.com/kubernetes/kubernetes",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 2,
+          "nodeId": "software:openhands-runtime",
+          "kind": "software",
+          "name": "OpenHands Runtime",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 76331,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/OpenHands/OpenHands"
+          },
+          "sourceUrl": "https://github.com/OpenHands/OpenHands",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 3,
+          "nodeId": "software:daytona",
+          "kind": "software",
+          "name": "Daytona",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 72445,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/daytonaio/daytona"
+          },
+          "sourceUrl": "https://github.com/daytonaio/daytona",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 4,
+          "nodeId": "software:docker-moby",
+          "kind": "software",
+          "name": "Docker/Moby",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 71643,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/moby/moby"
+          },
+          "sourceUrl": "https://github.com/moby/moby",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 5,
+          "nodeId": "software:firecracker",
+          "kind": "software",
+          "name": "Firecracker",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 34843,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/firecracker-microvm/firecracker"
+          },
+          "sourceUrl": "https://github.com/firecracker-microvm/firecracker",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 6,
+          "nodeId": "software:gvisor",
+          "kind": "software",
+          "name": "gVisor",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 18496,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/google/gvisor"
+          },
+          "sourceUrl": "https://github.com/google/gvisor",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 7,
+          "nodeId": "software:dagger",
+          "kind": "software",
+          "name": "Dagger",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 15920,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/dagger/dagger"
+          },
+          "sourceUrl": "https://github.com/dagger/dagger",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 8,
+          "nodeId": "software:kata-containers",
+          "kind": "software",
+          "name": "Kata Containers",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 8041,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/kata-containers/kata-containers"
+          },
+          "sourceUrl": "https://github.com/kata-containers/kata-containers",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 9,
+          "nodeId": "software:dev-containers-spec",
+          "kind": "software",
+          "name": "Dev Containers",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 5500,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/devcontainers/spec"
+          },
+          "sourceUrl": "https://github.com/devcontainers/spec",
+          "notes": "Ranked by GitHub stars within the selected layer candidate set."
+        },
+        {
+          "rank": 10,
+          "nodeId": "software:e2b-infra",
+          "kind": "software",
+          "name": "E2B Infra",
+          "popularityMetric": {
+            "name": "GitHub stars",
+            "value": 1157,
+            "unit": "stars",
+            "measuredAt": "2026-06-10",
+            "sourceUrl": "https://github.com/e2b-dev/infra"
+          },
+          "sourceUrl": "https://github.com/e2b-dev/infra",
           "notes": "Ranked by GitHub stars within the selected layer candidate set."
         }
       ]

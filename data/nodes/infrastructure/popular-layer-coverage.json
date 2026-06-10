@@ -1,0 +1,876 @@
+[
+  {
+    "id": "infrastructure:nvidia-b200",
+    "kind": "infrastructure",
+    "name": "NVIDIA B200",
+    "description": "Blackwell Tensor Core GPU profile for large-scale training and inference systems.",
+    "canonicalUrl": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.nvidia.com/en-us/data-center/dgx-b200",
+        "type": "official_website",
+        "title": "NVIDIA B200 official documentation",
+        "url": "https://www.nvidia.com/en-us/data-center/dgx-b200/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "NVIDIA",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 100,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/dgx-b200"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/dgx-b200"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 180,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 100
+      },
+      "hardware": {
+        "vendor": "NVIDIA",
+        "acceleratorType": "gpu",
+        "architecture": "Blackwell",
+        "memoryGb": 180,
+        "memoryType": "HBM3e",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "CUDA",
+          "TensorRT-LLM",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:nvidia-h200",
+    "kind": "infrastructure",
+    "name": "NVIDIA H200",
+    "description": "Hopper GPU profile with larger HBM3e memory for LLM inference and training.",
+    "canonicalUrl": "https://www.nvidia.com/en-us/data-center/h200/",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.nvidia.com/en-us/data-center/h200",
+        "type": "official_website",
+        "title": "NVIDIA H200 official documentation",
+        "url": "https://www.nvidia.com/en-us/data-center/h200/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "NVIDIA",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 99,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/h200"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/h200"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 141,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 99
+      },
+      "hardware": {
+        "vendor": "NVIDIA",
+        "acceleratorType": "gpu",
+        "architecture": "Hopper",
+        "memoryGb": 141,
+        "memoryType": "HBM3e",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "CUDA",
+          "TensorRT-LLM",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:nvidia-h100",
+    "kind": "infrastructure",
+    "name": "NVIDIA H100",
+    "description": "Hopper Tensor Core GPU profile widely used for AI training and inference clusters.",
+    "canonicalUrl": "https://www.nvidia.com/en-us/data-center/h100/",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.nvidia.com/en-us/data-center/h100",
+        "type": "official_website",
+        "title": "NVIDIA H100 official documentation",
+        "url": "https://www.nvidia.com/en-us/data-center/h100/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "NVIDIA",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 98,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/h100"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/data-center/h100"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 80,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 98
+      },
+      "hardware": {
+        "vendor": "NVIDIA",
+        "acceleratorType": "gpu",
+        "architecture": "Hopper",
+        "memoryGb": 80,
+        "memoryType": "HBM3",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "CUDA",
+          "TensorRT-LLM",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:nvidia-rtx-5090",
+    "kind": "infrastructure",
+    "name": "NVIDIA GeForce RTX 5090",
+    "description": "Consumer Blackwell GPU profile for local inference, image generation, and small fine-tuning jobs.",
+    "canonicalUrl": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+    "openness": "proprietary",
+    "tasks": [
+      "local-inference",
+      "image-generation",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090",
+        "type": "official_website",
+        "title": "NVIDIA GeForce RTX 5090 official documentation",
+        "url": "https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "NVIDIA",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 97,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5090"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 32,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "local_capex",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 97
+      },
+      "hardware": {
+        "vendor": "NVIDIA",
+        "acceleratorType": "gpu",
+        "architecture": "Blackwell",
+        "memoryGb": 32,
+        "memoryType": "GDDR7",
+        "deployment": "consumer-workstation",
+        "softwareBackends": [
+          "CUDA",
+          "llama.cpp",
+          "PyTorch",
+          "Diffusers"
+        ],
+        "supportsTraining": "limited",
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:amd-mi325x",
+    "kind": "infrastructure",
+    "name": "AMD Instinct MI325X",
+    "description": "AMD datacenter accelerator profile with high HBM3e capacity for large models.",
+    "canonicalUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
+        "type": "official_website",
+        "title": "AMD Instinct MI325X official documentation",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "AMD",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 96,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.amd.com/en/products/accelerators/instinct/mi300/mi325x.html"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 256,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 96
+      },
+      "hardware": {
+        "vendor": "AMD",
+        "acceleratorType": "gpu",
+        "architecture": "CDNA3",
+        "memoryGb": 256,
+        "memoryType": "HBM3e",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "ROCm",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:amd-mi300x",
+    "kind": "infrastructure",
+    "name": "AMD Instinct MI300X",
+    "description": "AMD datacenter accelerator profile used for large-memory training and inference.",
+    "canonicalUrl": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+        "type": "official_website",
+        "title": "AMD Instinct MI300X official documentation",
+        "url": "https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "AMD",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 95,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 192,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 95
+      },
+      "hardware": {
+        "vendor": "AMD",
+        "acceleratorType": "gpu",
+        "architecture": "CDNA3",
+        "memoryGb": 192,
+        "memoryType": "HBM3",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "ROCm",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:intel-gaudi-3",
+    "kind": "infrastructure",
+    "name": "Intel Gaudi 3",
+    "description": "Intel AI accelerator profile for training and inference with Ethernet scale-out.",
+    "canonicalUrl": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "type": "official_website",
+        "title": "Intel Gaudi 3 official documentation",
+        "url": "https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "Intel",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 94,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi.html"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 128,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "datacenter_capex_or_cloud",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 94
+      },
+      "hardware": {
+        "vendor": "Intel",
+        "acceleratorType": "ai-accelerator",
+        "architecture": "Gaudi",
+        "memoryGb": 128,
+        "memoryType": "HBM2e",
+        "deployment": "datacenter",
+        "softwareBackends": [
+          "SynapseAI",
+          "PyTorch",
+          "vLLM"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:google-cloud-tpu-v6e-trillium",
+    "kind": "infrastructure",
+    "name": "Google Cloud TPU v6e Trillium",
+    "description": "Google Cloud TPU profile for large-scale model training, tuning, and serving.",
+    "canonicalUrl": "https://docs.cloud.google.com/tpu/docs/v6e",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:docs.cloud.google.com/tpu/docs/v6e",
+        "type": "official_website",
+        "title": "Google Cloud TPU v6e Trillium official documentation",
+        "url": "https://docs.cloud.google.com/tpu/docs/v6e",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "Google Cloud",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 93,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:docs.cloud.google.com/tpu/docs/v6e"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:docs.cloud.google.com/tpu/docs/v6e"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 32,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "cloud_metered",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 93
+      },
+      "hardware": {
+        "vendor": "Google Cloud",
+        "acceleratorType": "tpu",
+        "architecture": "Trillium",
+        "memoryGb": 32,
+        "memoryType": "HBM",
+        "deployment": "cloud",
+        "softwareBackends": [
+          "JAX",
+          "XLA",
+          "PyTorch/XLA",
+          "TensorFlow"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:aws-trainium3",
+    "kind": "infrastructure",
+    "name": "AWS Trainium3",
+    "description": "AWS custom accelerator profile for large-scale training and inference through EC2 Trn3 UltraServers.",
+    "canonicalUrl": "https://aws.amazon.com/ai/machine-learning/trainium/",
+    "openness": "proprietary",
+    "tasks": [
+      "training",
+      "inference",
+      "fine-tuning"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:aws.amazon.com/ai/machine-learning/trainium",
+        "type": "official_website",
+        "title": "AWS Trainium3 official documentation",
+        "url": "https://aws.amazon.com/ai/machine-learning/trainium/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "AWS",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 92,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:aws.amazon.com/ai/machine-learning/trainium"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:aws.amazon.com/ai/machine-learning/trainium"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 144,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "cloud_metered",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 92
+      },
+      "hardware": {
+        "vendor": "AWS",
+        "acceleratorType": "ai-accelerator",
+        "architecture": "Trainium",
+        "memoryGb": 144,
+        "memoryType": "HBM3e",
+        "deployment": "cloud",
+        "softwareBackends": [
+          "AWS Neuron",
+          "PyTorch",
+          "JAX"
+        ],
+        "supportsTraining": true,
+        "supportsInference": true
+      }
+    }
+  },
+  {
+    "id": "infrastructure:apple-m5-max",
+    "kind": "infrastructure",
+    "name": "Apple M5 Max",
+    "description": "Apple unified-memory local workstation profile for on-device inference and developer workflows.",
+    "canonicalUrl": "https://www.apple.com/macbook-pro/specs/",
+    "openness": "proprietary",
+    "tasks": [
+      "local-inference",
+      "developer-workstation"
+    ],
+    "tags": [
+      "hardware",
+      "top-10-coverage"
+    ],
+    "sources": [
+      {
+        "id": "official:www.apple.com/macbook-pro/specs",
+        "type": "official_website",
+        "title": "Apple M5 Max official documentation",
+        "url": "https://www.apple.com/macbook-pro/specs/",
+        "note": "Official product or documentation page used for capability fields; no exact quote is captured in the seed ingest.",
+        "publisher": "Apple",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:coverage_priority",
+        "category": "adoption",
+        "name": "Coverage priority",
+        "value": 91,
+        "unit": "rank_score",
+        "measuredAt": "2026-06-10",
+        "higherIsBetter": true,
+        "sourceIds": [
+          "official:www.apple.com/macbook-pro/specs"
+        ]
+      },
+      {
+        "measuredAt": "2026-06-10",
+        "sourceIds": [
+          "official:www.apple.com/macbook-pro/specs"
+        ],
+        "id": "metric:memory_gb",
+        "category": "performance",
+        "name": "Accelerator memory",
+        "value": 128,
+        "unit": "GB",
+        "higherIsBetter": true
+      }
+    ],
+    "evidence": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh hardware specifications from official vendor documentation."
+    },
+    "metadata": {
+      "layerCoverage": "hardware",
+      "costTier": "local_capex",
+      "popularitySnapshot": {
+        "measuredAt": "2026-06-10",
+        "metric": "Coverage priority",
+        "value": 91
+      },
+      "hardware": {
+        "vendor": "Apple",
+        "acceleratorType": "soc",
+        "architecture": "Apple Silicon",
+        "memoryGb": 128,
+        "memoryType": "unified memory",
+        "deployment": "consumer-workstation",
+        "softwareBackends": [
+          "Metal",
+          "Core ML",
+          "MLX",
+          "llama.cpp"
+        ],
+        "supportsTraining": "limited",
+        "supportsInference": true
+      }
+    }
+  }
+]

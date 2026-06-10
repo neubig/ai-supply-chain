@@ -6,8 +6,14 @@
     "description": "Massive Multitask Language Understanding benchmark for language-model knowledge and reasoning.",
     "canonicalUrl": "https://arxiv.org/abs/2009.03300",
     "openness": "source_available",
-    "tasks": ["chat", "language-understanding"],
-    "tags": ["llm", "knowledge"],
+    "tasks": [
+      "chat",
+      "language-understanding"
+    ],
+    "tags": [
+      "llm",
+      "knowledge"
+    ],
     "sources": [
       {
         "id": "paper:mmlu",
@@ -15,9 +21,10 @@
         "title": "Measuring Massive Multitask Language Understanding",
         "url": "https://arxiv.org/abs/2009.03300",
         "publisher": "arXiv",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "paper_metadata",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -34,8 +41,14 @@
     "description": "Code generation benchmark built from Python programming problems.",
     "canonicalUrl": "https://github.com/openai/human-eval",
     "openness": "open_source",
-    "tasks": ["coding", "code-generation"],
-    "tags": ["code", "python"],
+    "tasks": [
+      "coding",
+      "code-generation"
+    ],
+    "tags": [
+      "code",
+      "python"
+    ],
     "sources": [
       {
         "id": "github:openai/human-eval",
@@ -43,9 +56,10 @@
         "title": "openai/human-eval GitHub repository",
         "url": "https://github.com/openai/human-eval",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -62,8 +76,15 @@
     "description": "Massive Text Embedding Benchmark for retrieval, classification, clustering, and semantic textual similarity.",
     "canonicalUrl": "https://github.com/embeddings-benchmark/mteb",
     "openness": "open_source",
-    "tasks": ["embeddings", "semantic-search", "rag"],
-    "tags": ["embedding", "retrieval"],
+    "tasks": [
+      "embeddings",
+      "semantic-search",
+      "rag"
+    ],
+    "tags": [
+      "embedding",
+      "retrieval"
+    ],
     "sources": [
       {
         "id": "github:embeddings-benchmark/mteb",
@@ -71,9 +92,10 @@
         "title": "embeddings-benchmark/mteb GitHub repository",
         "url": "https://github.com/embeddings-benchmark/mteb",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -90,8 +112,13 @@
     "description": "Automatic speech recognition benchmark using LibriSpeech test splits.",
     "canonicalUrl": "https://www.openslr.org/12",
     "openness": "source_available",
-    "tasks": ["speech-recognition"],
-    "tags": ["speech", "wer"],
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech",
+      "wer"
+    ],
     "sources": [
       {
         "id": "official:openslr-12",
@@ -99,9 +126,10 @@
         "title": "OpenSLR 12 LibriSpeech ASR corpus",
         "url": "https://www.openslr.org/12",
         "publisher": "OpenSLR",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -118,8 +146,13 @@
     "description": "Placeholder benchmark family for image generation quality until a deterministic leaderboard feed is selected.",
     "canonicalUrl": "https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard",
     "openness": "unknown",
-    "tasks": ["image-generation"],
-    "tags": ["image-generation", "quality"],
+    "tasks": [
+      "image-generation"
+    ],
+    "tags": [
+      "image-generation",
+      "quality"
+    ],
     "sources": [
       {
         "id": "web:text-to-image-leaderboard",
@@ -127,10 +160,10 @@
         "title": "Text-to-image leaderboard placeholder",
         "url": "https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard",
         "publisher": "Hugging Face Spaces",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "web_search",
         "confidence": "low",
-        "notes": "Placeholder until the repository selects a deterministic image-generation benchmark source."
+        "retrieved_date": "2026-06-09",
+        "note": "Placeholder until the repository selects a deterministic image-generation benchmark source."
       }
     ],
     "updatePolicy": {
@@ -147,8 +180,14 @@
     "description": "Benchmark for resolving real GitHub issues in software repositories.",
     "canonicalUrl": "https://www.swebench.com/",
     "openness": "source_available",
-    "tasks": ["agentic-coding", "software-agents"],
-    "tags": ["coding-agent", "software-engineering"],
+    "tasks": [
+      "agentic-coding",
+      "software-agents"
+    ],
+    "tags": [
+      "coding-agent",
+      "software-engineering"
+    ],
     "sources": [
       {
         "id": "official:swe-bench",
@@ -156,9 +195,10 @@
         "title": "SWE-bench benchmark site",
         "url": "https://www.swebench.com/",
         "publisher": "SWE-bench",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {
@@ -175,8 +215,12 @@
     "description": "Language modeling benchmark focused on broad discourse context.",
     "canonicalUrl": "https://arxiv.org/abs/1606.06031",
     "openness": "source_available",
-    "tasks": ["text-generation"],
-    "tags": ["language-modeling"],
+    "tasks": [
+      "text-generation"
+    ],
+    "tags": [
+      "language-modeling"
+    ],
     "sources": [
       {
         "id": "paper:lambada",
@@ -184,9 +228,10 @@
         "title": "The LAMBADA dataset",
         "url": "https://arxiv.org/abs/1606.06031",
         "publisher": "arXiv",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "paper_metadata",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "updatePolicy": {

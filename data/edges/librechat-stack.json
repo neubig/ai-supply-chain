@@ -1,0 +1,97 @@
+[
+  {
+    "id": "edge:librechat-supports-qwen2.5-7b-instruct",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "LibreChat is represented as a multi-provider chat application that can connect to OpenAI-compatible or local runtimes serving Qwen2.5 models.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:librechat-qwen",
+        "type": "github_repo",
+        "title": "LibreChat GitHub repository",
+        "url": "https://github.com/danny-avila/LibreChat",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:librechat-supports-litellm",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "software:litellm",
+    "description": "LibreChat is represented as compatible with OpenAI-style gateway and model-routing runtimes.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:librechat-litellm",
+        "type": "github_repo",
+        "title": "LibreChat GitHub repository",
+        "url": "https://github.com/danny-avila/LibreChat",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "low",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      },
+      {
+        "id": "edge-source:litellm-librechat",
+        "type": "github_repo",
+        "title": "LiteLLM GitHub repository",
+        "url": "https://github.com/BerriAI/litellm",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:librechat-licensed-as-mit",
+    "kind": "licensed_as",
+    "source": "application:librechat",
+    "target": "license:mit",
+    "description": "LibreChat repository metadata reports MIT license terms.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:librechat-license",
+        "type": "github_license",
+        "title": "LibreChat LICENSE",
+        "url": "https://github.com/danny-avila/LibreChat/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  },
+  {
+    "id": "edge:librechat-developed-by-danny-avila",
+    "kind": "developed_by",
+    "source": "application:librechat",
+    "target": "organization:danny-avila",
+    "description": "LibreChat is maintained under the danny-avila GitHub namespace.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:librechat-maintainer",
+        "type": "github_repo",
+        "title": "LibreChat GitHub repository",
+        "url": "https://github.com/danny-avila/LibreChat",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
+      }
+    ]
+  }
+]

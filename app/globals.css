@@ -249,7 +249,7 @@ h2 {
 
 .weightGrid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(110px, 1fr));
+  grid-template-columns: repeat(8, minmax(110px, 1fr));
   gap: 10px;
   margin-bottom: 14px;
 }

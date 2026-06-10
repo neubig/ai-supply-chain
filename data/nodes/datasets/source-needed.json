@@ -1,0 +1,76 @@
+[
+  {
+    "id": "dataset:source-needed-training-data",
+    "kind": "dataset",
+    "name": "Source-needed training data",
+    "description": "Explicit placeholder for model training data that is required but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:dataset-source-needed-training-data",
+        "type": "manual_entry",
+        "title": "Source-needed training data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  },
+  {
+    "id": "dataset:source-needed-benchmark-data",
+    "kind": "dataset",
+    "name": "Source-needed benchmark data",
+    "description": "Explicit placeholder for benchmark datasets that are required but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:dataset-source-needed-benchmark-data",
+        "type": "manual_entry",
+        "title": "Source-needed benchmark data source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  }
+]

@@ -12,11 +12,19 @@
       "url": "https://github.com/ollama/ollama/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:ollama/ollama"]
+      "sourceIds": [
+        "github:ollama/ollama"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["local-inference", "model-serving"],
-    "tags": ["runtime", "local-llm"],
+    "tasks": [
+      "local-inference",
+      "model-serving"
+    ],
+    "tags": [
+      "runtime",
+      "local-llm"
+    ],
     "sources": [
       {
         "id": "github:ollama/ollama",
@@ -24,9 +32,10 @@
         "title": "ollama/ollama GitHub repository",
         "url": "https://github.com/ollama/ollama",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -38,7 +47,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:ollama/ollama"]
+        "sourceIds": [
+          "github:ollama/ollama"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -48,7 +59,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:ollama/ollama"]
+        "sourceIds": [
+          "github:ollama/ollama"
+        ]
       }
     ],
     "updatePolicy": {
@@ -70,11 +83,19 @@
       "url": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:ggml-org/llama.cpp"]
+      "sourceIds": [
+        "github:ggml-org/llama.cpp"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["local-inference", "model-serving"],
-    "tags": ["runtime", "inference-engine"],
+    "tasks": [
+      "local-inference",
+      "model-serving"
+    ],
+    "tags": [
+      "runtime",
+      "inference-engine"
+    ],
     "sources": [
       {
         "id": "github:ggml-org/llama.cpp",
@@ -82,9 +103,10 @@
         "title": "ggml-org/llama.cpp GitHub repository",
         "url": "https://github.com/ggml-org/llama.cpp",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -96,7 +118,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:ggml-org/llama.cpp"]
+        "sourceIds": [
+          "github:ggml-org/llama.cpp"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -106,7 +130,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:ggml-org/llama.cpp"]
+        "sourceIds": [
+          "github:ggml-org/llama.cpp"
+        ]
       }
     ],
     "updatePolicy": {
@@ -129,11 +155,19 @@
       "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github-license:pytorch/pytorch"]
+      "sourceIds": [
+        "github-license:pytorch/pytorch"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["training", "inference"],
-    "tags": ["framework", "deep-learning"],
+    "tasks": [
+      "training",
+      "inference"
+    ],
+    "tags": [
+      "framework",
+      "deep-learning"
+    ],
     "sources": [
       {
         "id": "github:pytorch/pytorch",
@@ -141,9 +175,10 @@
         "title": "pytorch/pytorch GitHub repository",
         "url": "https://github.com/pytorch/pytorch",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       },
       {
         "id": "github-license:pytorch/pytorch",
@@ -151,9 +186,10 @@
         "title": "PyTorch LICENSE",
         "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -165,7 +201,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:pytorch/pytorch"]
+        "sourceIds": [
+          "github:pytorch/pytorch"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -175,7 +213,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:pytorch/pytorch"]
+        "sourceIds": [
+          "github:pytorch/pytorch"
+        ]
       }
     ],
     "updatePolicy": {
@@ -198,11 +238,20 @@
       "url": "https://github.com/huggingface/transformers/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:huggingface/transformers"]
+      "sourceIds": [
+        "github:huggingface/transformers"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["training", "inference", "model-loading"],
-    "tags": ["framework", "model-library"],
+    "tasks": [
+      "training",
+      "inference",
+      "model-loading"
+    ],
+    "tags": [
+      "framework",
+      "model-library"
+    ],
     "sources": [
       {
         "id": "github:huggingface/transformers",
@@ -210,9 +259,10 @@
         "title": "huggingface/transformers GitHub repository",
         "url": "https://github.com/huggingface/transformers",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -224,7 +274,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:huggingface/transformers"]
+        "sourceIds": [
+          "github:huggingface/transformers"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -234,7 +286,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:huggingface/transformers"]
+        "sourceIds": [
+          "github:huggingface/transformers"
+        ]
       }
     ],
     "updatePolicy": {
@@ -257,11 +311,19 @@
       "url": "https://github.com/huggingface/diffusers/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:huggingface/diffusers"]
+      "sourceIds": [
+        "github:huggingface/diffusers"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["image-generation", "model-loading"],
-    "tags": ["framework", "diffusion"],
+    "tasks": [
+      "image-generation",
+      "model-loading"
+    ],
+    "tags": [
+      "framework",
+      "diffusion"
+    ],
     "sources": [
       {
         "id": "github:huggingface/diffusers",
@@ -269,9 +331,10 @@
         "title": "huggingface/diffusers GitHub repository",
         "url": "https://github.com/huggingface/diffusers",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -283,7 +346,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:huggingface/diffusers"]
+        "sourceIds": [
+          "github:huggingface/diffusers"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -293,7 +358,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:huggingface/diffusers"]
+        "sourceIds": [
+          "github:huggingface/diffusers"
+        ]
       }
     ],
     "updatePolicy": {
@@ -315,11 +382,19 @@
       "url": "https://github.com/vllm-project/vllm/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:vllm-project/vllm"]
+      "sourceIds": [
+        "github:vllm-project/vllm"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["model-serving", "inference"],
-    "tags": ["runtime", "serving"],
+    "tasks": [
+      "model-serving",
+      "inference"
+    ],
+    "tags": [
+      "runtime",
+      "serving"
+    ],
     "sources": [
       {
         "id": "github:vllm-project/vllm",
@@ -327,9 +402,10 @@
         "title": "vllm-project/vllm GitHub repository",
         "url": "https://github.com/vllm-project/vllm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -341,7 +417,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:vllm-project/vllm"]
+        "sourceIds": [
+          "github:vllm-project/vllm"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -351,7 +429,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:vllm-project/vllm"]
+        "sourceIds": [
+          "github:vllm-project/vllm"
+        ]
       }
     ],
     "updatePolicy": {
@@ -374,11 +454,19 @@
       "openness": "open_core",
       "osiApproved": null,
       "notes": "Repository license grants MIT terms outside enterprise-restricted directories.",
-      "sourceIds": ["github-license:berriai/litellm"]
+      "sourceIds": [
+        "github-license:berriai/litellm"
+      ]
     },
     "openness": "open_core",
-    "tasks": ["model-routing", "api-proxy"],
-    "tags": ["gateway", "openai-compatible"],
+    "tasks": [
+      "model-routing",
+      "api-proxy"
+    ],
+    "tags": [
+      "gateway",
+      "openai-compatible"
+    ],
     "sources": [
       {
         "id": "github:berriai/litellm",
@@ -386,9 +474,10 @@
         "title": "BerriAI/litellm GitHub repository",
         "url": "https://github.com/BerriAI/litellm",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       },
       {
         "id": "github-license:berriai/litellm",
@@ -396,9 +485,10 @@
         "title": "LiteLLM LICENSE",
         "url": "https://github.com/BerriAI/litellm/blob/litellm_internal_staging/LICENSE",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -410,7 +500,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:berriai/litellm"]
+        "sourceIds": [
+          "github:berriai/litellm"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -420,7 +512,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:berriai/litellm"]
+        "sourceIds": [
+          "github:berriai/litellm"
+        ]
       }
     ],
     "updatePolicy": {
@@ -443,11 +537,19 @@
       "url": "https://github.com/gradio-app/gradio/blob/main/LICENSE",
       "openness": "open_source",
       "osiApproved": true,
-      "sourceIds": ["github:gradio-app/gradio"]
+      "sourceIds": [
+        "github:gradio-app/gradio"
+      ]
     },
     "openness": "open_source",
-    "tasks": ["app-framework", "model-demo"],
-    "tags": ["ui-framework", "python"],
+    "tasks": [
+      "app-framework",
+      "model-demo"
+    ],
+    "tags": [
+      "ui-framework",
+      "python"
+    ],
     "sources": [
       {
         "id": "github:gradio-app/gradio",
@@ -455,9 +557,10 @@
         "title": "gradio-app/gradio GitHub repository",
         "url": "https://github.com/gradio-app/gradio",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "github_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -469,7 +572,9 @@
         "unit": "stars",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:gradio-app/gradio"]
+        "sourceIds": [
+          "github:gradio-app/gradio"
+        ]
       },
       {
         "id": "metric:github_forks",
@@ -479,7 +584,9 @@
         "unit": "forks",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["github:gradio-app/gradio"]
+        "sourceIds": [
+          "github:gradio-app/gradio"
+        ]
       }
     ],
     "updatePolicy": {
@@ -496,8 +603,14 @@
     "description": "De facto HTTP API interface implemented by open-source gateways and local model servers for chat and completion clients.",
     "canonicalUrl": "https://platform.openai.com/docs/api-reference",
     "openness": "proprietary",
-    "tasks": ["api-compatibility", "model-serving"],
-    "tags": ["interface", "api"],
+    "tasks": [
+      "api-compatibility",
+      "model-serving"
+    ],
+    "tags": [
+      "interface",
+      "api"
+    ],
     "sources": [
       {
         "id": "docs:openai-api-reference",
@@ -505,9 +618,10 @@
         "title": "OpenAI API reference",
         "url": "https://platform.openai.com/docs/api-reference",
         "publisher": "OpenAI",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],

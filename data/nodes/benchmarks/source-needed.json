@@ -1,0 +1,39 @@
+[
+  {
+    "id": "benchmark:source-needed-evaluation",
+    "kind": "benchmark",
+    "name": "Source-needed evaluation",
+    "description": "Explicit placeholder for a model evaluation benchmark that is required but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:benchmark-source-needed-evaluation",
+        "type": "manual_entry",
+        "title": "Source-needed evaluation source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  }
+]

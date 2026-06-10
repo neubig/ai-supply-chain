@@ -1,0 +1,2317 @@
+[
+  {
+    "id": "organization:source-needed-maintainer",
+    "kind": "organization",
+    "name": "Source-needed maintainer",
+    "description": "Explicit placeholder for maintainer information that is required but not disclosed in the current source.",
+    "canonicalUrl": "https://github.com/neubig/ai-supply-chain",
+    "openness": "unknown",
+    "tasks": [
+      "source-needed"
+    ],
+    "tags": [
+      "source-needed",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "manual:organization-source-needed-maintainer",
+        "type": "manual_entry",
+        "title": "Source-needed maintainer source-needed placeholder",
+        "url": "https://github.com/neubig/ai-supply-chain",
+        "note": "Placeholder node used to make a required graph relationship explicit when the cited upstream source does not disclose the concrete component.",
+        "publisher": "AI supply-chain maintainers",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "manual_review",
+        "confidence": "low"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace this placeholder with a concrete source-backed node when a deterministic source is found."
+    },
+    "metadata": {
+      "sourceNeeded": true
+    }
+  },
+  {
+    "id": "organization:alibaba-nlp",
+    "kind": "organization",
+    "name": "Alibaba-NLP",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Alibaba-NLP",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:alibaba-nlp",
+        "type": "github_repo",
+        "title": "Alibaba-NLP maintainer namespace",
+        "url": "https://github.com/Alibaba-NLP",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:allenai",
+    "kind": "organization",
+    "name": "allenai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/allenai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:allenai",
+        "type": "github_repo",
+        "title": "allenai maintainer namespace",
+        "url": "https://github.com/allenai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:axolotl-ai-cloud",
+    "kind": "organization",
+    "name": "axolotl-ai-cloud",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/axolotl-ai-cloud",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:axolotl-ai-cloud",
+        "type": "github_repo",
+        "title": "axolotl-ai-cloud maintainer namespace",
+        "url": "https://github.com/axolotl-ai-cloud",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:baai",
+    "kind": "organization",
+    "name": "BAAI",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/BAAI",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:baai",
+        "type": "github_repo",
+        "title": "BAAI maintainer namespace",
+        "url": "https://github.com/BAAI",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:berriai",
+    "kind": "organization",
+    "name": "BerriAI",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/BerriAI",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:berriai",
+        "type": "github_repo",
+        "title": "BerriAI maintainer namespace",
+        "url": "https://github.com/BerriAI",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:black-forest-labs",
+    "kind": "organization",
+    "name": "black-forest-labs",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/black-forest-labs",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:black-forest-labs",
+        "type": "github_repo",
+        "title": "black-forest-labs maintainer namespace",
+        "url": "https://github.com/black-forest-labs",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:chroma-core",
+    "kind": "organization",
+    "name": "chroma-core",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/chroma-core",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:chroma-core",
+        "type": "github_repo",
+        "title": "chroma-core maintainer namespace",
+        "url": "https://github.com/chroma-core",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:codellama",
+    "kind": "organization",
+    "name": "codellama",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/codellama",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:codellama",
+        "type": "github_repo",
+        "title": "codellama maintainer namespace",
+        "url": "https://github.com/codellama",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:confident-ai",
+    "kind": "organization",
+    "name": "confident-ai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/confident-ai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:confident-ai",
+        "type": "github_repo",
+        "title": "confident-ai maintainer namespace",
+        "url": "https://github.com/confident-ai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:coqui",
+    "kind": "organization",
+    "name": "coqui",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/coqui",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:coqui",
+        "type": "github_repo",
+        "title": "coqui maintainer namespace",
+        "url": "https://github.com/coqui",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:dagger",
+    "kind": "organization",
+    "name": "dagger",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/dagger",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:dagger",
+        "type": "github_repo",
+        "title": "dagger maintainer namespace",
+        "url": "https://github.com/dagger",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:daytonaio",
+    "kind": "organization",
+    "name": "daytonaio",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/daytonaio",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:daytonaio",
+        "type": "github_repo",
+        "title": "daytonaio maintainer namespace",
+        "url": "https://github.com/daytonaio",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:deepseek-ai",
+    "kind": "organization",
+    "name": "deepseek-ai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/deepseek-ai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:deepseek-ai",
+        "type": "github_repo",
+        "title": "deepseek-ai maintainer namespace",
+        "url": "https://github.com/deepseek-ai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:deepset-ai",
+    "kind": "organization",
+    "name": "deepset-ai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/deepset-ai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:deepset-ai",
+        "type": "github_repo",
+        "title": "deepset-ai maintainer namespace",
+        "url": "https://github.com/deepset-ai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:deepspeedai",
+    "kind": "organization",
+    "name": "deepspeedai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/deepspeedai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:deepspeedai",
+        "type": "github_repo",
+        "title": "deepspeedai maintainer namespace",
+        "url": "https://github.com/deepspeedai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:devcontainers",
+    "kind": "organization",
+    "name": "devcontainers",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/devcontainers",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:devcontainers",
+        "type": "github_repo",
+        "title": "devcontainers maintainer namespace",
+        "url": "https://github.com/devcontainers",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:distil-whisper",
+    "kind": "organization",
+    "name": "distil-whisper",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/distil-whisper",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:distil-whisper",
+        "type": "github_repo",
+        "title": "distil-whisper maintainer namespace",
+        "url": "https://github.com/distil-whisper",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:e2b-dev",
+    "kind": "organization",
+    "name": "e2b-dev",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/e2b-dev",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:e2b-dev",
+        "type": "github_repo",
+        "title": "e2b-dev maintainer namespace",
+        "url": "https://github.com/e2b-dev",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:embeddings-benchmark",
+    "kind": "organization",
+    "name": "embeddings-benchmark",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/embeddings-benchmark",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:embeddings-benchmark",
+        "type": "github_repo",
+        "title": "embeddings-benchmark maintainer namespace",
+        "url": "https://github.com/embeddings-benchmark",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:facebook",
+    "kind": "organization",
+    "name": "facebook",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/facebook",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:facebook",
+        "type": "github_repo",
+        "title": "facebook maintainer namespace",
+        "url": "https://github.com/facebook",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:facebookresearch",
+    "kind": "organization",
+    "name": "facebookresearch",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/facebookresearch",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:facebookresearch",
+        "type": "github_repo",
+        "title": "facebookresearch maintainer namespace",
+        "url": "https://github.com/facebookresearch",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:firecracker-microvm",
+    "kind": "organization",
+    "name": "firecracker-microvm",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/firecracker-microvm",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:firecracker-microvm",
+        "type": "github_repo",
+        "title": "firecracker-microvm maintainer namespace",
+        "url": "https://github.com/firecracker-microvm",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:google",
+    "kind": "organization",
+    "name": "google",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/google",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:google",
+        "type": "github_repo",
+        "title": "google maintainer namespace",
+        "url": "https://github.com/google",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:huggingface",
+    "kind": "organization",
+    "name": "huggingface",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/huggingface",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:huggingface",
+        "type": "github_repo",
+        "title": "huggingface maintainer namespace",
+        "url": "https://github.com/huggingface",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:ibm-granite",
+    "kind": "organization",
+    "name": "ibm-granite",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/ibm-granite",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:ibm-granite",
+        "type": "github_repo",
+        "title": "ibm-granite maintainer namespace",
+        "url": "https://github.com/ibm-granite",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:intfloat",
+    "kind": "organization",
+    "name": "intfloat",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/intfloat",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:intfloat",
+        "type": "github_repo",
+        "title": "intfloat maintainer namespace",
+        "url": "https://github.com/intfloat",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:ise-uiuc",
+    "kind": "organization",
+    "name": "ise-uiuc",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/ise-uiuc",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:ise-uiuc",
+        "type": "github_repo",
+        "title": "ise-uiuc maintainer namespace",
+        "url": "https://github.com/ise-uiuc",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:jinaai",
+    "kind": "organization",
+    "name": "jinaai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/jinaai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:jinaai",
+        "type": "github_repo",
+        "title": "jinaai maintainer namespace",
+        "url": "https://github.com/jinaai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:kandinsky-community",
+    "kind": "organization",
+    "name": "kandinsky-community",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/kandinsky-community",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:kandinsky-community",
+        "type": "github_repo",
+        "title": "kandinsky-community maintainer namespace",
+        "url": "https://github.com/kandinsky-community",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:kata-containers",
+    "kind": "organization",
+    "name": "kata-containers",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/kata-containers",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:kata-containers",
+        "type": "github_repo",
+        "title": "kata-containers maintainer namespace",
+        "url": "https://github.com/kata-containers",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:kserve",
+    "kind": "organization",
+    "name": "kserve",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/kserve",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:kserve",
+        "type": "github_repo",
+        "title": "kserve maintainer namespace",
+        "url": "https://github.com/kserve",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:kubernetes",
+    "kind": "organization",
+    "name": "kubernetes",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/kubernetes",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:kubernetes",
+        "type": "github_repo",
+        "title": "kubernetes maintainer namespace",
+        "url": "https://github.com/kubernetes",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:lancedb",
+    "kind": "organization",
+    "name": "lancedb",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/lancedb",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:lancedb",
+        "type": "github_repo",
+        "title": "lancedb maintainer namespace",
+        "url": "https://github.com/lancedb",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:langchain-ai",
+    "kind": "organization",
+    "name": "langchain-ai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/langchain-ai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:langchain-ai",
+        "type": "github_repo",
+        "title": "langchain-ai maintainer namespace",
+        "url": "https://github.com/langchain-ai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:lightning-ai",
+    "kind": "organization",
+    "name": "Lightning-AI",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Lightning-AI",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:lightning-ai",
+        "type": "github_repo",
+        "title": "Lightning-AI maintainer namespace",
+        "url": "https://github.com/Lightning-AI",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:lykon",
+    "kind": "organization",
+    "name": "Lykon",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Lykon",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:lykon",
+        "type": "github_repo",
+        "title": "Lykon maintainer namespace",
+        "url": "https://github.com/Lykon",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:meta-llama",
+    "kind": "organization",
+    "name": "meta-llama",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/meta-llama",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:meta-llama",
+        "type": "github_repo",
+        "title": "meta-llama maintainer namespace",
+        "url": "https://github.com/meta-llama",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:microsoft",
+    "kind": "organization",
+    "name": "microsoft",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/microsoft",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:microsoft",
+        "type": "github_repo",
+        "title": "microsoft maintainer namespace",
+        "url": "https://github.com/microsoft",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:milvus-io",
+    "kind": "organization",
+    "name": "milvus-io",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/milvus-io",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:milvus-io",
+        "type": "github_repo",
+        "title": "milvus-io maintainer namespace",
+        "url": "https://github.com/milvus-io",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:mistralai",
+    "kind": "organization",
+    "name": "mistralai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/mistralai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:mistralai",
+        "type": "github_repo",
+        "title": "mistralai maintainer namespace",
+        "url": "https://github.com/mistralai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:mixedbread-ai",
+    "kind": "organization",
+    "name": "mixedbread-ai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/mixedbread-ai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:mixedbread-ai",
+        "type": "github_repo",
+        "title": "mixedbread-ai maintainer namespace",
+        "url": "https://github.com/mixedbread-ai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:moby",
+    "kind": "organization",
+    "name": "moby",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/moby",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:moby",
+        "type": "github_repo",
+        "title": "moby maintainer namespace",
+        "url": "https://github.com/moby",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:mudler",
+    "kind": "organization",
+    "name": "mudler",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/mudler",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:mudler",
+        "type": "github_repo",
+        "title": "mudler maintainer namespace",
+        "url": "https://github.com/mudler",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:nvidia",
+    "kind": "organization",
+    "name": "nvidia",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/nvidia",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:nvidia",
+        "type": "github_repo",
+        "title": "nvidia maintainer namespace",
+        "url": "https://github.com/nvidia",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:open-compass",
+    "kind": "organization",
+    "name": "open-compass",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/open-compass",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:open-compass",
+        "type": "github_repo",
+        "title": "open-compass maintainer namespace",
+        "url": "https://github.com/open-compass",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:pgvector",
+    "kind": "organization",
+    "name": "pgvector",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/pgvector",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:pgvector",
+        "type": "github_repo",
+        "title": "pgvector maintainer namespace",
+        "url": "https://github.com/pgvector",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:pixart-alpha",
+    "kind": "organization",
+    "name": "PixArt-alpha",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/PixArt-alpha",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:pixart-alpha",
+        "type": "github_repo",
+        "title": "PixArt-alpha maintainer namespace",
+        "url": "https://github.com/PixArt-alpha",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:playgroundai",
+    "kind": "organization",
+    "name": "playgroundai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/playgroundai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:playgroundai",
+        "type": "github_repo",
+        "title": "playgroundai maintainer namespace",
+        "url": "https://github.com/playgroundai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:qdrant",
+    "kind": "organization",
+    "name": "qdrant",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/qdrant",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:qdrant",
+        "type": "github_repo",
+        "title": "qdrant maintainer namespace",
+        "url": "https://github.com/qdrant",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:qwen",
+    "kind": "organization",
+    "name": "Qwen",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Qwen",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:qwen",
+        "type": "github_repo",
+        "title": "Qwen maintainer namespace",
+        "url": "https://github.com/Qwen",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:ray-project",
+    "kind": "organization",
+    "name": "ray-project",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/ray-project",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:ray-project",
+        "type": "github_repo",
+        "title": "ray-project maintainer namespace",
+        "url": "https://github.com/ray-project",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:run-llama",
+    "kind": "organization",
+    "name": "run-llama",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/run-llama",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:run-llama",
+        "type": "github_repo",
+        "title": "run-llama maintainer namespace",
+        "url": "https://github.com/run-llama",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:salesforce",
+    "kind": "organization",
+    "name": "Salesforce",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Salesforce",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:salesforce",
+        "type": "github_repo",
+        "title": "Salesforce maintainer namespace",
+        "url": "https://github.com/Salesforce",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:sentence-transformers",
+    "kind": "organization",
+    "name": "sentence-transformers",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/sentence-transformers",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:sentence-transformers",
+        "type": "github_repo",
+        "title": "sentence-transformers maintainer namespace",
+        "url": "https://github.com/sentence-transformers",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:sgl-project",
+    "kind": "organization",
+    "name": "sgl-project",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/sgl-project",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:sgl-project",
+        "type": "github_repo",
+        "title": "sgl-project maintainer namespace",
+        "url": "https://github.com/sgl-project",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:spaces",
+    "kind": "organization",
+    "name": "spaces",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/spaces",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:spaces",
+        "type": "github_repo",
+        "title": "spaces maintainer namespace",
+        "url": "https://github.com/spaces",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:stabilityai",
+    "kind": "organization",
+    "name": "stabilityai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/stabilityai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:stabilityai",
+        "type": "github_repo",
+        "title": "stabilityai maintainer namespace",
+        "url": "https://github.com/stabilityai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:stable-diffusion-v1-5",
+    "kind": "organization",
+    "name": "stable-diffusion-v1-5",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/stable-diffusion-v1-5",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:stable-diffusion-v1-5",
+        "type": "github_repo",
+        "title": "stable-diffusion-v1-5 maintainer namespace",
+        "url": "https://github.com/stable-diffusion-v1-5",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:stanford-crfm",
+    "kind": "organization",
+    "name": "stanford-crfm",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/stanford-crfm",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:stanford-crfm",
+        "type": "github_repo",
+        "title": "stanford-crfm maintainer namespace",
+        "url": "https://github.com/stanford-crfm",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:suno",
+    "kind": "organization",
+    "name": "suno",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/suno",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:suno",
+        "type": "github_repo",
+        "title": "suno maintainer namespace",
+        "url": "https://github.com/suno",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:tencent-hunyuan",
+    "kind": "organization",
+    "name": "Tencent-Hunyuan",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/Tencent-Hunyuan",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:tencent-hunyuan",
+        "type": "github_repo",
+        "title": "Tencent-Hunyuan maintainer namespace",
+        "url": "https://github.com/Tencent-Hunyuan",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:tiiuae",
+    "kind": "organization",
+    "name": "tiiuae",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/tiiuae",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:tiiuae",
+        "type": "github_repo",
+        "title": "tiiuae maintainer namespace",
+        "url": "https://github.com/tiiuae",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:triton-inference-server",
+    "kind": "organization",
+    "name": "triton-inference-server",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/triton-inference-server",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:triton-inference-server",
+        "type": "github_repo",
+        "title": "triton-inference-server maintainer namespace",
+        "url": "https://github.com/triton-inference-server",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:unslothai",
+    "kind": "organization",
+    "name": "unslothai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/unslothai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:unslothai",
+        "type": "github_repo",
+        "title": "unslothai maintainer namespace",
+        "url": "https://github.com/unslothai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:vibrantlabsai",
+    "kind": "organization",
+    "name": "vibrantlabsai",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/vibrantlabsai",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:vibrantlabsai",
+        "type": "github_repo",
+        "title": "vibrantlabsai maintainer namespace",
+        "url": "https://github.com/vibrantlabsai",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:vllm-project",
+    "kind": "organization",
+    "name": "vllm-project",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/vllm-project",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:vllm-project",
+        "type": "github_repo",
+        "title": "vllm-project maintainer namespace",
+        "url": "https://github.com/vllm-project",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
+    "id": "organization:weaviate",
+    "kind": "organization",
+    "name": "weaviate",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/weaviate",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:weaviate",
+        "type": "github_repo",
+        "title": "weaviate maintainer namespace",
+        "url": "https://github.com/weaviate",
+        "note": "Maintainer namespace inferred from a GitHub repository URL; no exact prose quote was captured in the seed ingest.",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  }
+]

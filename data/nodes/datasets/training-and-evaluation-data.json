@@ -11,11 +11,18 @@
       "openness": "source_available",
       "osiApproved": false,
       "notes": "Composite dataset with component-specific licensing.",
-      "sourceIds": ["hf-dataset:eleutherai/pile"]
+      "sourceIds": [
+        "hf-dataset:eleutherai/pile"
+      ]
     },
     "openness": "source_available",
-    "tasks": ["language-model-training"],
-    "tags": ["text", "pretraining"],
+    "tasks": [
+      "language-model-training"
+    ],
+    "tags": [
+      "text",
+      "pretraining"
+    ],
     "sources": [
       {
         "id": "hf-dataset:eleutherai/pile",
@@ -23,9 +30,10 @@
         "title": "EleutherAI/pile dataset card",
         "url": "https://huggingface.co/datasets/EleutherAI/pile",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [
@@ -37,7 +45,9 @@
         "unit": "downloads",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-dataset:eleutherai/pile"]
+        "sourceIds": [
+          "hf-dataset:eleutherai/pile"
+        ]
       },
       {
         "id": "metric:hf_likes",
@@ -47,7 +57,9 @@
         "unit": "likes",
         "measuredAt": "2026-06-09",
         "higherIsBetter": true,
-        "sourceIds": ["hf-dataset:eleutherai/pile"]
+        "sourceIds": [
+          "hf-dataset:eleutherai/pile"
+        ]
       }
     ],
     "updatePolicy": {
@@ -69,11 +81,18 @@
       "openness": "source_available",
       "osiApproved": false,
       "notes": "Dataset is assembled from source repositories with varying licenses and filtering rules.",
-      "sourceIds": ["hf-dataset:bigcode/the-stack-v2"]
+      "sourceIds": [
+        "hf-dataset:bigcode/the-stack-v2"
+      ]
     },
     "openness": "source_available",
-    "tasks": ["code-model-training"],
-    "tags": ["code", "pretraining"],
+    "tasks": [
+      "code-model-training"
+    ],
+    "tags": [
+      "code",
+      "pretraining"
+    ],
     "sources": [
       {
         "id": "hf-dataset:bigcode/the-stack-v2",
@@ -81,9 +100,10 @@
         "title": "bigcode/the-stack-v2 dataset card",
         "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -106,11 +126,18 @@
       "openness": "source_available",
       "osiApproved": false,
       "notes": "Metadata dataset; downstream image access and rights vary by URL source.",
-      "sourceIds": ["official:laion-5b"]
+      "sourceIds": [
+        "official:laion-5b"
+      ]
     },
     "openness": "source_available",
-    "tasks": ["image-generation-training"],
-    "tags": ["image-text", "pretraining"],
+    "tasks": [
+      "image-generation-training"
+    ],
+    "tags": [
+      "image-text",
+      "pretraining"
+    ],
     "sources": [
       {
         "id": "official:laion-5b",
@@ -118,9 +145,10 @@
         "title": "LAION-5B release page",
         "url": "https://laion.ai/blog/laion-5b/",
         "publisher": "LAION",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -142,11 +170,18 @@
       "url": "https://www.openslr.org/12",
       "openness": "source_available",
       "osiApproved": false,
-      "sourceIds": ["official:openslr-12"]
+      "sourceIds": [
+        "official:openslr-12"
+      ]
     },
     "openness": "source_available",
-    "tasks": ["speech-recognition"],
-    "tags": ["speech", "benchmark-data"],
+    "tasks": [
+      "speech-recognition"
+    ],
+    "tags": [
+      "speech",
+      "benchmark-data"
+    ],
     "sources": [
       {
         "id": "official:openslr-12",
@@ -154,9 +189,10 @@
         "title": "OpenSLR 12 LibriSpeech ASR corpus",
         "url": "https://www.openslr.org/12",
         "publisher": "OpenSLR",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -174,8 +210,14 @@
     "description": "Training corpus described by Qwen model cards; component data is not fully enumerated in this seed graph.",
     "canonicalUrl": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
     "openness": "unknown",
-    "tasks": ["language-model-training", "code-model-training"],
-    "tags": ["undisclosed", "pretraining"],
+    "tasks": [
+      "language-model-training",
+      "code-model-training"
+    ],
+    "tags": [
+      "undisclosed",
+      "pretraining"
+    ],
     "sources": [
       {
         "id": "hf-model:qwen/qwen2.5-7b-instruct",
@@ -183,9 +225,10 @@
         "title": "Qwen/Qwen2.5-7B-Instruct model card",
         "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -203,8 +246,13 @@
     "description": "Training corpus for Mistral 7B family models where detailed data composition is not fully disclosed in the seed graph.",
     "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
     "openness": "unknown",
-    "tasks": ["language-model-training"],
-    "tags": ["undisclosed", "pretraining"],
+    "tasks": [
+      "language-model-training"
+    ],
+    "tags": [
+      "undisclosed",
+      "pretraining"
+    ],
     "sources": [
       {
         "id": "hf-model:mistralai/mistral-7b-instruct-v0.3",
@@ -212,9 +260,10 @@
         "title": "mistralai/Mistral-7B-Instruct-v0.3 model card",
         "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -232,8 +281,14 @@
     "description": "Large weakly supervised audio corpus described by the Whisper release and model documentation.",
     "canonicalUrl": "https://github.com/openai/whisper",
     "openness": "unknown",
-    "tasks": ["speech-recognition-training", "speech-translation-training"],
-    "tags": ["speech", "undisclosed"],
+    "tasks": [
+      "speech-recognition-training",
+      "speech-translation-training"
+    ],
+    "tags": [
+      "speech",
+      "undisclosed"
+    ],
     "sources": [
       {
         "id": "github:openai/whisper",
@@ -241,9 +296,10 @@
         "title": "openai/whisper GitHub repository",
         "url": "https://github.com/openai/whisper",
         "publisher": "GitHub",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -261,8 +317,13 @@
     "description": "Training and contrastive data described in Nomic Embed model documentation.",
     "canonicalUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
     "openness": "unknown",
-    "tasks": ["embedding-training"],
-    "tags": ["embedding", "partially-disclosed"],
+    "tasks": [
+      "embedding-training"
+    ],
+    "tags": [
+      "embedding",
+      "partially-disclosed"
+    ],
     "sources": [
       {
         "id": "hf-model:nomic-ai/nomic-embed-text-v1.5",
@@ -270,9 +331,10 @@
         "title": "nomic-ai/nomic-embed-text-v1.5 model card",
         "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
         "publisher": "Hugging Face",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "medium"
+        "confidence": "medium",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],
@@ -290,8 +352,13 @@
     "description": "GitHub issue and pull request task instances used by SWE-bench software engineering benchmarks.",
     "canonicalUrl": "https://www.swebench.com/",
     "openness": "source_available",
-    "tasks": ["agentic-coding-evaluation"],
-    "tags": ["benchmark-data", "github-issues"],
+    "tasks": [
+      "agentic-coding-evaluation"
+    ],
+    "tags": [
+      "benchmark-data",
+      "github-issues"
+    ],
     "sources": [
       {
         "id": "official:swe-bench",
@@ -299,9 +366,10 @@
         "title": "SWE-bench benchmark site",
         "url": "https://www.swebench.com/",
         "publisher": "SWE-bench",
-        "retrievedAt": "2026-06-09",
         "collectionMethod": "static_document",
-        "confidence": "high"
+        "confidence": "high",
+        "retrieved_date": "2026-06-09",
+        "note": "Source metadata was imported from the initial seed data; no exact quote was captured in this ingest, so this record needs a future quote upgrade."
       }
     ],
     "metrics": [],

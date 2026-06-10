@@ -14,6 +14,7 @@ type SortKey =
   | "velocityScore"
   | "provenanceScore"
   | "concentrationScore"
+  | "sandboxScore"
   | "nonOpenComponents"
   | "githubStars"
   | "hfDownloads";
@@ -28,6 +29,7 @@ const sortLabels: Record<SortKey, string> = {
   velocityScore: "Velocity",
   provenanceScore: "Provenance",
   concentrationScore: "Concentration",
+  sandboxScore: "Sandbox",
   nonOpenComponents: "Non-open",
   githubStars: "GitHub stars",
   hfDownloads: "HF downloads"
@@ -40,7 +42,8 @@ type WeightKey =
   | "costScore"
   | "velocityScore"
   | "provenanceScore"
-  | "concentrationScore";
+  | "concentrationScore"
+  | "sandboxScore";
 
 const weightLabels: Record<WeightKey, string> = {
   benchmarkScore: "Accuracy",
@@ -49,7 +52,8 @@ const weightLabels: Record<WeightKey, string> = {
   costScore: "Cost",
   velocityScore: "Velocity",
   provenanceScore: "Provenance",
-  concentrationScore: "Concentration"
+  concentrationScore: "Concentration",
+  sandboxScore: "Sandbox"
 };
 
 type ScoredStack = RankedStack & { preferenceScore: number };
@@ -69,7 +73,8 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
     costScore: 2,
     velocityScore: 2,
     provenanceScore: 3,
-    concentrationScore: 1
+    concentrationScore: 1,
+    sandboxScore: 2
   });
 
   const filtered = useMemo(() => {
@@ -85,7 +90,8 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
             stack.costScore * weights.costScore +
             stack.velocityScore * weights.velocityScore +
             stack.provenanceScore * weights.provenanceScore +
-            stack.concentrationScore * weights.concentrationScore) /
+            stack.concentrationScore * weights.concentrationScore +
+            stack.sandboxScore * weights.sandboxScore) /
           totalWeight
       }))
       .filter((stack) => task === "all" || stack.tasks.includes(task))
@@ -175,6 +181,7 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
               <th>Cost</th>
               <th>Velocity</th>
               <th>Prov</th>
+              <th>Sandbox</th>
               <th>Non-open</th>
               <th>Evidence</th>
             </tr>
@@ -195,6 +202,7 @@ export function StackRanking({ stacks, tasks }: { stacks: RankedStack[]; tasks: 
                 <td>{formatNumber(stack.costScore)}</td>
                 <td>{formatNumber(stack.velocityScore)}</td>
                 <td>{formatNumber(stack.provenanceScore)}</td>
+                <td>{formatNumber(stack.sandboxScore)}</td>
                 <td>{stack.nonOpenComponents}</td>
                 <td>
                   <span>{formatNumber(stack.githubStars)} GitHub stars</span>
