@@ -1,0 +1,817 @@
+[
+  {
+    "id": "edge:open-webui-supports-qwen2.5-7b-instruct",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "Open WebUI can be used as a chat interface for Qwen2.5 models through local or OpenAI-compatible runtimes.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-readme",
+        "type": "github_repo",
+        "title": "Open WebUI repository metadata",
+        "url": "https://github.com/open-webui/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:open-webui-supports-mistral-7b-instruct-v0.3",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:mistral-7b-instruct-v0.3",
+    "description": "Open WebUI can be used as a chat interface for Mistral models through local or OpenAI-compatible runtimes.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-readme",
+        "type": "github_repo",
+        "title": "Open WebUI repository metadata",
+        "url": "https://github.com/open-webui/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:open-webui-supports-ollama",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "software:ollama",
+    "description": "Open WebUI advertises Ollama support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-repo-description",
+        "type": "github_repo",
+        "title": "Open WebUI GitHub repository description",
+        "url": "https://github.com/open-webui/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:open-webui-licensed-as-open-webui-license",
+    "kind": "licensed_as",
+    "source": "application:open-webui",
+    "target": "license:open-webui",
+    "description": "Open WebUI uses its custom project license.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-license",
+        "type": "github_license",
+        "title": "Open WebUI LICENSE",
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:open-webui-developed-by-open-webui",
+    "kind": "developed_by",
+    "source": "application:open-webui",
+    "target": "organization:open-webui",
+    "description": "Open WebUI is maintained under the Open WebUI GitHub organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:open-webui-github-org",
+        "type": "github_repo",
+        "title": "Open WebUI GitHub organization",
+        "url": "https://github.com/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-supports-qwen2.5-7b-instruct",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "AnythingLLM can connect to local and hosted LLMs suitable for Qwen2.5 chat workflows.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-repo",
+        "type": "github_repo",
+        "title": "AnythingLLM GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-supports-nomic-embed-text-v1.5",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:nomic-embed-text-v1.5",
+    "description": "AnythingLLM supports embedding-model-backed retrieval workflows.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-repo",
+        "type": "github_repo",
+        "title": "AnythingLLM GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-supports-ollama",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "software:ollama",
+    "description": "AnythingLLM supports local model runtimes including Ollama.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-repo",
+        "type": "github_repo",
+        "title": "AnythingLLM GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-licensed-as-mit",
+    "kind": "licensed_as",
+    "source": "application:anythingllm",
+    "target": "license:mit",
+    "description": "AnythingLLM is licensed under MIT.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-license",
+        "type": "github_license",
+        "title": "AnythingLLM LICENSE",
+        "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:anythingllm-developed-by-mintplex-labs",
+    "kind": "developed_by",
+    "source": "application:anythingllm",
+    "target": "organization:mintplex-labs",
+    "description": "AnythingLLM is developed by Mintplex Labs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:anythingllm-github",
+        "type": "github_repo",
+        "title": "AnythingLLM GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt4all-supports-mistral-7b-instruct-v0.3",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:mistral-7b-instruct-v0.3",
+    "description": "GPT4All is a local application for running open and open-weight LLMs, including Mistral-family models.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-repo",
+        "type": "github_repo",
+        "title": "GPT4All GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt4all-supports-gpt-j-6b",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:gpt-j-6b",
+    "description": "GPT4All supports local LLM workflows and can represent legacy open-weight GPT-style models in this seed stack.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-repo",
+        "type": "github_repo",
+        "title": "GPT4All GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt4all-depends-on-llama.cpp",
+    "kind": "depends_on",
+    "source": "application:gpt4all",
+    "target": "software:llama.cpp",
+    "description": "GPT4All uses local inference components in the llama.cpp ecosystem.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-repo",
+        "type": "github_repo",
+        "title": "GPT4All GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt4all-licensed-as-mit",
+    "kind": "licensed_as",
+    "source": "application:gpt4all",
+    "target": "license:mit",
+    "description": "GPT4All is licensed under MIT.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-license",
+        "type": "github_license",
+        "title": "GPT4All LICENSE",
+        "url": "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt4all-developed-by-nomic-ai",
+    "kind": "developed_by",
+    "source": "application:gpt4all",
+    "target": "organization:nomic-ai",
+    "description": "GPT4All is developed by Nomic AI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt4all-github",
+        "type": "github_repo",
+        "title": "GPT4All GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-supports-qwen2.5-coder-7b-instruct",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen2.5-coder-7b-instruct",
+    "description": "Continue can be configured with open-weight coding models for developer-assistant workflows.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:continue-repo",
+        "type": "github_repo",
+        "title": "Continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-supports-starcoder2-3b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:starcoder2-3b",
+    "description": "Continue can be configured with open-weight code models for code completion and assistance.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:continue-repo",
+        "type": "github_repo",
+        "title": "Continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-supports-ollama",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "software:ollama",
+    "description": "Continue supports local model backends such as Ollama.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:continue-repo",
+        "type": "github_repo",
+        "title": "Continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-implements-openai-compatible-api",
+    "kind": "implements",
+    "source": "application:continue",
+    "target": "software:openai-compatible-api",
+    "description": "Continue supports OpenAI-compatible model provider configuration patterns.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:continue-repo",
+        "type": "github_repo",
+        "title": "Continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "application:continue",
+    "target": "license:apache-2.0",
+    "description": "Continue is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:continue-license",
+        "type": "github_license",
+        "title": "Continue LICENSE",
+        "url": "https://github.com/continuedev/continue/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:continue-developed-by-continue",
+    "kind": "developed_by",
+    "source": "application:continue",
+    "target": "organization:continue",
+    "description": "Continue is maintained by the Continue organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:continue-official",
+        "type": "official_website",
+        "title": "Continue website",
+        "url": "https://www.continue.dev/",
+        "publisher": "Continue",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:comfyui-supports-stable-diffusion-xl-base-1.0",
+    "kind": "supports",
+    "source": "application:comfyui",
+    "target": "model:stable-diffusion-xl-base-1.0",
+    "description": "ComfyUI supports Stable Diffusion XL workflows.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:comfyui-repo",
+        "type": "github_repo",
+        "title": "ComfyUI GitHub repository",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:comfyui-depends-on-pytorch",
+    "kind": "depends_on",
+    "source": "application:comfyui",
+    "target": "software:pytorch",
+    "description": "ComfyUI diffusion workflows depend on PyTorch runtime components.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:comfyui-repo",
+        "type": "github_repo",
+        "title": "ComfyUI GitHub repository",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:comfyui-licensed-as-gpl-3.0",
+    "kind": "licensed_as",
+    "source": "application:comfyui",
+    "target": "license:gpl-3.0",
+    "description": "ComfyUI is licensed under GPL-3.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:comfyui-license",
+        "type": "github_license",
+        "title": "ComfyUI LICENSE",
+        "url": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:comfyui-developed-by-comfy-org",
+    "kind": "developed_by",
+    "source": "application:comfyui",
+    "target": "organization:comfy-org",
+    "description": "ComfyUI is maintained by Comfy Org.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:comfyui-github",
+        "type": "github_repo",
+        "title": "ComfyUI GitHub repository",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-webui-supports-stable-diffusion-xl-base-1.0",
+    "kind": "supports",
+    "source": "application:stable-diffusion-webui",
+    "target": "model:stable-diffusion-xl-base-1.0",
+    "description": "Stable Diffusion web UI supports Stable Diffusion and SDXL image-generation workflows.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sd-webui-repo",
+        "type": "github_repo",
+        "title": "Stable Diffusion web UI GitHub repository",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-webui-depends-on-pytorch",
+    "kind": "depends_on",
+    "source": "application:stable-diffusion-webui",
+    "target": "software:pytorch",
+    "description": "Stable Diffusion web UI depends on PyTorch-based diffusion inference workflows.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sd-webui-repo",
+        "type": "github_repo",
+        "title": "Stable Diffusion web UI GitHub repository",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-webui-licensed-as-agpl-3.0",
+    "kind": "licensed_as",
+    "source": "application:stable-diffusion-webui",
+    "target": "license:agpl-3.0",
+    "description": "Stable Diffusion web UI is licensed under AGPL-3.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sd-webui-license",
+        "type": "github_license",
+        "title": "Stable Diffusion web UI LICENSE",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-webui-developed-by-automatic1111",
+    "kind": "developed_by",
+    "source": "application:stable-diffusion-webui",
+    "target": "organization:automatic1111",
+    "description": "Stable Diffusion web UI is maintained in the AUTOMATIC1111 GitHub namespace.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sd-webui-github",
+        "type": "github_repo",
+        "title": "Stable Diffusion web UI GitHub repository",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-supports-qwen2.5-coder-7b-instruct",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:qwen2.5-coder-7b-instruct",
+    "description": "OpenHands can be configured with coding-capable LLMs through supported model providers.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openhands-repo",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-depends-on-litellm",
+    "kind": "depends_on",
+    "source": "application:openhands",
+    "target": "software:litellm",
+    "description": "OpenHands uses LLM provider routing compatible with LiteLLM-style model access patterns.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openhands-repo",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-evaluated-on-swe-bench",
+    "kind": "evaluated_on",
+    "source": "application:openhands",
+    "target": "benchmark:swe-bench",
+    "description": "OpenHands is a software-agent application evaluated in SWE-bench-style repository tasks.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:openhands-repo",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:swe-bench-seed-quality",
+        "category": "benchmark",
+        "name": "SWE-bench seed quality score",
+        "value": 60,
+        "unit": "score_0_100",
+        "task": "agentic-coding",
+        "benchmarkId": "benchmark:swe-bench",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["edge-source:openhands-repo"],
+        "notes": "Seed placeholder pending deterministic SWE-bench leaderboard ingestion."
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-licensed-as-open-core",
+    "kind": "licensed_as",
+    "source": "application:openhands",
+    "target": "license:open-core-mit-enterprise",
+    "description": "OpenHands uses MIT terms outside enterprise-restricted directories.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openhands-license",
+        "type": "github_license",
+        "title": "OpenHands LICENSE",
+        "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:openhands-developed-by-openhands",
+    "kind": "developed_by",
+    "source": "application:openhands",
+    "target": "organization:openhands",
+    "description": "OpenHands is maintained by the OpenHands organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openhands-github",
+        "type": "github_repo",
+        "title": "OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-supports-qwen2.5-7b-instruct",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "Jan supports local chat with open-weight models.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:jan-repo",
+        "type": "github_repo",
+        "title": "Jan GitHub repository",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-supports-mistral-7b-instruct-v0.3",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:mistral-7b-instruct-v0.3",
+    "description": "Jan supports local chat with open-weight Mistral-family models.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:jan-repo",
+        "type": "github_repo",
+        "title": "Jan GitHub repository",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-depends-on-llama.cpp",
+    "kind": "depends_on",
+    "source": "application:jan",
+    "target": "software:llama.cpp",
+    "description": "Jan local inference is represented through the llama.cpp local-runtime ecosystem in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:jan-repo",
+        "type": "github_repo",
+        "title": "Jan GitHub repository",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-hosted-by-consumer-device",
+    "kind": "hosted_by",
+    "source": "application:jan",
+    "target": "infrastructure:consumer-device",
+    "description": "Jan is intended for offline/local execution on user devices.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:jan-repo-description",
+        "type": "github_repo",
+        "title": "Jan GitHub repository description",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "application:jan",
+    "target": "license:apache-2.0",
+    "description": "Jan is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:jan-license",
+        "type": "github_license",
+        "title": "Jan LICENSE",
+        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:jan-developed-by-menlo-research",
+    "kind": "developed_by",
+    "source": "application:jan",
+    "target": "organization:menlo-research",
+    "description": "Jan is maintained by Menlo Research.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:jan-license",
+        "type": "github_license",
+        "title": "Jan LICENSE",
+        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  }
+]

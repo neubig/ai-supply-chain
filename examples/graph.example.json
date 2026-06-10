@@ -1,0 +1,344 @@
+{
+  "schemaVersion": "0.1.0",
+  "generatedAt": "2026-06-09T00:00:00.000Z",
+  "nodes": [
+    {
+      "id": "application:example-chat-app",
+      "kind": "application",
+      "name": "Example Chat App",
+      "description": "Minimal example of a user-facing AI application node.",
+      "canonicalUrl": "https://example.com/app",
+      "license": {
+        "expression": "Apache-2.0",
+        "url": "https://example.com/license",
+        "openness": "open_source",
+        "osiApproved": true,
+        "sourceIds": ["example:app-source"]
+      },
+      "openness": "open_source",
+      "tasks": ["chat"],
+      "tags": ["example"],
+      "sources": [
+        {
+          "id": "example:app-source",
+          "type": "official_website",
+          "title": "Example app source",
+          "url": "https://example.com/app",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "high"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "metric:example-users",
+          "category": "usage",
+          "name": "Example users",
+          "value": 1000,
+          "unit": "users",
+          "measuredAt": "2026-06-09",
+          "higherIsBetter": true,
+          "sourceIds": ["example:app-source"]
+        }
+      ],
+      "updatePolicy": {
+        "refreshMethod": "static_document",
+        "cadence": "monthly",
+        "deterministic": true,
+        "instructions": "Refresh from the example source."
+      }
+    },
+    {
+      "id": "model:example-chat-model",
+      "kind": "model",
+      "name": "Example Chat Model",
+      "description": "Minimal example of a model node.",
+      "canonicalUrl": "https://example.com/model",
+      "openness": "open_weights",
+      "tasks": ["chat"],
+      "sources": [
+        {
+          "id": "example:model-source",
+          "type": "huggingface_model_card",
+          "title": "Example model card",
+          "url": "https://example.com/model",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "metric:example-benchmark-score",
+          "category": "benchmark",
+          "name": "Example benchmark score",
+          "value": 75,
+          "unit": "score_0_100",
+          "task": "chat",
+          "benchmarkId": "benchmark:example-benchmark",
+          "measuredAt": "2026-06-09",
+          "higherIsBetter": true,
+          "sourceIds": ["example:model-source"]
+        }
+      ]
+    },
+    {
+      "id": "model:example-base-model",
+      "kind": "model",
+      "name": "Example Base Model",
+      "description": "Minimal example of a base model node.",
+      "canonicalUrl": "https://example.com/base-model",
+      "openness": "open_weights",
+      "tasks": ["text-generation"],
+      "sources": [
+        {
+          "id": "example:base-model-source",
+          "type": "huggingface_model_card",
+          "title": "Example base model card",
+          "url": "https://example.com/base-model",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "dataset:example-pretraining-data",
+      "kind": "dataset",
+      "name": "Example Pretraining Data",
+      "description": "Minimal example of a dataset node.",
+      "canonicalUrl": "https://example.com/dataset",
+      "openness": "source_available",
+      "tasks": ["training"],
+      "sources": [
+        {
+          "id": "example:dataset-source",
+          "type": "huggingface_dataset_card",
+          "title": "Example dataset card",
+          "url": "https://example.com/dataset",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "software:example-runtime",
+      "kind": "software",
+      "name": "Example Runtime",
+      "description": "Minimal example of a software node.",
+      "canonicalUrl": "https://example.com/runtime",
+      "openness": "open_source",
+      "tasks": ["inference"],
+      "sources": [
+        {
+          "id": "example:runtime-source",
+          "type": "github_repo",
+          "title": "Example runtime repository",
+          "url": "https://example.com/runtime",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "software:example-api",
+      "kind": "software",
+      "name": "Example API",
+      "description": "Minimal example of an interface software node.",
+      "canonicalUrl": "https://example.com/api",
+      "openness": "open_source",
+      "tasks": ["api"],
+      "sources": [
+        {
+          "id": "example:api-source",
+          "type": "official_docs",
+          "title": "Example API documentation",
+          "url": "https://example.com/api",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "benchmark:example-benchmark",
+      "kind": "benchmark",
+      "name": "Example Benchmark",
+      "description": "Minimal example of a benchmark node.",
+      "canonicalUrl": "https://example.com/benchmark",
+      "openness": "open_source",
+      "tasks": ["chat"],
+      "sources": [
+        {
+          "id": "example:benchmark-source",
+          "type": "benchmark_definition",
+          "title": "Example benchmark definition",
+          "url": "https://example.com/benchmark",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "organization:example-org",
+      "kind": "organization",
+      "name": "Example Org",
+      "description": "Minimal example of an organization node.",
+      "canonicalUrl": "https://example.com/org",
+      "openness": "unknown",
+      "sources": [
+        {
+          "id": "example:org-source",
+          "type": "official_website",
+          "title": "Example organization",
+          "url": "https://example.com/org",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "license:example-license",
+      "kind": "license",
+      "name": "Example License",
+      "description": "Minimal example of a license node.",
+      "canonicalUrl": "https://example.com/license",
+      "openness": "open_source",
+      "sources": [
+        {
+          "id": "example:license-source",
+          "type": "official_docs",
+          "title": "Example license text",
+          "url": "https://example.com/license",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "id": "infrastructure:example-hub",
+      "kind": "infrastructure",
+      "name": "Example Hub",
+      "description": "Minimal example of an infrastructure node.",
+      "canonicalUrl": "https://example.com/hub",
+      "openness": "open_core",
+      "tasks": ["hosting"],
+      "sources": [
+        {
+          "id": "example:hub-source",
+          "type": "official_website",
+          "title": "Example hub",
+          "url": "https://example.com/hub",
+          "publisher": "Example Publisher",
+          "retrievedAt": "2026-06-09",
+          "collectionMethod": "static_document",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge:example-app-supports-model",
+      "kind": "supports",
+      "source": "application:example-chat-app",
+      "target": "model:example-chat-model",
+      "description": "Example supports edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-app-depends-on-runtime",
+      "kind": "depends_on",
+      "source": "application:example-chat-app",
+      "target": "software:example-runtime",
+      "description": "Example depends_on edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-trained-on-data",
+      "kind": "trained_on",
+      "source": "model:example-chat-model",
+      "target": "dataset:example-pretraining-data",
+      "description": "Example trained_on edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-trained-with-runtime",
+      "kind": "trained_with",
+      "source": "model:example-chat-model",
+      "target": "software:example-runtime",
+      "description": "Example trained_with edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-evaluated-on-benchmark",
+      "kind": "evaluated_on",
+      "source": "model:example-chat-model",
+      "target": "benchmark:example-benchmark",
+      "description": "Example evaluated_on edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-app-developed-by-org",
+      "kind": "developed_by",
+      "source": "application:example-chat-app",
+      "target": "organization:example-org",
+      "description": "Example developed_by edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-hosted-by-hub",
+      "kind": "hosted_by",
+      "source": "model:example-chat-model",
+      "target": "infrastructure:example-hub",
+      "description": "Example hosted_by edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-licensed-as-license",
+      "kind": "licensed_as",
+      "source": "model:example-chat-model",
+      "target": "license:example-license",
+      "description": "Example licensed_as edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-model-derived-from-base-model",
+      "kind": "derived_from",
+      "source": "model:example-chat-model",
+      "target": "model:example-base-model",
+      "description": "Example derived_from edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-benchmark-uses-data",
+      "kind": "uses_data",
+      "source": "benchmark:example-benchmark",
+      "target": "dataset:example-pretraining-data",
+      "description": "Example uses_data edge.",
+      "sources": []
+    },
+    {
+      "id": "edge:example-runtime-implements-api",
+      "kind": "implements",
+      "source": "software:example-runtime",
+      "target": "software:example-api",
+      "description": "Example implements edge.",
+      "sources": []
+    }
+  ]
+}

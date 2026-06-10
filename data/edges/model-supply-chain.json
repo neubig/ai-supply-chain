@@ -1,0 +1,982 @@
+[
+  {
+    "id": "edge:qwen2.5-7b-instruct-trained-on-qwen2.5-training-corpus",
+    "kind": "trained_on",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "dataset:qwen2.5-training-corpus",
+    "description": "Qwen2.5-7B-Instruct is associated with the Qwen2.5 training corpus disclosures.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-7b-instruct-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "software:transformers",
+    "description": "The model is distributed in Hugging Face Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-7b-instruct-evaluated-on-mmlu",
+    "kind": "evaluated_on",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "benchmark:mmlu",
+    "description": "Qwen2.5-7B-Instruct model-card metrics include MMLU-style language understanding scores.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-7b-instruct-developed-by-alibaba-qwen",
+    "kind": "developed_by",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "organization:alibaba-qwen",
+    "description": "Qwen2.5-7B-Instruct is released under the Qwen organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen-hf-org",
+        "type": "huggingface_model_card",
+        "title": "Qwen Hugging Face organization",
+        "url": "https://huggingface.co/Qwen",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-7b-instruct-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Qwen2.5-7B-Instruct is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-hf",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-7b-instruct-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:qwen2.5-7b-instruct",
+    "target": "license:apache-2.0",
+    "description": "Qwen2.5-7B-Instruct model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-7B-Instruct Hugging Face metadata",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-derived-from-qwen2.5-7b-instruct",
+    "kind": "derived_from",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "model:qwen2.5-7b-instruct",
+    "description": "Qwen2.5-Coder is a code-specialized member of the Qwen2.5 family.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-trained-on-qwen2.5-training-corpus",
+    "kind": "trained_on",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "dataset:qwen2.5-training-corpus",
+    "description": "Qwen2.5-Coder training data is represented as the Qwen2.5 disclosed corpus family in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "software:transformers",
+    "description": "The model is distributed in Hugging Face Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-evaluated-on-humaneval",
+    "kind": "evaluated_on",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "benchmark:humaneval",
+    "description": "Qwen2.5-Coder model-card metrics include HumanEval coding benchmark scores.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-model-card",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-developed-by-alibaba-qwen",
+    "kind": "developed_by",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "organization:alibaba-qwen",
+    "description": "Qwen2.5-Coder is released under the Qwen organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen-hf-org",
+        "type": "huggingface_model_card",
+        "title": "Qwen Hugging Face organization",
+        "url": "https://huggingface.co/Qwen",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Qwen2.5-Coder-7B-Instruct is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-hf",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:qwen2.5-coder-7b-instruct-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:qwen2.5-coder-7b-instruct",
+    "target": "license:apache-2.0",
+    "description": "Qwen2.5-Coder model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:qwen2.5-coder-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Qwen2.5-Coder-7B-Instruct Hugging Face metadata",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-trained-on-mistral-training-corpus",
+    "kind": "trained_on",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "dataset:mistral-training-corpus",
+    "description": "Mistral-7B-Instruct training data is represented as a partially disclosed Mistral training corpus.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:mistral-model-card",
+        "type": "huggingface_model_card",
+        "title": "Mistral-7B-Instruct-v0.3 model card",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "software:transformers",
+    "description": "Mistral-7B-Instruct is distributed in Hugging Face Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:mistral-model-card",
+        "type": "huggingface_model_card",
+        "title": "Mistral-7B-Instruct-v0.3 model card",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-evaluated-on-mmlu",
+    "kind": "evaluated_on",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "benchmark:mmlu",
+    "description": "Mistral model-card metrics include MMLU-style language understanding scores.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:mistral-model-card",
+        "type": "huggingface_model_card",
+        "title": "Mistral-7B-Instruct-v0.3 model card",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-developed-by-mistral-ai",
+    "kind": "developed_by",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "organization:mistral-ai",
+    "description": "Mistral-7B-Instruct-v0.3 is released by Mistral AI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:mistral-hf-org",
+        "type": "huggingface_model_card",
+        "title": "Mistral AI Hugging Face organization",
+        "url": "https://huggingface.co/mistralai",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Mistral-7B-Instruct-v0.3 is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:mistral-hf",
+        "type": "huggingface_model_card",
+        "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:mistral-7b-instruct-v0.3-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:mistral-7b-instruct-v0.3",
+    "target": "license:apache-2.0",
+    "description": "Mistral-7B-Instruct-v0.3 model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:mistral-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Mistral-7B-Instruct-v0.3 Hugging Face metadata",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-trained-on-laion-5b",
+    "kind": "trained_on",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "dataset:laion-5b",
+    "description": "Stable Diffusion XL training is represented through LAION-family image-text data in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-model-card",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-trained-with-diffusers",
+    "kind": "trained_with",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "software:diffusers",
+    "description": "Stable Diffusion XL is distributed with Hugging Face Diffusers pipeline support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-model-card",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-evaluated-on-text-to-image-quality",
+    "kind": "evaluated_on",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "benchmark:text-to-image-quality",
+    "description": "Stable Diffusion XL is included in text-to-image quality comparisons.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-model-card",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-developed-by-stability-ai",
+    "kind": "developed_by",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "organization:stability-ai",
+    "description": "Stable Diffusion XL Base 1.0 is released by Stability AI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-hf",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Stable Diffusion XL Base 1.0 is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-hf",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:stable-diffusion-xl-base-1.0-licensed-as-openrail-plus-plus",
+    "kind": "licensed_as",
+    "source": "model:stable-diffusion-xl-base-1.0",
+    "target": "license:openrail-plus-plus",
+    "description": "Stable Diffusion XL Base 1.0 model card reports OpenRAIL++ license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:sdxl-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Stable Diffusion XL Base 1.0 Hugging Face metadata",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-trained-on-whisper-web-audio",
+    "kind": "trained_on",
+    "source": "model:whisper-large-v3",
+    "target": "dataset:whisper-web-audio",
+    "description": "Whisper large-v3 training data is represented as weakly supervised web audio described by official Whisper documentation.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:whisper-repo",
+        "type": "github_repo",
+        "title": "OpenAI Whisper repository",
+        "url": "https://github.com/openai/whisper",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-trained-with-pytorch",
+    "kind": "trained_with",
+    "source": "model:whisper-large-v3",
+    "target": "software:pytorch",
+    "description": "Whisper is released with PyTorch model code.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:whisper-repo",
+        "type": "github_repo",
+        "title": "OpenAI Whisper repository",
+        "url": "https://github.com/openai/whisper",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-evaluated-on-librispeech-asr",
+    "kind": "evaluated_on",
+    "source": "model:whisper-large-v3",
+    "target": "benchmark:librispeech-asr",
+    "description": "Whisper is commonly evaluated on LibriSpeech ASR splits.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:whisper-model-card",
+        "type": "huggingface_model_card",
+        "title": "Whisper large-v3 model card",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-developed-by-openai",
+    "kind": "developed_by",
+    "source": "model:whisper-large-v3",
+    "target": "organization:openai",
+    "description": "Whisper large-v3 is released by OpenAI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:whisper-hf",
+        "type": "huggingface_model_card",
+        "title": "Whisper large-v3 Hugging Face metadata",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:whisper-large-v3",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Whisper large-v3 is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:whisper-hf",
+        "type": "huggingface_model_card",
+        "title": "Whisper large-v3 Hugging Face metadata",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:whisper-large-v3-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:whisper-large-v3",
+    "target": "license:apache-2.0",
+    "description": "Whisper large-v3 model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:whisper-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Whisper large-v3 Hugging Face metadata",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-trained-on-nomic-embed-training-data",
+    "kind": "trained_on",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "dataset:nomic-embed-training-data",
+    "description": "Nomic Embed Text v1.5 training data is represented by model-card disclosures in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-model-card",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 model card",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "software:transformers",
+    "description": "Nomic Embed Text v1.5 is distributed in Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-model-card",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 model card",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-evaluated-on-mteb",
+    "kind": "evaluated_on",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "benchmark:mteb",
+    "description": "Nomic Embed Text v1.5 model-card metrics include MTEB scores.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-model-card",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 model card",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-developed-by-nomic-ai",
+    "kind": "developed_by",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "organization:nomic-ai",
+    "description": "Nomic Embed Text v1.5 is released by Nomic AI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-hf",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 Hugging Face metadata",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "Nomic Embed Text v1.5 is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-hf",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 Hugging Face metadata",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:nomic-embed-text-v1.5-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:nomic-embed-text-v1.5",
+    "target": "license:apache-2.0",
+    "description": "Nomic Embed Text v1.5 model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:nomic-embed-hf-license",
+        "type": "huggingface_model_card",
+        "title": "Nomic Embed Text v1.5 Hugging Face metadata",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-trained-on-the-pile",
+    "kind": "trained_on",
+    "source": "model:gpt-j-6b",
+    "target": "dataset:the-pile",
+    "description": "GPT-J-6B is trained on The Pile.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-model-card",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B model card",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:gpt-j-6b",
+    "target": "software:transformers",
+    "description": "GPT-J-6B is distributed in Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-model-card",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B model card",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-evaluated-on-lambada",
+    "kind": "evaluated_on",
+    "source": "model:gpt-j-6b",
+    "target": "benchmark:lambada",
+    "description": "GPT-J-6B is represented with a language modeling quality proxy tied to LAMBADA-style evaluation.",
+    "confidence": "low",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-model-card",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B model card",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "low"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-developed-by-eleutherai",
+    "kind": "developed_by",
+    "source": "model:gpt-j-6b",
+    "target": "organization:eleutherai",
+    "description": "GPT-J-6B is released by EleutherAI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-hf",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B Hugging Face metadata",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:gpt-j-6b",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "GPT-J-6B is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-hf",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B Hugging Face metadata",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gpt-j-6b-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "model:gpt-j-6b",
+    "target": "license:apache-2.0",
+    "description": "GPT-J-6B model card reports Apache-2.0 license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gpt-j-hf-license",
+        "type": "huggingface_model_card",
+        "title": "GPT-J-6B Hugging Face metadata",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-trained-on-the-stack-v2",
+    "kind": "trained_on",
+    "source": "model:starcoder2-3b",
+    "target": "dataset:the-stack-v2",
+    "description": "StarCoder2-3B is associated with BigCode code training data from The Stack v2 pipeline.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-model-card",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B model card",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-trained-with-transformers",
+    "kind": "trained_with",
+    "source": "model:starcoder2-3b",
+    "target": "software:transformers",
+    "description": "StarCoder2-3B is distributed in Transformers-compatible format.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-model-card",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B model card",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-evaluated-on-humaneval",
+    "kind": "evaluated_on",
+    "source": "model:starcoder2-3b",
+    "target": "benchmark:humaneval",
+    "description": "StarCoder2-3B model-card metrics include HumanEval coding benchmark scores.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-model-card",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B model card",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-developed-by-bigcode",
+    "kind": "developed_by",
+    "source": "model:starcoder2-3b",
+    "target": "organization:bigcode",
+    "description": "StarCoder2-3B is released by BigCode.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-hf",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B Hugging Face metadata",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "model:starcoder2-3b",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "StarCoder2-3B is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-hf",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B Hugging Face metadata",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:starcoder2-3b-licensed-as-bigcode-openrail-m",
+    "kind": "licensed_as",
+    "source": "model:starcoder2-3b",
+    "target": "license:bigcode-openrail-m",
+    "description": "StarCoder2-3B model card reports BigCode OpenRAIL-M license metadata.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:starcoder2-hf-license",
+        "type": "huggingface_model_card",
+        "title": "StarCoder2-3B Hugging Face metadata",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  }
+]

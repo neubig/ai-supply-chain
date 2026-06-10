@@ -1,0 +1,642 @@
+[
+  {
+    "id": "edge:ollama-implements-openai-compatible-api",
+    "kind": "implements",
+    "source": "software:ollama",
+    "target": "software:openai-compatible-api",
+    "description": "Ollama exposes OpenAI-compatible API surfaces for local model serving.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:ollama-repo",
+        "type": "github_repo",
+        "title": "Ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:ollama-depends-on-llama.cpp",
+    "kind": "depends_on",
+    "source": "software:ollama",
+    "target": "software:llama.cpp",
+    "description": "Ollama local inference is represented through the llama.cpp ecosystem in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:ollama-repo",
+        "type": "github_repo",
+        "title": "Ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:ollama-developed-by-ollama",
+    "kind": "developed_by",
+    "source": "software:ollama",
+    "target": "organization:ollama",
+    "description": "Ollama is maintained under the Ollama GitHub organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:ollama-github",
+        "type": "github_repo",
+        "title": "Ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:ollama-licensed-as-mit",
+    "kind": "licensed_as",
+    "source": "software:ollama",
+    "target": "license:mit",
+    "description": "Ollama is licensed under MIT.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:ollama-license",
+        "type": "github_license",
+        "title": "Ollama LICENSE",
+        "url": "https://github.com/ollama/ollama/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:llama.cpp-licensed-as-mit",
+    "kind": "licensed_as",
+    "source": "software:llama.cpp",
+    "target": "license:mit",
+    "description": "llama.cpp is licensed under MIT.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:llama.cpp-license",
+        "type": "github_license",
+        "title": "llama.cpp LICENSE",
+        "url": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:llama.cpp-developed-by-ggml-org",
+    "kind": "developed_by",
+    "source": "software:llama.cpp",
+    "target": "organization:ggml-org",
+    "description": "llama.cpp is maintained under the ggml-org GitHub organization.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:llama.cpp-github",
+        "type": "github_repo",
+        "title": "llama.cpp GitHub repository",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-licensed-as-bsd-3-clause",
+    "kind": "licensed_as",
+    "source": "software:pytorch",
+    "target": "license:bsd-3-clause",
+    "description": "PyTorch uses BSD-style license terms.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:pytorch-license",
+        "type": "github_license",
+        "title": "PyTorch LICENSE",
+        "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:pytorch-developed-by-pytorch-foundation",
+    "kind": "developed_by",
+    "source": "software:pytorch",
+    "target": "organization:pytorch-foundation",
+    "description": "PyTorch is stewarded by the PyTorch Foundation.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:pytorch-foundation",
+        "type": "official_website",
+        "title": "PyTorch Foundation",
+        "url": "https://pytorch.org/foundation",
+        "publisher": "PyTorch Foundation",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:transformers-depends-on-pytorch",
+    "kind": "depends_on",
+    "source": "software:transformers",
+    "target": "software:pytorch",
+    "description": "Transformers supports PyTorch model implementations and runtime paths.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:transformers-docs",
+        "type": "official_docs",
+        "title": "Transformers documentation",
+        "url": "https://huggingface.co/docs/transformers",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:transformers-developed-by-hugging-face",
+    "kind": "developed_by",
+    "source": "software:transformers",
+    "target": "organization:hugging-face",
+    "description": "Transformers is maintained by Hugging Face.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:transformers-github",
+        "type": "github_repo",
+        "title": "Transformers GitHub repository",
+        "url": "https://github.com/huggingface/transformers",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:transformers-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "software:transformers",
+    "target": "license:apache-2.0",
+    "description": "Transformers is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:transformers-license",
+        "type": "github_license",
+        "title": "Transformers LICENSE",
+        "url": "https://github.com/huggingface/transformers/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:diffusers-depends-on-pytorch",
+    "kind": "depends_on",
+    "source": "software:diffusers",
+    "target": "software:pytorch",
+    "description": "Diffusers supports PyTorch diffusion model pipelines.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:diffusers-docs",
+        "type": "official_docs",
+        "title": "Diffusers documentation",
+        "url": "https://huggingface.co/docs/diffusers",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:diffusers-developed-by-hugging-face",
+    "kind": "developed_by",
+    "source": "software:diffusers",
+    "target": "organization:hugging-face",
+    "description": "Diffusers is maintained by Hugging Face.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:diffusers-github",
+        "type": "github_repo",
+        "title": "Diffusers GitHub repository",
+        "url": "https://github.com/huggingface/diffusers",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:diffusers-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "software:diffusers",
+    "target": "license:apache-2.0",
+    "description": "Diffusers is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:diffusers-license",
+        "type": "github_license",
+        "title": "Diffusers LICENSE",
+        "url": "https://github.com/huggingface/diffusers/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-depends-on-pytorch",
+    "kind": "depends_on",
+    "source": "software:vllm",
+    "target": "software:pytorch",
+    "description": "vLLM is part of the PyTorch-based LLM serving ecosystem.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:vllm-repo",
+        "type": "github_repo",
+        "title": "vLLM GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-implements-openai-compatible-api",
+    "kind": "implements",
+    "source": "software:vllm",
+    "target": "software:openai-compatible-api",
+    "description": "vLLM includes OpenAI-compatible serving endpoints.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:vllm-repo",
+        "type": "github_repo",
+        "title": "vLLM GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:vllm-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "software:vllm",
+    "target": "license:apache-2.0",
+    "description": "vLLM is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:vllm-license",
+        "type": "github_license",
+        "title": "vLLM LICENSE",
+        "url": "https://github.com/vllm-project/vllm/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:litellm-implements-openai-compatible-api",
+    "kind": "implements",
+    "source": "software:litellm",
+    "target": "software:openai-compatible-api",
+    "description": "LiteLLM exposes and routes OpenAI-compatible API requests.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:litellm-repo-description",
+        "type": "github_repo",
+        "title": "LiteLLM GitHub repository description",
+        "url": "https://github.com/BerriAI/litellm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:litellm-licensed-as-open-core",
+    "kind": "licensed_as",
+    "source": "software:litellm",
+    "target": "license:open-core-mit-enterprise",
+    "description": "LiteLLM uses MIT terms outside enterprise-restricted directories.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:litellm-license",
+        "type": "github_license",
+        "title": "LiteLLM LICENSE",
+        "url": "https://github.com/BerriAI/litellm/blob/litellm_internal_staging/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gradio-developed-by-hugging-face",
+    "kind": "developed_by",
+    "source": "software:gradio",
+    "target": "organization:hugging-face",
+    "description": "Gradio is maintained by Hugging Face.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gradio-github",
+        "type": "github_repo",
+        "title": "Gradio GitHub repository",
+        "url": "https://github.com/gradio-app/gradio",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:gradio-licensed-as-apache-2.0",
+    "kind": "licensed_as",
+    "source": "software:gradio",
+    "target": "license:apache-2.0",
+    "description": "Gradio is licensed under Apache-2.0.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:gradio-license",
+        "type": "github_license",
+        "title": "Gradio LICENSE",
+        "url": "https://github.com/gradio-app/gradio/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-pile-developed-by-eleutherai",
+    "kind": "developed_by",
+    "source": "dataset:the-pile",
+    "target": "organization:eleutherai",
+    "description": "The Pile is released by EleutherAI.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:pile-hf",
+        "type": "huggingface_dataset_card",
+        "title": "The Pile dataset card",
+        "url": "https://huggingface.co/datasets/EleutherAI/pile",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-pile-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "dataset:the-pile",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "The Pile dataset card is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:pile-hf",
+        "type": "huggingface_dataset_card",
+        "title": "The Pile dataset card",
+        "url": "https://huggingface.co/datasets/EleutherAI/pile",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-pile-licensed-as-other-composite",
+    "kind": "licensed_as",
+    "source": "dataset:the-pile",
+    "target": "license:other-composite",
+    "description": "The Pile has composite component licensing.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:pile-hf-license",
+        "type": "huggingface_dataset_card",
+        "title": "The Pile dataset card",
+        "url": "https://huggingface.co/datasets/EleutherAI/pile",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-stack-v2-developed-by-bigcode",
+    "kind": "developed_by",
+    "source": "dataset:the-stack-v2",
+    "target": "organization:bigcode",
+    "description": "The Stack v2 is released by the BigCode project.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:the-stack-v2-hf",
+        "type": "huggingface_dataset_card",
+        "title": "The Stack v2 dataset card",
+        "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-stack-v2-hosted-by-hugging-face-hub",
+    "kind": "hosted_by",
+    "source": "dataset:the-stack-v2",
+    "target": "infrastructure:hugging-face-hub",
+    "description": "The Stack v2 dataset card is hosted on Hugging Face Hub.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:the-stack-v2-hf",
+        "type": "huggingface_dataset_card",
+        "title": "The Stack v2 dataset card",
+        "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:the-stack-v2-licensed-as-other-composite",
+    "kind": "licensed_as",
+    "source": "dataset:the-stack-v2",
+    "target": "license:other-composite",
+    "description": "The Stack v2 is represented as composite licensing in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:the-stack-v2-license",
+        "type": "huggingface_dataset_card",
+        "title": "The Stack v2 dataset card",
+        "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:laion-5b-developed-by-laion",
+    "kind": "developed_by",
+    "source": "dataset:laion-5b",
+    "target": "organization:laion",
+    "description": "LAION-5B is released by LAION.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:laion-5b-release",
+        "type": "official_website",
+        "title": "LAION-5B release page",
+        "url": "https://laion.ai/blog/laion-5b/",
+        "publisher": "LAION",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:laion-5b-licensed-as-cc-by-4.0",
+    "kind": "licensed_as",
+    "source": "dataset:laion-5b",
+    "target": "license:cc-by-4.0",
+    "description": "LAION-5B metadata is represented with CC-BY-4.0 terms in this seed graph.",
+    "confidence": "medium",
+    "sources": [
+      {
+        "id": "edge-source:laion-5b-release",
+        "type": "official_website",
+        "title": "LAION-5B release page",
+        "url": "https://laion.ai/blog/laion-5b/",
+        "publisher": "LAION",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "edge:librispeech-licensed-as-cc-by-4.0",
+    "kind": "licensed_as",
+    "source": "dataset:librispeech",
+    "target": "license:cc-by-4.0",
+    "description": "LibriSpeech is distributed with CC-BY-4.0 terms.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openslr-12",
+        "type": "official_website",
+        "title": "OpenSLR 12 LibriSpeech ASR corpus",
+        "url": "https://www.openslr.org/12",
+        "publisher": "OpenSLR",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:librispeech-asr-uses-data-librispeech",
+    "kind": "uses_data",
+    "source": "benchmark:librispeech-asr",
+    "target": "dataset:librispeech",
+    "description": "The LibriSpeech ASR benchmark uses LibriSpeech data.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:openslr-12",
+        "type": "official_website",
+        "title": "OpenSLR 12 LibriSpeech ASR corpus",
+        "url": "https://www.openslr.org/12",
+        "publisher": "OpenSLR",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "edge:swe-bench-uses-data-swe-bench-instances",
+    "kind": "uses_data",
+    "source": "benchmark:swe-bench",
+    "target": "dataset:swe-bench-instances",
+    "description": "SWE-bench uses curated GitHub issue and pull request instances.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "edge-source:swe-bench-site",
+        "type": "official_website",
+        "title": "SWE-bench benchmark site",
+        "url": "https://www.swebench.com/",
+        "publisher": "SWE-bench",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  }
+]

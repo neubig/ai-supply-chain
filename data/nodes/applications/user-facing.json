@@ -1,0 +1,568 @@
+[
+  {
+    "id": "application:open-webui",
+    "kind": "application",
+    "name": "Open WebUI",
+    "description": "User-facing web interface for local and hosted language models, commonly paired with Ollama and OpenAI-compatible APIs.",
+    "canonicalUrl": "https://github.com/open-webui/open-webui",
+    "homepageUrl": "https://openwebui.com/",
+    "repositoryUrl": "https://github.com/open-webui/open-webui",
+    "license": {
+      "expression": "LicenseRef-Open-WebUI",
+      "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+      "openness": "source_available",
+      "osiApproved": false,
+      "notes": "Custom license with branding and enterprise restrictions.",
+      "sourceIds": ["github-license:open-webui/open-webui"]
+    },
+    "openness": "source_available",
+    "tasks": ["chat", "rag", "agents"],
+    "tags": ["consumer-facing", "web-ui", "local-llm"],
+    "sources": [
+      {
+        "id": "github:open-webui/open-webui",
+        "type": "github_repo",
+        "title": "open-webui/open-webui GitHub repository",
+        "url": "https://github.com/open-webui/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      },
+      {
+        "id": "github-license:open-webui/open-webui",
+        "type": "github_license",
+        "title": "Open WebUI LICENSE",
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 140857,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:open-webui/open-webui"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 20214,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:open-webui/open-webui"]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 382,
+        "unit": "issues",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": false,
+        "sourceIds": ["github:open-webui/open-webui"]
+      },
+      {
+        "id": "metric:pushed_at",
+        "category": "maintenance",
+        "name": "Last pushed at",
+        "value": "2026-06-08T21:52:55Z",
+        "unit": "iso8601 timestamp",
+        "measuredAt": "2026-06-09",
+        "sourceIds": ["github:open-webui/open-webui"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub's repository API and refresh license text from the LICENSE file."
+    },
+    "metadata": {
+      "githubDefaultBranch": "main"
+    }
+  },
+  {
+    "id": "application:anythingllm",
+    "kind": "application",
+    "name": "AnythingLLM",
+    "description": "Local-first user-facing workspace for chat, retrieval, and agent workflows over private documents.",
+    "canonicalUrl": "https://github.com/Mintplex-Labs/anything-llm",
+    "homepageUrl": "https://anythingllm.com/",
+    "repositoryUrl": "https://github.com/Mintplex-Labs/anything-llm",
+    "license": {
+      "expression": "MIT",
+      "url": "https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:mintplex-labs/anything-llm"]
+    },
+    "openness": "open_source",
+    "tasks": ["chat", "rag", "agents"],
+    "tags": ["consumer-facing", "local-first", "document-qa"],
+    "sources": [
+      {
+        "id": "github:mintplex-labs/anything-llm",
+        "type": "github_repo",
+        "title": "Mintplex-Labs/anything-llm GitHub repository",
+        "url": "https://github.com/Mintplex-Labs/anything-llm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 61326,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:mintplex-labs/anything-llm"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 6665,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:mintplex-labs/anything-llm"]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 327,
+        "unit": "issues",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": false,
+        "sourceIds": ["github:mintplex-labs/anything-llm"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository and license metadata through the GitHub API."
+    },
+    "metadata": {
+      "githubDefaultBranch": "master"
+    }
+  },
+  {
+    "id": "application:gpt4all",
+    "kind": "application",
+    "name": "GPT4All",
+    "description": "Desktop and local runtime application for running open and open-weight language models on consumer devices.",
+    "canonicalUrl": "https://github.com/nomic-ai/gpt4all",
+    "homepageUrl": "https://www.nomic.ai/gpt4all",
+    "repositoryUrl": "https://github.com/nomic-ai/gpt4all",
+    "license": {
+      "expression": "MIT",
+      "url": "https://github.com/nomic-ai/gpt4all/blob/main/LICENSE.txt",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:nomic-ai/gpt4all"]
+    },
+    "openness": "open_source",
+    "tasks": ["chat", "local-inference"],
+    "tags": ["consumer-facing", "desktop", "local-llm"],
+    "sources": [
+      {
+        "id": "github:nomic-ai/gpt4all",
+        "type": "github_repo",
+        "title": "nomic-ai/gpt4all GitHub repository",
+        "url": "https://github.com/nomic-ai/gpt4all",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 77359,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:nomic-ai/gpt4all"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 8324,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:nomic-ai/gpt4all"]
+      },
+      {
+        "id": "metric:open_issues",
+        "category": "maintenance",
+        "name": "Open GitHub issues",
+        "value": 761,
+        "unit": "issues",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": false,
+        "sourceIds": ["github:nomic-ai/gpt4all"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository metadata and model catalog links from official project metadata."
+    },
+    "metadata": {
+      "githubDefaultBranch": "main"
+    }
+  },
+  {
+    "id": "application:continue",
+    "kind": "application",
+    "name": "Continue",
+    "description": "Open-source AI coding assistant and source-controlled AI workflow tooling for developers.",
+    "canonicalUrl": "https://github.com/continuedev/continue",
+    "homepageUrl": "https://www.continue.dev/",
+    "repositoryUrl": "https://github.com/continuedev/continue",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/continuedev/continue/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:continuedev/continue"]
+    },
+    "openness": "open_source",
+    "tasks": ["coding", "developer-assistant", "agentic-coding"],
+    "tags": ["consumer-facing", "ide-extension", "coding"],
+    "sources": [
+      {
+        "id": "github:continuedev/continue",
+        "type": "github_repo",
+        "title": "continuedev/continue GitHub repository",
+        "url": "https://github.com/continuedev/continue",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 33630,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:continuedev/continue"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 4633,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:continuedev/continue"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub and extension-marketplace metrics when deterministic APIs are configured."
+    },
+    "metadata": {
+      "githubDefaultBranch": "main"
+    }
+  },
+  {
+    "id": "application:comfyui",
+    "kind": "application",
+    "name": "ComfyUI",
+    "description": "Node-graph interface and backend for diffusion image, video, and audio generation workflows.",
+    "canonicalUrl": "https://github.com/Comfy-Org/ComfyUI",
+    "repositoryUrl": "https://github.com/Comfy-Org/ComfyUI",
+    "license": {
+      "expression": "GPL-3.0",
+      "url": "https://github.com/Comfy-Org/ComfyUI/blob/master/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:comfy-org/comfyui"]
+    },
+    "openness": "open_source",
+    "tasks": ["image-generation", "workflow-automation"],
+    "tags": ["consumer-facing", "diffusion", "node-graph"],
+    "sources": [
+      {
+        "id": "github:comfy-org/comfyui",
+        "type": "github_repo",
+        "title": "Comfy-Org/ComfyUI GitHub repository",
+        "url": "https://github.com/Comfy-Org/ComfyUI",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 116374,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:comfy-org/comfyui"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 13613,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:comfy-org/comfyui"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository metadata and plugin/dependency metadata from official manifests when available."
+    },
+    "metadata": {
+      "githubDefaultBranch": "master"
+    }
+  },
+  {
+    "id": "application:stable-diffusion-webui",
+    "kind": "application",
+    "name": "Stable Diffusion web UI",
+    "description": "Browser-based interface for Stable Diffusion image generation and related extension workflows.",
+    "canonicalUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "repositoryUrl": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "license": {
+      "expression": "AGPL-3.0",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+    },
+    "openness": "open_source",
+    "tasks": ["image-generation", "image-editing"],
+    "tags": ["consumer-facing", "diffusion", "web-ui"],
+    "sources": [
+      {
+        "id": "github:automatic1111/stable-diffusion-webui",
+        "type": "github_repo",
+        "title": "AUTOMATIC1111/stable-diffusion-webui GitHub repository",
+        "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 163584,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 30371,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:automatic1111/stable-diffusion-webui"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository metadata and dependency manifests from the default branch."
+    },
+    "metadata": {
+      "githubDefaultBranch": "master"
+    }
+  },
+  {
+    "id": "application:openhands",
+    "kind": "application",
+    "name": "OpenHands",
+    "description": "AI software-development agent application for coding, command execution, and repository automation.",
+    "canonicalUrl": "https://github.com/OpenHands/OpenHands",
+    "homepageUrl": "https://www.all-hands.dev/",
+    "repositoryUrl": "https://github.com/OpenHands/OpenHands",
+    "license": {
+      "expression": "MIT AND LicenseRef-Enterprise",
+      "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+      "openness": "open_core",
+      "osiApproved": null,
+      "notes": "Repository license grants MIT terms outside enterprise-restricted directories.",
+      "sourceIds": ["github-license:openhands/openhands"]
+    },
+    "openness": "open_core",
+    "tasks": ["coding", "software-agents", "repository-automation"],
+    "tags": ["consumer-facing", "agent", "coding"],
+    "sources": [
+      {
+        "id": "github:openhands/openhands",
+        "type": "github_repo",
+        "title": "OpenHands/OpenHands GitHub repository",
+        "url": "https://github.com/OpenHands/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      },
+      {
+        "id": "github-license:openhands/openhands",
+        "type": "github_license",
+        "title": "OpenHands LICENSE",
+        "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 76331,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:openhands/openhands"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 9702,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:openhands/openhands"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub and keep license classification aligned with the repository LICENSE file."
+    },
+    "metadata": {
+      "githubDefaultBranch": "main"
+    }
+  },
+  {
+    "id": "application:jan",
+    "kind": "application",
+    "name": "Jan",
+    "description": "Open-source desktop ChatGPT alternative for running AI locally and offline on personal computers.",
+    "canonicalUrl": "https://github.com/janhq/jan",
+    "homepageUrl": "https://jan.ai/",
+    "repositoryUrl": "https://github.com/janhq/jan",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "notes": "License file requests attribution in user-facing documentation where appropriate.",
+      "sourceIds": ["github-license:janhq/jan"]
+    },
+    "openness": "open_source",
+    "tasks": ["chat", "local-inference"],
+    "tags": ["consumer-facing", "desktop", "offline"],
+    "sources": [
+      {
+        "id": "github:janhq/jan",
+        "type": "github_repo",
+        "title": "janhq/jan GitHub repository",
+        "url": "https://github.com/janhq/jan",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      },
+      {
+        "id": "github-license:janhq/jan",
+        "type": "github_license",
+        "title": "Jan LICENSE",
+        "url": "https://github.com/janhq/jan/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 42956,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:janhq/jan"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 2921,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:janhq/jan"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository and release metadata through deterministic APIs."
+    },
+    "metadata": {
+      "githubDefaultBranch": "main"
+    }
+  }
+]

@@ -1,0 +1,315 @@
+[
+  {
+    "id": "dataset:the-pile",
+    "kind": "dataset",
+    "name": "The Pile",
+    "description": "Large-scale open language-modeling dataset curated by EleutherAI.",
+    "canonicalUrl": "https://huggingface.co/datasets/EleutherAI/pile",
+    "license": {
+      "expression": "OTHER",
+      "url": "https://huggingface.co/datasets/EleutherAI/pile",
+      "openness": "source_available",
+      "osiApproved": false,
+      "notes": "Composite dataset with component-specific licensing.",
+      "sourceIds": ["hf-dataset:eleutherai/pile"]
+    },
+    "openness": "source_available",
+    "tasks": ["language-model-training"],
+    "tags": ["text", "pretraining"],
+    "sources": [
+      {
+        "id": "hf-dataset:eleutherai/pile",
+        "type": "huggingface_dataset_card",
+        "title": "EleutherAI/pile dataset card",
+        "url": "https://huggingface.co/datasets/EleutherAI/pile",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 3465,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-dataset:eleutherai/pile"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 497,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-dataset:eleutherai/pile"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh dataset-card metadata from Hugging Face and preserve component license notes."
+    }
+  },
+  {
+    "id": "dataset:the-stack-v2",
+    "kind": "dataset",
+    "name": "The Stack v2",
+    "description": "Large code dataset from the BigCode project used for code model training.",
+    "canonicalUrl": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+    "license": {
+      "expression": "OTHER",
+      "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+      "openness": "source_available",
+      "osiApproved": false,
+      "notes": "Dataset is assembled from source repositories with varying licenses and filtering rules.",
+      "sourceIds": ["hf-dataset:bigcode/the-stack-v2"]
+    },
+    "openness": "source_available",
+    "tasks": ["code-model-training"],
+    "tags": ["code", "pretraining"],
+    "sources": [
+      {
+        "id": "hf-dataset:bigcode/the-stack-v2",
+        "type": "huggingface_dataset_card",
+        "title": "bigcode/the-stack-v2 dataset card",
+        "url": "https://huggingface.co/datasets/bigcode/the-stack-v2",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh dataset-card metadata and license filtering notes from Hugging Face."
+    }
+  },
+  {
+    "id": "dataset:laion-5b",
+    "kind": "dataset",
+    "name": "LAION-5B family",
+    "description": "Large-scale image-text pair dataset family used in diffusion model training pipelines.",
+    "canonicalUrl": "https://laion.ai/blog/laion-5b/",
+    "license": {
+      "expression": "CC-BY-4.0",
+      "url": "https://laion.ai/blog/laion-5b/",
+      "openness": "source_available",
+      "osiApproved": false,
+      "notes": "Metadata dataset; downstream image access and rights vary by URL source.",
+      "sourceIds": ["official:laion-5b"]
+    },
+    "openness": "source_available",
+    "tasks": ["image-generation-training"],
+    "tags": ["image-text", "pretraining"],
+    "sources": [
+      {
+        "id": "official:laion-5b",
+        "type": "official_website",
+        "title": "LAION-5B release page",
+        "url": "https://laion.ai/blog/laion-5b/",
+        "publisher": "LAION",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from official LAION release and dataset documentation pages."
+    }
+  },
+  {
+    "id": "dataset:librispeech",
+    "kind": "dataset",
+    "name": "LibriSpeech",
+    "description": "Read-speech corpus used for automatic speech recognition training and evaluation.",
+    "canonicalUrl": "https://www.openslr.org/12",
+    "license": {
+      "expression": "CC-BY-4.0",
+      "url": "https://www.openslr.org/12",
+      "openness": "source_available",
+      "osiApproved": false,
+      "sourceIds": ["official:openslr-12"]
+    },
+    "openness": "source_available",
+    "tasks": ["speech-recognition"],
+    "tags": ["speech", "benchmark-data"],
+    "sources": [
+      {
+        "id": "official:openslr-12",
+        "type": "official_website",
+        "title": "OpenSLR 12 LibriSpeech ASR corpus",
+        "url": "https://www.openslr.org/12",
+        "publisher": "OpenSLR",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from OpenSLR metadata and mirrored dataset cards."
+    }
+  },
+  {
+    "id": "dataset:qwen2.5-training-corpus",
+    "kind": "dataset",
+    "name": "Qwen2.5 training corpus",
+    "description": "Training corpus described by Qwen model cards; component data is not fully enumerated in this seed graph.",
+    "canonicalUrl": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "openness": "unknown",
+    "tasks": ["language-model-training", "code-model-training"],
+    "tags": ["undisclosed", "pretraining"],
+    "sources": [
+      {
+        "id": "hf-model:qwen/qwen2.5-7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "Qwen/Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Qwen model-card training data disclosures; do not infer undisclosed components."
+    }
+  },
+  {
+    "id": "dataset:mistral-training-corpus",
+    "kind": "dataset",
+    "name": "Mistral 7B training corpus",
+    "description": "Training corpus for Mistral 7B family models where detailed data composition is not fully disclosed in the seed graph.",
+    "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "openness": "unknown",
+    "tasks": ["language-model-training"],
+    "tags": ["undisclosed", "pretraining"],
+    "sources": [
+      {
+        "id": "hf-model:mistralai/mistral-7b-instruct-v0.3",
+        "type": "huggingface_model_card",
+        "title": "mistralai/Mistral-7B-Instruct-v0.3 model card",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from official model-card disclosures."
+    }
+  },
+  {
+    "id": "dataset:whisper-web-audio",
+    "kind": "dataset",
+    "name": "Whisper weakly supervised web audio",
+    "description": "Large weakly supervised audio corpus described by the Whisper release and model documentation.",
+    "canonicalUrl": "https://github.com/openai/whisper",
+    "openness": "unknown",
+    "tasks": ["speech-recognition-training", "speech-translation-training"],
+    "tags": ["speech", "undisclosed"],
+    "sources": [
+      {
+        "id": "github:openai/whisper",
+        "type": "github_repo",
+        "title": "openai/whisper GitHub repository",
+        "url": "https://github.com/openai/whisper",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from official Whisper release documentation and papers."
+    }
+  },
+  {
+    "id": "dataset:nomic-embed-training-data",
+    "kind": "dataset",
+    "name": "Nomic Embed training data",
+    "description": "Training and contrastive data described in Nomic Embed model documentation.",
+    "canonicalUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+    "openness": "unknown",
+    "tasks": ["embedding-training"],
+    "tags": ["embedding", "partially-disclosed"],
+    "sources": [
+      {
+        "id": "hf-model:nomic-ai/nomic-embed-text-v1.5",
+        "type": "huggingface_model_card",
+        "title": "nomic-ai/nomic-embed-text-v1.5 model card",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from Nomic model-card and paper disclosures."
+    }
+  },
+  {
+    "id": "dataset:swe-bench-instances",
+    "kind": "dataset",
+    "name": "SWE-bench task instances",
+    "description": "GitHub issue and pull request task instances used by SWE-bench software engineering benchmarks.",
+    "canonicalUrl": "https://www.swebench.com/",
+    "openness": "source_available",
+    "tasks": ["agentic-coding-evaluation"],
+    "tags": ["benchmark-data", "github-issues"],
+    "sources": [
+      {
+        "id": "official:swe-bench",
+        "type": "official_website",
+        "title": "SWE-bench benchmark site",
+        "url": "https://www.swebench.com/",
+        "publisher": "SWE-bench",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh task metadata from SWE-bench official sources."
+    }
+  }
+]

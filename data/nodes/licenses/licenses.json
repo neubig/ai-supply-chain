@@ -1,0 +1,278 @@
+[
+  {
+    "id": "license:apache-2.0",
+    "kind": "license",
+    "name": "Apache License 2.0",
+    "description": "Permissive OSI-approved open-source software license.",
+    "canonicalUrl": "https://spdx.org/licenses/Apache-2.0.html",
+    "openness": "open_source",
+    "tags": ["permissive", "osi-approved", "spdx"],
+    "sources": [
+      {
+        "id": "spdx:apache-2.0",
+        "type": "official_website",
+        "title": "SPDX Apache-2.0 license entry",
+        "url": "https://spdx.org/licenses/Apache-2.0.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:osi_approved",
+        "category": "openness",
+        "name": "OSI approved",
+        "value": true,
+        "sourceIds": ["spdx:apache-2.0"]
+      }
+    ]
+  },
+  {
+    "id": "license:mit",
+    "kind": "license",
+    "name": "MIT License",
+    "description": "Permissive OSI-approved open-source software license.",
+    "canonicalUrl": "https://spdx.org/licenses/MIT.html",
+    "openness": "open_source",
+    "tags": ["permissive", "osi-approved", "spdx"],
+    "sources": [
+      {
+        "id": "spdx:mit",
+        "type": "official_website",
+        "title": "SPDX MIT license entry",
+        "url": "https://spdx.org/licenses/MIT.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:osi_approved",
+        "category": "openness",
+        "name": "OSI approved",
+        "value": true,
+        "sourceIds": ["spdx:mit"]
+      }
+    ]
+  },
+  {
+    "id": "license:gpl-3.0",
+    "kind": "license",
+    "name": "GNU General Public License v3.0",
+    "description": "Copyleft OSI-approved open-source software license.",
+    "canonicalUrl": "https://spdx.org/licenses/GPL-3.0-only.html",
+    "openness": "open_source",
+    "tags": ["copyleft", "osi-approved", "spdx"],
+    "sources": [
+      {
+        "id": "spdx:gpl-3.0-only",
+        "type": "official_website",
+        "title": "SPDX GPL-3.0-only license entry",
+        "url": "https://spdx.org/licenses/GPL-3.0-only.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:osi_approved",
+        "category": "openness",
+        "name": "OSI approved",
+        "value": true,
+        "sourceIds": ["spdx:gpl-3.0-only"]
+      }
+    ]
+  },
+  {
+    "id": "license:agpl-3.0",
+    "kind": "license",
+    "name": "GNU Affero General Public License v3.0",
+    "description": "Network-copyleft OSI-approved open-source software license.",
+    "canonicalUrl": "https://spdx.org/licenses/AGPL-3.0-only.html",
+    "openness": "open_source",
+    "tags": ["network-copyleft", "osi-approved", "spdx"],
+    "sources": [
+      {
+        "id": "spdx:agpl-3.0-only",
+        "type": "official_website",
+        "title": "SPDX AGPL-3.0-only license entry",
+        "url": "https://spdx.org/licenses/AGPL-3.0-only.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:osi_approved",
+        "category": "openness",
+        "name": "OSI approved",
+        "value": true,
+        "sourceIds": ["spdx:agpl-3.0-only"]
+      }
+    ]
+  },
+  {
+    "id": "license:bsd-3-clause",
+    "kind": "license",
+    "name": "BSD 3-Clause License",
+    "description": "Permissive OSI-approved open-source software license.",
+    "canonicalUrl": "https://spdx.org/licenses/BSD-3-Clause.html",
+    "openness": "open_source",
+    "tags": ["permissive", "osi-approved", "spdx"],
+    "sources": [
+      {
+        "id": "spdx:bsd-3-clause",
+        "type": "official_website",
+        "title": "SPDX BSD-3-Clause license entry",
+        "url": "https://spdx.org/licenses/BSD-3-Clause.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:osi_approved",
+        "category": "openness",
+        "name": "OSI approved",
+        "value": true,
+        "sourceIds": ["spdx:bsd-3-clause"]
+      }
+    ]
+  },
+  {
+    "id": "license:cc-by-4.0",
+    "kind": "license",
+    "name": "Creative Commons Attribution 4.0",
+    "description": "Creative Commons attribution license commonly used for datasets and documentation.",
+    "canonicalUrl": "https://spdx.org/licenses/CC-BY-4.0.html",
+    "openness": "source_available",
+    "tags": ["creative-commons", "dataset"],
+    "sources": [
+      {
+        "id": "spdx:cc-by-4.0",
+        "type": "official_website",
+        "title": "SPDX CC-BY-4.0 license entry",
+        "url": "https://spdx.org/licenses/CC-BY-4.0.html",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "license:openrail-plus-plus",
+    "kind": "license",
+    "name": "OpenRAIL++",
+    "description": "Responsible AI license family used by some open-weight model releases.",
+    "canonicalUrl": "https://www.licenses.ai/",
+    "openness": "open_weights",
+    "tags": ["model-license", "use-restrictions"],
+    "sources": [
+      {
+        "id": "official:licenses-ai",
+        "type": "official_website",
+        "title": "Responsible AI Licenses",
+        "url": "https://www.licenses.ai/",
+        "publisher": "Responsible AI Licenses",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "license:bigcode-openrail-m",
+    "kind": "license",
+    "name": "BigCode OpenRAIL-M",
+    "description": "Model license with responsible-use restrictions used by BigCode model releases.",
+    "canonicalUrl": "https://huggingface.co/spaces/bigcode/license",
+    "openness": "open_weights",
+    "tags": ["model-license", "use-restrictions"],
+    "sources": [
+      {
+        "id": "hf:bigcode-license",
+        "type": "official_docs",
+        "title": "BigCode OpenRAIL-M license",
+        "url": "https://huggingface.co/spaces/bigcode/license",
+        "publisher": "BigCode",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "id": "license:open-webui",
+    "kind": "license",
+    "name": "Open WebUI custom license",
+    "description": "Custom source-available Open WebUI license with branding restrictions.",
+    "canonicalUrl": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+    "openness": "source_available",
+    "tags": ["custom", "branding-restriction"],
+    "sources": [
+      {
+        "id": "github-license:open-webui/open-webui",
+        "type": "github_license",
+        "title": "Open WebUI LICENSE",
+        "url": "https://github.com/open-webui/open-webui/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "license:open-core-mit-enterprise",
+    "kind": "license",
+    "name": "MIT plus enterprise-restricted directories",
+    "description": "Open-core repository pattern where most source is MIT but enterprise directories carry separate restrictions.",
+    "canonicalUrl": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+    "openness": "open_core",
+    "tags": ["open-core", "enterprise-restriction"],
+    "sources": [
+      {
+        "id": "github-license:openhands/openhands",
+        "type": "github_license",
+        "title": "OpenHands LICENSE",
+        "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "license:other-composite",
+    "kind": "license",
+    "name": "Other or composite license",
+    "description": "Placeholder for datasets or artifacts whose effective license is composite or not captured by one SPDX identifier.",
+    "canonicalUrl": "https://spdx.org/licenses/",
+    "openness": "unknown",
+    "tags": ["composite", "needs-review"],
+    "sources": [
+      {
+        "id": "spdx:license-list",
+        "type": "official_website",
+        "title": "SPDX License List",
+        "url": "https://spdx.org/licenses/",
+        "publisher": "SPDX",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  }
+]

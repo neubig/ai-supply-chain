@@ -1,0 +1,199 @@
+[
+  {
+    "id": "benchmark:mmlu",
+    "kind": "benchmark",
+    "name": "MMLU",
+    "description": "Massive Multitask Language Understanding benchmark for language-model knowledge and reasoning.",
+    "canonicalUrl": "https://arxiv.org/abs/2009.03300",
+    "openness": "source_available",
+    "tasks": ["chat", "language-understanding"],
+    "tags": ["llm", "knowledge"],
+    "sources": [
+      {
+        "id": "paper:mmlu",
+        "type": "paper",
+        "title": "Measuring Massive Multitask Language Understanding",
+        "url": "https://arxiv.org/abs/2009.03300",
+        "publisher": "arXiv",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "paper_metadata",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "paper_metadata",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh benchmark definition from the paper and official evaluation harnesses."
+    }
+  },
+  {
+    "id": "benchmark:humaneval",
+    "kind": "benchmark",
+    "name": "HumanEval",
+    "description": "Code generation benchmark built from Python programming problems.",
+    "canonicalUrl": "https://github.com/openai/human-eval",
+    "openness": "open_source",
+    "tasks": ["coding", "code-generation"],
+    "tags": ["code", "python"],
+    "sources": [
+      {
+        "id": "github:openai/human-eval",
+        "type": "github_repo",
+        "title": "openai/human-eval GitHub repository",
+        "url": "https://github.com/openai/human-eval",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh benchmark definition and license metadata through the GitHub repository."
+    }
+  },
+  {
+    "id": "benchmark:mteb",
+    "kind": "benchmark",
+    "name": "MTEB",
+    "description": "Massive Text Embedding Benchmark for retrieval, classification, clustering, and semantic textual similarity.",
+    "canonicalUrl": "https://github.com/embeddings-benchmark/mteb",
+    "openness": "open_source",
+    "tasks": ["embeddings", "semantic-search", "rag"],
+    "tags": ["embedding", "retrieval"],
+    "sources": [
+      {
+        "id": "github:embeddings-benchmark/mteb",
+        "type": "github_repo",
+        "title": "embeddings-benchmark/mteb GitHub repository",
+        "url": "https://github.com/embeddings-benchmark/mteb",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh benchmark definition and leaderboard data from official MTEB sources."
+    }
+  },
+  {
+    "id": "benchmark:librispeech-asr",
+    "kind": "benchmark",
+    "name": "LibriSpeech ASR",
+    "description": "Automatic speech recognition benchmark using LibriSpeech test splits.",
+    "canonicalUrl": "https://www.openslr.org/12",
+    "openness": "source_available",
+    "tasks": ["speech-recognition"],
+    "tags": ["speech", "wer"],
+    "sources": [
+      {
+        "id": "official:openslr-12",
+        "type": "official_website",
+        "title": "OpenSLR 12 LibriSpeech ASR corpus",
+        "url": "https://www.openslr.org/12",
+        "publisher": "OpenSLR",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh benchmark definition from OpenSLR and ASR leaderboard sources."
+    }
+  },
+  {
+    "id": "benchmark:text-to-image-quality",
+    "kind": "benchmark",
+    "name": "Text-to-image quality benchmark",
+    "description": "Placeholder benchmark family for image generation quality until a deterministic leaderboard feed is selected.",
+    "canonicalUrl": "https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard",
+    "openness": "unknown",
+    "tasks": ["image-generation"],
+    "tags": ["image-generation", "quality"],
+    "sources": [
+      {
+        "id": "web:text-to-image-leaderboard",
+        "type": "web_search",
+        "title": "Text-to-image leaderboard placeholder",
+        "url": "https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard",
+        "publisher": "Hugging Face Spaces",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "web_search",
+        "confidence": "low",
+        "notes": "Placeholder until the repository selects a deterministic image-generation benchmark source."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "web_search",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Replace with a deterministic benchmark API or official leaderboard export."
+    }
+  },
+  {
+    "id": "benchmark:swe-bench",
+    "kind": "benchmark",
+    "name": "SWE-bench",
+    "description": "Benchmark for resolving real GitHub issues in software repositories.",
+    "canonicalUrl": "https://www.swebench.com/",
+    "openness": "source_available",
+    "tasks": ["agentic-coding", "software-agents"],
+    "tags": ["coding-agent", "software-engineering"],
+    "sources": [
+      {
+        "id": "official:swe-bench",
+        "type": "official_website",
+        "title": "SWE-bench benchmark site",
+        "url": "https://www.swebench.com/",
+        "publisher": "SWE-bench",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh from official SWE-bench benchmark and leaderboard sources."
+    }
+  },
+  {
+    "id": "benchmark:lambada",
+    "kind": "benchmark",
+    "name": "LAMBADA",
+    "description": "Language modeling benchmark focused on broad discourse context.",
+    "canonicalUrl": "https://arxiv.org/abs/1606.06031",
+    "openness": "source_available",
+    "tasks": ["text-generation"],
+    "tags": ["language-modeling"],
+    "sources": [
+      {
+        "id": "paper:lambada",
+        "type": "paper",
+        "title": "The LAMBADA dataset",
+        "url": "https://arxiv.org/abs/1606.06031",
+        "publisher": "arXiv",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "paper_metadata",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "paper_metadata",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh benchmark definition from paper and evaluation harness metadata."
+    }
+  }
+]

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "organization:ollama",
+    "kind": "organization",
+    "name": "Ollama",
+    "description": "Organization maintaining the Ollama local model runtime.",
+    "canonicalUrl": "https://github.com/ollama",
+    "openness": "unknown",
+    "tags": ["software-maintainer"],
+    "sources": [
+      {
+        "id": "github-org:ollama",
+        "type": "github_repo",
+        "title": "Ollama GitHub organization",
+        "url": "https://github.com/ollama",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:ggml-org",
+    "kind": "organization",
+    "name": "ggml-org",
+    "description": "Organization maintaining llama.cpp and related local inference software.",
+    "canonicalUrl": "https://github.com/ggml-org",
+    "openness": "unknown",
+    "tags": ["software-maintainer"],
+    "sources": [
+      {
+        "id": "github-org:ggml-org",
+        "type": "github_repo",
+        "title": "ggml-org GitHub organization",
+        "url": "https://github.com/ggml-org",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:open-webui",
+    "kind": "organization",
+    "name": "Open WebUI",
+    "description": "Organization maintaining the Open WebUI project.",
+    "canonicalUrl": "https://github.com/open-webui",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "github-org:open-webui",
+        "type": "github_repo",
+        "title": "Open WebUI GitHub organization",
+        "url": "https://github.com/open-webui",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:mintplex-labs",
+    "kind": "organization",
+    "name": "Mintplex Labs",
+    "description": "Organization maintaining AnythingLLM.",
+    "canonicalUrl": "https://github.com/Mintplex-Labs",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "github-org:mintplex-labs",
+        "type": "github_repo",
+        "title": "Mintplex-Labs GitHub organization",
+        "url": "https://github.com/Mintplex-Labs",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:nomic-ai",
+    "kind": "organization",
+    "name": "Nomic AI",
+    "description": "Organization developing GPT4All and Nomic embedding models.",
+    "canonicalUrl": "https://www.nomic.ai/",
+    "openness": "unknown",
+    "tags": ["model-developer", "application-developer"],
+    "sources": [
+      {
+        "id": "official:nomic-ai",
+        "type": "official_website",
+        "title": "Nomic AI website",
+        "url": "https://www.nomic.ai/",
+        "publisher": "Nomic AI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:continue",
+    "kind": "organization",
+    "name": "Continue",
+    "description": "Organization maintaining the Continue AI coding assistant.",
+    "canonicalUrl": "https://www.continue.dev/",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "official:continue",
+        "type": "official_website",
+        "title": "Continue website",
+        "url": "https://www.continue.dev/",
+        "publisher": "Continue",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:comfy-org",
+    "kind": "organization",
+    "name": "Comfy Org",
+    "description": "Organization maintaining ComfyUI.",
+    "canonicalUrl": "https://github.com/Comfy-Org",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "github-org:comfy-org",
+        "type": "github_repo",
+        "title": "Comfy-Org GitHub organization",
+        "url": "https://github.com/Comfy-Org",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:automatic1111",
+    "kind": "organization",
+    "name": "AUTOMATIC1111",
+    "description": "Maintainer namespace for Stable Diffusion web UI.",
+    "canonicalUrl": "https://github.com/AUTOMATIC1111",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "github-user:automatic1111",
+        "type": "github_repo",
+        "title": "AUTOMATIC1111 GitHub namespace",
+        "url": "https://github.com/AUTOMATIC1111",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:openhands",
+    "kind": "organization",
+    "name": "OpenHands",
+    "description": "Organization maintaining the OpenHands software agent.",
+    "canonicalUrl": "https://github.com/OpenHands",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "github-org:openhands",
+        "type": "github_repo",
+        "title": "OpenHands GitHub organization",
+        "url": "https://github.com/OpenHands",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:menlo-research",
+    "kind": "organization",
+    "name": "Menlo Research",
+    "description": "Organization maintaining Jan.",
+    "canonicalUrl": "https://jan.ai/",
+    "openness": "unknown",
+    "tags": ["maintainer"],
+    "sources": [
+      {
+        "id": "official:jan",
+        "type": "official_website",
+        "title": "Jan website",
+        "url": "https://jan.ai/",
+        "publisher": "Menlo Research",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:alibaba-qwen",
+    "kind": "organization",
+    "name": "Alibaba Qwen",
+    "description": "Organization developing Qwen model families.",
+    "canonicalUrl": "https://huggingface.co/Qwen",
+    "openness": "unknown",
+    "tags": ["model-developer"],
+    "sources": [
+      {
+        "id": "hf-org:qwen",
+        "type": "huggingface_model_card",
+        "title": "Qwen Hugging Face organization",
+        "url": "https://huggingface.co/Qwen",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:mistral-ai",
+    "kind": "organization",
+    "name": "Mistral AI",
+    "description": "AI company developing Mistral model families.",
+    "canonicalUrl": "https://mistral.ai/",
+    "openness": "unknown",
+    "tags": ["model-developer"],
+    "sources": [
+      {
+        "id": "official:mistral-ai",
+        "type": "official_website",
+        "title": "Mistral AI website",
+        "url": "https://mistral.ai/",
+        "publisher": "Mistral AI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:stability-ai",
+    "kind": "organization",
+    "name": "Stability AI",
+    "description": "Organization releasing Stable Diffusion model families.",
+    "canonicalUrl": "https://stability.ai/",
+    "openness": "unknown",
+    "tags": ["model-developer"],
+    "sources": [
+      {
+        "id": "official:stability-ai",
+        "type": "official_website",
+        "title": "Stability AI website",
+        "url": "https://stability.ai/",
+        "publisher": "Stability AI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:openai",
+    "kind": "organization",
+    "name": "OpenAI",
+    "description": "Organization that released Whisper model weights and code.",
+    "canonicalUrl": "https://openai.com/",
+    "openness": "unknown",
+    "tags": ["model-developer"],
+    "sources": [
+      {
+        "id": "official:openai",
+        "type": "official_website",
+        "title": "OpenAI website",
+        "url": "https://openai.com/",
+        "publisher": "OpenAI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:eleutherai",
+    "kind": "organization",
+    "name": "EleutherAI",
+    "description": "Open research collective that released GPT-J and The Pile.",
+    "canonicalUrl": "https://www.eleuther.ai/",
+    "openness": "unknown",
+    "tags": ["model-developer", "dataset-creator"],
+    "sources": [
+      {
+        "id": "official:eleutherai",
+        "type": "official_website",
+        "title": "EleutherAI website",
+        "url": "https://www.eleuther.ai/",
+        "publisher": "EleutherAI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:bigcode",
+    "kind": "organization",
+    "name": "BigCode",
+    "description": "Open scientific collaboration developing code datasets and code models.",
+    "canonicalUrl": "https://www.bigcode-project.org/",
+    "openness": "unknown",
+    "tags": ["model-developer", "dataset-creator"],
+    "sources": [
+      {
+        "id": "official:bigcode",
+        "type": "official_website",
+        "title": "BigCode project website",
+        "url": "https://www.bigcode-project.org/",
+        "publisher": "BigCode",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:hugging-face",
+    "kind": "organization",
+    "name": "Hugging Face",
+    "description": "Organization maintaining model, dataset, and library infrastructure.",
+    "canonicalUrl": "https://huggingface.co/",
+    "openness": "unknown",
+    "tags": ["infrastructure", "software-maintainer"],
+    "sources": [
+      {
+        "id": "official:hugging-face",
+        "type": "official_website",
+        "title": "Hugging Face website",
+        "url": "https://huggingface.co/",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:laion",
+    "kind": "organization",
+    "name": "LAION",
+    "description": "Non-profit organization releasing large-scale open datasets and models.",
+    "canonicalUrl": "https://laion.ai/",
+    "openness": "unknown",
+    "tags": ["dataset-creator"],
+    "sources": [
+      {
+        "id": "official:laion",
+        "type": "official_website",
+        "title": "LAION website",
+        "url": "https://laion.ai/",
+        "publisher": "LAION",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  },
+  {
+    "id": "organization:pytorch-foundation",
+    "kind": "organization",
+    "name": "PyTorch Foundation",
+    "description": "Foundation stewarding the PyTorch ecosystem.",
+    "canonicalUrl": "https://pytorch.org/foundation",
+    "openness": "unknown",
+    "tags": ["software-maintainer"],
+    "sources": [
+      {
+        "id": "official:pytorch-foundation",
+        "type": "official_website",
+        "title": "PyTorch Foundation",
+        "url": "https://pytorch.org/foundation",
+        "publisher": "PyTorch Foundation",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ]
+  }
+]

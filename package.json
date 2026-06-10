@@ -1,0 +1,30 @@
+{
+  "name": "osai-supply-chain",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Schema, seed data, and Vercel visualization for the open-source AI supply chain.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate": "tsx scripts/validate.ts",
+    "export:schema": "tsx scripts/export-schema.ts",
+    "export:graph": "tsx scripts/export-graph.ts",
+    "visualize": "tsx scripts/visualize.ts",
+    "check": "npm run validate && npm run export:schema && npm run export:graph && npm run visualize && npm run build"
+  },
+  "dependencies": {
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.57",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.31",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

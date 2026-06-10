@@ -1,0 +1,86 @@
+[
+  {
+    "id": "infrastructure:hugging-face-hub",
+    "kind": "infrastructure",
+    "name": "Hugging Face Hub",
+    "description": "Model and dataset hosting infrastructure used for model cards, dataset cards, downloads, and metadata.",
+    "canonicalUrl": "https://huggingface.co/",
+    "openness": "open_core",
+    "tasks": ["model-hosting", "dataset-hosting", "metadata"],
+    "tags": ["hosting", "registry"],
+    "sources": [
+      {
+        "id": "official:hugging-face-hub",
+        "type": "official_website",
+        "title": "Hugging Face Hub",
+        "url": "https://huggingface.co/",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "official_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh model and dataset metadata through Hugging Face APIs."
+    }
+  },
+  {
+    "id": "infrastructure:github",
+    "kind": "infrastructure",
+    "name": "GitHub",
+    "description": "Source hosting, issue tracking, and release infrastructure used by many open-source AI projects.",
+    "canonicalUrl": "https://github.com/",
+    "openness": "proprietary",
+    "tasks": ["source-hosting", "issue-tracking", "releases"],
+    "tags": ["hosting", "source-control"],
+    "sources": [
+      {
+        "id": "official:github",
+        "type": "official_website",
+        "title": "GitHub",
+        "url": "https://github.com/",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub API."
+    }
+  },
+  {
+    "id": "infrastructure:consumer-device",
+    "kind": "infrastructure",
+    "name": "Consumer device",
+    "description": "End-user desktop or laptop hardware used for local AI inference.",
+    "openness": "unknown",
+    "tasks": ["local-inference"],
+    "tags": ["hardware", "local"],
+    "sources": [
+      {
+        "id": "manual:consumer-device",
+        "type": "manual_entry",
+        "title": "Generic consumer device infrastructure placeholder",
+        "url": "https://github.com/neubig/osai-supply-chain",
+        "publisher": "OSAI supply-chain maintainers",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "manual_review",
+        "confidence": "medium",
+        "notes": "Placeholder for local hardware constraints until hardware profiles are added."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "manual",
+      "deterministic": false,
+      "instructions": "Replace with explicit CPU/GPU/RAM profiles when ranking hardware-dependent stacks."
+    }
+  }
+]

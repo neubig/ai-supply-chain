@@ -1,0 +1,521 @@
+[
+  {
+    "id": "software:ollama",
+    "kind": "software",
+    "name": "Ollama",
+    "description": "Local model runtime and model distribution tool used by many desktop and web AI applications.",
+    "canonicalUrl": "https://github.com/ollama/ollama",
+    "homepageUrl": "https://ollama.com/",
+    "repositoryUrl": "https://github.com/ollama/ollama",
+    "license": {
+      "expression": "MIT",
+      "url": "https://github.com/ollama/ollama/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:ollama/ollama"]
+    },
+    "openness": "open_source",
+    "tasks": ["local-inference", "model-serving"],
+    "tags": ["runtime", "local-llm"],
+    "sources": [
+      {
+        "id": "github:ollama/ollama",
+        "type": "github_repo",
+        "title": "ollama/ollama GitHub repository",
+        "url": "https://github.com/ollama/ollama",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 173712,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:ollama/ollama"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 16525,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:ollama/ollama"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh GitHub repository and release metadata through GitHub API."
+    }
+  },
+  {
+    "id": "software:llama.cpp",
+    "kind": "software",
+    "name": "llama.cpp",
+    "description": "C/C++ inference engine for LLMs on CPUs, GPUs, and consumer devices.",
+    "canonicalUrl": "https://github.com/ggml-org/llama.cpp",
+    "repositoryUrl": "https://github.com/ggml-org/llama.cpp",
+    "license": {
+      "expression": "MIT",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:ggml-org/llama.cpp"]
+    },
+    "openness": "open_source",
+    "tasks": ["local-inference", "model-serving"],
+    "tags": ["runtime", "inference-engine"],
+    "sources": [
+      {
+        "id": "github:ggml-org/llama.cpp",
+        "type": "github_repo",
+        "title": "ggml-org/llama.cpp GitHub repository",
+        "url": "https://github.com/ggml-org/llama.cpp",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 115794,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:ggml-org/llama.cpp"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 19389,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:ggml-org/llama.cpp"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metrics through the GitHub API."
+    }
+  },
+  {
+    "id": "software:pytorch",
+    "kind": "software",
+    "name": "PyTorch",
+    "description": "Open-source tensor and deep learning framework used for model training and inference.",
+    "canonicalUrl": "https://github.com/pytorch/pytorch",
+    "homepageUrl": "https://pytorch.org/",
+    "repositoryUrl": "https://github.com/pytorch/pytorch",
+    "license": {
+      "expression": "BSD-3-Clause",
+      "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github-license:pytorch/pytorch"]
+    },
+    "openness": "open_source",
+    "tasks": ["training", "inference"],
+    "tags": ["framework", "deep-learning"],
+    "sources": [
+      {
+        "id": "github:pytorch/pytorch",
+        "type": "github_repo",
+        "title": "pytorch/pytorch GitHub repository",
+        "url": "https://github.com/pytorch/pytorch",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      },
+      {
+        "id": "github-license:pytorch/pytorch",
+        "type": "github_license",
+        "title": "PyTorch LICENSE",
+        "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 100623,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:pytorch/pytorch"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 27961,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:pytorch/pytorch"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata and license text from GitHub."
+    }
+  },
+  {
+    "id": "software:transformers",
+    "kind": "software",
+    "name": "Transformers",
+    "description": "Hugging Face model-definition and inference framework for text, vision, audio, and multimodal models.",
+    "canonicalUrl": "https://github.com/huggingface/transformers",
+    "homepageUrl": "https://huggingface.co/docs/transformers",
+    "repositoryUrl": "https://github.com/huggingface/transformers",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/huggingface/transformers/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:huggingface/transformers"]
+    },
+    "openness": "open_source",
+    "tasks": ["training", "inference", "model-loading"],
+    "tags": ["framework", "model-library"],
+    "sources": [
+      {
+        "id": "github:huggingface/transformers",
+        "type": "github_repo",
+        "title": "huggingface/transformers GitHub repository",
+        "url": "https://github.com/huggingface/transformers",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 161459,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:huggingface/transformers"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 33445,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:huggingface/transformers"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub and package metadata through npm/PyPI when configured."
+    }
+  },
+  {
+    "id": "software:diffusers",
+    "kind": "software",
+    "name": "Diffusers",
+    "description": "Hugging Face library for diffusion model pipelines across image, video, and audio generation.",
+    "canonicalUrl": "https://github.com/huggingface/diffusers",
+    "homepageUrl": "https://huggingface.co/docs/diffusers",
+    "repositoryUrl": "https://github.com/huggingface/diffusers",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/huggingface/diffusers/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:huggingface/diffusers"]
+    },
+    "openness": "open_source",
+    "tasks": ["image-generation", "model-loading"],
+    "tags": ["framework", "diffusion"],
+    "sources": [
+      {
+        "id": "github:huggingface/diffusers",
+        "type": "github_repo",
+        "title": "huggingface/diffusers GitHub repository",
+        "url": "https://github.com/huggingface/diffusers",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 33816,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:huggingface/diffusers"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 7033,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:huggingface/diffusers"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub."
+    }
+  },
+  {
+    "id": "software:vllm",
+    "kind": "software",
+    "name": "vLLM",
+    "description": "High-throughput LLM inference and serving engine.",
+    "canonicalUrl": "https://github.com/vllm-project/vllm",
+    "repositoryUrl": "https://github.com/vllm-project/vllm",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/vllm-project/vllm/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:vllm-project/vllm"]
+    },
+    "openness": "open_source",
+    "tasks": ["model-serving", "inference"],
+    "tags": ["runtime", "serving"],
+    "sources": [
+      {
+        "id": "github:vllm-project/vllm",
+        "type": "github_repo",
+        "title": "vllm-project/vllm GitHub repository",
+        "url": "https://github.com/vllm-project/vllm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 82361,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:vllm-project/vllm"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 17849,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:vllm-project/vllm"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub."
+    }
+  },
+  {
+    "id": "software:litellm",
+    "kind": "software",
+    "name": "LiteLLM",
+    "description": "OpenAI-compatible LLM SDK and proxy server for routing to many model providers and local runtimes.",
+    "canonicalUrl": "https://github.com/BerriAI/litellm",
+    "repositoryUrl": "https://github.com/BerriAI/litellm",
+    "license": {
+      "expression": "MIT AND LicenseRef-Enterprise",
+      "url": "https://github.com/BerriAI/litellm/blob/litellm_internal_staging/LICENSE",
+      "openness": "open_core",
+      "osiApproved": null,
+      "notes": "Repository license grants MIT terms outside enterprise-restricted directories.",
+      "sourceIds": ["github-license:berriai/litellm"]
+    },
+    "openness": "open_core",
+    "tasks": ["model-routing", "api-proxy"],
+    "tags": ["gateway", "openai-compatible"],
+    "sources": [
+      {
+        "id": "github:berriai/litellm",
+        "type": "github_repo",
+        "title": "BerriAI/litellm GitHub repository",
+        "url": "https://github.com/BerriAI/litellm",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      },
+      {
+        "id": "github-license:berriai/litellm",
+        "type": "github_license",
+        "title": "LiteLLM LICENSE",
+        "url": "https://github.com/BerriAI/litellm/blob/litellm_internal_staging/LICENSE",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 49815,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:berriai/litellm"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 8731,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:berriai/litellm"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata and license classification through GitHub."
+    }
+  },
+  {
+    "id": "software:gradio",
+    "kind": "software",
+    "name": "Gradio",
+    "description": "Open-source Python framework for building and sharing machine learning apps.",
+    "canonicalUrl": "https://github.com/gradio-app/gradio",
+    "homepageUrl": "https://www.gradio.app/",
+    "repositoryUrl": "https://github.com/gradio-app/gradio",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://github.com/gradio-app/gradio/blob/main/LICENSE",
+      "openness": "open_source",
+      "osiApproved": true,
+      "sourceIds": ["github:gradio-app/gradio"]
+    },
+    "openness": "open_source",
+    "tasks": ["app-framework", "model-demo"],
+    "tags": ["ui-framework", "python"],
+    "sources": [
+      {
+        "id": "github:gradio-app/gradio",
+        "type": "github_repo",
+        "title": "gradio-app/gradio GitHub repository",
+        "url": "https://github.com/gradio-app/gradio",
+        "publisher": "GitHub",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "github_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:github_stars",
+        "category": "adoption",
+        "name": "GitHub stars",
+        "value": 42864,
+        "unit": "stars",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:gradio-app/gradio"]
+      },
+      {
+        "id": "metric:github_forks",
+        "category": "adoption",
+        "name": "GitHub forks",
+        "value": 3481,
+        "unit": "forks",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["github:gradio-app/gradio"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "github_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh repository metadata through GitHub and package metadata through PyPI when configured."
+    }
+  },
+  {
+    "id": "software:openai-compatible-api",
+    "kind": "software",
+    "name": "OpenAI-compatible API",
+    "description": "De facto HTTP API interface implemented by open-source gateways and local model servers for chat and completion clients.",
+    "canonicalUrl": "https://platform.openai.com/docs/api-reference",
+    "openness": "proprietary",
+    "tasks": ["api-compatibility", "model-serving"],
+    "tags": ["interface", "api"],
+    "sources": [
+      {
+        "id": "docs:openai-api-reference",
+        "type": "official_docs",
+        "title": "OpenAI API reference",
+        "url": "https://platform.openai.com/docs/api-reference",
+        "publisher": "OpenAI",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [],
+    "updatePolicy": {
+      "refreshMethod": "static_document",
+      "cadence": "quarterly",
+      "deterministic": true,
+      "instructions": "Refresh from the official API reference and track open-source implementations separately."
+    }
+  }
+]

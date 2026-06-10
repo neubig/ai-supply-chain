@@ -1,0 +1,588 @@
+[
+  {
+    "id": "model:qwen2.5-7b-instruct",
+    "kind": "model",
+    "name": "Qwen2.5-7B-Instruct",
+    "description": "Instruction-tuned 7B parameter language model in the Qwen2.5 family.",
+    "canonicalUrl": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+    },
+    "openness": "open_weights",
+    "tasks": ["chat", "instruction-following", "rag"],
+    "tags": ["llm", "open-weights", "multilingual"],
+    "sources": [
+      {
+        "id": "hf-model:qwen/qwen2.5-7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "Qwen/Qwen2.5-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 11890117,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1343,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+      },
+      {
+        "id": "metric:mmlu",
+        "category": "benchmark",
+        "name": "MMLU",
+        "value": 74.2,
+        "unit": "score_0_100",
+        "task": "chat",
+        "benchmarkId": "benchmark:mmlu",
+        "measuredAt": "2024-09-19",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-7b-instruct"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh license, downloads, likes, and model-card benchmark fields from Hugging Face metadata and the model card."
+    },
+    "metadata": {
+      "huggingFaceSha": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "pipelineTag": "text-generation"
+    }
+  },
+  {
+    "id": "model:qwen2.5-coder-7b-instruct",
+    "kind": "model",
+    "name": "Qwen2.5-Coder-7B-Instruct",
+    "description": "Instruction-tuned 7B code model in the Qwen2.5-Coder family.",
+    "canonicalUrl": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+    },
+    "openness": "open_weights",
+    "tasks": ["coding", "agentic-coding", "code-completion"],
+    "tags": ["llm", "code", "open-weights"],
+    "sources": [
+      {
+        "id": "hf-model:qwen/qwen2.5-coder-7b-instruct",
+        "type": "huggingface_model_card",
+        "title": "Qwen/Qwen2.5-Coder-7B-Instruct model card",
+        "url": "https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 2085546,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 726,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+      },
+      {
+        "id": "metric:humaneval",
+        "category": "benchmark",
+        "name": "HumanEval",
+        "value": 88.4,
+        "unit": "score_0_100",
+        "task": "coding",
+        "benchmarkId": "benchmark:humaneval",
+        "measuredAt": "2024-11-12",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:qwen/qwen2.5-coder-7b-instruct"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face model metadata and benchmark claims from the model card."
+    },
+    "metadata": {
+      "huggingFaceSha": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+      "pipelineTag": "text-generation"
+    }
+  },
+  {
+    "id": "model:mistral-7b-instruct-v0.3",
+    "kind": "model",
+    "name": "Mistral-7B-Instruct-v0.3",
+    "description": "Instruction-tuned Mistral 7B language model released with Apache-2.0 terms.",
+    "canonicalUrl": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+    },
+    "openness": "open_weights",
+    "tasks": ["chat", "instruction-following"],
+    "tags": ["llm", "open-weights"],
+    "sources": [
+      {
+        "id": "hf-model:mistralai/mistral-7b-instruct-v0.3",
+        "type": "huggingface_model_card",
+        "title": "mistralai/Mistral-7B-Instruct-v0.3 model card",
+        "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 3392572,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 2623,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+      },
+      {
+        "id": "metric:mmlu",
+        "category": "benchmark",
+        "name": "MMLU",
+        "value": 62.5,
+        "unit": "score_0_100",
+        "task": "chat",
+        "benchmarkId": "benchmark:mmlu",
+        "measuredAt": "2024-05-22",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:mistralai/mistral-7b-instruct-v0.3"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face model metadata and benchmark claims from the model card."
+    },
+    "metadata": {
+      "huggingFaceSha": "c170c708c41dac9275d15a8fff4eca08d52bab71"
+    }
+  },
+  {
+    "id": "model:stable-diffusion-xl-base-1.0",
+    "kind": "model",
+    "name": "Stable Diffusion XL Base 1.0",
+    "description": "Open-weight latent diffusion model for text-to-image generation.",
+    "canonicalUrl": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+    "license": {
+      "expression": "OpenRAIL++",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+    },
+    "openness": "open_weights",
+    "tasks": ["image-generation", "image-editing"],
+    "tags": ["diffusion", "open-weights", "text-to-image"],
+    "sources": [
+      {
+        "id": "hf-model:stabilityai/stable-diffusion-xl-base-1.0",
+        "type": "huggingface_model_card",
+        "title": "stabilityai/stable-diffusion-xl-base-1.0 model card",
+        "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 1436868,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 7804,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"]
+      },
+      {
+        "id": "metric:clip-aesthetic-proxy",
+        "category": "benchmark",
+        "name": "Text-to-image quality proxy",
+        "value": 82,
+        "unit": "score_0_100",
+        "task": "image-generation",
+        "benchmarkId": "benchmark:text-to-image-quality",
+        "measuredAt": "2023-07-26",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:stabilityai/stable-diffusion-xl-base-1.0"],
+        "notes": "Seed normalized quality proxy from official model-card evaluation discussion; replace with a deterministic benchmark feed when available."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face metadata and replace proxy image-generation metric with deterministic benchmark data when available."
+    },
+    "metadata": {
+      "huggingFaceSha": "462165984030d82259a11f4367a4eed129e94a7b",
+      "pipelineTag": "text-to-image"
+    }
+  },
+  {
+    "id": "model:whisper-large-v3",
+    "kind": "model",
+    "name": "Whisper large-v3",
+    "description": "Open-weight multilingual speech recognition and translation model.",
+    "canonicalUrl": "https://huggingface.co/openai/whisper-large-v3",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:openai/whisper-large-v3"]
+    },
+    "openness": "open_weights",
+    "tasks": ["speech-recognition", "speech-translation"],
+    "tags": ["speech", "open-weights", "multilingual"],
+    "sources": [
+      {
+        "id": "hf-model:openai/whisper-large-v3",
+        "type": "huggingface_model_card",
+        "title": "openai/whisper-large-v3 model card",
+        "url": "https://huggingface.co/openai/whisper-large-v3",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 5054098,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:openai/whisper-large-v3"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 5800,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:openai/whisper-large-v3"]
+      },
+      {
+        "id": "metric:librispeech-clean-wer-derived",
+        "category": "benchmark",
+        "name": "LibriSpeech clean WER-derived score",
+        "value": 96.5,
+        "unit": "score_0_100",
+        "task": "speech-recognition",
+        "benchmarkId": "benchmark:librispeech-asr",
+        "measuredAt": "2023-11-06",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:openai/whisper-large-v3"],
+        "notes": "Normalized as 100 minus reported WER-style error where lower raw WER is better."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face model metadata and benchmark values from the model card or OpenAI Whisper release metadata."
+    },
+    "metadata": {
+      "huggingFaceSha": "06f233fe06e710322aca913c1bc4249a0d71fce1",
+      "pipelineTag": "automatic-speech-recognition"
+    }
+  },
+  {
+    "id": "model:nomic-embed-text-v1.5",
+    "kind": "model",
+    "name": "Nomic Embed Text v1.5",
+    "description": "Open-weight text embedding model for retrieval and semantic search.",
+    "canonicalUrl": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+    },
+    "openness": "open_weights",
+    "tasks": ["embeddings", "rag", "semantic-search"],
+    "tags": ["embedding", "retrieval", "open-weights"],
+    "sources": [
+      {
+        "id": "hf-model:nomic-ai/nomic-embed-text-v1.5",
+        "type": "huggingface_model_card",
+        "title": "nomic-ai/nomic-embed-text-v1.5 model card",
+        "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 17630308,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 845,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+      },
+      {
+        "id": "metric:mteb-average",
+        "category": "benchmark",
+        "name": "MTEB average",
+        "value": 62.28,
+        "unit": "score_0_100",
+        "task": "embeddings",
+        "benchmarkId": "benchmark:mteb",
+        "measuredAt": "2024-02-10",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:nomic-ai/nomic-embed-text-v1.5"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face model metadata and MTEB claims from model-card or leaderboard sources."
+    },
+    "metadata": {
+      "huggingFaceSha": "e9b6763023c676ca8431644204f50c2b100d9aab",
+      "pipelineTag": "sentence-similarity"
+    }
+  },
+  {
+    "id": "model:gpt-j-6b",
+    "kind": "model",
+    "name": "GPT-J-6B",
+    "description": "EleutherAI 6B parameter autoregressive language model trained on The Pile.",
+    "canonicalUrl": "https://huggingface.co/EleutherAI/gpt-j-6b",
+    "license": {
+      "expression": "Apache-2.0",
+      "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+      "openness": "open_weights",
+      "osiApproved": true,
+      "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+    },
+    "openness": "open_weights",
+    "tasks": ["chat", "text-generation"],
+    "tags": ["llm", "open-weights", "research"],
+    "sources": [
+      {
+        "id": "hf-model:eleutherai/gpt-j-6b",
+        "type": "huggingface_model_card",
+        "title": "EleutherAI/gpt-j-6b model card",
+        "url": "https://huggingface.co/EleutherAI/gpt-j-6b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 250402,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 1525,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"]
+      },
+      {
+        "id": "metric:lambada-proxy",
+        "category": "benchmark",
+        "name": "Language modeling quality proxy",
+        "value": 58,
+        "unit": "score_0_100",
+        "task": "text-generation",
+        "benchmarkId": "benchmark:lambada",
+        "measuredAt": "2021-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:eleutherai/gpt-j-6b"],
+        "notes": "Seed proxy retained until a deterministic benchmark table is ingested."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "monthly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face metadata and benchmark references from the model card."
+    },
+    "metadata": {
+      "huggingFaceSha": "47e169305d2e8376be1d31e765533382721b2cc1",
+      "pipelineTag": "text-generation"
+    }
+  },
+  {
+    "id": "model:starcoder2-3b",
+    "kind": "model",
+    "name": "StarCoder2-3B",
+    "description": "Open-weight code generation model trained on permissively licensed code data from The Stack v2 pipeline.",
+    "canonicalUrl": "https://huggingface.co/bigcode/starcoder2-3b",
+    "license": {
+      "expression": "BigCode OpenRAIL-M",
+      "url": "https://huggingface.co/bigcode/starcoder2-3b",
+      "openness": "open_weights",
+      "osiApproved": false,
+      "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+    },
+    "openness": "open_weights",
+    "tasks": ["coding", "code-completion"],
+    "tags": ["code", "open-weights"],
+    "sources": [
+      {
+        "id": "hf-model:bigcode/starcoder2-3b",
+        "type": "huggingface_model_card",
+        "title": "bigcode/starcoder2-3b model card",
+        "url": "https://huggingface.co/bigcode/starcoder2-3b",
+        "publisher": "Hugging Face",
+        "retrievedAt": "2026-06-09",
+        "collectionMethod": "huggingface_api",
+        "confidence": "high"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric:hf_downloads",
+        "category": "adoption",
+        "name": "Hugging Face downloads",
+        "value": 123303,
+        "unit": "downloads",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+      },
+      {
+        "id": "metric:hf_likes",
+        "category": "adoption",
+        "name": "Hugging Face likes",
+        "value": 219,
+        "unit": "likes",
+        "measuredAt": "2026-06-09",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+      },
+      {
+        "id": "metric:humaneval",
+        "category": "benchmark",
+        "name": "HumanEval",
+        "value": 31.7,
+        "unit": "score_0_100",
+        "task": "coding",
+        "benchmarkId": "benchmark:humaneval",
+        "measuredAt": "2024-02-28",
+        "higherIsBetter": true,
+        "sourceIds": ["hf-model:bigcode/starcoder2-3b"]
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "huggingface_api",
+      "cadence": "weekly",
+      "deterministic": true,
+      "instructions": "Refresh Hugging Face metadata and benchmark claims from BigCode model-card sources."
+    },
+    "metadata": {
+      "huggingFaceSha": "733247c55e3f73af49ce8e9c7949bf14af205928",
+      "pipelineTag": "text-generation"
+    }
+  }
+]
