@@ -9,8 +9,8 @@ Note-only edge sources are excluded from this checklist because they are explici
 ## Summary
 
 - Quote-backed edge sources: 474
-- Checked: 92
-- Unchecked: 382
+- Checked: 119
+- Unchecked: 355
 
 <!-- edge-quote-verification-checklist:v1 -->
 
@@ -2564,163 +2564,163 @@ Note-only edge sources are excluded from this checklist because they are explici
 
 ## data/edges/software-data-benchmark.json
 
-- [ ] <!-- edge-quote-verification key="b773c8abcdef55c7" quote_sha256="33a10996115563c22b7c80b4baada7caf22af40e8f5b37424ea8395056f8ffe4" --> `edge:diffusers-depends-on-pytorch` / `edge-source:diffusers-docs`
+- [x] <!-- edge-quote-verification key="b773c8abcdef55c7" quote_sha256="b29b7ec5a92ea840a4dae4ed5786e3ff9cddac65b80c9880fb717a9eb5c745cf" --> `edge:diffusers-depends-on-pytorch` / `edge-source:diffusers-docs`
   - Edge: `software:diffusers --depends_on--> software:pytorch`
-  - Source URL: https://huggingface.co/docs/diffusers
-  - Quote: "If memory is not an issue, Diffusers supports torch."
-  - Manual verification: quote directly supports the edge relationship.
-
-- [ ] <!-- edge-quote-verification key="417ab6ff9749475c" quote_sha256="1408096e5ea8700ac568fda95ca919f640ce4c4a6377eee5f311445cc1d532a3" --> `edge:diffusers-developed-by-hugging-face` / `edge-source:diffusers-github`
-  - Edge: `software:diffusers --developed_by--> organization:hugging-face`
   - Source URL: https://raw.githubusercontent.com/huggingface/diffusers/main/README.md
-  - Quote: "With `conda` (maintained by the community):"
+  - Quote: "pip install --upgrade diffusers[torch]"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="b4e9aa173fae1a44" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:diffusers-licensed-as-apache-2.0` / `edge-source:diffusers-license`
+- [x] <!-- edge-quote-verification key="417ab6ff9749475c" quote_sha256="4b5281b69a3b4a5c408086bc2da2b200fc8716d112a41adf3dc31537afabb586" --> `edge:diffusers-developed-by-hugging-face` / `edge-source:diffusers-github`
+  - Edge: `software:diffusers --developed_by--> organization:hugging-face`
+  - Source URL: https://api.github.com/repos/huggingface/diffusers
+  - Quote: ""full_name":"huggingface/diffusers""
+  - Manual verification: quote directly supports the edge relationship.
+
+- [x] <!-- edge-quote-verification key="b4e9aa173fae1a44" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:diffusers-licensed-as-apache-2.0` / `edge-source:diffusers-license`
   - Edge: `software:diffusers --licensed_as--> license:apache-2.0`
   - Source URL: https://raw.githubusercontent.com/huggingface/diffusers/main/LICENSE
   - Quote: "Licensed under the Apache License, Version 2.0 (the "License");"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="72716e083564e12e" quote_sha256="a65f8e66b67b801efff35c3a9486386c706a8537e3aa86eb8c19bf07c0ae5ced" --> `edge:gradio-developed-by-hugging-face` / `edge-source:gradio-github`
+- [x] <!-- edge-quote-verification key="8500860efa8655b7" quote_sha256="7e9e514e4ad1ca7acfbc25fb37eec5dbef141326c58a19c427bb76ed496a1e28" --> `edge:gradio-developed-by-hugging-face` / `edge-source:gradio-hf-blog`
   - Edge: `software:gradio --developed_by--> organization:hugging-face`
-  - Source URL: https://raw.githubusercontent.com/gradio-app/gradio/main/README.md
-  - Quote: "* Hugging Face Spaces: the most popular place to host Gradio applications — for free!"
+  - Source URL: https://huggingface.co/blog/gradio-joins-hf
+  - Quote: "Gradio is joining Hugging Face! By acquiring Gradio, a machine learning startup, Hugging Face will be able to offer users, developers, and data scientists the tools needed to get to high level results and create better models and tools..."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="a7b4587e3d72c829" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:gradio-licensed-as-apache-2.0` / `edge-source:gradio-license`
+- [x] <!-- edge-quote-verification key="a7b4587e3d72c829" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:gradio-licensed-as-apache-2.0` / `edge-source:gradio-license`
   - Edge: `software:gradio --licensed_as--> license:apache-2.0`
   - Source URL: https://raw.githubusercontent.com/gradio-app/gradio/main/LICENSE
   - Quote: "Licensed under the Apache License, Version 2.0 (the "License");"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="83ca7e066f3acb26" quote_sha256="47046d79e8dfd9e8033bfe30fd2edf7007386b795e1f96528305e1fed46b3ef9" --> `edge:laion-5b-developed-by-laion` / `edge-source:laion-5b-release`
+- [x] <!-- edge-quote-verification key="bbdc811e2a2302ce" quote_sha256="0ae9942ac8cfe0df2f74b925bb60e2b117d7e1d83d96c6d43e75d07ad3218671" --> `edge:laion-5b-developed-by-laion` / `edge-source:laion-5b-infoq-release`
   - Edge: `dataset:laion-5b --developed_by--> organization:laion`
-  - Source URL: https://laion.ai/blog/laion-5b/
-  - Quote: "We are in touch with Andreas Fürst, one of the original CLOOB authors, and learned from him that their team is currently (at the time of writing) training a CLOOB ViT-B/32 with LAION-400M with optimized hyperparameters and very promising results so far (53% zero-shot accuracy on Imagenet after 7 epochs)."
+  - Source URL: https://www.infoq.com/news/2022/05/laion-5b-image-text-dataset/
+  - Quote: "The Large-scale Artificial Intelligence Open Network (LAION) released LAION-5B , an AI training dataset containing over five billion image-text pairs."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="d533cd3015005ab0" quote_sha256="e398238d92f6a8ca262f243fcba3b7f68d8551097f6694a0880d0a1e650befda" --> `edge:laion-5b-licensed-as-cc-by-4.0` / `edge-source:laion-5b-release`
+- [x] <!-- edge-quote-verification key="d533cd3015005ab0" quote_sha256="e398238d92f6a8ca262f243fcba3b7f68d8551097f6694a0880d0a1e650befda" --> `edge:laion-5b-licensed-as-cc-by-4.0` / `edge-source:laion-5b-release`
   - Edge: `dataset:laion-5b --licensed_as--> license:cc-by-4.0`
   - Source URL: https://laion.ai/blog/laion-5b/
   - Quote: "License We distribute the metadata dataset (the parquet files) under the Creative Common CC-BY 4.0 license, which poses no particular restriction."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2de7baeef1858cf2" quote_sha256="d635a6060f4ef584c9a3e337508b055ea7ee8599e664a92fdd50863efc5059a8" --> `edge:librispeech-asr-uses-data-librispeech` / `edge-source:openslr-12`
+- [x] <!-- edge-quote-verification key="2de7baeef1858cf2" quote_sha256="d635a6060f4ef584c9a3e337508b055ea7ee8599e664a92fdd50863efc5059a8" --> `edge:librispeech-asr-uses-data-librispeech` / `edge-source:openslr-12`
   - Edge: `benchmark:librispeech-asr --uses_data--> dataset:librispeech`
   - Source URL: https://www.openslr.org/12
   - Quote: "LibriSpeech ASR corpus"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2e24a693780efcef" quote_sha256="7f0c5a83f94cccb0d4b29e81fc1b8340675ea45193cf5989919e4f16b4903126" --> `edge:librispeech-licensed-as-cc-by-4.0` / `edge-source:openslr-12`
+- [x] <!-- edge-quote-verification key="2e24a693780efcef" quote_sha256="7f0c5a83f94cccb0d4b29e81fc1b8340675ea45193cf5989919e4f16b4903126" --> `edge:librispeech-licensed-as-cc-by-4.0` / `edge-source:openslr-12`
   - Edge: `dataset:librispeech --licensed_as--> license:cc-by-4.0`
   - Source URL: https://www.openslr.org/12
   - Quote: "License: CC BY 4.0"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="94f12e51bc5f516c" quote_sha256="0616e6d71ce143017403d289e4e613e689643c212ff71608816bf7f5a769e814" --> `edge:litellm-implements-openai-compatible-api` / `edge-source:litellm-repo-description`
+- [x] <!-- edge-quote-verification key="94f12e51bc5f516c" quote_sha256="d876b5b929efe5d4dbcc20fc70443f4281babeae4022e99e040c12a261ba8fe8" --> `edge:litellm-implements-openai-compatible-api` / `edge-source:litellm-repo-description`
   - Edge: `software:litellm --implements--> software:openai-compatible-api`
   - Source URL: https://raw.githubusercontent.com/BerriAI/litellm/main/README.md
-  - Quote: "Direct Python library integration in your codebase, Router with retry/fallback logic across multiple deployments (e.g. Azure/OpenAI) - Router , application-level load balancing and cost tracking, exception handling with OpenAI-compatible errors, observability callbacks (Lunary, MLflow, Langfuse, etc.)"
+  - Quote: "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="2800a470818eea47" quote_sha256="0c5ce122b96d89f11918151064c34895fa91851d86c31514ff717184dea97be2" --> `edge:litellm-licensed-as-open-core` / `edge-source:litellm-license`
+- [x] <!-- edge-quote-verification key="2800a470818eea47" quote_sha256="1e877f89cf52f4dd29a76dedc77524b152c7cebeacd417875de76e78587f25ae" --> `edge:litellm-licensed-as-open-core` / `edge-source:litellm-license`
   - Edge: `software:litellm --licensed_as--> license:open-core-mit-enterprise`
   - Source URL: https://raw.githubusercontent.com/BerriAI/litellm/litellm_internal_staging/LICENSE
-  - Quote: "* All content that resides under the "enterprise/" directory of this repository, if that directory exists, is licensed under the license defined in "enterprise/LICENSE". * Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below. --- MIT License"
+  - Quote: "Portions of this software are licensed as follows: * All content that resides under the "enterprise/" directory of this repository, if that directory exists, is licensed under the license defined in "enterprise/LICENSE". * Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below. --- MIT License"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="cc4df2dd3c8df16b" quote_sha256="08b630b19d377da36e349e630d31a0e345729201419f6a9c692d49d6c9ff7c85" --> `edge:llama.cpp-developed-by-ggml-org` / `edge-source:llama.cpp-github`
+- [x] <!-- edge-quote-verification key="cc4df2dd3c8df16b" quote_sha256="f6b92518e6b3151c7dfe1d3a7c222cfa34712c1a73eab7a61d36fa91fd0311fd" --> `edge:llama.cpp-developed-by-ggml-org` / `edge-source:llama.cpp-github`
   - Edge: `software:llama.cpp --developed_by--> organization:ggml-org`
-  - Source URL: https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md
-  - Quote: "![Release](https://github.com/ggml-org/llama.cpp/releases)"
+  - Source URL: https://api.github.com/repos/ggml-org/llama.cpp
+  - Quote: ""full_name":"ggml-org/llama.cpp""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="56cbbbec41ecdabd" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:llama.cpp-licensed-as-mit` / `edge-source:llama.cpp-license`
+- [x] <!-- edge-quote-verification key="56cbbbec41ecdabd" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:llama.cpp-licensed-as-mit` / `edge-source:llama.cpp-license`
   - Edge: `software:llama.cpp --licensed_as--> license:mit`
   - Source URL: https://raw.githubusercontent.com/ggml-org/llama.cpp/master/LICENSE
   - Quote: "MIT License"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="725b9499b1696c25" quote_sha256="be603cea3e1eb0508902f9d4e20949ca85392eb09cc328d9e7db05c6ed4cf5ee" --> `edge:ollama-depends-on-llama.cpp` / `edge-source:ollama-repo`
+- [x] <!-- edge-quote-verification key="7b4008b256080a3a" quote_sha256="2a3d19c5fa51877cf046fb07052b76b15a8e941cea648aa55fb7943266970ea2" --> `edge:ollama-depends-on-llama.cpp` / `edge-source:ollama-cmake`
   - Edge: `software:ollama --depends_on--> software:llama.cpp`
-  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/README.md
-  - Quote: "pip install ollama"
+  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/CMakeLists.txt
+  - Quote: "GGML backend for inference is provided by llama-server (built separately via llama/server/CMakeLists.txt using FetchContent from the pinned llama.cpp source)."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="76f788c9d99e0dde" quote_sha256="e26fb16735780f91d13b4f091e983eb94f2ea63b7db74e7db21e78679902fbb3" --> `edge:ollama-developed-by-ollama` / `edge-source:ollama-github`
+- [x] <!-- edge-quote-verification key="76f788c9d99e0dde" quote_sha256="f4dd6004260b43f1180cbff340c6f80765a9de484e66ea3dc5ba580ab8dbbb40" --> `edge:ollama-developed-by-ollama` / `edge-source:ollama-github`
   - Edge: `software:ollama --developed_by--> organization:ollama`
-  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/README.md
-  - Quote: "- Ollama for Ruby - Ruby LLM library"
+  - Source URL: https://api.github.com/repos/ollama/ollama
+  - Quote: ""full_name":"ollama/ollama""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="ea9a4b82d94264ef" quote_sha256="1eea0c11d81e350cca42a2b80dd1770aa49cf2d933a84360b6d41a52b4d36718" --> `edge:ollama-implements-openai-compatible-api` / `edge-source:ollama-repo`
+- [x] <!-- edge-quote-verification key="6aff8bdbf251facc" quote_sha256="edec1315091f08e638c38867e600c06150585d430d5bdf6b4f2c5710553dd696" --> `edge:ollama-implements-openai-compatible-api` / `edge-source:ollama-openai-compat-docs`
   - Edge: `software:ollama --implements--> software:openai-compatible-api`
-  - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/README.md
-  - Quote: "See the API documentation for all endpoints."
+  - Source URL: https://docs.ollama.com/api/openai-compatibility.md
+  - Quote: "Ollama provides compatibility with parts of the [OpenAI API](https://platform.openai.com/docs/api-reference) to help connect existing applications to Ollama."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="184fa7d28f095401" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:ollama-licensed-as-mit` / `edge-source:ollama-license`
+- [x] <!-- edge-quote-verification key="184fa7d28f095401" quote_sha256="abb2896dc3c2a9402f901b88d5035cf0a83d5cf7c17e73642cdf562b0b9d3bc5" --> `edge:ollama-licensed-as-mit` / `edge-source:ollama-license`
   - Edge: `software:ollama --licensed_as--> license:mit`
   - Source URL: https://raw.githubusercontent.com/ollama/ollama/main/LICENSE
   - Quote: "MIT License"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="67a7e2a7a583725b" quote_sha256="6a0ab058f343cbb9f7005d281be7107a33e69b90f1d8998b7749a8bd26f59272" --> `edge:pytorch-developed-by-pytorch-foundation` / `edge-source:pytorch-foundation`
+- [x] <!-- edge-quote-verification key="67a7e2a7a583725b" quote_sha256="472099263f31404a0db949486ebcfbc269560e0fb1f81af69ef486f30c1aaad7" --> `edge:pytorch-developed-by-pytorch-foundation` / `edge-source:pytorch-foundation`
   - Edge: `software:pytorch --developed_by--> organization:pytorch-foundation`
   - Source URL: https://pytorch.org/foundation
-  - Quote: "The technical governance structure for the PyTorch open source project is defined by the PyTorch maintainers and is available on our PyTorch Technical Governance page ."
+  - Quote: "From cutting-edge development to production-ready tools and libraries, the PyTorch Foundation thrives through transparent collaboration and collective innovation."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="1c13e4115d3ae38b" quote_sha256="c5b8e873436a93c5b635d1d9f8d12889d58acb9ef8833f319f68e93590828861" --> `edge:pytorch-licensed-as-bsd-3-clause` / `edge-source:pytorch-license`
+- [x] <!-- edge-quote-verification key="1c13e4115d3ae38b" quote_sha256="a794c864c8eaebc93f89f19d9df99e5824379484ea90b62767158a57d9e53dea" --> `edge:pytorch-licensed-as-bsd-3-clause` / `edge-source:pytorch-license`
   - Edge: `software:pytorch --licensed_as--> license:bsd-3-clause`
-  - Source URL: https://raw.githubusercontent.com/pytorch/pytorch/main/LICENSE
-  - Quote: "committed."
+  - Source URL: https://raw.githubusercontent.com/pytorch/pytorch/main/README.md
+  - Quote: "PyTorch has a BSD-style license, as found in the [LICENSE](LICENSE) file."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="0091b2ec30273b34" quote_sha256="f9181e3605b33f18dac07f99f25854da6a3b8e91d99ccb0b3d82f626a02b98f8" --> `edge:swe-bench-uses-data-swe-bench-instances` / `edge-source:swe-bench-site`
+- [x] <!-- edge-quote-verification key="f5ba0253dcd0229e" quote_sha256="32c37543a75947327c6801534ecfe599ca489af4cd642594e759a4a864cf6881" --> `edge:swe-bench-uses-data-swe-bench-instances` / `edge-source:swe-bench-hf-api`
   - Edge: `benchmark:swe-bench --uses_data--> dataset:swe-bench-instances`
-  - Source URL: https://www.swebench.com/
-  - Quote: "SWE-bench Verified is a human-filtered subset of 500 instances; use the Agent dropdown to compare LMs with mini-SWE-agent or view all agents [ Post ]."
+  - Source URL: https://huggingface.co/api/datasets/princeton-nlp/SWE-bench
+  - Quote: "SWE-bench is a dataset that tests systems’ ability to solve GitHub issues automatically. The dataset collects 2,294 Issue-Pull Request pairs from 12 popular Python repositories."
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="d992d29d6f07f56f" quote_sha256="96564b344078496de710b30cf46be5174e28428317bf5414be727c53f771601d" --> `edge:the-pile-developed-by-eleutherai` / `edge-source:pile-hf`
+- [x] <!-- edge-quote-verification key="d992d29d6f07f56f" quote_sha256="99091a3d0256c8dc9d2a124ecf335f18616a83e18ffdb49fc8935c10fb9fcab5" --> `edge:the-pile-developed-by-eleutherai` / `edge-source:pile-hf`
   - Edge: `dataset:the-pile --developed_by--> organization:eleutherai`
-  - Source URL: https://huggingface.co/datasets/EleutherAI/pile
-  - Quote: "EleutherAI/pythia-160m"
+  - Source URL: https://huggingface.co/api/datasets/EleutherAI/pile
+  - Quote: ""id":"EleutherAI/pile","author":"EleutherAI""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="36891612869ed95c" quote_sha256="2f3e42b60ed36621f0781fda0b71420a4238efb90db4d6990df02142bd9f9405" --> `edge:transformers-depends-on-pytorch` / `edge-source:transformers-docs`
+- [x] <!-- edge-quote-verification key="36891612869ed95c" quote_sha256="abf951eb6d40b1ec05b8a62afd34fc868053f3b235fe11e6e26fd03c1bb3c6cd" --> `edge:transformers-depends-on-pytorch` / `edge-source:transformers-docs`
   - Edge: `software:transformers --depends_on--> software:pytorch`
-  - Source URL: https://huggingface.co/docs/transformers
-  - Quote: "transformers is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, …), inference engines (vLLM, SGLang, TGI, …), and adjacent modeling libraries (llama."
+  - Source URL: https://raw.githubusercontent.com/huggingface/transformers/main/README.md
+  - Quote: "pip install "transformers[torch]""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="c0c87ae340c52f65" quote_sha256="cd1baec56fb674b77dd1d899f9d091a25ab44e88224d6baab2bab595366a2699" --> `edge:transformers-developed-by-hugging-face` / `edge-source:transformers-github`
+- [x] <!-- edge-quote-verification key="c0c87ae340c52f65" quote_sha256="263e826add249985971320eaf3ae6e008bb53ed45c625e20d88ecd28faa1b75c" --> `edge:transformers-developed-by-hugging-face` / `edge-source:transformers-github`
   - Edge: `software:transformers --developed_by--> organization:hugging-face`
   - Source URL: https://raw.githubusercontent.com/huggingface/transformers/main/README.md
-  - Quote: "- We provide examples for each architecture to reproduce the results published by its original authors."
+  - Quote: "git clone https://github.com/huggingface/transformers.git"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="5a7ad84462f5482d" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:transformers-licensed-as-apache-2.0` / `edge-source:transformers-license`
+- [x] <!-- edge-quote-verification key="5a7ad84462f5482d" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:transformers-licensed-as-apache-2.0` / `edge-source:transformers-license`
   - Edge: `software:transformers --licensed_as--> license:apache-2.0`
   - Source URL: https://raw.githubusercontent.com/huggingface/transformers/main/LICENSE
   - Quote: "Licensed under the Apache License, Version 2.0 (the "License");"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="c1d8ab0b41333d75" quote_sha256="ef1038b0339d22a472b9e424f7b9dc0ceb129d1697f09de9aba825d53ffa1022" --> `edge:vllm-depends-on-pytorch` / `edge-source:vllm-repo`
+- [x] <!-- edge-quote-verification key="0fabd955275cc43f" quote_sha256="43262c2dc900f394bd6e270f543d26462654d963f3d6052ff36ef9967a3388c2" --> `edge:vllm-depends-on-pytorch` / `edge-source:vllm-pyproject`
   - Edge: `software:vllm --depends_on--> software:pytorch`
-  - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/README.md
-  - Quote: "uv pip install vllm"
+  - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/pyproject.toml
+  - Quote: "[build-system] # Should be mirrored in requirements/build/cuda.txt requires = [ "cmake>=3.26.1", "ninja", "packaging>=24.2", "setuptools>=77.0.3,<81.0.0", "setuptools-scm>=8.0", "setuptools-rust>=1.9.0", "torch == 2.11.0", "wheel", "jinja2", ] build-backend = "setuptools.build_meta" [project] name = "vllm""
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="aa1f45afa07669c0" quote_sha256="7ecf9da26dacc97dfd6ccc1ceb613dc8346ed4854b284a41f31137db419707d3" --> `edge:vllm-implements-openai-compatible-api` / `edge-source:vllm-repo`
+- [x] <!-- edge-quote-verification key="aa1f45afa07669c0" quote_sha256="7ecf9da26dacc97dfd6ccc1ceb613dc8346ed4854b284a41f31137db419707d3" --> `edge:vllm-implements-openai-compatible-api` / `edge-source:vllm-repo`
   - Edge: `software:vllm --implements--> software:openai-compatible-api`
   - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/README.md
   - Quote: "- OpenAI-compatible API server, plus Anthropic Messages API and gRPC support"
   - Manual verification: quote directly supports the edge relationship.
 
-- [ ] <!-- edge-quote-verification key="8a733b784e639bb0" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:vllm-licensed-as-apache-2.0` / `edge-source:vllm-license`
+- [x] <!-- edge-quote-verification key="8a733b784e639bb0" quote_sha256="55f12528ddd4240e797f6391c80f5cf883e9c281253ad296c30b97dd4810c0a6" --> `edge:vllm-licensed-as-apache-2.0` / `edge-source:vllm-license`
   - Edge: `software:vllm --licensed_as--> license:apache-2.0`
   - Source URL: https://raw.githubusercontent.com/vllm-project/vllm/main/LICENSE
   - Quote: "Licensed under the Apache License, Version 2.0 (the "License");"

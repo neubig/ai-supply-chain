@@ -8,15 +8,15 @@
     "confidence": "medium",
     "sources": [
       {
-        "id": "edge-source:ollama-repo",
-        "type": "github_repo",
-        "title": "Ollama GitHub repository",
-        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
-        "publisher": "GitHub",
+        "id": "edge-source:ollama-openai-compat-docs",
+        "type": "official_docs",
+        "title": "Ollama OpenAI compatibility documentation",
+        "url": "https://docs.ollama.com/api/openai-compatibility.md",
+        "publisher": "Ollama",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-09",
-        "quote": "See the API documentation for all endpoints."
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "Ollama provides compatibility with parts of the [OpenAI API](https://platform.openai.com/docs/api-reference) to help connect existing applications to Ollama."
       }
     ]
   },
@@ -29,15 +29,15 @@
     "confidence": "medium",
     "sources": [
       {
-        "id": "edge-source:ollama-repo",
+        "id": "edge-source:ollama-cmake",
         "type": "github_repo",
-        "title": "Ollama GitHub repository",
-        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+        "title": "Ollama CMake build configuration",
+        "url": "https://raw.githubusercontent.com/ollama/ollama/main/CMakeLists.txt",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-09",
-        "quote": "pip install ollama"
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "GGML backend for inference is provided by llama-server (built separately via llama/server/CMakeLists.txt using FetchContent from the pinned llama.cpp source)."
       }
     ]
   },
@@ -51,14 +51,14 @@
     "sources": [
       {
         "id": "edge-source:ollama-github",
-        "type": "github_repo",
-        "title": "Ollama GitHub repository",
-        "url": "https://raw.githubusercontent.com/ollama/ollama/main/README.md",
+        "type": "api_response",
+        "title": "Ollama GitHub repository API response",
+        "url": "https://api.github.com/repos/ollama/ollama",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "- Ollama for Ruby - Ruby LLM library"
+        "retrieved_date": "2026-06-10",
+        "quote": "\"full_name\":\"ollama/ollama\""
       }
     ]
   },
@@ -114,14 +114,14 @@
     "sources": [
       {
         "id": "edge-source:llama.cpp-github",
-        "type": "github_repo",
-        "title": "llama.cpp GitHub repository",
-        "url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/master/README.md",
+        "type": "api_response",
+        "title": "llama.cpp GitHub repository API response",
+        "url": "https://api.github.com/repos/ggml-org/llama.cpp",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "![Release](https://github.com/ggml-org/llama.cpp/releases)"
+        "retrieved_date": "2026-06-10",
+        "quote": "\"full_name\":\"ggml-org/llama.cpp\""
       }
     ]
   },
@@ -135,14 +135,14 @@
     "sources": [
       {
         "id": "edge-source:pytorch-license",
-        "type": "github_license",
-        "title": "PyTorch LICENSE",
-        "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/LICENSE",
+        "type": "github_repo",
+        "title": "PyTorch README license section",
+        "url": "https://raw.githubusercontent.com/pytorch/pytorch/main/README.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "committed."
+        "retrieved_date": "2026-06-10",
+        "quote": "PyTorch has a BSD-style license, as found in the [LICENSE](LICENSE) file."
       }
     ]
   },
@@ -162,8 +162,8 @@
         "publisher": "PyTorch Foundation",
         "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "The technical governance structure for the PyTorch open source project is defined by the PyTorch maintainers and is available on our PyTorch Technical Governance page ."
+        "retrieved_date": "2026-06-10",
+        "quote": "From cutting-edge development to production-ready tools and libraries, the PyTorch Foundation thrives through transparent collaboration and collective innovation."
       }
     ]
   },
@@ -177,14 +177,14 @@
     "sources": [
       {
         "id": "edge-source:transformers-docs",
-        "type": "official_docs",
-        "title": "Transformers documentation",
-        "url": "https://huggingface.co/docs/transformers",
+        "type": "github_repo",
+        "title": "Transformers README installation instructions",
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "transformers is the pivot across frameworks: if a model definition is supported, it will be compatible with the majority of training frameworks (Axolotl, Unsloth, DeepSpeed, FSDP, PyTorch-Lightning, …), inference engines (vLLM, SGLang, TGI, …), and adjacent modeling libraries (llama."
+        "retrieved_date": "2026-06-10",
+        "quote": "pip install \"transformers[torch]\""
       }
     ]
   },
@@ -199,13 +199,13 @@
       {
         "id": "edge-source:transformers-github",
         "type": "github_repo",
-        "title": "Transformers GitHub repository",
+        "title": "Transformers README source installation instructions",
         "url": "https://raw.githubusercontent.com/huggingface/transformers/main/README.md",
         "publisher": "GitHub",
-        "collectionMethod": "github_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "- We provide examples for each architecture to reproduce the results published by its original authors."
+        "retrieved_date": "2026-06-10",
+        "quote": "git clone https://github.com/huggingface/transformers.git"
       }
     ]
   },
@@ -240,14 +240,14 @@
     "sources": [
       {
         "id": "edge-source:diffusers-docs",
-        "type": "official_docs",
-        "title": "Diffusers documentation",
-        "url": "https://huggingface.co/docs/diffusers",
+        "type": "github_repo",
+        "title": "Diffusers README installation instructions",
+        "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
         "publisher": "Hugging Face",
         "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "If memory is not an issue, Diffusers supports torch."
+        "retrieved_date": "2026-06-10",
+        "quote": "pip install --upgrade diffusers[torch]"
       }
     ]
   },
@@ -261,14 +261,14 @@
     "sources": [
       {
         "id": "edge-source:diffusers-github",
-        "type": "github_repo",
-        "title": "Diffusers GitHub repository",
-        "url": "https://raw.githubusercontent.com/huggingface/diffusers/main/README.md",
+        "type": "api_response",
+        "title": "Diffusers GitHub repository API response",
+        "url": "https://api.github.com/repos/huggingface/diffusers",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "With `conda` (maintained by the community):"
+        "retrieved_date": "2026-06-10",
+        "quote": "\"full_name\":\"huggingface/diffusers\""
       }
     ]
   },
@@ -302,15 +302,15 @@
     "confidence": "medium",
     "sources": [
       {
-        "id": "edge-source:vllm-repo",
+        "id": "edge-source:vllm-pyproject",
         "type": "github_repo",
-        "title": "vLLM GitHub repository",
-        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/README.md",
+        "title": "vLLM pyproject build requirements",
+        "url": "https://raw.githubusercontent.com/vllm-project/vllm/main/pyproject.toml",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-09",
-        "quote": "uv pip install vllm"
+        "confidence": "high",
+        "retrieved_date": "2026-06-10",
+        "quote": "[build-system]\n# Should be mirrored in requirements/build/cuda.txt\nrequires = [\n    \"cmake>=3.26.1\",\n    \"ninja\",\n    \"packaging>=24.2\",\n    \"setuptools>=77.0.3,<81.0.0\",\n    \"setuptools-scm>=8.0\",\n    \"setuptools-rust>=1.9.0\",\n    \"torch == 2.11.0\",\n    \"wheel\",\n    \"jinja2\",\n]\nbuild-backend = \"setuptools.build_meta\"\n\n[project]\nname = \"vllm\""
       }
     ]
   },
@@ -370,10 +370,10 @@
         "title": "LiteLLM GitHub repository description",
         "url": "https://raw.githubusercontent.com/BerriAI/litellm/main/README.md",
         "publisher": "GitHub",
-        "collectionMethod": "github_api",
+        "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "Direct Python library integration in your codebase, Router with retry/fallback logic across multiple deployments (e.g. Azure/OpenAI) - Router , application-level load balancing and cost tracking, exception handling with OpenAI-compatible errors, observability callbacks (Lunary, MLflow, Langfuse, etc.)"
+        "retrieved_date": "2026-06-10",
+        "quote": "LiteLLM is an open source AI Gateway that gives you a single, unified interface to call 100+ LLM providers — OpenAI, Anthropic, Gemini, Bedrock, Azure, and more — using the OpenAI format."
       }
     ]
   },
@@ -394,7 +394,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "* All content that resides under the \"enterprise/\" directory of this repository, if that directory exists, is licensed under the license defined in \"enterprise/LICENSE\". * Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below. --- MIT License"
+        "quote": "Portions of this software are licensed as follows:\n\n* All content that resides under the \"enterprise/\" directory of this repository, if that directory exists, is licensed under the license defined in \"enterprise/LICENSE\".\n* Content outside of the above mentioned directories or restrictions above is available under the MIT license as defined below.\n---\nMIT License"
       }
     ]
   },
@@ -407,15 +407,16 @@
     "confidence": "high",
     "sources": [
       {
-        "id": "edge-source:gradio-github",
-        "type": "github_repo",
-        "title": "Gradio GitHub repository",
-        "url": "https://raw.githubusercontent.com/gradio-app/gradio/main/README.md",
-        "publisher": "GitHub",
-        "collectionMethod": "github_api",
+        "id": "edge-source:gradio-hf-blog",
+        "type": "official_website",
+        "title": "Gradio is joining Hugging Face!",
+        "url": "https://huggingface.co/blog/gradio-joins-hf",
+        "publisher": "Hugging Face",
+        "collectionMethod": "static_document",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "* Hugging Face Spaces: the most popular place to host Gradio applications — for free!"
+        "published_date": "2021-12-21",
+        "retrieved_date": "2026-06-10",
+        "quote": "Gradio is joining Hugging Face! By acquiring Gradio, a machine learning startup, Hugging Face will be able to offer users, developers, and data scientists the tools needed to get to high level results and create better models and tools..."
       }
     ]
   },
@@ -450,14 +451,14 @@
     "sources": [
       {
         "id": "edge-source:pile-hf",
-        "type": "huggingface_dataset_card",
-        "title": "The Pile dataset card",
-        "url": "https://huggingface.co/datasets/EleutherAI/pile",
+        "type": "api_response",
+        "title": "The Pile Hugging Face dataset API response",
+        "url": "https://huggingface.co/api/datasets/EleutherAI/pile",
         "publisher": "Hugging Face",
         "collectionMethod": "huggingface_api",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "EleutherAI/pythia-160m"
+        "retrieved_date": "2026-06-10",
+        "quote": "\"id\":\"EleutherAI/pile\",\"author\":\"EleutherAI\""
       }
     ]
   },
@@ -575,15 +576,16 @@
     "confidence": "high",
     "sources": [
       {
-        "id": "edge-source:laion-5b-release",
-        "type": "official_website",
-        "title": "LAION-5B release page",
-        "url": "https://laion.ai/blog/laion-5b/",
-        "publisher": "LAION",
-        "collectionMethod": "static_document",
+        "id": "edge-source:laion-5b-infoq-release",
+        "type": "web_search",
+        "title": "LAION Releases Five Billion Image-Text Pair Dataset LAION-5B",
+        "url": "https://www.infoq.com/news/2022/05/laion-5b-image-text-dataset/",
+        "publisher": "InfoQ",
+        "collectionMethod": "web_search",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "We are in touch with Andreas Fürst, one of the original CLOOB authors, and learned from him that their team is currently (at the time of writing) training a CLOOB ViT-B/32 with LAION-400M with optimized hyperparameters and very promising results so far (53% zero-shot accuracy on Imagenet after 7 epochs)."
+        "published_date": "2022-05-17",
+        "retrieved_date": "2026-06-10",
+        "quote": "The Large-scale Artificial Intelligence Open Network (LAION) released LAION-5B , an AI training dataset containing over five billion image-text pairs."
       }
     ]
   },
@@ -659,15 +661,15 @@
     "confidence": "high",
     "sources": [
       {
-        "id": "edge-source:swe-bench-site",
-        "type": "official_website",
-        "title": "SWE-bench benchmark site",
-        "url": "https://www.swebench.com/",
-        "publisher": "SWE-bench",
-        "collectionMethod": "static_document",
+        "id": "edge-source:swe-bench-hf-api",
+        "type": "api_response",
+        "title": "SWE-bench Hugging Face dataset API response",
+        "url": "https://huggingface.co/api/datasets/princeton-nlp/SWE-bench",
+        "publisher": "Hugging Face",
+        "collectionMethod": "huggingface_api",
         "confidence": "high",
-        "retrieved_date": "2026-06-09",
-        "quote": "SWE-bench Verified is a human-filtered subset of 500 instances; use the Agent dropdown to compare LMs with mini-SWE-agent or view all agents [ Post ]."
+        "retrieved_date": "2026-06-10",
+        "quote": "SWE-bench is a dataset that tests systems’ ability to solve GitHub issues automatically. The dataset collects 2,294 Issue-Pull Request pairs from 12 popular Python repositories."
       }
     ]
   }
