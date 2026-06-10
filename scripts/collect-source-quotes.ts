@@ -62,6 +62,7 @@ function isUndisclosedNote(note: unknown) {
 
 function sourceNeedsQuote(source: SourceRecord) {
   if (typeof source.url !== "string") return false;
+  if (/manual verification found/i.test(source.note ?? "")) return false;
   if (!isUndisclosedNote(source.note)) return true;
   return /quote collection|direct quote/i.test(source.note ?? "");
 }
@@ -153,7 +154,8 @@ async function main() {
       const sourceRecords: SourceRecord[] = [];
 
       visit(parsed, (record) => {
-        if (Array.isArray(record.sources)) {
+        const isEdgeRecord = typeof record.id === "string" && record.id.startsWith("edge:");
+        if (Array.isArray(record.sources) && !isEdgeRecord) {
           for (const source of record.sources) {
             if (source && typeof source === "object" && !Array.isArray(source)) {
               sourceRecords.push(source as SourceRecord);

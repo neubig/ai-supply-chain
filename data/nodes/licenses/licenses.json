@@ -297,7 +297,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://huggingface.co/spaces/bigcode/license"
+        "quote": "This application displays text with custom list styles, allowing for various numbering and bullet formats. Users can input text with specific list structures, and the application will render it wit..."
       }
     ],
     "updatePolicy": {

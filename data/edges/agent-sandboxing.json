@@ -10,13 +10,13 @@
       {
         "id": "edge-source:openhands-runtime",
         "type": "github_repo",
-        "title": "OpenHands GitHub repository",
-        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+        "title": "OpenHands glossary",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.openhands/microagents/glossary.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "The core `openhands` and `agent-server` Docker images are fully MIT-licensed as well."
+        "quote": "The execution environment where agents perform their tasks, which can be local, remote, or containerized."
       }
     ],
     "metrics": [
@@ -46,13 +46,13 @@
       {
         "id": "edge-source:openhands-docker",
         "type": "github_repo",
-        "title": "OpenHands GitHub repository",
-        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+        "title": "OpenHands glossary",
+        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/.openhands/microagents/glossary.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "The core `openhands` and `agent-server` Docker images are fully MIT-licensed as well."
+        "quote": "A containerized runtime environment that provides isolation and reproducibility for agent operations."
       },
       {
         "id": "edge-source:moby",
@@ -63,7 +63,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "The Moby project is not intended as a location for support or feature requests for Docker products, but as a place for contributors to work on open source code, fix bugs, and make the code more useful. The releases are supported by the maintainers, community and users, on a best efforts basis only. For customers who want enterprise or commercial support, Docker Desktop and Mirantis Container Runtime are the appropriate products for these use cases."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:openhands-runtime sandboxed_by software:docker-moby; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -98,7 +98,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "Apache 2.0 © 2023-2026 Continue Dev, Inc."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:continue sandboxed_by software:dev-containers-spec; this source record remains source-needed."
       },
       {
         "id": "edge-source:devcontainers-spec",
@@ -109,7 +109,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Beyond repeatable setup, these same development containers provide consistency to avoid environment specific problems across developers and centralized build and test automation services. You can use the open-source CLI reference implementation either directly or integrated into product experiences to use the structured metadata to deliver these benefits. It currently supports integrating with Docker Compose and a simplified, un-orchestrated single container option – so that they can be used as coding environments or for continuous integration and testing."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:continue sandboxed_by software:dev-containers-spec; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -144,7 +144,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "- 🔧 **Code Interpreter API**: - Secure, Sandboxed Execution in Python, Node.js (JS/TS), Go, C/C++, Java, PHP, Rust, and Fortran - Seamless File Handling: Upload, process, and download files directly - No Privacy Concerns: Fully isolated and secure execution"
+        "quote": "Configure Proxy, Reverse Proxy, Docker, & many Deployment options"
       },
       {
         "id": "edge-source:docker-moby-librechat",
@@ -155,7 +155,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:librechat sandboxed_by software:docker-moby; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -190,7 +190,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "If you're experiencing connection issues, it’s often due to the WebUI docker container not being able to reach the Ollama server at 127.0.0.1:11434 (host.docker.internal:11434) inside the container . Use the `--network=host` flag in your docker command to resolve this. Note that the port changes from 3000 to 8080, resulting in the link: `http://localhost:8080`."
+        "quote": "Install seamlessly using Docker or Kubernetes (kubectl, kustomize or helm) for a hassle-free experience with support for both `:ollama` and `:cuda` tagged images."
       },
       {
         "id": "edge-source:docker-moby-open-webui",
@@ -201,7 +201,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:open-webui sandboxed_by software:docker-moby; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -236,7 +236,7 @@
         "retrieved_date": "2026-06-10",
         "collectionMethod": "static_document",
         "confidence": "medium",
-        "quote": "or set up a production AnythingLLM instance without Docker →"
+        "quote": "`docker`: Docker instructions and build process + information for building from source."
       },
       {
         "id": "edge-source:docker-moby-anythingllm",
@@ -247,7 +247,7 @@
         "retrieved_date": "2026-06-10",
         "collectionMethod": "github_api",
         "confidence": "high",
-        "quote": "Moby is an open-source project created by Docker to enable and accelerate software containerization."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:anythingllm sandboxed_by software:docker-moby; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -276,13 +276,13 @@
       {
         "id": "edge-source:e2b-infra",
         "type": "github_repo",
-        "title": "E2B infra GitHub repository",
-        "url": "https://github.com/e2b-dev/infra",
+        "title": "E2B infra self-hosting documentation",
+        "url": "https://raw.githubusercontent.com/e2b-dev/infra/main/self-host.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "note": "The linked source does not provide edge-specific evidence for software:e2b-infra sandboxed_by software:firecracker; this relationship is source-needed until a direct quote is collected."
+        "quote": "E2B is using [Firecracker](https://github.com/firecracker-microvm/firecracker) for Sandboxes."
       },
       {
         "id": "edge-source:firecracker",
@@ -293,7 +293,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:e2b-infra sandboxed_by software:firecracker; this source record remains source-needed."
       }
     ],
     "metrics": [
@@ -328,7 +328,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "pip install daytona"
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for software:daytona depends_on software:kubernetes; this source record remains source-needed."
       }
     ]
   },
@@ -349,7 +349,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-10",
-        "quote": "Daytona is a secure and elastic infrastructure runtime for AI-generated code execution and agent workflows. Our open-source platform provides sandboxes, full composable computers with complete isolation, a dedicated kernel, filesystem, network stack, and allocated vCPU, RAM, and disk."
+        "quote": "Built on OCI/Docker compatibility, massive parallelization, and unlimited persistence, sandboxes deliver consistent, predictable environments for agent workflows."
       }
     ],
     "metrics": [
@@ -378,13 +378,13 @@
       {
         "id": "edge-source:kata-containers",
         "type": "github_repo",
-        "title": "Kata Containers GitHub repository",
-        "url": "https://raw.githubusercontent.com/kata-containers/kata-containers/main/README.md",
+        "title": "Kata Containers Kubernetes documentation",
+        "url": "https://raw.githubusercontent.com/kata-containers/documentation/master/how-to/run-kata-with-k8s.md",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "Kata Containers uses a single configuration file which contains a number of sections for various parts of the Kata Containers system including the runtime, the agent and the hypervisor."
+        "quote": "Kubernetes CRI (Container Runtime Interface) implementations allow using any OCI-compatible runtime with Kubernetes, such as the Kata Containers runtime."
       }
     ]
   },
@@ -447,7 +447,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-10",
-        "quote": "- **Standard Kubernetes Installation**: Compared to Serverless Installation, this is a more **lightweight** installation. However, this option does not support canary deployment and request based autoscaling with scale-to-zero."
+        "quote": "KServe is a standardized distributed generative and predictive AI inference platform for scalable, multi-framework deployment on Kubernetes."
       }
     ]
   }

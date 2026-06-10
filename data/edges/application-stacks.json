@@ -16,7 +16,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "**Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:open-webui supports model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -37,7 +37,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "**Open WebUI is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline.** It supports various LLM runners like **Ollama** and **OpenAI-compatible APIs**, with **built-in inference engine** for RAG, making it a **powerful AI deployment solution**."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:open-webui supports model:mistral-7b-instruct-v0.3; this source record remains source-needed."
       }
     ]
   },
@@ -93,14 +93,14 @@
     "sources": [
       {
         "id": "edge-source:open-webui-github-org",
-        "type": "github_repo",
-        "title": "Open WebUI GitHub organization",
-        "url": "https://github.com/open-webui",
+        "type": "api_response",
+        "title": "Open WebUI GitHub repository API response",
+        "url": "https://api.github.com/repos/open-webui/open-webui",
         "publisher": "GitHub",
-        "collectionMethod": "static_document",
+        "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Created by Tim J."
+        "quote": "\"full_name\": \"open-webui/open-webui\","
       }
     ]
   },
@@ -121,7 +121,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "AnythingLLM is the all-in-one AI application that lets you build a private, fully-featured ChatGPT—without compromises. Connect your favorite local or cloud LLM, ingest your documents, and start chatting in minutes. Out of the box you get built-in agents, multi-user support, vector databases, and document pipelines — no extra configuration required."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:anythingllm supports model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -136,13 +136,13 @@
       {
         "id": "edge-source:anythingllm-repo",
         "type": "github_repo",
-        "title": "AnythingLLM GitHub repository",
-        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "title": "AnythingLLM Docker environment example",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/docker/.env.example",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "- If using an external tool, LLM, Embedding models, or Vector databases, you will still see outbound connections to the respective service provider. - `cdn.anythingllm.com` for pulling models from our mirror CDN. This is not tracked by telemetry and is actually useful for those in VPN restricted regions. - `github/githubusercontent.com` There are some various flat files that are downloaded from these domains for context window caching."
+        "quote": "# EMBEDDING_MODEL_PREF='nomic-ai/nomic-embed-text-v1.5-GGUF/nomic-embed-text-v1.5.Q4_0.gguf'"
       }
     ]
   },
@@ -163,7 +163,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property."
+        "quote": "### Supported LLMs, Embedder Models, Speech models, and Vector Databases\n\n**Large Language Models (LLMs):**\n\n- [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)\n- [OpenAI](https://openai.com)\n- [OpenAI (Generic)](https://openai.com)\n- [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)\n- [AWS Bedrock](https://aws.amazon.com/bedrock/)\n- [Anthropic](https://www.anthropic.com/)\n- [NVIDIA NIM (chat models)](https://build.nvidia.com/explore/discover)\n- [Google Gemini Pro](https://ai.google.dev/)\n- [Ollama (chat models)](https://ollama.ai/)"
       }
     ]
   },
@@ -226,7 +226,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "The Windows ARM build supports Qualcomm Snapdragon and Microsoft SQ1/SQ2 processors."
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:gpt4all supports model:mistral-7b-instruct-v0.3; this source record remains source-needed."
       }
     ]
   },
@@ -247,7 +247,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "- Offline build support for running old versions of the GPT4All Local LLM Chat Client."
+        "note": "Manual verification found that the linked source does not provide edge-specific evidence for application:gpt4all supports model:gpt-j-6b; this source record remains source-needed."
       }
     ]
   },
@@ -289,7 +289,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:"
+        "quote": "The MIT License (MIT)"
       }
     ]
   },
@@ -303,14 +303,14 @@
     "sources": [
       {
         "id": "edge-source:gpt4all-github",
-        "type": "github_repo",
-        "title": "GPT4All GitHub repository",
-        "url": "https://raw.githubusercontent.com/nomic-ai/gpt4all/main/README.md",
+        "type": "api_response",
+        "title": "GPT4All GitHub repository API response",
+        "url": "https://api.github.com/repos/nomic-ai/gpt4all",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Flathub (community maintained)"
+        "quote": "\"full_name\": \"nomic-ai/gpt4all\","
       }
     ]
   },
@@ -429,14 +429,14 @@
     "sources": [
       {
         "id": "edge-source:continue-official",
-        "type": "official_website",
-        "title": "Continue website",
-        "url": "https://www.continue.dev/",
-        "publisher": "Continue",
-        "collectionMethod": "static_document",
+        "type": "api_response",
+        "title": "Continue GitHub repository API response",
+        "url": "https://api.github.com/repos/continuedev/continue",
+        "publisher": "GitHub",
+        "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Continue • Quality control for your software factory. | Continue"
+        "quote": "\"full_name\": \"continuedev/continue\","
       }
     ]
   },
@@ -457,7 +457,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- ComfyUI natively supports the latest open-source state of the art models."
+        "quote": "- [SDXL](https://comfyanonymous.github.io/ComfyUI_examples/sdxl/), [SDXL Turbo](https://comfyanonymous.github.io/ComfyUI_examples/sdturbo/)"
       }
     ]
   },
@@ -478,7 +478,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "As of August 15, 2024, we have transitioned to a new frontend, which is now hosted in a separate repository: ComfyUI Frontend. The compiled JS files (from TS/Vue) are published to pypi and installed as a dependency in ComfyUI."
+        "quote": "AMD users can install rocm and pytorch with pip if you don't have it already installed, this is the command to install the stable version:"
       }
     ]
   },
@@ -499,7 +499,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such."
+        "quote": "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007"
       }
     ]
   },
@@ -513,14 +513,14 @@
     "sources": [
       {
         "id": "edge-source:comfyui-github",
-        "type": "github_repo",
-        "title": "ComfyUI GitHub repository",
-        "url": "https://raw.githubusercontent.com/Comfy-Org/ComfyUI/master/README.md",
+        "type": "api_response",
+        "title": "ComfyUI GitHub repository API response",
+        "url": "https://api.github.com/repos/Comfy-Org/ComfyUI",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "1. Launch ComfyUI by running `python main.py`"
+        "quote": "\"full_name\": \"Comfy-Org/ComfyUI\","
       }
     ]
   },
@@ -535,13 +535,13 @@
       {
         "id": "edge-source:sd-webui-repo",
         "type": "github_repo",
-        "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+        "title": "Stable Diffusion web UI wiki features",
+        "url": "https://raw.githubusercontent.com/wiki/AUTOMATIC1111/stable-diffusion-webui/Features.md",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- Segmind Stable Diffusion support"
+        "quote": "Support for SD-XL was added in version `1.5.0`, with additional memory optimizations and built-in sequenced refiner inference added in version `1.6.0`."
       }
     ]
   },
@@ -556,13 +556,13 @@
       {
         "id": "edge-source:sd-webui-repo",
         "type": "github_repo",
-        "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+        "title": "Stable Diffusion web UI launch utilities",
+        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/modules/launch_utils.py",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "- Idea for Composable Diffusion - https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+        "quote": "torch_command = os.environ.get('TORCH_COMMAND', f\"pip install torch==2.1.2 torchvision==0.16.2 --extra-index-url {torch_index_url}\")"
       }
     ]
   },
@@ -583,7 +583,7 @@
         "collectionMethod": "static_document",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "The GNU General Public License permits making a modified version and"
+        "quote": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007"
       }
     ]
   },
@@ -597,14 +597,14 @@
     "sources": [
       {
         "id": "edge-source:sd-webui-github",
-        "type": "github_repo",
-        "title": "Stable Diffusion web UI GitHub repository",
-        "url": "https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/README.md",
+        "type": "api_response",
+        "title": "Stable Diffusion web UI GitHub repository API response",
+        "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "3. Download the stable-diffusion-webui repository, for example by running `git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git`."
+        "quote": "\"full_name\": \"AUTOMATIC1111/stable-diffusion-webui\","
       }
     ]
   },
@@ -618,14 +618,14 @@
     "sources": [
       {
         "id": "edge-source:openhands-repo",
-        "type": "github_repo",
-        "title": "OpenHands GitHub repository",
-        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+        "type": "api_response",
+        "title": "OpenHands GitHub repository API response",
+        "url": "https://api.github.com/repos/OpenHands/OpenHands",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "OpenHands Cloud comes with source-available features and integrations: - Integrations with Slack, Jira, and Linear - Multi-user support - RBAC and permissions - Collaboration features (e.g., conversation sharing)"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:openhands supports model:qwen2.5-coder-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -660,9 +660,9 @@
     "sources": [
       {
         "id": "edge-source:openhands-repo",
-        "type": "github_repo",
-        "title": "OpenHands GitHub repository",
-        "url": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/README.md",
+        "type": "api_response",
+        "title": "OpenHands GitHub repository API response",
+        "url": "https://api.github.com/repos/OpenHands/OpenHands",
         "publisher": "GitHub",
         "collectionMethod": "static_document",
         "confidence": "medium",
@@ -726,7 +726,7 @@
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "### OpenHands CLI"
+        "quote": "\"full_name\": \"OpenHands/OpenHands\","
       }
     ]
   },
@@ -747,7 +747,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:jan supports model:qwen2.5-7b-instruct; this source record remains source-needed."
       }
     ]
   },
@@ -768,7 +768,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "- **Local AI Models**: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace - **Cloud Integration**: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others - **Custom Assistants**: Create specialized AI assistants for your tasks - **OpenAI-Compatible API**: Local server at `localhost:1337` for other applications - **Model Context Protocol**: MCP integration for agentic capabilities - **Privacy First**: Everything runs locally when you want it to"
+        "note": "Manual verification found that the linked source does not disclose the specific relationship application:jan supports model:mistral-7b-instruct-v0.3; this source record remains source-needed."
       }
     ]
   },
@@ -789,7 +789,7 @@
         "collectionMethod": "static_document",
         "confidence": "medium",
         "retrieved_date": "2026-06-09",
-        "quote": "This handles everything: installs dependencies, builds core components, and launches the app."
+        "quote": "Built on the shoulders of giants: - [Llama.cpp](https://github.com/ggerganov/llama.cpp)"
       }
     ]
   },
@@ -803,14 +803,14 @@
     "sources": [
       {
         "id": "edge-source:jan-repo-description",
-        "type": "github_repo",
-        "title": "Jan GitHub repository description",
-        "url": "https://raw.githubusercontent.com/janhq/jan/main/README.md",
+        "type": "api_response",
+        "title": "Jan GitHub repository API response",
+        "url": "https://api.github.com/repos/janhq/jan",
         "publisher": "GitHub",
         "collectionMethod": "github_api",
         "confidence": "high",
         "retrieved_date": "2026-06-09",
-        "quote": "git clone https://github.com/janhq/jan"
+        "quote": "\"description\": \"Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.\","
       }
     ]
   },

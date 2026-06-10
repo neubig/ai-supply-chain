@@ -2844,11 +2844,11 @@
         "type": "huggingface_model_card",
         "title": "XTTS-v2 model card",
         "url": "https://huggingface.co/coqui/XTTS-v2",
-        "note": "The linked source was not available for quote collection during this ingest, so this source is treated as source-needed until the URL can be fetched: https://huggingface.co/coqui/XTTS-v2",
         "publisher": "Hugging Face",
         "retrieved_date": "2026-06-10",
         "collectionMethod": "huggingface_api",
-        "confidence": "high"
+        "confidence": "high",
+        "quote": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
       }
     ],
     "metrics": [

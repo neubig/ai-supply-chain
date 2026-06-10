@@ -67,7 +67,7 @@ const stopWords = new Set([
 
 const kindTerms: Record<string, string[]> = {
   supports: ["support", "supports", "compatible", "compatibility", "connect", "provider", "runner", "endpoint"],
-  depends_on: ["depend", "dependency", "requires", "install", "based on", "uses", "powered by"],
+  depends_on: ["depend", "dependency", "requires", "install", "based on", "built on", "uses", "powered by"],
   requires: ["require", "requires", "needed", "minimum", "recommended", "gpu", "memory", "vram"],
   trained_on: ["train", "trained", "training", "pretrain", "pre-training", "post-training", "tokens", "corpus", "dataset"],
   trained_with: ["transformers", "diffusers", "pytorch", "library_name", "pipeline", "architecture", "training"],
@@ -105,6 +105,7 @@ const idAliases: Record<string, string[]> = {
   "infrastructure:consumer-device": ["device", "computer", "desktop", "offline", "local"],
   "license:apache-2.0": ["apache-2.0", "apache 2.0", "apache license"],
   "license:mit": ["mit license", "mit"],
+  "model:stable-diffusion-xl-base-1.0": ["stable diffusion xl", "sdxl", "sd-xl"],
   "benchmark:mmlu": ["mmlu", "massive multitask"],
   "benchmark:humaneval": ["humaneval", "human eval"],
   "dataset:laion-5b": ["laion", "5b"],

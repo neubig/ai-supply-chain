@@ -1,4 +1,4 @@
-import { readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import {
   type EdgeRecord,
@@ -7,6 +7,12 @@ import {
   quotePassesEdgeEvidence,
   rankQuoteCandidates
 } from "./edge-quote-rules";
+import {
+  checklistKey,
+  checklistPath,
+  loadExistingChecklistState,
+  sha256
+} from "./edge-quote-checklist-utils";
 
 type Json = null | boolean | number | string | Json[] | { [key: string]: Json };
 
@@ -26,6 +32,9 @@ type FetchResult = {
 
 const edgeRoots = ["data/edges", "examples"];
 const fetched = new Map<string, FetchResult | undefined>();
+const checkedChecklistItems = existsSync(checklistPath)
+  ? loadExistingChecklistState(readFileSync(checklistPath, "utf8"))
+  : new Map();
 
 function jsonFiles(directory: string): string[] {
   return readdirSync(directory).flatMap((entry) => {
@@ -298,6 +307,19 @@ function candidatesFromFetched(result: FetchResult) {
   return plainTextCandidates(result.text);
 }
 
+function sourceIsManuallyLockedNote(source: SourceRecord) {
+  return typeof source.note === "string" && /manual verification found/i.test(source.note);
+}
+
+function sourceIsManuallyCheckedQuote(filePath: string, edge: EdgeRecord, source: SourceRecord) {
+  const quote = typeof source.quote === "string" ? source.quote.trim() : "";
+  if (!quote) return false;
+  const sourceId = source.id ?? "(missing-source-id)";
+  const key = checklistKey(filePath, edge.id, sourceId);
+  const checked = checkedChecklistItems.get(key);
+  return checked?.checked === true && checked.quoteHash === sha256(quote);
+}
+
 async function collectEdgeQuote(source: SourceRecord, edge: EdgeRecord, nodes: Map<string, NodeSummary>) {
   for (const url of candidateUrls(source, edge)) {
     const result = await fetchText(url);
@@ -337,9 +359,15 @@ async function main() {
 
       for (const edge of edges) {
         for (const source of edge.sources ?? []) {
-          if (!source.url) {
+          if (!source.url || sourceIsManuallyLockedNote(source)) {
             noteOnly += 1;
             delete source.quote;
+            continue;
+          }
+
+          if (sourceIsManuallyCheckedQuote(filePath, edge, source)) {
+            quoted += 1;
+            unchanged += 1;
             continue;
           }
 
