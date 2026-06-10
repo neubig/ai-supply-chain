@@ -76,6 +76,10 @@ function sourceNeedsQuote(source: SourceRecord) {
   return /quote collection|direct quote/i.test(source.note ?? "");
 }
 
+function sourceIsCuratedApplicationSupportedModel(source: SourceRecord) {
+  return typeof source.id === "string" && source.id.startsWith("official:model-") && typeof source.quote === "string";
+}
+
 function extractMeta(html: string, names: string[]) {
   for (const name of names) {
     const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -181,6 +185,10 @@ async function main() {
       });
 
       for (const source of sourceRecords) {
+        if (sourceIsCuratedApplicationSupportedModel(source)) {
+          quoted += 1;
+          continue;
+        }
         if (!sourceNeedsQuote(source)) {
           noteOnly += 1;
           delete source.quote;

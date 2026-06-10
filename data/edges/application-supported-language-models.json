@@ -1,0 +1,3914 @@
+[
+  {
+    "id": "edge:anythingllm-supports-anthropic-claude-family",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:anthropic-claude-family",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-anthropic-claude-family",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:anythingllm-supports-deepseek-chat",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:deepseek-chat",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-deepseek-chat",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:anythingllm-supports-google-gemini-pro",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:google-gemini-pro",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-google-gemini-pro",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:anythingllm-supports-mistral",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:mistral",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-mistral",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:anythingllm-supports-openai-models",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:openai-models",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-openai-models",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:anythingllm-supports-perplexity-model-orchestration",
+    "kind": "supports",
+    "source": "application:anythingllm",
+    "target": "model:perplexity-model-orchestration",
+    "description": "AnythingLLM README lists this LLM provider, model, or model family under supported LLMs.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:anythingllm-supports-perplexity-model-orchestration",
+        "type": "official_docs",
+        "title": "AnythingLLM README",
+        "url": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/README.md",
+        "quote": "AnythingLLM supports multiple users as well where you can control the access and experience per user without compromising the security or privacy of the instance or your intellectual property. Large Language Models (LLMs): Any open-source llama.cpp compatible model OpenAI OpenAI (Generic) Azure OpenAI AWS Bedrock Anthropic NVIDIA NIM (chat models) Google Gemini Pro Ollama (chat models) LM Studio (all models) LocalAI (all models) Together AI (chat models) Fireworks AI (chat models) Perplexity (chat models) OpenRouter (chat models) DeepSeek (chat models) Mistral Groq Cohere",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Mintplex Labs",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:chatgpt-supports-gpt-5.2-thinking",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:gpt-5.2-thinking",
+    "description": "chatgpt supported-model documentation cites GPT 5.2 Thinking.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:chatgpt-supports-gpt-5.2-thinking",
+        "type": "official_docs",
+        "title": "GPT-5.5 in ChatGPT",
+        "url": "https://help.openai.com/en/articles/11909943",
+        "quote": "GPT-5.2 Thinking will remain available in Legacy Models for 90 days after the launch of GPT-5.5 Thinking for Plus and Pro users.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:chatgpt-supports-gpt-5.4-mini-chatgpt",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:gpt-5.4-mini-chatgpt",
+    "description": "chatgpt supported-model documentation cites GPT 5.4 Mini Chatgpt.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:chatgpt-supports-gpt-5.4-mini-chatgpt",
+        "type": "official_docs",
+        "title": "OpenAI Model Release Notes",
+        "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+        "quote": "GPT-5.4 mini in ChatGPT (March 18, 2026)",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:chatgpt-supports-gpt-5.5-instant",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:gpt-5.5-instant",
+    "description": "chatgpt supported-model documentation cites GPT 5.5 Instant.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:chatgpt-supports-gpt-5.5-instant",
+        "type": "official_docs",
+        "title": "GPT-5.5 in ChatGPT",
+        "url": "https://help.openai.com/en/articles/11909943",
+        "quote": "GPT-5.5 Instant in ChatGPT is the default for all logged-in users, and a single auto-switching system that brings together the best of our models into a smart, fast single experience. You can also choose the model directly from the model picker: Instant — fast responses for everyday questions (GPT-5.5 Instant); Thinking — deeper reasoning for more complex tasks (GPT-5.5 Thinking); Pro — research-grade intelligence (GPT-5.5 Pro).",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:chatgpt-supports-gpt-5.5-pro",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:gpt-5.5-pro",
+    "description": "chatgpt supported-model documentation cites GPT 5.5 Pro.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:chatgpt-supports-gpt-5.5-pro",
+        "type": "official_docs",
+        "title": "GPT-5.5 in ChatGPT",
+        "url": "https://help.openai.com/en/articles/11909943",
+        "quote": "GPT-5.5 Instant in ChatGPT is the default for all logged-in users, and a single auto-switching system that brings together the best of our models into a smart, fast single experience. You can also choose the model directly from the model picker: Instant — fast responses for everyday questions (GPT-5.5 Instant); Thinking — deeper reasoning for more complex tasks (GPT-5.5 Thinking); Pro — research-grade intelligence (GPT-5.5 Pro).",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:chatgpt-supports-gpt-5.5-thinking",
+    "kind": "supports",
+    "source": "application:chatgpt",
+    "target": "model:gpt-5.5-thinking",
+    "description": "chatgpt supported-model documentation cites GPT 5.5 Thinking.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:chatgpt-supports-gpt-5.5-thinking",
+        "type": "official_docs",
+        "title": "GPT-5.5 in ChatGPT",
+        "url": "https://help.openai.com/en/articles/11909943",
+        "quote": "GPT-5.5 Instant in ChatGPT is the default for all logged-in users, and a single auto-switching system that brings together the best of our models into a smart, fast single experience. You can also choose the model directly from the model picker: Instant — fast responses for everyday questions (GPT-5.5 Instant); Thinking — deeper reasoning for more complex tasks (GPT-5.5 Thinking); Pro — research-grade intelligence (GPT-5.5 Pro).",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenAI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-fable-5",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-fable-5",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-fable-5",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-haiku-4.5",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-haiku-4.5",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-haiku-4.5",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-opus-4.5",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-opus-4.5",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-opus-4.5",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-opus-4.6",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-opus-4.6",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-opus-4.6",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-opus-4.7",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-opus-4.7",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-opus-4.7",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-opus-4.8",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-opus-4.8",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-opus-4.8",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-sonnet-4.5",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-sonnet-4.5",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-sonnet-4.5",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:claude-code-supports-claude-sonnet-4.6",
+    "kind": "supports",
+    "source": "application:claude-code",
+    "target": "model:claude-sonnet-4.6",
+    "description": "Claude Code documentation lists this model as supported in the Claude Code model picker or model setting.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:claude-code-supports-claude-sonnet-4.6",
+        "type": "official_docs",
+        "title": "Claude Code model configuration",
+        "url": "https://support.claude.com/en/articles/11940350-claude-code-model-configuration",
+        "quote": "Claude Code model configuration Supported models Fable 5, claude-fable-5 Opus 4.8, claude-opus-4-8 Opus 4.7, claude-opus-4-7 Sonnet 4.6, claude-sonnet-4-6 Opus 4.6, claude-opus-4-6 Opus 4.5, claude-opus-4-5-20251101 Haiku 4.5, claude-haiku-4-5-20251001 Sonnet 4.5, claude-sonnet-4-5-20250929",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Anthropic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-claude-3.5-haiku",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:claude-3.5-haiku",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-claude-3.5-haiku",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Anthropic Model Tool Use Image Input Context Window Claude 4 Sonnet Yes Yes 200k Claude 3.5 Sonnet Yes Yes 200k Claude 3.5 Haiku Yes Yes 200k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-claude-3.5-sonnet",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:claude-3.5-sonnet",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-claude-3.5-sonnet",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Anthropic Model Tool Use Image Input Context Window Claude 4 Sonnet Yes Yes 200k Claude 3.5 Sonnet Yes Yes 200k Claude 3.5 Haiku Yes Yes 200k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-claude-opus-4.1",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:claude-opus-4.1",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-claude-opus-4.1",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Agent Plan Qwen3 Coder (480B) Qwen3 Coder (30B) Devstral (27B) Kimi K2 (1T) Claude Opus 4.1 Claude Sonnet 4.6 GPT-5 Gemini 2.5 Pro Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-claude-sonnet-4",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:claude-sonnet-4",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-claude-sonnet-4",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Anthropic Model Tool Use Image Input Context Window Claude 4 Sonnet Yes Yes 200k Claude 3.5 Sonnet Yes Yes 200k Claude 3.5 Haiku Yes Yes 200k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-claude-sonnet-4.6",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:claude-sonnet-4.6",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-claude-sonnet-4.6",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Agent Plan Qwen3 Coder (480B) Qwen3 Coder (30B) Devstral (27B) Kimi K2 (1T) Claude Opus 4.1 Claude Sonnet 4.6 GPT-5 Gemini 2.5 Pro Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-codestral",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:codestral",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-codestral",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-command-a",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:command-a",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-command-a",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Cohere Model Tool Use Image Input Context Window Command A Yes No 256k Command A Reasoning Yes No 256k Command A Translate Yes No 8k Command A Vision No Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-command-a-reasoning",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:command-a-reasoning",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-command-a-reasoning",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Cohere Model Tool Use Image Input Context Window Command A Yes No 256k Command A Reasoning Yes No 256k Command A Translate Yes No 8k Command A Vision No Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-command-a-translate",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:command-a-translate",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-command-a-translate",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Cohere Model Tool Use Image Input Context Window Command A Yes No 256k Command A Reasoning Yes No 256k Command A Translate Yes No 8k Command A Vision No Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-command-a-vision",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:command-a-vision",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-command-a-vision",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Cohere Model Tool Use Image Input Context Window Command A Yes No 256k Command A Reasoning Yes No 256k Command A Translate Yes No 8k Command A Vision No Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-deepseek-chat",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:deepseek-chat",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-deepseek-chat",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. DeepSeek Model Tool Use Image Input Context Window DeepSeek V3 Yes No 128k DeepSeek Coder V2 Yes No 128k DeepSeek Chat Yes No 64k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-deepseek-coder-v2",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:deepseek-coder-v2",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-deepseek-coder-v2",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. DeepSeek Model Tool Use Image Input Context Window DeepSeek V3 Yes No 128k DeepSeek Coder V2 Yes No 128k DeepSeek Chat Yes No 64k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-deepseek-v3",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:deepseek-v3",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-deepseek-v3",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. DeepSeek Model Tool Use Image Input Context Window DeepSeek V3 Yes No 128k DeepSeek Coder V2 Yes No 128k DeepSeek Chat Yes No 64k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-devstral-27b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:devstral-27b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-devstral-27b",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-devstral-medium",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:devstral-medium",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-devstral-medium",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Mistral Model Tool Use Image Input Context Window Devstral Medium Yes No 32k Mistral Yes No 32k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-fastapply",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:fastapply",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-fastapply",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Apply FastApply Relace Instant Apply Morph Fast Apply Closed models are better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gemini-2.5-flash",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gemini-2.5-flash",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gemini-2.5-flash",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Google Model Tool Use Image Input Context Window Gemini 2.5 Pro Yes Yes 2M Gemini 2.5 Flash Yes Yes 1M",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gemini-2.5-pro",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gemini-2.5-pro",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gemini-2.5-pro",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Google Model Tool Use Image Input Context Window Gemini 2.5 Pro Yes Yes 2M Gemini 2.5 Flash Yes Yes 1M",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gemma-3-4b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gemma-3-4b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gemma-3-4b",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-3.5-turbo",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-3.5-turbo",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-3.5-turbo",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-4",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-4",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-4",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-4-turbo",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-4-turbo",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-4-turbo",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-4o",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-4o",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-4o",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-5",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-5",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-5",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-5.1",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-5.1",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-5.1",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-oss-120b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-oss-120b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-oss-120b",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Claude Sonnet 4.6 from Anthropic Qwen Coder 3 480B from Qwen GPT-5 from OpenAI Kimi K2 from Moonshot AI Gemini 3.1 Pro from Google Grok Code Fast 1 from xAI Devstral Medium from Mistral AI gpt-oss-120b from OpenAI",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-gpt-oss-20b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:gpt-oss-20b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-gpt-oss-20b",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "These models can be run on your computer if you have enough VRAM. Their limited tool calling and reasoning capabilities will make it challenging to use agent mode. Qwen3 Coder 30B gpt-oss-20b Devstral Small 27B Qwen2.5-Coder 7B from Qwen Gemma 3 4B from Google Qwen2.5-Coder 1.5B from Qwen",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-3",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-3",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-3",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-3-mini",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-3-mini",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-3-mini",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-4",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-4",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-4",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-4-fast-non-reasoning",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-4-fast-non-reasoning",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-4-fast-non-reasoning",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-4-fast-reasoning",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-4-fast-reasoning",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-4-fast-reasoning",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-grok-code-fast-1",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:grok-code-fast-1",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-grok-code-fast-1",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. xAI Model Tool Use Image Input Context Window Grok Code Fast 1 Yes Yes 256k Grok 4 Fast Reasoning Yes Yes 2M Grok 4 Fast Non-Reasoning Yes Yes 2M Grok 4 Yes Yes 256k Grok 3 Yes Yes 131k Grok 3 Mini Yes Yes 131k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-kimi-k2",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:kimi-k2",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-kimi-k2",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Moonshot AI Model Tool Use Image Input Context Window Kimi K2 Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-kimi-k2-1t",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:kimi-k2-1t",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-kimi-k2-1t",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Agent Plan Qwen3 Coder (480B) Qwen3 Coder (30B) Devstral (27B) Kimi K2 (1T) Claude Opus 4.1 Claude Sonnet 4.6 GPT-5 Gemini 2.5 Pro Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-llama-3",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:llama-3",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-llama-3",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-llama-3.1",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:llama-3.1",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-llama-3.1",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-mercury-coder",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:mercury-coder",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-mercury-coder",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Autocomplete QwenCoder2.5 (1.5B) QwenCoder2.5 (7B) Codestral Mercury Coder Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-mistral",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:mistral",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-mistral",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Mistral Model Tool Use Image Input Context Window Devstral Medium Yes No 32k Mistral Yes No 32k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-morph-embeddings",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:morph-embeddings",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-morph-embeddings",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Embed Nomic Embed Text Voyage Code 3 Morph Embeddings Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-morph-fast-apply",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:morph-fast-apply",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-morph-fast-apply",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Apply FastApply Relace Instant Apply Morph Fast Apply Closed models are better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-morph-rerank",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:morph-rerank",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-morph-rerank",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Rerank zerank-1 zerank-1-small Voyage Rerank 2.5 Morph Rerank Open models are beginning to emerge for this model role",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-nomic-embed-text-v1.5",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:nomic-embed-text-v1.5",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-nomic-embed-text-v1.5",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Embed Nomic Embed Text Voyage Code 3 Morph Embeddings Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-o3",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:o3",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-o3",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-o3-mini",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:o3-mini",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-o3-mini",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. OpenAI Model Tool Use Image Input Context Window GPT-5.1 Yes No 400k GPT-5 Yes No 400k o3 Yes No 128k o3-mini Yes No 128k GPT-4o Yes Yes 128k GPT-4 Turbo Yes Yes 128k GPT-4 Yes No 8k GPT-3.5 Turbo Yes No 16k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-qwen-2.5-vl",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen-2.5-vl",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-qwen-2.5-vl",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-qwen-3-coder",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen-3-coder",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-qwen-3-coder",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Ollama (Local Models) Model Tool Use Image Input Context Window Qwen 3 Coder Yes No 32k Qwen 2.5 VL No Yes 128k Devstral Small Yes No 32k Llama 3.1 Yes No 128k Llama 3 Yes No 8k Mistral Yes No 32k Codestral Yes No 32k Gemma 3 4B Yes Yes 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-qwen2.5-coder-1.5b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen2.5-coder-1.5b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-qwen2.5-coder-1.5b",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "These models can be run on your computer if you have enough VRAM. Their limited tool calling and reasoning capabilities will make it challenging to use agent mode. Qwen3 Coder 30B gpt-oss-20b Devstral Small 27B Qwen2.5-Coder 7B from Qwen Gemma 3 4B from Google Qwen2.5-Coder 1.5B from Qwen",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-qwen3-coder-30b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen3-coder-30b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-qwen3-coder-30b",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "These models can be run on your computer if you have enough VRAM. Their limited tool calling and reasoning capabilities will make it challenging to use agent mode. Qwen3 Coder 30B gpt-oss-20b Devstral Small 27B Qwen2.5-Coder 7B from Qwen Gemma 3 4B from Google Qwen2.5-Coder 1.5B from Qwen",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-qwen3-coder-480b",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:qwen3-coder-480b",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-qwen3-coder-480b",
+        "type": "official_docs",
+        "title": "Continue model capabilities",
+        "url": "https://docs.continue.dev/customize/deep-dives/model-capabilities",
+        "quote": "This matrix shows which models support tool use and image input capabilities. Continue auto-detects these capabilities, but you can override them if needed. Qwen Model Tool Use Image Input Context Window Qwen Coder 3 480B Yes No 128k",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-relace-instant-apply",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:relace-instant-apply",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-relace-instant-apply",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Apply FastApply Relace Instant Apply Morph Fast Apply Closed models are better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-voyage-code-3",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:voyage-code-3",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-voyage-code-3",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Embed Nomic Embed Text Voyage Code 3 Morph Embeddings Closed models are slightly better than open models",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-voyage-rerank-2.5",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:voyage-rerank-2.5",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-voyage-rerank-2.5",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Rerank zerank-1 zerank-1-small Voyage Rerank 2.5 Morph Rerank Open models are beginning to emerge for this model role",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-zerank-1",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:zerank-1",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-zerank-1",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Rerank zerank-1 zerank-1-small Voyage Rerank 2.5 Morph Rerank Open models are beginning to emerge for this model role",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:continue-supports-zerank-1-small",
+    "kind": "supports",
+    "source": "application:continue",
+    "target": "model:zerank-1-small",
+    "description": "Continue documentation lists this model in recommended models, setup examples, or its model capability matrix.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:continue-supports-zerank-1-small",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "Model role Best open models Best closed models Notes Rerank zerank-1 zerank-1-small Voyage Rerank 2.5 Morph Rerank Open models are beginning to emerge for this model role",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-fable-5",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-fable-5",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-fable-5",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Fable 5 | Long-horizon, autonomous coding and knowledge-work | First-attempt correctness through upfront reasoning, aggressive parallel tool batching, and proactive verification of pre-existing test state before debugging | Not available |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-haiku-4.5",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-haiku-4.5",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-haiku-4.5",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Haiku 4.5 | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Claude Haiku 4.5 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-opus-4.6",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-opus-4.6",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-opus-4.6",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Opus 4.6 (fast mode) (preview) | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Not available |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-opus-4.7",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-opus-4.7",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-opus-4.7",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Opus 4.7 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Claude Opus 4.7 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-opus-4.8",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-opus-4.8",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-opus-4.8",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Opus 4.8 | Deep reasoning and debugging | Complex problem-solving challenges, sophisticated reasoning | Not available |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-sonnet-4.5",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-sonnet-4.5",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-sonnet-4.5",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Sonnet 4.5 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.5 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-claude-sonnet-4.6",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:claude-sonnet-4.6",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-claude-sonnet-4.6",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Claude Sonnet 4.6 | General-purpose coding and agent tasks | Complex problem-solving challenges, sophisticated reasoning | Claude Sonnet 4.6 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gemini-2.5-pro",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gemini-2.5-pro",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gemini-2.5-pro",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Gemini 2.5 Pro | Deep reasoning and debugging | Complex code generation, debugging, and research workflows | Gemini 2.5 Pro model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gemini-3-flash",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gemini-3-flash",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gemini-3-flash",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Gemini 3 Flash | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Gemini 3 Flash model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gemini-3.1-pro",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gemini-3.1-pro",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gemini-3.1-pro",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Gemini 3.1 Pro | Deep reasoning and debugging | Effective and efficient edit-then-test loops with high tool precision | Not available |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gemini-3.5-flash",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gemini-3.5-flash",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gemini-3.5-flash",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Gemini 3.5 Flash | Fast help with simple or repetitive tasks | Fast, reliable answers to lightweight coding questions | Gemini 3.5 Flash model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gpt-5-mini",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gpt-5-mini",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gpt-5-mini",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| GPT-5 mini | General-purpose coding and writing | Fast, accurate code completions and explanations | GPT-5 mini model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gpt-5.3-codex",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gpt-5.3-codex",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gpt-5.3-codex",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| GPT-5.3-Codex | Agentic software development | Agentic tasks | GPT-5.3-Codex model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gpt-5.4",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gpt-5.4",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gpt-5.4",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| GPT-5.4 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.4 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gpt-5.4-mini",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gpt-5.4-mini",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gpt-5.4-mini",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| GPT-5.4 mini | Agentic software development | Codebase exploration and is especially effective when using grep-style tools | GPT-5.4 mini model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-gpt-5.5",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:gpt-5.5",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-gpt-5.5",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| GPT-5.5 | Deep reasoning and debugging | Multi-step problem solving and architecture-level code analysis | GPT-5.5 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-mai-code-1-flash",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:mai-code-1-flash",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-mai-code-1-flash",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| MAI-Code-1-Flash | General-purpose coding and writing | Fast, accurate code completions and explanations | MAI-Code-1-Flash model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-qwen2.5",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:qwen2.5",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-qwen2.5",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Qwen2.5 | General-purpose coding and writing | Code generation, reasoning, and code repair / debugging | Qwen2.5 model card |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:github-copilot-supports-raptor-mini",
+    "kind": "supports",
+    "source": "application:github-copilot",
+    "target": "model:raptor-mini",
+    "description": "GitHub Copilot model comparison lists this model as an available or recommended Copilot model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:github-copilot-supports-raptor-mini",
+        "type": "official_docs",
+        "title": "AI model comparison for GitHub Copilot",
+        "url": "https://docs.github.com/en/copilot/reference/ai-models/model-comparison",
+        "quote": "| Raptor mini | General-purpose coding and writing | Fast, accurate code completions and explanations | Coming soon |",
+        "retrieved_date": "2026-06-10",
+        "publisher": "GitHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:gpt4all-supports-gpt4all-snoozy",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:gpt4all-snoozy",
+    "description": "GPT4All Desktop documentation lists this model among example local models.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:gpt4all-supports-gpt4all-snoozy",
+        "type": "official_docs",
+        "title": "GPT4All Desktop models",
+        "url": "https://docs.gpt4all.io/gpt4all_desktop/models.html",
+        "quote": "GPT4All is optimized to run LLMs in the 3-13B parameter range on consumer-grade hardware. Here are a few examples: Llama 3 Instruct 4.66 GB 8 GB 8 Billion q4_0 Meta Llama 3 License Nous Hermes 2 Mistral DPO 4.11 GB 8 GB 7 Billion q4_0 Mistral & Nous Research Apache 2.0 Phi-3 Mini Instruct 2.18 GB 4 GB 4 billion q4_0 Microsoft MIT Mini Orca (Small) 1.98 GB 4 GB 3 billion q4_0 Microsoft CC-BY-NC-SA-4.0 GPT4All Snoozy 7.37 GB 16 GB 13 billion q4_0 Nomic AI GPL",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Nomic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:gpt4all-supports-llama-3-instruct",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:llama-3-instruct",
+    "description": "GPT4All Desktop documentation lists this model among example local models.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:gpt4all-supports-llama-3-instruct",
+        "type": "official_docs",
+        "title": "GPT4All Desktop models",
+        "url": "https://docs.gpt4all.io/gpt4all_desktop/models.html",
+        "quote": "GPT4All is optimized to run LLMs in the 3-13B parameter range on consumer-grade hardware. Here are a few examples: Llama 3 Instruct 4.66 GB 8 GB 8 Billion q4_0 Meta Llama 3 License Nous Hermes 2 Mistral DPO 4.11 GB 8 GB 7 Billion q4_0 Mistral & Nous Research Apache 2.0 Phi-3 Mini Instruct 2.18 GB 4 GB 4 billion q4_0 Microsoft MIT Mini Orca (Small) 1.98 GB 4 GB 3 billion q4_0 Microsoft CC-BY-NC-SA-4.0 GPT4All Snoozy 7.37 GB 16 GB 13 billion q4_0 Nomic AI GPL",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Nomic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:gpt4all-supports-mini-orca-small",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:mini-orca-small",
+    "description": "GPT4All Desktop documentation lists this model among example local models.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:gpt4all-supports-mini-orca-small",
+        "type": "official_docs",
+        "title": "GPT4All Desktop models",
+        "url": "https://docs.gpt4all.io/gpt4all_desktop/models.html",
+        "quote": "GPT4All is optimized to run LLMs in the 3-13B parameter range on consumer-grade hardware. Here are a few examples: Llama 3 Instruct 4.66 GB 8 GB 8 Billion q4_0 Meta Llama 3 License Nous Hermes 2 Mistral DPO 4.11 GB 8 GB 7 Billion q4_0 Mistral & Nous Research Apache 2.0 Phi-3 Mini Instruct 2.18 GB 4 GB 4 billion q4_0 Microsoft MIT Mini Orca (Small) 1.98 GB 4 GB 3 billion q4_0 Microsoft CC-BY-NC-SA-4.0 GPT4All Snoozy 7.37 GB 16 GB 13 billion q4_0 Nomic AI GPL",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Nomic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:gpt4all-supports-nous-hermes-2-mistral-dpo",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:nous-hermes-2-mistral-dpo",
+    "description": "GPT4All Desktop documentation lists this model among example local models.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:gpt4all-supports-nous-hermes-2-mistral-dpo",
+        "type": "official_docs",
+        "title": "GPT4All Desktop models",
+        "url": "https://docs.gpt4all.io/gpt4all_desktop/models.html",
+        "quote": "GPT4All is optimized to run LLMs in the 3-13B parameter range on consumer-grade hardware. Here are a few examples: Llama 3 Instruct 4.66 GB 8 GB 8 Billion q4_0 Meta Llama 3 License Nous Hermes 2 Mistral DPO 4.11 GB 8 GB 7 Billion q4_0 Mistral & Nous Research Apache 2.0 Phi-3 Mini Instruct 2.18 GB 4 GB 4 billion q4_0 Microsoft MIT Mini Orca (Small) 1.98 GB 4 GB 3 billion q4_0 Microsoft CC-BY-NC-SA-4.0 GPT4All Snoozy 7.37 GB 16 GB 13 billion q4_0 Nomic AI GPL",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Nomic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:gpt4all-supports-phi-3-mini-4k-instruct",
+    "kind": "supports",
+    "source": "application:gpt4all",
+    "target": "model:phi-3-mini-4k-instruct",
+    "description": "GPT4All Desktop documentation lists this model among example local models.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:gpt4all-supports-phi-3-mini-4k-instruct",
+        "type": "official_docs",
+        "title": "GPT4All Desktop models",
+        "url": "https://docs.gpt4all.io/gpt4all_desktop/models.html",
+        "quote": "GPT4All is optimized to run LLMs in the 3-13B parameter range on consumer-grade hardware. Here are a few examples: Llama 3 Instruct 4.66 GB 8 GB 8 Billion q4_0 Meta Llama 3 License Nous Hermes 2 Mistral DPO 4.11 GB 8 GB 7 Billion q4_0 Mistral & Nous Research Apache 2.0 Phi-3 Mini Instruct 2.18 GB 4 GB 4 billion q4_0 Microsoft MIT Mini Orca (Small) 1.98 GB 4 GB 3 billion q4_0 Microsoft CC-BY-NC-SA-4.0 GPT4All Snoozy 7.37 GB 16 GB 13 billion q4_0 Nomic AI GPL",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Nomic",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-anthropic-claude-family",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:anthropic-claude-family",
+    "description": "Jan model-management documentation lists this model or model family through cloud provider support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-anthropic-claude-family",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "Jan supports connecting to various AI cloud providers. Go to Settings > Model Providers, select your provider, and enter your API key. OpenAI Use GPT-4o, o3, and other OpenAI models. Anthropic Use Claude models from Anthropic. Google Use Gemini models from Google. Groq Fast inference for open-source models. Mistral Use Mistral AI models. OpenRouter Access hundreds of models via a single API.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-google-gemini-family",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:google-gemini-family",
+    "description": "Jan model-management documentation lists this model or model family through cloud provider support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-google-gemini-family",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "Jan supports connecting to various AI cloud providers. Go to Settings > Model Providers, select your provider, and enter your API key. OpenAI Use GPT-4o, o3, and other OpenAI models. Anthropic Use Claude models from Anthropic. Google Use Gemini models from Google. Groq Fast inference for open-source models. Mistral Use Mistral AI models. OpenRouter Access hundreds of models via a single API.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-gpt-4o",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:gpt-4o",
+    "description": "Jan model-management documentation lists this model or model family through cloud provider support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-gpt-4o",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "Jan supports connecting to various AI cloud providers. Go to Settings > Model Providers, select your provider, and enter your API key. OpenAI Use GPT-4o, o3, and other OpenAI models. Anthropic Use Claude models from Anthropic. Google Use Gemini models from Google. Groq Fast inference for open-source models. Mistral Use Mistral AI models. OpenRouter Access hundreds of models via a single API.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-mistral",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:mistral",
+    "description": "Jan model-management documentation lists this model or model family through cloud provider support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-mistral",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "Jan supports connecting to various AI cloud providers. Go to Settings > Model Providers, select your provider, and enter your API key. OpenAI Use GPT-4o, o3, and other OpenAI models. Anthropic Use Claude models from Anthropic. Google Use Gemini models from Google. Groq Fast inference for open-source models. Mistral Use Mistral AI models. OpenRouter Access hundreds of models via a single API.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-mistral-7b-v0.1",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:mistral-7b-v0.1",
+    "description": "Jan model-management documentation cites Mistral-7B-v0.1-GGUF as a Hugging Face import example.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-mistral-7b-v0.1",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "You can download models with a direct link from Hugging Face: Copy the model ID (e.g., TheBloke/Mistral-7B-v0.1-GGUF). In Jan, paste the model ID to the Search bar in Hub page.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:jan-supports-o3",
+    "kind": "supports",
+    "source": "application:jan",
+    "target": "model:o3",
+    "description": "Jan model-management documentation lists this model or model family through cloud provider support.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:jan-supports-o3",
+        "type": "official_docs",
+        "title": "Jan model management",
+        "url": "https://www.jan.ai/docs/desktop/manage-models",
+        "quote": "Jan supports connecting to various AI cloud providers. Go to Settings > Model Providers, select your provider, and enter your API key. OpenAI Use GPT-4o, o3, and other OpenAI models. Anthropic Use Claude models from Anthropic. Google Use Gemini models from Google. Groq Fast inference for open-source models. Mistral Use Mistral AI models. OpenRouter Access hundreds of models via a single API.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Jan",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-claude-3-5-sonnet-20241022",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:claude-3-5-sonnet-20241022",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-claude-3-5-sonnet-20241022",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-claude-sonnet-4",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:claude-sonnet-4",
+    "description": "LibreChat modelSpecs documentation cites this model in configuration examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-claude-sonnet-4",
+        "type": "official_docs",
+        "title": "LibreChat model specs object structure",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/configuration/librechat_yaml/object_structure/model_specs.mdx",
+        "quote": "LibreChat-AI / librechat.ai modelSpecs example preset endpoint azureOpenAI model: 'gpt-4-turbo-1106-preview' endpoint openAI model: 'gpt-4o-mini' model: 'gpt-4o' endpoint anthropic model: 'claude-sonnet-4' endpoint groq model: 'llama3-8b-8192'",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-gemini-2.0-flash-exp",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:gemini-2.0-flash-exp",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-gemini-2.0-flash-exp",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-gpt-4",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:gpt-4",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-gpt-4",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-gpt-4-turbo-1106-preview",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:gpt-4-turbo-1106-preview",
+    "description": "LibreChat modelSpecs documentation cites this model in configuration examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-gpt-4-turbo-1106-preview",
+        "type": "official_docs",
+        "title": "LibreChat model specs object structure",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/configuration/librechat_yaml/object_structure/model_specs.mdx",
+        "quote": "LibreChat-AI / librechat.ai modelSpecs example preset endpoint azureOpenAI model: 'gpt-4-turbo-1106-preview' endpoint openAI model: 'gpt-4o-mini' model: 'gpt-4o' endpoint anthropic model: 'claude-sonnet-4' endpoint groq model: 'llama3-8b-8192'",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-gpt-4o",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:gpt-4o",
+    "description": "LibreChat modelSpecs documentation cites this model in configuration examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-gpt-4o",
+        "type": "official_docs",
+        "title": "LibreChat model specs object structure",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/configuration/librechat_yaml/object_structure/model_specs.mdx",
+        "quote": "LibreChat-AI / librechat.ai modelSpecs example preset endpoint azureOpenAI model: 'gpt-4-turbo-1106-preview' endpoint openAI model: 'gpt-4o-mini' model: 'gpt-4o' endpoint anthropic model: 'claude-sonnet-4' endpoint groq model: 'llama3-8b-8192'",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-gpt-4o-mini",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:gpt-4o-mini",
+    "description": "LibreChat modelSpecs documentation cites this model in configuration examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-gpt-4o-mini",
+        "type": "official_docs",
+        "title": "LibreChat model specs object structure",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/configuration/librechat_yaml/object_structure/model_specs.mdx",
+        "quote": "LibreChat-AI / librechat.ai modelSpecs example preset endpoint azureOpenAI model: 'gpt-4-turbo-1106-preview' endpoint openAI model: 'gpt-4o-mini' model: 'gpt-4o' endpoint anthropic model: 'claude-sonnet-4' endpoint groq model: 'llama3-8b-8192'",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-llama-3.1-sonar-small-128k-online",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:llama-3.1-sonar-small-128k-online",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-llama-3.1-sonar-small-128k-online",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-llama3-8b-8192",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:llama3-8b-8192",
+    "description": "LibreChat modelSpecs documentation cites this model in configuration examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-llama3-8b-8192",
+        "type": "official_docs",
+        "title": "LibreChat model specs object structure",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/configuration/librechat_yaml/object_structure/model_specs.mdx",
+        "quote": "LibreChat-AI / librechat.ai modelSpecs example preset endpoint azureOpenAI model: 'gpt-4-turbo-1106-preview' endpoint openAI model: 'gpt-4o-mini' model: 'gpt-4o' endpoint anthropic model: 'claude-sonnet-4' endpoint groq model: 'llama3-8b-8192'",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-llama3-latest",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:llama3-latest",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-llama3-latest",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:librechat-supports-o1-mini",
+    "kind": "supports",
+    "source": "application:librechat",
+    "target": "model:o1-mini",
+    "description": "LibreChat URL query documentation cites this model in URL parameter examples.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:librechat-supports-o1-mini",
+        "type": "official_docs",
+        "title": "LibreChat URL query parameters",
+        "url": "https://github.com/LibreChat-AI/librechat.ai/blob/main/content/docs/features/url_query.mdx",
+        "quote": "LibreChat-AI / librechat.ai URL Query Parameters examples endpoint=ollama&model=llama3%3Alatest endpoint=openAI&model=o1-mini endpoint=perplexity&model=llama-3.1-sonar-small-128k-online model=gpt-4o endpoint=anthropic&model=claude-3-5-sonnet-20241022 endpoint=openAI&model=gpt-4 endpoint=google&model=gemini-2.0-flash-exp",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LibreChat",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:lobehub-supports-anthropic-claude-family",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "model:anthropic-claude-family",
+    "description": "LobeHub provider documentation cites this model or model family among supported providers.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:lobehub-supports-anthropic-claude-family",
+        "type": "official_docs",
+        "title": "Using Multiple Model Providers in LobeHub",
+        "url": "https://lobehub.com/docs/usage/providers",
+        "quote": "LobeHub integrates with 70+ AI model providers: Major commercial — OpenAI (GPT-4o, o1), Anthropic (Claude), Google (Gemini), Microsoft Azure OpenAI, AWS Bedrock",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LobeHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:lobehub-supports-google-gemini-family",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "model:google-gemini-family",
+    "description": "LobeHub provider documentation cites this model or model family among supported providers.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:lobehub-supports-google-gemini-family",
+        "type": "official_docs",
+        "title": "Using Multiple Model Providers in LobeHub",
+        "url": "https://lobehub.com/docs/usage/providers",
+        "quote": "LobeHub integrates with 70+ AI model providers: Major commercial — OpenAI (GPT-4o, o1), Anthropic (Claude), Google (Gemini), Microsoft Azure OpenAI, AWS Bedrock",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LobeHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:lobehub-supports-gpt-4o",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "model:gpt-4o",
+    "description": "LobeHub provider documentation cites this model or model family among supported providers.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:lobehub-supports-gpt-4o",
+        "type": "official_docs",
+        "title": "Using Multiple Model Providers in LobeHub",
+        "url": "https://lobehub.com/docs/usage/providers",
+        "quote": "LobeHub integrates with 70+ AI model providers: Major commercial — OpenAI (GPT-4o, o1), Anthropic (Claude), Google (Gemini), Microsoft Azure OpenAI, AWS Bedrock",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LobeHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:lobehub-supports-o1",
+    "kind": "supports",
+    "source": "application:lobehub",
+    "target": "model:o1",
+    "description": "LobeHub provider documentation cites this model or model family among supported providers.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:lobehub-supports-o1",
+        "type": "official_docs",
+        "title": "Using Multiple Model Providers in LobeHub",
+        "url": "https://lobehub.com/docs/usage/providers",
+        "quote": "LobeHub integrates with 70+ AI model providers: Major commercial — OpenAI (GPT-4o, o1), Anthropic (Claude), Google (Gemini), Microsoft Azure OpenAI, AWS Bedrock",
+        "retrieved_date": "2026-06-10",
+        "publisher": "LobeHub",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:open-webui-supports-anthropic-claude-family",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:anthropic-claude-family",
+    "description": "Open WebUI documentation cites this base model or model family for workspace model presets.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:open-webui-supports-anthropic-claude-family",
+        "type": "official_docs",
+        "title": "Open WebUI Models workspace",
+        "url": "https://docs.openwebui.com/features/workspace/models/",
+        "quote": "The Models workspace lets you create configuration presets that sit on top of any base model. Pick GPT-4o, Claude, Llama 3, or anything else connected to Open WebUI, then bind a system prompt, knowledge bases, tools, skills, and parameter overrides to it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Open WebUI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:open-webui-supports-gpt-4o",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:gpt-4o",
+    "description": "Open WebUI documentation cites this base model or model family for workspace model presets.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:open-webui-supports-gpt-4o",
+        "type": "official_docs",
+        "title": "Open WebUI Models workspace",
+        "url": "https://docs.openwebui.com/features/workspace/models/",
+        "quote": "The Models workspace lets you create configuration presets that sit on top of any base model. Pick GPT-4o, Claude, Llama 3, or anything else connected to Open WebUI, then bind a system prompt, knowledge bases, tools, skills, and parameter overrides to it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Open WebUI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:open-webui-supports-llama-3",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:llama-3",
+    "description": "Open WebUI documentation cites this base model or model family for workspace model presets.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:open-webui-supports-llama-3",
+        "type": "official_docs",
+        "title": "Open WebUI Models workspace",
+        "url": "https://docs.openwebui.com/features/workspace/models/",
+        "quote": "The Models workspace lets you create configuration presets that sit on top of any base model. Pick GPT-4o, Claude, Llama 3, or anything else connected to Open WebUI, then bind a system prompt, knowledge bases, tools, skills, and parameter overrides to it.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Open WebUI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:open-webui-supports-qwen-3",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:qwen-3",
+    "description": "Open WebUI documentation cites this Qwen model in its model-upgrade example.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:open-webui-supports-qwen-3",
+        "type": "official_docs",
+        "title": "Open WebUI Models workspace",
+        "url": "https://docs.openwebui.com/features/workspace/models/",
+        "quote": "When you switch to a newer LLM (e.g. Qwen 3 → Qwen 3.5), update the base model selection on both entries.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Open WebUI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:open-webui-supports-qwen-3.5",
+    "kind": "supports",
+    "source": "application:open-webui",
+    "target": "model:qwen-3.5",
+    "description": "Open WebUI documentation cites this Qwen model in its model-upgrade example.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:open-webui-supports-qwen-3.5",
+        "type": "official_docs",
+        "title": "Open WebUI Models workspace",
+        "url": "https://docs.openwebui.com/features/workspace/models/",
+        "quote": "When you switch to a newer LLM (e.g. Qwen 3 → Qwen 3.5), update the base model selection on both entries.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Open WebUI",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-claude-opus-4.6",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:claude-opus-4.6",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-claude-opus-4.6",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-claude-opus-4.7",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:claude-opus-4.7",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-claude-opus-4.7",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-deepseek-v4-pro",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:deepseek-v4-pro",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-deepseek-v4-pro",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "These open or open-weight models have good OpenHands Index scores or are recommended for local OpenHands setups: GLM-5.1 `openrouter/z-ai/glm-5.1` Strongest open-weight result currently listed in the OpenHands Index. Kimi-K2.6 `openrouter/moonshotai/kimi-k2.6` Strong open-weight option. DeepSeek-V4-Pro `openrouter/deepseek/deepseek-v4-pro` Strong coding and test-generation scores. MiniMax-M2.7 `openrouter/minimax/minimax-m2.7` Recommended as a lower-cost open-weight option. Qwen3.6-35B-A3B `openai/Qwen3.6-35B-A3B` Recommended local / self-hosted model for OpenHands.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-gemini-3-flash",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:gemini-3-flash",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-gemini-3-flash",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-gemini-3.1-pro",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:gemini-3.1-pro",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-gemini-3.1-pro",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-glm-5.1",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:glm-5.1",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-glm-5.1",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "These open or open-weight models have good OpenHands Index scores or are recommended for local OpenHands setups: GLM-5.1 `openrouter/z-ai/glm-5.1` Strongest open-weight result currently listed in the OpenHands Index. Kimi-K2.6 `openrouter/moonshotai/kimi-k2.6` Strong open-weight option. DeepSeek-V4-Pro `openrouter/deepseek/deepseek-v4-pro` Strong coding and test-generation scores. MiniMax-M2.7 `openrouter/minimax/minimax-m2.7` Recommended as a lower-cost open-weight option. Qwen3.6-35B-A3B `openai/Qwen3.6-35B-A3B` Recommended local / self-hosted model for OpenHands.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-gpt-5.4",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:gpt-5.4",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-gpt-5.4",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-gpt-5.5",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:gpt-5.5",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-gpt-5.5",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "Claude Opus 4.7 `anthropic/claude-opus-4-7` 68.2 Best Claude-series result in the OpenHands Index. Use it for complex, long-running software work. Claude Opus 4.6 is close behind at 66.7. GPT-5.5 `openai/gpt-5.5` 65.9 Best GPT-series result in the OpenHands Index. GPT-5.4 is close behind at 64.3. Gemini 3.1 Pro `gemini/gemini-3.1-pro-preview` 57.0 Best Gemini-series result in the OpenHands Index. Use Gemini 3 Flash when cost or latency is more important than top accuracy.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-kimi-k2.6",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:kimi-k2.6",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-kimi-k2.6",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "These open or open-weight models have good OpenHands Index scores or are recommended for local OpenHands setups: GLM-5.1 `openrouter/z-ai/glm-5.1` Strongest open-weight result currently listed in the OpenHands Index. Kimi-K2.6 `openrouter/moonshotai/kimi-k2.6` Strong open-weight option. DeepSeek-V4-Pro `openrouter/deepseek/deepseek-v4-pro` Strong coding and test-generation scores. MiniMax-M2.7 `openrouter/minimax/minimax-m2.7` Recommended as a lower-cost open-weight option. Qwen3.6-35B-A3B `openai/Qwen3.6-35B-A3B` Recommended local / self-hosted model for OpenHands.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-minimax-m2.7",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:minimax-m2.7",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-minimax-m2.7",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "These open or open-weight models have good OpenHands Index scores or are recommended for local OpenHands setups: GLM-5.1 `openrouter/z-ai/glm-5.1` Strongest open-weight result currently listed in the OpenHands Index. Kimi-K2.6 `openrouter/moonshotai/kimi-k2.6` Strong open-weight option. DeepSeek-V4-Pro `openrouter/deepseek/deepseek-v4-pro` Strong coding and test-generation scores. MiniMax-M2.7 `openrouter/minimax/minimax-m2.7` Recommended as a lower-cost open-weight option. Qwen3.6-35B-A3B `openai/Qwen3.6-35B-A3B` Recommended local / self-hosted model for OpenHands.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-qwen2.5-coder-14b-instruct",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:qwen2.5-coder-14b-instruct",
+    "description": "OpenHands local LLM documentation cites this local model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-qwen2.5-coder-14b-instruct",
+        "type": "official_docs",
+        "title": "OpenHands local LLM guide",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/local-llms.md",
+        "quote": "qwen2.5-coder-14b-instruct — reported to resolve chatbot-like behavior",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-qwen3.6-35b-a3b",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:qwen3.6-35b-a3b",
+    "description": "OpenHands LLM documentation lists or recommends this model for OpenHands.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-qwen3.6-35b-a3b",
+        "type": "official_docs",
+        "title": "OpenHands LLM overview",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/llms.md",
+        "quote": "These open or open-weight models have good OpenHands Index scores or are recommended for local OpenHands setups: GLM-5.1 `openrouter/z-ai/glm-5.1` Strongest open-weight result currently listed in the OpenHands Index. Kimi-K2.6 `openrouter/moonshotai/kimi-k2.6` Strong open-weight option. DeepSeek-V4-Pro `openrouter/deepseek/deepseek-v4-pro` Strong coding and test-generation scores. MiniMax-M2.7 `openrouter/minimax/minimax-m2.7` Recommended as a lower-cost open-weight option. Qwen3.6-35B-A3B `openai/Qwen3.6-35B-A3B` Recommended local / self-hosted model for OpenHands.",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:openhands-supports-qwopus3.5-27b-v3",
+    "kind": "supports",
+    "source": "application:openhands",
+    "target": "model:qwopus3.5-27b-v3",
+    "description": "OpenHands local LLM documentation cites this local model.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:openhands-supports-qwopus3.5-27b-v3",
+        "type": "official_docs",
+        "title": "OpenHands local LLM guide",
+        "url": "https://docs.openhands.dev/openhands/usage/llms/local-llms.md",
+        "quote": "qwopus3.5-27b-v3 Q8_0 ... reported to work well with tool calls",
+        "retrieved_date": "2026-06-10",
+        "publisher": "OpenHands",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-haiku-4.5",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-haiku-4.5",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-haiku-4.5",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-opus-4.5",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-opus-4.5",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-opus-4.5",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-opus-4.6",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-opus-4.6",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-opus-4.6",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-opus-4.7",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-opus-4.7",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-opus-4.7",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-opus-4.8",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-opus-4.8",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-opus-4.8",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-sonnet-4.5",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-sonnet-4.5",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-sonnet-4.5",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-claude-sonnet-4.6",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:claude-sonnet-4.6",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-claude-sonnet-4.6",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Anthropic Claude Opus (highest reasoning), Sonnet (balanced), and Haiku (fastest, cheapest). `anthropic/claude-opus-4-8` `anthropic/claude-opus-4-7` `anthropic/claude-opus-4-6` `anthropic/claude-opus-4-5` `anthropic/claude-sonnet-4-6` `anthropic/claude-sonnet-4-5` `anthropic/claude-haiku-4-5`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gemini-3-flash-preview",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gemini-3-flash-preview",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gemini-3-flash-preview",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Google Gemini 3 family — Pro for long-context, Flash and Flash Lite for speed. `google/gemini-3.1-pro-preview` `google/gemini-3.1-flash-lite` `google/gemini-3.1-flash-lite-preview` `google/gemini-3.5-flash` `google/gemini-3-flash-preview`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gemini-3.1-flash-lite",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gemini-3.1-flash-lite",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gemini-3.1-flash-lite",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Google Gemini 3 family — Pro for long-context, Flash and Flash Lite for speed. `google/gemini-3.1-pro-preview` `google/gemini-3.1-flash-lite` `google/gemini-3.1-flash-lite-preview` `google/gemini-3.5-flash` `google/gemini-3-flash-preview`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gemini-3.1-flash-lite-preview",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gemini-3.1-flash-lite-preview",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gemini-3.1-flash-lite-preview",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Google Gemini 3 family — Pro for long-context, Flash and Flash Lite for speed. `google/gemini-3.1-pro-preview` `google/gemini-3.1-flash-lite` `google/gemini-3.1-flash-lite-preview` `google/gemini-3.5-flash` `google/gemini-3-flash-preview`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gemini-3.1-pro",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gemini-3.1-pro",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gemini-3.1-pro",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Google Gemini 3 family — Pro for long-context, Flash and Flash Lite for speed. `google/gemini-3.1-pro-preview` `google/gemini-3.1-flash-lite` `google/gemini-3.1-flash-lite-preview` `google/gemini-3.5-flash` `google/gemini-3-flash-preview`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gemini-3.5-flash",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gemini-3.5-flash",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gemini-3.5-flash",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Google Gemini 3 family — Pro for long-context, Flash and Flash Lite for speed. `google/gemini-3.1-pro-preview` `google/gemini-3.1-flash-lite` `google/gemini-3.1-flash-lite-preview` `google/gemini-3.5-flash` `google/gemini-3-flash-preview`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5-mini",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5-mini",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5-mini",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.1",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.1",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.1",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.2",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.2",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.2",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.4",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.4",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.4",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.4-mini",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.4-mini",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.4-mini",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.4-nano",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.4-nano",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.4-nano",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-gpt-5.5",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:gpt-5.5",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-gpt-5.5",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. OpenAI GPT-5 family — flagship, mini, and nano variants. `openai/gpt-5.5` `openai/gpt-5.4` `openai/gpt-5.4-mini` `openai/gpt-5.4-nano` `openai/gpt-5.2` `openai/gpt-5.1` `openai/gpt-5` `openai/gpt-5-mini`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-grok-4.20-multi-agent",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:grok-4.20-multi-agent",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-grok-4.20-multi-agent",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. xAI Grok 4.3 and 4.20 variants — reasoning, non-reasoning, and multi-agent. `xai/grok-4.3` `xai/grok-4.20-reasoning` `xai/grok-4.20-non-reasoning` `xai/grok-4.20-multi-agent`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-grok-4.20-non-reasoning",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:grok-4.20-non-reasoning",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-grok-4.20-non-reasoning",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. xAI Grok 4.3 and 4.20 variants — reasoning, non-reasoning, and multi-agent. `xai/grok-4.3` `xai/grok-4.20-reasoning` `xai/grok-4.20-non-reasoning` `xai/grok-4.20-multi-agent`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-grok-4.20-reasoning",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:grok-4.20-reasoning",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-grok-4.20-reasoning",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. xAI Grok 4.3 and 4.20 variants — reasoning, non-reasoning, and multi-agent. `xai/grok-4.3` `xai/grok-4.20-reasoning` `xai/grok-4.20-non-reasoning` `xai/grok-4.20-multi-agent`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-grok-4.3",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:grok-4.3",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-grok-4.3",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. xAI Grok 4.3 and 4.20 variants — reasoning, non-reasoning, and multi-agent. `xai/grok-4.3` `xai/grok-4.20-reasoning` `xai/grok-4.20-non-reasoning` `xai/grok-4.20-multi-agent`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-nemotron-3-super-120b-a12b",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:nemotron-3-super-120b-a12b",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-nemotron-3-super-120b-a12b",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. NVIDIA Nemotron 3 Super — NVIDIA's open-weight reasoning model. `nvidia/nemotron-3-super-120b-a12b`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  },
+  {
+    "id": "edge:perplexity-supports-sonar",
+    "kind": "supports",
+    "source": "application:perplexity",
+    "target": "model:sonar",
+    "description": "Perplexity Agent API model documentation lists this model as directly accessible.",
+    "confidence": "high",
+    "sources": [
+      {
+        "id": "official:perplexity-supports-sonar",
+        "type": "official_docs",
+        "title": "Perplexity Agent API Models",
+        "url": "https://docs.perplexity.ai/docs/agent-api/models.md",
+        "quote": "The Agent API supports direct access to models from multiple providers. Perplexity Sonar — Perplexity's grounded search model. `perplexity/sonar`",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Perplexity",
+        "collectionMethod": "static_document",
+        "confidence": "high"
+      }
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
+  }
+]

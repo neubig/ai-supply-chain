@@ -1227,6 +1227,40 @@
     }
   },
   {
+    "id": "organization:librechat-ai",
+    "kind": "organization",
+    "name": "LibreChat-AI",
+    "description": "Maintainer namespace inferred from source URL for required graph coverage.",
+    "canonicalUrl": "https://github.com/LibreChat-AI",
+    "openness": "unknown",
+    "tags": [
+      "generated-maintainer",
+      "required-coverage"
+    ],
+    "sources": [
+      {
+        "id": "generated-org:librechat-ai",
+        "type": "github_repo",
+        "title": "LibreChat-AI maintainer namespace",
+        "url": "https://github.com/LibreChat-AI",
+        "publisher": "GitHub",
+        "retrieved_date": "2026-06-10",
+        "collectionMethod": "static_document",
+        "confidence": "medium",
+        "quote": "Every AI for Everyone. LibreChat-AI has 8 repositories available. Follow their code on GitHub."
+      }
+    ],
+    "updatePolicy": {
+      "refreshMethod": "manual_review",
+      "cadence": "monthly",
+      "deterministic": false,
+      "instructions": "Verify maintainer identity and replace with official organization metadata where available."
+    },
+    "metadata": {
+      "generatedForRequiredCoverage": true
+    }
+  },
+  {
     "id": "organization:lightning-ai",
     "kind": "organization",
     "name": "Lightning-AI",

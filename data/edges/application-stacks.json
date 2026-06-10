@@ -319,21 +319,24 @@
     "kind": "supports",
     "source": "application:continue",
     "target": "model:qwen2.5-coder-7b-instruct",
-    "description": "Continue can be configured with open-weight coding models for developer-assistant workflows.",
-    "confidence": "medium",
+    "description": "Continue documentation lists Qwen2.5-Coder 7B as a local model setup option.",
+    "confidence": "high",
     "sources": [
       {
-        "id": "edge-source:continue-repo",
-        "type": "github_repo",
-        "title": "Continue GitHub repository",
-        "url": "https://github.com/continuedev/continue",
-        "publisher": "GitHub",
+        "id": "official:continue-supports-qwen2.5-coder-7b-instruct",
+        "type": "official_docs",
+        "title": "Continue models",
+        "url": "https://docs.continue.dev/customize/models",
+        "quote": "These models can be run on your computer if you have enough VRAM. Their limited tool calling and reasoning capabilities will make it challenging to use agent mode. Qwen3 Coder 30B gpt-oss-20b Devstral Small 27B Qwen2.5-Coder 7B from Qwen Gemma 3 4B from Google Qwen2.5-Coder 1.5B from Qwen",
+        "retrieved_date": "2026-06-10",
+        "publisher": "Continue",
         "collectionMethod": "static_document",
-        "confidence": "medium",
-        "retrieved_date": "2026-06-09",
-        "note": "The linked source does not provide edge-specific evidence for application:continue supports model:qwen2.5-coder-7b-instruct; this relationship is source-needed until a direct quote is collected."
+        "confidence": "high"
       }
-    ]
+    ],
+    "metadata": {
+      "applicationSupportedModelDocs": true
+    }
   },
   {
     "id": "edge:continue-supports-starcoder2-3b",

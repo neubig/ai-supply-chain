@@ -334,6 +334,14 @@ function edgeTargetsSourceNeeded(edge: EdgeRecord) {
   return edge.target.includes("source-needed");
 }
 
+function edgeHasCuratedApplicationModelQuote(edge: EdgeRecord, source: SourceRecord, nodes: Map<string, NodeSummary>) {
+  return (
+    edge.metadata?.applicationSupportedModelDocs === true &&
+    typeof source.quote === "string" &&
+    quotePassesEdgeEvidence(source.quote, edge, nodes)
+  );
+}
+
 async function collectEdgeQuote(source: SourceRecord, edge: EdgeRecord, nodes: Map<string, NodeSummary>) {
   for (const url of candidateUrls(source, edge)) {
     const result = await fetchText(url);
@@ -398,7 +406,12 @@ async function main() {
 
           const currentQuotePasses =
             typeof source.quote === "string" && quotePassesEdgeEvidence(source.quote, edge, nodes);
-          if (edge.kind === "hosted_by" && currentQuotePasses) {
+          if (edgeHasCuratedApplicationModelQuote(edge, source, nodes)) {
+            quoted += 1;
+            unchanged += 1;
+            continue;
+          }
+          if (currentQuotePasses) {
             quoted += 1;
             unchanged += 1;
             continue;
